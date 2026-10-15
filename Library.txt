@@ -64,8 +64,12 @@ TSO Tool Holder/Print Notes.txt
 
 
 PTR-18 PLUS TRIANGLE HOLDER
-Latest revision: v09 — accepted enlarged pockets and deeper recessed screw storage.
-Status: GEOMETRY VERIFIED AND SLICE-TESTED; full revision and new screw-pocket depth unprinted.
+Latest print setup: v10 — PLA Basic on the RIGHT nozzle; identical v09 geometry.
+Status: GEOMETRY VERIFIED AND SLICE-TESTED; full PLA print and new pocket depth untested.
+The existing Bambu PLA Basic profile is an assumption until the actual spool is
+identified. Verify the profile and spool mapping before printing. PLA use is
+intended for a cool garage/location out of direct sun; garage heat is unconfirmed.
+Full PLA fit, finish and loaded performance have not been tested.
 The user accepted the v08 one-notch / +2 mm sample as slightly loose but suitable.
 Four pin pockets are now 11.8 mm diameter, still 8 or 16 mm deep. The six screw
 pockets are 8.8 mm diameter x 6 mm deep, up from 2.5 mm. The measured 4 mm
@@ -74,16 +78,23 @@ screw pocket, a boss preserves a 3.5 mm floor and nominal 3 mm walls.
 The cleat, cutout hook, fence channel and Allen-key hole are unchanged.
 Loaded performance and specific cleat/fence/Allen-key fit remain unconfirmed.
 
-Full hanger in Bambu Studio:
+Latest full hanger in Bambu Studio:
+PTR-18 Triangle Holder/Revisions/v10-pla-right-nozzle/PTR18_Hanger_v10_PLA_Basic_Right_TEST_FIT.3mf
+Bambu PLA Basic profile, RIGHT nozzle, project filament 1. Geometry, placement
+and process match v09; PLA temperatures/cooling come from the existing profile.
+Slice result and estimate: success, no plate warnings; 10 h 53 min 23 sec / 420.77 g,
+using only filament 1 / right extruder 2.
+
+Preserved PETG alternative:
 PTR-18 Triangle Holder/Revisions/v09-enlarged-deeper-pockets/PTR18_Hanger_v09_Enlarged_Deeper_Pockets_PETG_Right_TEST_FIT.3mf
 Black Bambu PETG Matte, RIGHT nozzle, project filament 4; saved v08 settings,
 including 0.20 mm layers and a 100 mm/s outer-wall speed limit.
 Slice result and estimate: success, no plate warnings; 10 h 44 min 40 sec / 422.39 g,
 using only filament 4 / right extruder 2.
 
-Previews:
+Previews (same geometry):
 PTR-18 Triangle Holder/Revisions/v09-enlarged-deeper-pockets/Mounted_Preview.png
-PTR-18 Triangle Holder/Revisions/v09-enlarged-deeper-pockets/Print_Preview.png
+PTR-18 Triangle Holder/Revisions/v10-pla-right-nozzle/Print_Preview.png
 
 Preserved attachment clearance comparison (v08):
 PTR-18 Triangle Holder/Revisions/v08-clearance-test/PTR18_Attachment_Clearance_Test_v08_PETG_Right.3mf

@@ -1,9 +1,14 @@
 PTR-18 PLUS TRIANGLE HOLDER
 Updated: October 15, 2026
 
-LATEST REVISION: v09 — enlarged attachment pockets and recessed screw storage.
-Black Bambu PETG Matte on the RIGHT nozzle. Status: GEOMETRY VERIFIED AND SLICE-TESTED;
-full revision and new screw-pocket depth not yet printed.
+LATEST PRINT SETUP: v10 — PLA Basic on the RIGHT nozzle; v09 geometry unchanged.
+The user requested a full PLA trial because the remaining PETG is insufficient.
+Status: GEOMETRY VERIFIED AND SLICE-TESTED; full PLA print and new pocket depth untested.
+The existing Bambu PLA Basic profile is assumed; actual PLA type and garage heat
+were not yet confirmed when this setup was prepared. Verify the material profile
+and actual spool mapping before printing. Intended use is in a cool location out
+of direct sun; fit, finish and loaded performance of the PLA holder remain untested.
+The separate v09 PETG project is preserved as an alternative.
 The v08 one-notch / +2 mm sample was accepted as slightly loose but suitable.
 v09 applies its 11.8 mm pin and 8.8 mm screw diameters to the ten-pocket holder.
 The six screw pockets are now 6 mm deep, so the measured 4 mm heads sit 2 mm
@@ -61,7 +66,15 @@ Attachment_Pockets_Fit and Allen_Key_Hole_Fit.
 Its attachment sample is the original baseline; v09 uses the accepted v08 diameters.
 Bambu H2D / PLA estimate: 2 h 13 min 55 sec; 77.78 g including preparation/supports.
 
-FULL HANGER — v09
+FULL HANGER — v10 PLA TRIAL
+Revisions/v10-pla-right-nozzle/PTR18_Hanger_v10_PLA_Basic_Right_TEST_FIT.3mf
+Bambu H2D / PLA Basic slice result and estimate: success, no plate warnings; 10 h 53 min 23 sec / 420.77 g,
+using only filament 1 / right extruder 2.
+Project filament 1 maps to the RIGHT nozzle. The model and supports use PLA;
+inactive project filament slots are retained. Geometry and placement match v09.
+Print preview: Revisions/v10-pla-right-nozzle/Print_Preview.png.
+
+PRESERVED FULL HANGER — v09 PETG ALTERNATIVE
 Revisions/v09-enlarged-deeper-pockets/PTR18_Hanger_v09_Enlarged_Deeper_Pockets_PETG_Right_TEST_FIT.3mf
 Bambu H2D / PETG Matte slice result and estimate: success, no plate warnings; 10 h 44 min 40 sec / 422.39 g,
 using only filament 4 / right extruder 2.
@@ -71,7 +84,7 @@ Mounted size: 260 mm wide x 135 mm tall x 99.5 mm overall depth.
 Saved print pose: one side down, 135 x 99.5 mm footprint, 260 mm tall.
 Previews in Revisions/v09-enlarged-deeper-pockets/: Mounted_Preview.png shows
 storage and the cutout hook; Print_Preview.png shows the saved print pose.
-Light blue previews are for visibility; the print material remains black.
+Light blue previews are for visibility; they do not identify the loaded spool.
 
 TRIANGLE SUPPORT
 An 80 mm-wide shelf hooks into the triangle's cutout. It has an 8 mm clear
@@ -138,11 +151,16 @@ HOW TO CHECK THE SAMPLES
    is also available as the standalone quick key-fit project.
 
 PRINT SETTINGS
-Full hanger: Bambu Lab H2D, RIGHT 0.4 mm nozzle; black Bambu PETG Matte,
-project filament slot 4. Walls, infill, supports and support interfaces follow
-the object's filament. The left nozzle is unused for this plate.
-Settings are copied from the saved v08 project, including the 100 mm/s
-outer-wall speed limit. No additional temperature, flow or cooling changes.
+Latest v10: Bambu Lab H2D, RIGHT 0.4 mm nozzle; existing Bambu PLA Basic profile,
+project filament slot 1. Active profile: 220 C nozzle, 55 C textured-plate bed,
+60–80% part cooling and 100% overhang fan. Existing PLA flow ratio 1.029 and
+pressure advance 0.04 are preserved; no new calibration was performed. These
+are saved profile values, not a confirmed match to the user's actual PLA spool.
+Preserved v09: black Bambu PETG Matte, project filament slot 4, RIGHT nozzle;
+its settings remain unchanged from the v08 PETG test.
+Both use the same geometry, placement and process, including the 100 mm/s
+outer-wall speed limit. Walls, infill, supports and interfaces follow the selected
+object filament. The left nozzle is unused for these plates.
 0.20 mm layers, 6 walls, 30% gyroid, 6 top and 6 bottom layers.
 Automatic tree supports, critical regions only, 30-degree threshold; supports
 may start on the model. 6 mm outer brim with 0.1 mm gap.
@@ -170,6 +188,12 @@ Material/finishing reference: https://help.prusa3d.com/article/petg_2059
 Moisture reference: https://help.prusa3d.com/article/drying-filament_332086
 
 VALIDATION
+v10 preserves v09 mesh geometry, placement and STL exactly. Its settings audit
+records selection of existing PLA profile 1 and right-extruder mapping.
+v10 slicing result: success, no plate warnings; 10 h 53 min 23 sec / 420.77 g,
+using only filament 1 / right extruder 2.
+Records are in Revisions/v10-pla-right-nozzle/Validation/.
+
 v09 geometry is one watertight connected solid. Its geometry report confirms
 all ten pocket diameters, unobstructed cavities, nominal 3 mm walls, 3 mm pin
 floors and 3.5 mm screw floors. All changes are confined to the pocket regions;
@@ -217,6 +241,9 @@ The one-notch sample was subsequently accepted.
 v09-enlarged-deeper-pockets: applies the accepted +2 mm diameters to the full
 holder; deepens six screw pockets to 6 mm for recessed heads and thread retrieval.
 Adds underside material to retain floors/walls. Uses v08 PETG/right-nozzle settings.
+v10-pla-right-nozzle: material-selection revision only. Preserves v09 geometry,
+placement and process; selects the existing PLA Basic profile on the right nozzle.
+Actual PLA spool type is unconfirmed; the separate PETG project remains available.
 
 PRINT HISTORY
 October 15, 2026 — First v07 black Bambu PETG Matte print completed.
@@ -247,3 +274,12 @@ October 15, 2026 — v08 clearance-test feedback and v09 decision.
   lines and edge waviness remain near the holes. No cause has been established.
 - v09 has not been printed; the deeper pockets and exposed thread grip have
   not been physically tested. No load rating is established by these checks.
+
+October 15, 2026 — v10 PLA setup prepared.
+- The user requested a full PLA print trial because the available PETG is
+  insufficient. The existing PLA Basic profile is used as a stated assumption.
+- Geometry, fit dimensions and placement are unchanged from v09. The earlier
+  accepted pocket fit was tested in PETG, not this complete PLA holder.
+- Actual PLA spool type and garage heat have not yet been confirmed. Use a cool
+  location out of direct sun and evaluate the finished holder before loaded use.
+- No v10 physical print, finish, new-depth retrieval or load result is recorded.

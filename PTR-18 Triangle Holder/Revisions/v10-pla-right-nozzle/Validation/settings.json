@@ -1,0 +1,42 @@
+{
+  "revision": "v10 PLA Basic right nozzle",
+  "status": "Unprinted; PLA Basic is the existing profile, actual spool type not yet confirmed.",
+  "geometry_reference": "Revisions/v09-enlarged-deeper-pockets/PTR18_Hanger_v09_Enlarged_Deeper_Pockets_PETG_Right_TEST_FIT.3mf",
+  "reference_sha256": "a97acee02692b2bddbe9d59d2a3de02d17bf67dec3f3d8829a973ebb04871927",
+  "geometry_and_placement_unchanged": true,
+  "stl_identical_to_v09": true,
+  "changed_project_setting_keys": [
+    "filament_map"
+  ],
+  "active_filament_slot": 1,
+  "profile": "Bambu PLA Basic @BBL H2D",
+  "filament_type": "PLA",
+  "color": "#161616",
+  "extruder": "right / 2",
+  "nozzle_temperature_C_standard": "220",
+  "bed_temperature_C_textured": "55",
+  "part_fan_min_max_percent": [
+    "60",
+    "80"
+  ],
+  "overhang_fan_percent": "100",
+  "existing_PLA_flow_ratio_standard": "1.029",
+  "existing_PLA_pressure_advance": "0.04",
+  "project_sha256": "c0e96c16a68d4229c8d591794ead74a508c499e0fbf8fd55e8a246b0265f958c",
+  "notes": [
+    "Original PLA flow/calibration values preserved; no new calibration performed.",
+    "Inactive filament slots remain in the project; only slot 1 is assigned to this model and its supports.",
+    "New screw depth and whole-holder PLA performance require physical evaluation."
+  ],
+  "slicing": {
+    "return_code": 0,
+    "plate_warnings": "",
+    "active_filament_ids": [
+      1
+    ],
+    "extruder_id": "2",
+    "gcode_filament_type_verified": "PLA",
+    "total_seconds": 39203.01953125,
+    "total_used_g": 420.7735595703125
+  }
+}

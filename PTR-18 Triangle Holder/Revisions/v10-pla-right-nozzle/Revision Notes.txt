@@ -1,0 +1,53 @@
+PTR-18 PLUS — v10 PLA BASIC / RIGHT NOZZLE
+October 15, 2026
+
+Project: PTR18_Hanger_v10_PLA_Basic_Right_TEST_FIT.3mf
+The user requested a full PLA trial because the remaining PETG is insufficient.
+This revision selects a different material; geometry and placement are identical
+to v09. The v09 PETG project remains available separately.
+
+MATERIAL ASSUMPTION
+The existing Bambu PLA Basic @BBL H2D profile is selected in project filament
+slot 1 and mapped to the RIGHT nozzle / extruder 2. The actual PLA spool type
+was not yet confirmed when prepared; verify its profile and actual spool mapping
+before printing. The model and supports use PLA; inactive filament slots remain.
+Saved PLA values: 220 C nozzle, 55 C textured bed, 60–80% part fan, 100% overhang
+fan. Existing flow ratio 1.029 and pressure advance 0.04 are preserved. No new
+calibration has been performed, and these values are not a confirmed match to
+the user's spool.
+
+The process stays at 0.20 mm layers, 6 walls, 30% gyroid, 6 top/bottom layers,
+100 mm/s outer-wall limit, automatic tree supports and a 6 mm outer brim.
+Slice result and estimate: success, no plate warnings; 10 h 53 min 23 sec / 420.77 g,
+using only filament 1 / right extruder 2.
+
+GEOMETRY AND FIT
+The four pin pockets remain 11.8 mm diameter, with two 8 mm and two 16 mm depths.
+Six screw pockets remain 8.8 mm diameter x 6 mm deep, recessing the measured
+4 mm heads by 2 mm for retrieval by their threads. Pin floors are 3 mm and
+screw floors 3.5 mm, with nominal 3 mm pocket walls. Cleats, cutout hook, fence
+channel and 4.2 mm Allen-key through-hole are unchanged.
+The one-notch v08 diameter sample was accepted in PETG. The new 6 mm depth,
+thread grip and this complete PLA holder still require physical evaluation.
+Mounted bounds are 260 x 135 x 99.5 mm; saved print pose is 135 x 99.5 x 260 mm.
+
+USE AND FINISH
+PLA is being tried for the full print; an improvement in finish is not promised.
+Intended use is in a cool garage/location out of direct sun. Actual garage heat
+is unconfirmed. Evaluate the finished holder before loaded use; no PLA load
+capacity or long-term performance has been established.
+
+FILES AND CHECKS
+The STL is identical to v09. Print_Preview.png reuses the checked actual-CAD
+print view because geometry and placement are unchanged; blue is for visibility.
+For the mounted view, see ../v09-enlarged-deeper-pockets/Mounted_Preview.png.
+Validation/settings.json records geometry/placement preservation, material
+selection and saved active PLA values. Validation/slicing.json, slicing.log and slice_info.config record the successful
+slice with no plate warnings and only PLA filament 1 / right extruder 2. Final
+archive hashes are retained under Validation. Generated G-code was checked as PLA.
+Sources: ../../Source/prepare_pla_v10.py and ../../Source/finalize_pla_v10.py.
+Retain the original v09 project and STL as their inputs.
+
+This setup has not been physically printed. Fit, finish, deeper-pocket retrieval
+and loaded PLA use remain untested. Geometry checks and slicing do not establish
+a load rating.

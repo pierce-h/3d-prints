@@ -1,0 +1,71 @@
+{
+    "error_string": "Success.",
+    "export_time": 1263,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 10,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 3.5525941848754883,
+                "Bridge": 214.58328247070313,
+                "Brim": 75.91578674316406,
+                "Custom": 298.10748291015625,
+                "Flush": 26.0,
+                "Gap infill": 122.09243774414063,
+                "Inner wall": 17074.13671875,
+                "Internal solid infill": 950.2517700195313,
+                "Outer wall": 6731.52197265625,
+                "Overhang wall": 268.99139404296875,
+                "Sparse infill": 8032.03662109375,
+                "Support": 2204.966552734375,
+                "Support interface": 47.99306869506836,
+                "Top surface": 137.76698303222656,
+                "Travel": 2971.90087890625,
+                "Undefined": 2970.331787109375
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFA00",
+                    "id": 1,
+                    "main_used_g": 420.7735290527344,
+                    "total_used_g": 420.7735595703125
+                }
+            ],
+            "generate_support_material_time": 840,
+            "id": 1,
+            "infill_time": 74,
+            "layer_filament_change": 0,
+            "main_predication": 38854.48046875,
+            "make_perimeters_time": 88,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 99.5,
+                        "height": 260.0,
+                        "width": 135.0,
+                        "x": 107.5,
+                        "y": 105.25,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "PTR18_Hanger_v10_PLA_Basic_Right_TEST_FIT",
+                    "triangle_count": 7268
+                }
+            ],
+            "sliced_time": 3139,
+            "sliced_time_with_cache": 2091,
+            "total_predication": 39203.01953125,
+            "triangle_count": 7268,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 30.0,
+    "upward_compatible_machine": [
+        "Bambu Lab H2D Pro 0.4 nozzle"
+    ],
+    "wall_loops": 6
+}

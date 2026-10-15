@@ -1,6 +1,25 @@
 PTR-18 PLUS FRENCH-CLEAT HOLDER — PARAMETRIC MODELS
 
-CURRENT: v09 enlarged and deeper pockets
+CURRENT PRINT SETUP: v10 PLA Basic / right nozzle
+prepare_pla_v10.py copies the checked v09 3MF geometry and placement unchanged,
+selects the existing Bambu PLA Basic profile in filament slot 1 and maps it to
+the RIGHT extruder. The v09 STL is copied identically. Existing PLA temperature,
+cooling, flow and pressure-advance values are preserved; no new calibration is
+performed. Actual PLA spool type is unconfirmed, so check it before printing.
+Output: Revisions/v10-pla-right-nozzle/. The v09 PETG project is preserved.
+
+REBUILD v10
+1. Preserve published revisions, then run prepare_pla_v10.py.
+2. Create /tmp/ptr18-v10/main and slice the v10 project separately:
+   BambuStudio --datadir /tmp/ptr18-v10/main-profile --debug 1
+     --arrange 0 --orient 0 --slice 1 --export-3mf sliced.3mf
+     --outputdir /tmp/ptr18-v10/main <absolute v10 main project path>
+   Save the log to /tmp/ptr18-v10/main.log.
+3. Run finalize_pla_v10.py after the successful slice. Verify active filament 1,
+   right extruder 2, unchanged geometry/placement and final archive hashes.
+   The reused CAD preview is valid because geometry and pose are unchanged.
+
+CURRENT GEOMETRY / PRESERVED PETG SETUP: v09 enlarged and deeper pockets
 build_holder_v09.py applies the accepted one-notch v08 clearance to the full
 holder: four 11.8 mm pin pockets, still 8/16 mm deep, and six 8.8 mm screw pockets,
 now 6 mm deep. The measured 4 mm screw heads sit 2 mm below the shelf for thread
@@ -14,7 +33,7 @@ Geometry is checked against the preserved v06 3MF; saved settings and filament
 extras are copied from the current native v08 clearance-test 3MF. Keep both
 reference files. The full holder uses black Bambu PETG Matte, project filament 4,
 RIGHT nozzle, with the v08 outer-wall limit of 100 mm/s.
-Current output: Revisions/v09-enlarged-deeper-pockets/
+Geometry/PETG output: Revisions/v09-enlarged-deeper-pockets/
 Temporary slicing/rendering output: /tmp/ptr18-v09/
 Python environment used: /tmp/screwdriver-holder-venv/bin/python
 Dependencies: requirements.txt. Installed axes: X along wall, Y up, Z toward user;
@@ -117,7 +136,7 @@ and temporary path. The v01 revision retains its original Print Notes.txt.
 
 The superseded interim peg holder with key storage is retained under
 Source/Drafts/Unpublished_peg_holder_with_key_slot/ and marked NOT FOR PRINTING.
-Use the v09-enlarged-deeper-pockets main hanger linked in the library.
+Use the v10 PLA or preserved v09 PETG main hanger linked in the library.
 
 Saved 3MFs contain geometry and print settings, not a sent printer job.
 Meshes were unioned with manifold3d and independently checked. Physical fit
