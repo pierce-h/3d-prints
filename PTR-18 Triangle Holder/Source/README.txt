@@ -1,6 +1,55 @@
 PTR-18 PLUS FRENCH-CLEAT HOLDER — PARAMETRIC MODELS
 
-CURRENT: v06 essential storage
+CURRENT: v09 enlarged and deeper pockets
+build_holder_v09.py applies the accepted one-notch v08 clearance to the full
+holder: four 11.8 mm pin pockets, still 8/16 mm deep, and six 8.8 mm screw pockets,
+now 6 mm deep. The measured 4 mm screw heads sit 2 mm below the shelf for thread
+retrieval. Underside bosses preserve nominal 3 mm radial walls, 3 mm pin floors
+and 3.5 mm screw floors. All other fit features and overall bounds are unchanged.
+
+The builder imports build_holder_v06.py for the original solid, build_holder.py
+for geometry/export helpers and build_clearance_test_v08.py for native project
+metadata patching. Keep their transitive dependencies, including build_holder_v04.py.
+Geometry is checked against the preserved v06 3MF; saved settings and filament
+extras are copied from the current native v08 clearance-test 3MF. Keep both
+reference files. The full holder uses black Bambu PETG Matte, project filament 4,
+RIGHT nozzle, with the v08 outer-wall limit of 100 mm/s.
+Current output: Revisions/v09-enlarged-deeper-pockets/
+Temporary slicing/rendering output: /tmp/ptr18-v09/
+Python environment used: /tmp/screwdriver-holder-venv/bin/python
+Dependencies: requirements.txt. Installed axes: X along wall, Y up, Z toward user;
+units millimetres. The main project and STL use the side print pose. The installed
+STL in Validation is for inspection.
+
+REBUILD v09
+1. Preserve published files in a new revision before changing geometry/settings.
+   Run build_holder_v09.py to build the main project and geometry validation.
+2. Create /tmp/ptr18-v09/main and slice separately with Bambu Studio:
+   BambuStudio --datadir /tmp/ptr18-v09/main-profile --debug 1
+     --arrange 0 --orient 0 --slice 1 --export-3mf sliced.3mf
+     --outputdir /tmp/ptr18-v09/main <absolute v09 main project path>
+   Save the log to /tmp/ptr18-v09/main.log.
+3. Run render_and_finalize_v09.py for actual-CAD previews and archived slice
+   records after the successful slice. Inspect Mounted_Preview.png and
+   Print_Preview.png. Keep the current side print pose and do not re-slice
+   unchanged historical sample projects as part of this revision.
+4. Verify the final 3MF, pocket dimensions and retained fit features, update
+   notes with the checked slice result, and record new physical feedback separately.
+
+PRESERVED v08 — clearance comparison
+build_clearance_test_v08.py and finalize_clearance_test_v08.py reproduce the
+UNLABELED samples. The later native Bambu 3MF includes editable text 2 and 3,
+which these scripts and STL exports do not reproduce. Preserve that native 3MF.
+The one-notch / +2 mm sample was accepted as slightly loose but suitable. Its
+2.5 mm screw pocket does not test the new v09 6 mm depth. Keep pre-label and
+labeled validation records separate.
+
+PRESERVED v07 — PETG print setup
+The native v07 project retains v06 geometry and the first full-print setup.
+Its surface and undersized-pocket feedback are recorded in ../Print Notes.txt.
+The latest settings come from the saved v08 project, not v07.
+
+PRESERVED v06 — essential storage
 build_holder_v06.py builds only the main hanger: two tall-pin, two short-pin
 and six screw-head pockets, plus one Allen-key through-hole. All spare pockets
 and their underside bosses are removed. Retained pocket dimensions are unchanged;
@@ -10,7 +59,7 @@ The builder imports build_holder_v04.py and build_holder.py, and reads settings
 from Revisions/v05-no-top-tray/PTR18_Hanger_v05_No_Top_Tray_TEST_FIT.3mf.
 Retain those dependencies. render_mounted_v06.py renders mounting views;
 finalize_projects_v06.py adds the main preview and preserves slicing records.
-Current output: Revisions/v06-essential-storage/
+Preserved output: Revisions/v06-essential-storage/
 Temporary slicing/rendering output: /tmp/ptr18-v06/
 
 Installed axes: X along wall, Y up, Z toward user; units millimetres. Main
@@ -39,10 +88,11 @@ build_holder_v05.py, render_mounted_v05.py and finalize_projects_v05.py reproduc
 Revisions/v05-no-top-tray/ using /tmp/ptr18-v05/. This main-only revision retains
 its Print Notes.txt and six spare pockets. Its fit samples are also v04.
 
-PRESERVED v04 / CURRENT FIT SAMPLES
+PRESERVED v04 / UNCHANGED CLEAT, HOOK, FENCE AND KEY SAMPLES
 build_holder_v04.py, render_mounted_v04.py and finalize_projects_v04.py reproduce
 Revisions/v04-round-key-hole/. This retains its Print Notes.txt. Fit samples
-from this revision are also the current v06 fit samples.
+remain applicable to the unchanged cleat, hook, fence and key geometry. The
+attachment sample has the original smaller pockets; v09 uses the v08 selection.
 To rebuild v04, use /tmp/ptr18-v04/{main,samples,pockets,key} for independent
 slice outputs and /tmp/ptr18-v04/<name>.log for each log. Render each separately
 with camera 11 into /tmp/ptr18-v04/render-<name>, then run the v04 render and
@@ -67,8 +117,9 @@ and temporary path. The v01 revision retains its original Print Notes.txt.
 
 The superseded interim peg holder with key storage is retained under
 Source/Drafts/Unpublished_peg_holder_with_key_slot/ and marked NOT FOR PRINTING.
-Use the v06-essential-storage main hanger and v04 fit projects linked in the library.
+Use the v09-enlarged-deeper-pockets main hanger linked in the library.
 
 Saved 3MFs contain geometry and print settings, not a sent printer job.
 Meshes were unioned with manifold3d and independently checked. Physical fit
-and loaded strength remain unverified until actual print feedback is recorded.
+of the new 6 mm pocket depth and loaded strength remain unverified. The v08
+one-notch sample diameters were physically accepted for storage.

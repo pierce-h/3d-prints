@@ -1,0 +1,71 @@
+{
+    "error_string": "Success.",
+    "export_time": 1431,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 12,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 3.567145347595215,
+                "Bridge": 215.6350860595703,
+                "Brim": 76.12043762207031,
+                "Custom": 296.630859375,
+                "Flush": 26.0,
+                "Gap infill": 133.255615234375,
+                "Inner wall": 15961.279296875,
+                "Internal solid infill": 1014.4146728515625,
+                "Outer wall": 6754.076171875,
+                "Overhang wall": 268.99139404296875,
+                "Sparse infill": 8174.72802734375,
+                "Support": 2274.9169921875,
+                "Support interface": 50.4272346496582,
+                "Top surface": 135.03187561035156,
+                "Travel": 3245.924560546875,
+                "Undefined": 3244.35546875
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFG03",
+                    "id": 4,
+                    "main_used_g": 422.38568115234375,
+                    "total_used_g": 422.38568115234375
+                }
+            ],
+            "generate_support_material_time": 815,
+            "id": 1,
+            "infill_time": 82,
+            "layer_filament_change": 0,
+            "main_predication": 38333.31640625,
+            "make_perimeters_time": 98,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 99.5,
+                        "height": 260.0,
+                        "width": 135.0,
+                        "x": 107.5,
+                        "y": 105.25,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "PTR18_Hanger_v09_Enlarged_Deeper_Pockets_PETG_Right_TEST_FIT",
+                    "triangle_count": 7268
+                }
+            ],
+            "sliced_time": 3090,
+            "sliced_time_with_cache": 2045,
+            "total_predication": 38680.37890625,
+            "triangle_count": 7268,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 30.0,
+    "upward_compatible_machine": [
+        "Bambu Lab H2D Pro 0.4 nozzle"
+    ],
+    "wall_loops": 6
+}

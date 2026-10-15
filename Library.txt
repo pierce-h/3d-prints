@@ -64,34 +64,49 @@ TSO Tool Holder/Print Notes.txt
 
 
 PTR-18 PLUS TRIANGLE HOLDER
-Latest print setup: v07 — black Bambu PETG Matte, RIGHT extruder; v06 geometry.
-Status: FIRST PRINT COMPLETE — shape reported right; attachment pockets
-estimated 2–3 mm too narrow. Actual opening measurements and corrected fit pending.
-Visible lines look better than expected; subjective strength is encouraging,
-but loaded performance and specific cleat/fence/Allen-key fit remain unconfirmed.
+Latest revision: v09 — accepted enlarged pockets and deeper recessed screw storage.
+Status: GEOMETRY VERIFIED AND SLICE-TESTED; full revision and new screw-pocket depth unprinted.
+The user accepted the v08 one-notch / +2 mm sample as slightly loose but suitable.
+Four pin pockets are now 11.8 mm diameter, still 8 or 16 mm deep. The six screw
+pockets are 8.8 mm diameter x 6 mm deep, up from 2.5 mm. The measured 4 mm
+heads sit 2 mm below the shelf, for lifting by their threads. Underneath each
+screw pocket, a boss preserves a 3.5 mm floor and nominal 3 mm walls.
+The cleat, cutout hook, fence channel and Allen-key hole are unchanged.
+Loaded performance and specific cleat/fence/Allen-key fit remain unconfirmed.
 
-Next attachment clearance test (v08; physical fit pending):
+Full hanger in Bambu Studio:
+PTR-18 Triangle Holder/Revisions/v09-enlarged-deeper-pockets/PTR18_Hanger_v09_Enlarged_Deeper_Pockets_PETG_Right_TEST_FIT.3mf
+Black Bambu PETG Matte, RIGHT nozzle, project filament 4; saved v08 settings,
+including 0.20 mm layers and a 100 mm/s outer-wall speed limit.
+Slice result and estimate: success, no plate warnings; 10 h 44 min 40 sec / 422.39 g,
+using only filament 4 / right extruder 2.
+
+Previews:
+PTR-18 Triangle Holder/Revisions/v09-enlarged-deeper-pockets/Mounted_Preview.png
+PTR-18 Triangle Holder/Revisions/v09-enlarged-deeper-pockets/Print_Preview.png
+
+Preserved attachment clearance comparison (v08):
 PTR-18 Triangle Holder/Revisions/v08-clearance-test/PTR18_Attachment_Clearance_Test_v08_PETG_Right.3mf
 A / raised 2 / one corner notch: 11.8 mm pin pockets, 8.8 mm screw pocket (+2 mm).
 B / raised 3 / two corner notches: 12.8 mm pin pockets, 9.8 mm screw pocket (+3 mm).
-Each checks short-pin, tall-pin and screw-head depths in the full holder's
-horizontal-hole print orientation; PETG Matte / right nozzle, 0.20 mm layers,
-100 mm/s outer-wall speed limit. Full holder remains v07 until fit is confirmed.
-The same v08 project now has editable Bambu text labels 2 and 3, with the label
-update recorded separately in Git. Pockets and print settings are unchanged.
-The labeled slice passes with no plate warnings: about 1 h 42 min / 33 g.
-Fresh labeled slice records are under
-PTR-18 Triangle Holder/Revisions/v08-clearance-test/Validation/:
-labeled_slicing.json, labeled_slicing.log and labeled_slice_info.config. A print began before the
-labels were added and was observed underway; no print or fit result is available.
-STLs, Preview.png and Print_Preview.png remain pre-label. Source scripts recreate the unlabeled base;
-preserve the native labeled 3MF when rebuilding.
-Labeled preview: PTR-18 Triangle Holder/Revisions/v08-clearance-test/Labeled_Preview.png
-Pre-label preview: PTR-18 Triangle Holder/Revisions/v08-clearance-test/Preview.png
+Each includes short-pin 8 mm, tall-pin 16 mm and screw-head 2.5 mm depths in
+horizontal-hole print orientation. The accepted print began before the editable
+2 and 3 labels were added; its notch identifies the chosen size. Label quality
+was not tested by that print. The labeled slice passes with no plate warnings:
+about 1 h 42 min / 33 g. The native 3MF retains editable text; STLs, Preview.png,
+Print_Preview.png and source builders reproduce the unlabeled base. Preserve
+that native 3MF when rebuilding. Validation keeps pre-label and labeled records
+separate. Labeled preview:
+PTR-18 Triangle Holder/Revisions/v08-clearance-test/Labeled_Preview.png
+
+Finish feedback: the sample is smoother than the first full print, but rough
+lines and edge waviness remain near holes. The cause is unconfirmed; overhangs,
+support contact and cooling/speed transitions are candidates. Moisture remains
+possible. The successful fit does not isolate a cause of the surface finish.
 
 Other fit geometry is unchanged; existing v04 sample projects below use PLA.
-Their estimates are PLA-based. The v04 attachment sample is a reference
-baseline; use v08 for new pocket sizing.
+Their estimates are PLA-based. The v04 attachment sample is a reference baseline
+with the original smaller diameters; v09 uses the selected v08 diameters.
 
 Tiny Allen-key fit check (about 12 minutes / 2 g):
 PTR-18 Triangle Holder/Revisions/v04-round-key-hole/Allen_Key_Hole_Fit_v04.3mf
@@ -101,12 +116,6 @@ PTR-18 Triangle Holder/Revisions/v04-round-key-hole/Attachment_Pockets_Fit_v04.3
 
 Complete five-piece fit-check plate:
 PTR-18 Triangle Holder/Revisions/v04-round-key-hole/PTR18_Fit_Check_Plate_v04.3mf
-
-Full hanger in Bambu Studio:
-PTR-18 Triangle Holder/Revisions/v07-petg-matte-right-nozzle/PTR18_Hanger_v07_PETG_Matte_Right_TEST_FIT.3mf
-
-Preview:
-PTR-18 Triangle Holder/Revisions/v06-essential-storage/Mounted_Preview.png
 
 Print details and fit checks:
 PTR-18 Triangle Holder/Print Notes.txt

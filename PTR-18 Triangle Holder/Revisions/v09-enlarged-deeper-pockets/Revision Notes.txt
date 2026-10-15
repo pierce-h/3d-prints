@@ -1,0 +1,76 @@
+PTR-18 PLUS — v09 ENLARGED AND DEEPER POCKETS
+October 15, 2026
+
+Project: PTR18_Hanger_v09_Enlarged_Deeper_Pockets_PETG_Right_TEST_FIT.3mf
+Status: GEOMETRY VERIFIED AND SLICE-TESTED. Full revision and new screw depth not yet printed.
+
+WHY THIS REVISION
+The first full v07 print had attachment pockets the user estimated 2–3 mm too
+narrow. In the subsequent v08 clearance test, the ONE-NOTCH / +2 mm sample had
+more than enough space and was a touch loose, which the user accepted.
+The user also requested two to three times the shallow screw-pocket depth and
+confirmed: "Recess them; grab the threads."
+
+STORAGE CHANGES
+- Two short-pin pockets: 11.8 mm diameter x 8 mm deep.
+- Two tall-pin pockets: 11.8 mm diameter x 16 mm deep.
+- Six screw-head pockets: 8.8 mm diameter x 6 mm deep.
+All diameters are 2 mm larger than v07. Pin depths are unchanged. Screw depth
+increases from 2.5 to 6 mm, or 2.4 times the former depth. The measured 4 mm screw
+heads sit 2 mm below the shelf; exposed thread height equals the actual thread
+length minus that recess. Thread lengths have not been measured, and retrieval
+at the new depth still needs a physical check.
+
+Wider pin bosses preserve 3 mm floors and nominal 3 mm radial walls. New screw
+bosses beneath the 6 mm shelf preserve 3.5 mm floors and nominal 3 mm radial
+walls. Cavities are cut after unioning the added material so the nearby gusset
+does not block the left rear screw pocket. That gusset remains connected.
+The 72-sided cylinders have approximately 2.997 mm minimum facet-to-facet wall
+thickness; dimensions above state their nominal radial thickness.
+
+There are still exactly ten attachment pockets and one 4.2 mm Allen-key through-
+hole. Pocket positions, cutout hook, French cleats, fence channel and overall
+bounds are unchanged. Mounted size is 260 x 135 x 99.5 mm. Saved print pose is
+one side down, with a 135 x 99.5 mm footprint and 260 mm height. Pocket axes are
+horizontal while printing. Existing v04 cleat, hook, fence and key samples remain
+applicable; their saved material settings and estimates are PLA. The old v04
+attachment sample retains the superseded smaller diameters.
+
+PRINT SETUP
+Settings and filament extras are copied unchanged from the saved native v08
+clearance-test project: black Bambu PETG Matte, project filament 4, RIGHT nozzle.
+Bambu H2D / 0.4 mm, 0.20 mm layers, 6 walls, 30% gyroid, 6 top/bottom layers,
+automatic tree supports at critical regions, and 6 mm outer brim with 0.1 mm gap.
+Outer-wall speed remains limited to 100 mm/s. No extra temperature, flow or
+cooling changes are introduced. Confirm actual spool mapping before printing.
+Slice result and estimate: success, no plate warnings; 10 h 44 min 40 sec / 422.39 g,
+using only filament 4 / right extruder 2.
+
+FINISH FEEDBACK
+The v08 sample is smoother than the earlier full print, but rough lines and
+some waviness remain near the holes. The cause is unconfirmed. The horizontal
+pockets make overhangs, support contact and local cooling/speed changes plausible
+contributors; moisture remains possible. Smaller samples do not reproduce all
+effects of the full holder, so improvement is not proof of one setting's effect.
+Reference for PETG overhangs, supports and sanding:
+https://help.prusa3d.com/article/petg_2059
+
+FILES AND VALIDATION
+The main 3MF and STL use the saved side print pose. The installed STL under
+Validation is for inspection. Mounted_Preview.png and Print_Preview.png show
+actual CAD; light blue is used for visibility, while the project material is black.
+Validation/geometry.json records the selected fit, all pocket dimensions,
+unobstructed cavities, floors/walls, unchanged fit features and overall bounds.
+The full model is one watertight connected solid. Changes relative to v06 are
+confined to pocket regions. Saved settings and filament extras match v08.
+Validation/slicing.json, slicing.log and slice_info.config record the successful
+slice with no plate warnings. Archive hashes describe the final project and
+previews. The CLI log retains the known Bambu tool-command diagnostics also seen
+in earlier successful slices; no claim is made that the log is error-free.
+Source: ../../Source/build_holder_v09.py and
+../../Source/render_and_finalize_v09.py. The builder depends on the retained
+v06 geometry sources and v08 native project settings; see ../../Source/README.txt.
+
+The diameters were accepted on the v08 sample. New 6 mm screw depth, exposed
+thread grip and this complete revision are untested. Prior subjective strength
+feedback and digital checks do not establish loaded performance or a load rating.

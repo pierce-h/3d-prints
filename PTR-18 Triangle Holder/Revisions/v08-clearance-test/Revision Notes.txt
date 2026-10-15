@@ -2,7 +2,8 @@ PTR-18 ATTACHMENT CLEARANCE TEST — v08
 October 15, 2026
 
 Project: PTR18_Attachment_Clearance_Test_v08_PETG_Right.3mf
-This is a pair of small fit samples. The full holder remains v07.
+This is a pair of small fit samples. The accepted one-notch result is now
+applied to the full holder in v09; see the dated feedback below.
 
 WHY THIS TEST
 The user finished the v07 PETG Matte print. The shape is right, it feels strong,
@@ -49,16 +50,17 @@ PRE-LABEL Bambu slice estimate for BOTH samples: 1 h 42 min 12 sec / 32.89 g,
 including preparation and supports. That slice succeeded with no plate warning
 and used only PETG filament 4 and right extruder 2. This estimate predates the
 labels; use the separate labeled slicing records for the saved labeled project.
-A print was observed underway that began before the labels were added. No
-completed-print or fit result has been reported. Confirm the actual PETG spool
-mapping when sending a future print.
+The completed test began before the labels were added. Its one-notch sample
+was accepted; the raised labels were not tested by that print. Confirm the
+actual PETG spool mapping when sending a future print.
 
 Let the parts cool, remove supports from the openings, and turn the samples
 so their pockets face up. Insert attachment bodies first, with threads up.
 Try the short pins, tall pins and screw heads separately in both banks.
 Choose the smallest opening for each type that allows easy insertion and
 removal. Report A or B for each type; neither or both too loose is also useful.
-Depths are unchanged. The fit result will determine the full-holder revision.
+Depths are unchanged in these preserved samples. The accepted one-notch
+diameters informed v09, whose screw-pocket depth is separately increased.
 
 The smaller samples cannot reproduce every surface effect of the 260 mm-tall
 holder, so their finish alone will not establish the cause of the earlier bands.
@@ -78,7 +80,7 @@ update is recorded as a separate Git change within v08. Helvetica bold, size 6,
 The labels sit between pockets. The base meshes, pocket dimensions, placement
 and project settings are unchanged. Each label overlaps its sample and forms
 a single connected solid when united. Validation/labels.json records this
-digital audit. Physical label quality and fit remain untested.
+digital audit. Physical label quality remains untested.
 
 FILES AND VALIDATION
 Labeled_Preview.png shows the current labeled CAD in its print orientation.
@@ -95,4 +97,23 @@ Source scripts: ../../Source/build_clearance_test_v08.py and
 ../../Source/finalize_clearance_test_v08.py recreate the UNLABELED base. Preserve
 the native labeled 3MF when rebuilding; the scripts do not recreate Bambu text.
 
-Physical fit and performance of v08 remain untested.
+PHYSICAL FEEDBACK — OCTOBER 15, 2026
+The user accepted the ONE-NOTCH / +2 mm sample: it has more than enough space
+and is a touch loose, which is acceptable for storage. Actual printed openings
+were not measured. This establishes a useful storage fit, not a load rating.
+
+The shallowest screw pocket should be two to three times deeper. The user
+confirmed: "Recess them; grab the threads." The new full-holder v09 uses the
+accepted 11.8/8.8 mm diameters and six screw pockets 6 mm deep instead of 2.5 mm.
+The 4 mm screw heads will sit 2 mm below the shelf. The v08 sample does not test
+that new depth or the remaining exposed thread grip.
+
+The test finish is smoother than the earlier full print, but hard rough lines
+and edge waviness remain near the holes. The cause is not established. Sideways
+overhangs, support contact/removal and cooling/speed changes are candidates;
+moisture is possible. The smaller sample cannot isolate which setting caused
+the improvement or reproduce all effects of the tall full holder.
+
+The original pre-label and labeled geometry/slice records remain unchanged.
+The accepted test began before the labels were added, so printed label quality
+is still untested.
