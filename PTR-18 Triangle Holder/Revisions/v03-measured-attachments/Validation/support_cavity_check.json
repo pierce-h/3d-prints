@@ -1,0 +1,186 @@
+{
+  "main": {
+    "method": "Support and support-interface extrusion segments sampled at <=0.5 mm, transformed into installed coordinates;0.2mm interior margin.",
+    "support_arc_moves": 0,
+    "support_path_samples": 1502620,
+    "pockets": [
+      {
+        "type": "measured short pin pocket",
+        "x": -112,
+        "z": 40,
+        "diameter": 9.8,
+        "depth": 8,
+        "body_diameter": 9,
+        "body_height": 12,
+        "support_samples_inside": 0
+      },
+      {
+        "type": "measured tall pin pocket",
+        "x": -112,
+        "z": 64,
+        "diameter": 9.8,
+        "depth": 16,
+        "body_diameter": 9,
+        "body_height": 25,
+        "support_samples_inside": 0
+      },
+      {
+        "type": "measured short pin pocket",
+        "x": -88,
+        "z": 40,
+        "diameter": 9.8,
+        "depth": 8,
+        "body_diameter": 9,
+        "body_height": 12,
+        "support_samples_inside": 0
+      },
+      {
+        "type": "measured tall pin pocket",
+        "x": -88,
+        "z": 64,
+        "diameter": 9.8,
+        "depth": 16,
+        "body_diameter": 9,
+        "body_height": 25,
+        "support_samples_inside": 0
+      },
+      {
+        "type": "spare pin pocket",
+        "x": -64,
+        "z": 40,
+        "diameter": 12.0,
+        "depth": 6,
+        "support_samples_inside": 0
+      },
+      {
+        "type": "spare pin pocket",
+        "x": -64,
+        "z": 64,
+        "diameter": 12.0,
+        "depth": 13,
+        "support_samples_inside": 0
+      },
+      {
+        "type": "spare pin pocket",
+        "x": -40,
+        "z": 40,
+        "diameter": 12.0,
+        "depth": 6,
+        "support_samples_inside": 0
+      },
+      {
+        "type": "spare pin pocket",
+        "x": -40,
+        "z": 64,
+        "diameter": 12.0,
+        "depth": 13,
+        "support_samples_inside": 0
+      },
+      {
+        "type": "measured screw head pocket",
+        "x": -17,
+        "z": 37,
+        "diameter": 6.8,
+        "depth": 2.5,
+        "body_diameter": 6,
+        "body_height": 4,
+        "support_samples_inside": 0
+      },
+      {
+        "type": "measured screw head pocket",
+        "x": -17,
+        "z": 52,
+        "diameter": 6.8,
+        "depth": 2.5,
+        "body_diameter": 6,
+        "body_height": 4,
+        "support_samples_inside": 0
+      },
+      {
+        "type": "measured screw head pocket",
+        "x": 1,
+        "z": 37,
+        "diameter": 6.8,
+        "depth": 2.5,
+        "body_diameter": 6,
+        "body_height": 4,
+        "support_samples_inside": 0
+      },
+      {
+        "type": "measured screw head pocket",
+        "x": 1,
+        "z": 52,
+        "diameter": 6.8,
+        "depth": 2.5,
+        "body_diameter": 6,
+        "body_height": 4,
+        "support_samples_inside": 0
+      },
+      {
+        "type": "measured screw head pocket",
+        "x": 19,
+        "z": 37,
+        "diameter": 6.8,
+        "depth": 2.5,
+        "body_diameter": 6,
+        "body_height": 4,
+        "support_samples_inside": 0
+      },
+      {
+        "type": "measured screw head pocket",
+        "x": 19,
+        "z": 52,
+        "diameter": 6.8,
+        "depth": 2.5,
+        "body_diameter": 6,
+        "body_height": 4,
+        "support_samples_inside": 0
+      },
+      {
+        "type": "extra attachment pocket",
+        "x": 54,
+        "z": 64,
+        "diameter": 16.0,
+        "depth": 13,
+        "support_samples_inside": 0
+      },
+      {
+        "type": "extra attachment pocket",
+        "x": 101,
+        "z": 64,
+        "diameter": 16.0,
+        "depth": 13,
+        "support_samples_inside": 0
+      }
+    ],
+    "key_pocket_support_samples_inside": 0
+  },
+  "pockets": {
+    "method": "Support and support-interface extrusion segments sampled at <=0.5 mm, transformed into installed coordinates;0.2mm interior margin.",
+    "support_arc_moves": 0,
+    "support_path_samples": 15990,
+    "pockets": [
+      {
+        "x": 0,
+        "z": 0,
+        "diameter": 9.8,
+        "depth": 8,
+        "support_samples_inside": 0
+      },
+      {
+        "x": 24,
+        "z": 0,
+        "diameter": 9.8,
+        "depth": 16,
+        "support_samples_inside": 0
+      },
+      {
+        "x": 48,
+        "z": 0,
+        "diameter": 6.8,
+        "depth": 2.5,
+        "support_samples_inside": 0
+      }
+    ]
+  }
+}

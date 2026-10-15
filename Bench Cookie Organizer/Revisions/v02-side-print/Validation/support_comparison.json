@@ -1,0 +1,56 @@
+{
+  "method": "Sum positive relative extrusion E on XY-changing G0/G1/G2/G3 moves by Bambu FEATURE tags; omit Custom/start/end and pure retraction/unretraction moves. Convert 1.75 mm filament length at density 1.26 g/cm3. All files used M83 relative extrusion. Parsed totals match slicer totals within 0.031 g. Support includes support interface and any support base brim tagged Support. Model brim, if any, is not separately labeled by slicer.",
+  "comparison": [
+    {
+      "orientation": "upright",
+      "total_g": 685.4766845703125,
+      "support_g": 136.1443462573068,
+      "non_support_g": 549.3020313811296,
+      "total_seconds": 96991.53125,
+      "support_seconds": 23262.77276611328,
+      "support_fraction_pct": 19.862143954478828,
+      "height_mm": 201.0,
+      "warning": "",
+      "slice_return_code": 0,
+      "support_reduction_pct_vs_upright": 0.0,
+      "total_g_saved_vs_upright": 0.0,
+      "total_seconds_saved_vs_upright": 0.0
+    },
+    {
+      "orientation": "y0-down",
+      "total_g": 643.8272094726562,
+      "support_g": 83.37594489957647,
+      "non_support_g": 560.4208894966289,
+      "total_seconds": 79039.0,
+      "support_seconds": 11769.204513549805,
+      "support_fraction_pct": 12.950660898755718,
+      "height_mm": 222.0,
+      "warning": "",
+      "slice_return_code": 0,
+      "support_reduction_pct_vs_upright": 38.75915732703317,
+      "total_g_saved_vs_upright": 41.64947509765625,
+      "total_seconds_saved_vs_upright": 17952.53125
+    },
+    {
+      "orientation": "y222-down",
+      "total_g": 665.22216796875,
+      "support_g": 105.35992640662276,
+      "non_support_g": 559.8318952733141,
+      "total_seconds": 84183.546875,
+      "support_seconds": 15754.653686523438,
+      "support_fraction_pct": 15.839029130054104,
+      "height_mm": 222.0,
+      "warning": "",
+      "slice_return_code": 0,
+      "support_reduction_pct_vs_upright": 22.611603564133944,
+      "total_g_saved_vs_upright": 20.2545166015625,
+      "total_seconds_saved_vs_upright": 12807.984375
+    }
+  ],
+  "caveats": [
+    "Orientation changes model shell/infill extrusion too: Y0-down saves 52.77 g support but 41.65 g total because non-support features use 11.12 g more material.",
+    "Y0-down still contains support throughout most of its 222 mm height; this is a support reduction, not a support-free print.",
+    "Most Y0-down interface extrusion is at 210\u2013220 mm print height, beneath the far end of the organizer. Other small contacts repeat at roughly 26 mm steps.",
+    "These are slicer predictions; no physical print/removal/strength test performed."
+  ]
+}

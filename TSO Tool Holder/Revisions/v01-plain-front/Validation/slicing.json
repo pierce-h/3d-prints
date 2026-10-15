@@ -1,0 +1,67 @@
+{
+    "error_string": "Success.",
+    "export_time": 34,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 9,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 56.362056732177734,
+                "Bridge": 35.87899398803711,
+                "Custom": 301.5754089355469,
+                "Flush": 26.0,
+                "Gap infill": 0.15668153762817383,
+                "Inner wall": 1073.5823974609375,
+                "Internal solid infill": 109.28462219238281,
+                "Outer wall": 1166.7950439453125,
+                "Sparse infill": 2090.6865234375,
+                "Top surface": 22.55208969116211,
+                "Travel": 401.18536376953125,
+                "Undefined": 396.2193603515625
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFA00",
+                    "id": 1,
+                    "main_used_g": 60.15231704711914,
+                    "total_used_g": 60.15231704711914
+                }
+            ],
+            "generate_support_material_time": 9,
+            "id": 1,
+            "infill_time": 25,
+            "layer_filament_change": 0,
+            "main_predication": 4929.662109375,
+            "make_perimeters_time": 38,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 127.0,
+                        "height": 100.00000762939453,
+                        "width": 35.54999542236328,
+                        "x": 157.22500610351563,
+                        "y": 96.5,
+                        "z": -1.4697263850393938e-08
+                    },
+                    "id": 5,
+                    "name": "TSO_Tool_Holder_v01_Plain_Front.stl",
+                    "triangle_count": 140
+                }
+            ],
+            "sliced_time": 308,
+            "sliced_time_with_cache": 229,
+            "total_predication": 5278.271484375,
+            "triangle_count": 140,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 15.0,
+    "upward_compatible_machine": [
+        "Bambu Lab H2D Pro 0.4 nozzle"
+    ],
+    "wall_loops": 2
+}

@@ -1,0 +1,13 @@
+{
+  "result": "PASS",
+  "date": "2026-10-13",
+  "application": "Bambu Studio 02.08.02.61",
+  "project": "Bench_Cookie_Organizer_v01_Welded",
+  "opened_after_restart": true,
+  "desktop_slice_result": "Slice ok.",
+  "displayed_estimate": "1d2h57m",
+  "displayed_filament_g": 685.47,
+  "crash_observed": "Application quit while reloading during support generation; crash log thread generate_support_toolpaths. Restarted, reopened final project, and completed a fresh desktop slice. Exact crash cause not established.",
+  "printer_connection_note": "After restart, desktop showed AMS not installed and assigned PLA to left nozzle; printer/AMS information should be synced before sending. Model and supports fit both nozzle regions.",
+  "printed": false
+}

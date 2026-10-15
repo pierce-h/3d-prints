@@ -1,0 +1,532 @@
+{
+  "revision": "Final v01 prototype: split cleats, notched 4 mm backing, 6 mm reinforcements, raised webs, 6 mm hardware bank, matching horizontal-hole gauge",
+  "method": "Independent reload of exported STL and 3MF meshes, boolean clearance probes, source geometry review; no load or physical-fit certification.",
+  "files": {
+    "Cleat_Fit_installed.stl": {
+      "sha256": "07197e74a354c49228919f80983d21021717b56367ab226dfcfef73efa7164dc",
+      "bounds": [
+        [
+          -17.5,
+          10.0,
+          -17.5
+        ],
+        [
+          17.5,
+          58.0,
+          6.0
+        ]
+      ],
+      "volume_mm3": 25239.375,
+      "watertight": true,
+      "winding_consistent": true,
+      "bodies": 1,
+      "components": 1,
+      "manifold_status": "Error.NoError",
+      "triangles": 24
+    },
+    "Fence_Channel_Fit_installed.stl": {
+      "sha256": "5f8a135158b084cd98d5d41aa873632b6eb74db45c57153fbc7af4fbe2422001",
+      "bounds": [
+        [
+          -10.0,
+          47.0,
+          5.8
+        ],
+        [
+          10.0,
+          68.0,
+          53.0
+        ]
+      ],
+      "volume_mm3": 6156.0,
+      "watertight": true,
+      "winding_consistent": true,
+      "bodies": 1,
+      "components": 1,
+      "manifold_status": "Error.NoError",
+      "triangles": 40
+    },
+    "Hardware_Holes_Fit_installed.stl": {
+      "sha256": "acd37bf6e911d28a3c18b445239919a3f8a0f58a13374fe1b43767a6ce94d18c",
+      "bounds": [
+        [
+          -10.0,
+          45.0,
+          -42.0
+        ],
+        [
+          10.0,
+          51.0,
+          42.0
+        ]
+      ],
+      "volume_mm3": 9342.976177028702,
+      "watertight": true,
+      "winding_consistent": true,
+      "bodies": 1,
+      "components": 1,
+      "manifold_status": "Error.NoError",
+      "triangles": 1180
+    },
+    "PTR18_Hanger_v01_TEST_FIT_installed.stl": {
+      "sha256": "f2937d668aa98c4117cba099c744faf313e01d9305a8500664915a1020f7c62d",
+      "bounds": [
+        [
+          -130.0,
+          -55.0,
+          -17.5
+        ],
+        [
+          130.0,
+          68.0,
+          114.0
+        ]
+      ],
+      "volume_mm3": 386154.98904749495,
+      "watertight": true,
+      "winding_consistent": true,
+      "bodies": 1,
+      "components": 1,
+      "manifold_status": "Error.NoError",
+      "triangles": 8328
+    },
+    "Peg_Fit_installed.stl": {
+      "sha256": "86a7293dfc970738a0f1a5ff88b6bd8dad442f21b05168b2e7933b7661b98453",
+      "bounds": [
+        [
+          -16.0,
+          -51.0,
+          0.0
+        ],
+        [
+          16.0,
+          -19.0,
+          38.0
+        ]
+      ],
+      "volume_mm3": 13479.374290937281,
+      "watertight": true,
+      "winding_consistent": true,
+      "bodies": 1,
+      "components": 1,
+      "manifold_status": "Error.NoError",
+      "triangles": 1164
+    }
+  },
+  "projects": {
+    "PTR18_Hanger_v01_TEST_FIT.3mf": [
+      {
+        "name": "PTR18_Hanger_v01_TEST_FIT",
+        "determinant": 1.0,
+        "bounds_print": [
+          [
+            113.5,
+            89.25,
+            0.0
+          ],
+          [
+            236.5,
+            220.75,
+            260.0
+          ]
+        ],
+        "is_rigid": true,
+        "vertices": 4132,
+        "faces": 8328
+      }
+    ],
+    "PTR18_Fit_Check_Plate_v01.3mf": [
+      {
+        "name": "Cleat_Fit",
+        "determinant": 1.0,
+        "bounds_print": [
+          [
+            101.0,
+            93.25,
+            0.0
+          ],
+          [
+            149.0,
+            116.75,
+            35.0
+          ]
+        ],
+        "is_rigid": true,
+        "vertices": 14,
+        "faces": 24
+      },
+      {
+        "name": "Peg_Fit",
+        "determinant": 1.0,
+        "bounds_print": [
+          [
+            204.0,
+            86.0,
+            0.0
+          ],
+          [
+            236.0,
+            124.0,
+            32.0
+          ]
+        ],
+        "is_rigid": true,
+        "vertices": 584,
+        "faces": 1164
+      },
+      {
+        "name": "Fence_Channel_Fit",
+        "determinant": 1.0,
+        "bounds_print": [
+          [
+            114.5,
+            156.4,
+            0.0
+          ],
+          [
+            135.5,
+            203.6,
+            20.0
+          ]
+        ],
+        "is_rigid": true,
+        "vertices": 22,
+        "faces": 40
+      },
+      {
+        "name": "Hardware_Holes_Fit",
+        "determinant": 1.0,
+        "bounds_print": [
+          [
+            217.0,
+            143.0,
+            0.0
+          ],
+          [
+            223.0,
+            227.0,
+            20.0
+          ]
+        ],
+        "is_rigid": true,
+        "vertices": 584,
+        "faces": 1180
+      }
+    ]
+  },
+  "clearance_probes": [
+    {
+      "type": "M6 clearance",
+      "x": -114,
+      "z": 64,
+      "diameter": 6.6,
+      "intersection_volume_mm3": 0.0,
+      "test": "Through axis Y, 45.01 to 50.99; probe diameter 99.5% of nominal"
+    },
+    {
+      "type": "M6 clearance",
+      "x": -114,
+      "z": 90,
+      "diameter": 6.6,
+      "intersection_volume_mm3": 0.0,
+      "test": "Through axis Y, 45.01 to 50.99; probe diameter 99.5% of nominal"
+    },
+    {
+      "type": "M6 clearance",
+      "x": -90,
+      "z": 64,
+      "diameter": 6.6,
+      "intersection_volume_mm3": 0.0,
+      "test": "Through axis Y, 45.01 to 50.99; probe diameter 99.5% of nominal"
+    },
+    {
+      "type": "M6 clearance",
+      "x": -90,
+      "z": 90,
+      "diameter": 6.6,
+      "intersection_volume_mm3": 0.0,
+      "test": "Through axis Y, 45.01 to 50.99; probe diameter 99.5% of nominal"
+    },
+    {
+      "type": "M6 clearance",
+      "x": -66,
+      "z": 64,
+      "diameter": 6.6,
+      "intersection_volume_mm3": 0.0,
+      "test": "Through axis Y, 45.01 to 50.99; probe diameter 99.5% of nominal"
+    },
+    {
+      "type": "M6 clearance",
+      "x": -66,
+      "z": 90,
+      "diameter": 6.6,
+      "intersection_volume_mm3": 0.0,
+      "test": "Through axis Y, 45.01 to 50.99; probe diameter 99.5% of nominal"
+    },
+    {
+      "type": "M6 clearance",
+      "x": -42,
+      "z": 64,
+      "diameter": 6.6,
+      "intersection_volume_mm3": 0.0,
+      "test": "Through axis Y, 45.01 to 50.99; probe diameter 99.5% of nominal"
+    },
+    {
+      "type": "M6 clearance",
+      "x": -42,
+      "z": 90,
+      "diameter": 6.6,
+      "intersection_volume_mm3": 0.0,
+      "test": "Through axis Y, 45.01 to 50.99; probe diameter 99.5% of nominal"
+    },
+    {
+      "type": "M4 clearance",
+      "x": -17,
+      "z": 61,
+      "diameter": 4.6,
+      "intersection_volume_mm3": 0.0,
+      "test": "Through axis Y, 45.01 to 50.99; probe diameter 99.5% of nominal"
+    },
+    {
+      "type": "M4 clearance",
+      "x": -17,
+      "z": 76,
+      "diameter": 4.6,
+      "intersection_volume_mm3": 0.0,
+      "test": "Through axis Y, 45.01 to 50.99; probe diameter 99.5% of nominal"
+    },
+    {
+      "type": "M4 clearance",
+      "x": 1,
+      "z": 61,
+      "diameter": 4.6,
+      "intersection_volume_mm3": 0.0,
+      "test": "Through axis Y, 45.01 to 50.99; probe diameter 99.5% of nominal"
+    },
+    {
+      "type": "M4 clearance",
+      "x": 1,
+      "z": 76,
+      "diameter": 4.6,
+      "intersection_volume_mm3": 0.0,
+      "test": "Through axis Y, 45.01 to 50.99; probe diameter 99.5% of nominal"
+    },
+    {
+      "type": "M4 clearance",
+      "x": 19,
+      "z": 61,
+      "diameter": 4.6,
+      "intersection_volume_mm3": 0.0,
+      "test": "Through axis Y, 45.01 to 50.99; probe diameter 99.5% of nominal"
+    },
+    {
+      "type": "M4 clearance",
+      "x": 19,
+      "z": 76,
+      "diameter": 4.6,
+      "intersection_volume_mm3": 0.0,
+      "test": "Through axis Y, 45.01 to 50.99; probe diameter 99.5% of nominal"
+    },
+    {
+      "type": "M8 clearance",
+      "x": 54,
+      "z": 90,
+      "diameter": 8.8,
+      "intersection_volume_mm3": 0.0,
+      "test": "Through axis Y, 45.01 to 50.99; probe diameter 99.5% of nominal"
+    },
+    {
+      "type": "M8 clearance",
+      "x": 101,
+      "z": 90,
+      "diameter": 8.8,
+      "intersection_volume_mm3": 0.0,
+      "test": "Through axis Y, 45.01 to 50.99; probe diameter 99.5% of nominal"
+    },
+    {
+      "type": "3 mm hex key",
+      "x": 19,
+      "z": 98,
+      "diameter": 3.8,
+      "intersection_volume_mm3": 0.0,
+      "test": "Through axis Y, 45.01 to 50.99; probe diameter 99.5% of nominal"
+    }
+  ],
+  "findings": [
+    {
+      "severity": "fit_unverified",
+      "issue": "Raised webs improve clearance. At Z10 the underside is Y31.82, 66.82 mm above peg center, or 68.82 mm above the center of a nominal 20 mm hole resting on a 16 mm shaft. A 2 mm lifting allowance reduces permissible hole-center-to-top-edge offset to approximately 66.82 mm. Actual offset remains unknown."
+    },
+    {
+      "severity": "sample_limitation",
+      "issue": "Single-peg coupon verifies the complete functional peg but not the 192 mm two-peg pitch or top-edge clearance under shelf webs."
+    },
+    {
+      "severity": "geometry_pass",
+      "issue": "Hardware-hole coupon matches the 6 mm bank thickness, nominal hole diameters and horizontal print-axis orientation of the main rack. Printed clearance still requires a physical fit check."
+    },
+    {
+      "severity": "retention",
+      "issue": "Nominal 19.2 mm keeper passes through nominal 20 mm hole. 0.8 mm diametral clearance and 1.6 mm lift-to-release are geometric values, not guaranteed printed clearances or a tested load rating."
+    },
+    {
+      "severity": "capacity",
+      "issue": "40 mm open-ended fence channel and 24 mm conservative plate clearance are design capacities, not published TSO dimensions."
+    },
+    {
+      "severity": "wall_contact",
+      "issue": "17.5 mm rear cleat projection, 45 degree mating slope, and backplate contact on same wooden rail are internally consistent. Actual wall cleat thickness, height and bevel require coupon verification."
+    },
+    {
+      "severity": "geometry_pass",
+      "issue": "Both peg roots have complete 27.98 mm-diameter backing through Z0..6 despite the V notch. Nominal diameter-28 root is 0.849 mm inside the diagonal notch boundary at its closest approach. Pegs connect through diameter-30 pads to the main 4 mm backing."
+    },
+    {
+      "severity": "strength_limit",
+      "issue": "Geometry and connectivity are validated. Notched backing, split cleats, shelf webs and peg roots have not undergone calibrated mechanical analysis, material testing or long-term loaded testing."
+    }
+  ],
+  "sample_comparison": {
+    "cleat_rear_hook": {
+      "sample_minus_main_mm3": 0.0,
+      "main_minus_sample_mm3": 0.0
+    },
+    "cleat_upper_backplate": {
+      "sample_minus_main_mm3": 0.0,
+      "main_minus_sample_mm3": 0.0
+    },
+    "functional_peg": {
+      "sample_minus_main_mm3": 6.409317521161029e-13,
+      "main_minus_sample_mm3": 3.028549633299349e-13
+    },
+    "fence_channel": {
+      "sample_minus_main_mm3": 0.0,
+      "main_minus_sample_mm3": 0.0
+    }
+  },
+  "peg_root_support": [
+    {
+      "x": -96,
+      "probe_diameter_mm": 27.98,
+      "z_range_mm": [
+        0.0005,
+        5.9995
+      ],
+      "missing_material_mm3": 0.0,
+      "notch_edge_distance_from_root_center_mm": 14.849242404917497
+    },
+    {
+      "x": 96,
+      "probe_diameter_mm": 27.98,
+      "z_range_mm": [
+        0.0005,
+        5.9995
+      ],
+      "missing_material_mm3": 0.0,
+      "notch_edge_distance_from_root_center_mm": 14.849242404917497
+    }
+  ],
+  "peg_insertions": [
+    {
+      "x": -96,
+      "keeper_material_outside_nominal_20mm_bore_mm3": 0.0,
+      "nominal_diametral_keeper_clearance_mm": 0.8,
+      "nominal_radial_keeper_clearance_mm": 0.4,
+      "shaft_window_z_mm": [
+        10,
+        34
+      ],
+      "shaft_window_mm": 24,
+      "nominal_lift_to_release_mm": 1.6
+    },
+    {
+      "x": 96,
+      "keeper_material_outside_nominal_20mm_bore_mm3": 0.0,
+      "nominal_diametral_keeper_clearance_mm": 0.8,
+      "nominal_radial_keeper_clearance_mm": 0.4,
+      "shaft_window_z_mm": [
+        10,
+        34
+      ],
+      "shaft_window_mm": 24,
+      "nominal_lift_to_release_mm": 1.6
+    }
+  ],
+  "print_contact": {
+    "installed_X_face": -130,
+    "area_mm2": 1259.2,
+    "print_height_mm": 260,
+    "note": "Flat first side face. Cleat segments start at heights 10 and 180 mm; keeper undersides start at 24.4 and 216.4 mm, and peg-root cones start at 20 and 212 mm. Supports at their initial undersides require slicer inspection."
+  },
+  "web_underside_clearance_mm": [
+    {
+      "installed_Z": 10,
+      "underside_Y": 31.8202216066482,
+      "above_peg_center": 66.8202216066482,
+      "above_resting_20mm_hole_center": 68.8202216066482,
+      "max_hole_to_top_edge_for_2mm_lift_clearance": 66.8202216066482
+    },
+    {
+      "installed_Z": 20,
+      "underside_Y": 33.773130193905814,
+      "above_peg_center": 68.77313019390581,
+      "above_resting_20mm_hole_center": 70.77313019390581,
+      "max_hole_to_top_edge_for_2mm_lift_clearance": 68.77313019390581
+    },
+    {
+      "installed_Z": 30,
+      "underside_Y": 35.72603878116344,
+      "above_peg_center": 70.72603878116344,
+      "above_resting_20mm_hole_center": 72.72603878116344,
+      "max_hole_to_top_edge_for_2mm_lift_clearance": 70.72603878116344
+    },
+    {
+      "installed_Z": 34,
+      "underside_Y": 36.50720221606648,
+      "above_peg_center": 71.50720221606647,
+      "above_resting_20mm_hole_center": 73.50720221606647,
+      "max_hole_to_top_edge_for_2mm_lift_clearance": 71.50720221606647
+    }
+  ],
+  "hardware_gauge_validation": {
+    "bank_thickness_mm": 6,
+    "hole_axes_print": {
+      "main": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "gauge": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "matches_main_axis": true,
+    "axes_horizontal": true,
+    "hole_probes": [
+      {
+        "z": -30,
+        "nominal_diameter_mm": 4.6,
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "z": -10,
+        "nominal_diameter_mm": 6.6,
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "z": 10,
+        "nominal_diameter_mm": 8.8,
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "z": 30,
+        "nominal_diameter_mm": 3.8,
+        "intersection_volume_mm3": 0.0
+      }
+    ],
+    "all_probes_clear": true
+  },
+  "source_sha256": "7593fd78040edd5a76e8efcc4b77a493b5e084c03086c5521fcc5c6482fede74"
+}

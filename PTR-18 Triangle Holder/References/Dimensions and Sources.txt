@@ -1,0 +1,67 @@
+PTR-18 PLUS — SOURCE DIMENSIONS
+Updated October 14, 2026. Product HTML and official contents sheet reviewed.
+
+Product:
+https://tsoproducts.com/precision-triangles-squares/ptr-18-plus-precision-triangle/
+Archived HTML: product-page.html
+
+Official contents sheet:
+https://tsoproducts.com/content/696-019.pdf
+Archived as PTR-18_Contents_696-019.pdf
+
+Official product details:
+https://tsoproducts.zendesk.com/hc/en-us/articles/45272499690893-Product-Details-PTR-18-PLUS-Precision-Triangle
+
+PUBLISHED / CONFIRMED
+- Nominal 18-inch (457.2 mm) triangle leg.
+- Eight 20 mm holes on 96 mm centres; used for v01 pegs, not the v02 cutout hook.
+- Standard kit: two short and two long M6 locating pins; long pins are 25 mm.
+- Six M4 x 0.7 socket-head fence screws and a 3 mm hex key.
+- Removable foot/fence, part 610-184B.
+
+USER PROVIDED
+Reference photo: IMG_2934.HEIC (attachment-storage arrangement).
+- Detached fence: 430 x 20 x 10 mm.
+- Triangle plate: roughly the same thickness as the other TSO tool; no numeric
+  thickness or cutout dimensions supplied.
+- Wall cleat: nominal 3/4-inch plywood, bevel assumed to be 45 degrees.
+- Attachment bodies/heads, excluding threads:
+  two 9 mm diameter x 25 mm tall; two 9 mm diameter x 12 mm tall;
+  six 6 mm diameter x 4 mm tall.
+- Latest storage scope: the ten measured attachments only; no spare pockets.
+  This supersedes the initial request for extra attachment capacity.
+- Store the fence detached; use a shelf/hook in the triangle cutout.
+- Attachment pockets should have closed bottoms, with threads pointing up.
+- Latest key-storage request: a simple hole; the key may pass through it.
+  This supersedes the earlier closed-bottom slot request.
+- Remove the short rectangular loose-parts tray beside the two large pockets.
+  Retain the flat shelf and detached-fence channel.
+
+NOT PUBLISHED IN THE REVIEWED MATERIAL / STILL UNMEASURED
+Exact triangle plate thickness; usable cutout width and edge profile; distance
+from outer top edge to the cutout's upper bearing edge; thread lengths; actual
+printed attachment/key clearances. Thread lengths are not needed for body-first
+storage. Standard attachment-body diameters and heights now use the user's
+measurements above.
+The fence dimensions were absent from the reviewed product material and are
+now based on the user's measurements. Dimensions from related MTR products
+were not substituted for PTR dimensions. The page's product weight field was
+not treated as a verified bare-tool weight.
+
+v06 DESIGN CAPACITIES
+- Hook: 80 mm width, 8 mm plate gap, 10 mm retaining lip.
+- Up to 77 mm outer-top-edge to cutout-bearing-edge distance with an assumed
+  12 mm upward removal movement; actual cutout fit remains unconfirmed.
+- Fence channel: 12 mm clear, 13 mm lips, 260 mm long and open-ended.
+- Two 9.8 mm tall-pin pockets, 16 mm deep; 9 mm of the measured body exposed.
+- Two 9.8 mm short-pin pockets, 8 mm deep; 4 mm of the measured body exposed.
+- Six 6.8 mm screw-head pockets, 2.5 mm deep; 1.5 mm of the measured head exposed.
+- Dedicated measured pockets have 0.8 mm total diameter clearance.
+- Layout in installed coordinates: pin columns X=-98/-66, short row Z=40,
+  tall row Z=64; screw-head columns X=22/58/94, rows Z=40/64. Units millimetres.
+  Ten attachment pockets plus one key hole; no spare pockets or loose-parts tray.
+- Allen key: straight 4.2 mm through-hole through the 6 mm shelf, intended for
+  the standard 3 mm key. Long leg passes below; bend rests above. No bottom,
+  enclosing cup or chamfer. Attachment pockets retain their closed bottoms.
+Confirm these capacities against the actual tool and accessories using the
+fit samples. They do not establish physical fit or loaded strength.

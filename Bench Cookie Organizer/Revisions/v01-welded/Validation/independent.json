@@ -1,0 +1,190 @@
+{
+  "result": "PASS",
+  "scope": "Independent archive parsing and geometry audit; no physical fit or load testing.",
+  "main_archive": {
+    "mesh_objects": 1,
+    "build_items": 1,
+    "normal_parts": 1,
+    "support_enforcers": 0,
+    "archive_members": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "3D/3dmodel.model",
+      "Metadata/model_settings.config",
+      "Metadata/project_settings.config"
+    ]
+  },
+  "main_geometry": {
+    "watertight": true,
+    "consistent_winding": true,
+    "body_count": 1,
+    "manifold_status": "Error.NoError",
+    "manifold_shell_volumes_mm3": [
+      1517859.3916122727
+    ],
+    "installed_bounds_mm": [
+      [
+        -18.0,
+        0.0,
+        -126.0
+      ],
+      [
+        98.0,
+        222.0,
+        75.0
+      ]
+    ],
+    "width_depth_height_mm": [
+      222,
+      116,
+      201
+    ],
+    "print_bounds_mm": [
+      [
+        64.0,
+        97.0,
+        0.0
+      ],
+      [
+        286.0,
+        213.0,
+        201.0
+      ]
+    ],
+    "build_transform": [
+      [
+        0.0,
+        1.0,
+        0.0,
+        64.0
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0,
+        195.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        126.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "transform_determinant": 1.0
+  },
+  "source_preservation": {
+    "removed_volume_mm3": 5.986704433302304e-08,
+    "added_volume_mm3": 206.97954975105552,
+    "added_bounds_mm": [
+      0.8636364597796009,
+      0.863638591739243,
+      0.0,
+      70.95053432344699,
+      221.13636693106537,
+      1.200000799999998
+    ],
+    "added_material_confined_to_joint": true,
+    "boolean_numerical_fragment_volume_mm3": 1.1850915373759334e-07,
+    "boolean_fragment_tolerance_mm3": 1e-05,
+    "source_meshes_retained": "Main cookie object 1 and main accessory object 6, assembled with 1 mm joint insertion."
+  },
+  "stl_roundtrip": {
+    "watertight": true,
+    "consistent_winding": true,
+    "body_count": 1,
+    "manifold_shells": 1,
+    "max_vertex_displacement_mm": 4.6129038144022226e-10,
+    "volume_difference_mm3": 2.7939677238464355e-09
+  },
+  "optional_spacers": [
+    {
+      "object_id": "1",
+      "unchanged_geometry": true,
+      "volume_mm3": 3571.456323609669,
+      "print_bounds_mm": [
+        [
+          120.0,
+          145.0,
+          0.0
+        ],
+        [
+          130.0,
+          165.0,
+          18.89999962
+        ]
+      ],
+      "transform_determinant": 1.0
+    },
+    {
+      "object_id": "2",
+      "unchanged_geometry": true,
+      "volume_mm3": 3571.456323609669,
+      "print_bounds_mm": [
+        [
+          145.0,
+          145.0,
+          0.0
+        ],
+        [
+          155.0,
+          165.0,
+          18.89999962
+        ]
+      ],
+      "transform_determinant": 1.0
+    },
+    {
+      "object_id": "3",
+      "unchanged_geometry": true,
+      "volume_mm3": 3571.456323609669,
+      "print_bounds_mm": [
+        [
+          170.0,
+          145.0,
+          0.0
+        ],
+        [
+          180.0,
+          165.0,
+          18.89999962
+        ]
+      ],
+      "transform_determinant": 1.0
+    },
+    {
+      "object_id": "4",
+      "unchanged_geometry": true,
+      "volume_mm3": 3571.456323609669,
+      "print_bounds_mm": [
+        [
+          195.0,
+          145.0,
+          0.0
+        ],
+        [
+          205.0,
+          165.0,
+          18.89999962
+        ]
+      ],
+      "transform_determinant": 1.0
+    }
+  ],
+  "sha256_at_geometry_audit": {
+    "Bench_Cookie_Organizer_v01_Welded.3mf": "e50294fd575bad924ad8858499aeb14393f9d0de9aabe152c09450cc2054d0db",
+    "Bench_Cookie_Organizer_v01_Welded.stl": "884d59e01c35b03abe673e93bab5d0947056908580b118698444632c27b92894",
+    "Rear_Spacers_4x_v01.3mf": "de8b6e36736bc0e89bc8ab38dc948ea69900ca58c3ea4d9197ee596e1673a200"
+  },
+  "final_archive_sha256": {
+    "Bench_Cookie_Organizer_v01_Welded.3mf": "de931626faadd94792bb2075aaf1b1e31a9439c749c37e9f3dd03b3cfcab9244",
+    "Rear_Spacers_4x_v01.3mf": "6ed33abbaa9aa67d2ffb93a37ae1d1312b94c6bd759384080b30723353827358"
+  },
+  "post_audit_packaging_note": "Re-serialized only the package relationship XML using its default namespace for Bambu compatibility. Geometry, transforms, settings and STL unchanged."
+}

@@ -1,0 +1,51 @@
+{
+  "project": "PTR18_Hanger_v07_PETG_Matte_Right_TEST_FIT.3mf",
+  "verification": "read-only inspection of saved 3MF; geometry compared against v06",
+  "printer": "Bambu Lab H2D 0.4 nozzle",
+  "object_filament_slot": 4,
+  "used_filament": {
+    "slot": 4,
+    "profile": "Bambu PETG Matte @BBL H2D 0.4 nozzle",
+    "id": "GFG03",
+    "type": "PETG",
+    "colour": "#000000"
+  },
+  "assignments": {
+    "wall_filament": "0",
+    "solid_infill_filament": "0",
+    "sparse_infill_filament": "0",
+    "support_filament": "0",
+    "support_interface_filament": "0"
+  },
+  "assignment_note": "All process filament selectors are 0 (Default); object uses filament slot 4.",
+  "plate_mapping": {
+    "mode": "Auto For Flush",
+    "filament_maps": "1 1 1 2",
+    "used_slot_4_map": 2,
+    "physical_extruder_map": [
+      "1",
+      "0"
+    ]
+  },
+  "mapping_note": "Saved plate maps slot 4 to logical extruder 2. Parent agent observed UI right nozzle PETG slot 4 and left nozzle empty after reslice.",
+  "geometry": {
+    "reference": "PTR18_Hanger_v06_Essential_Storage_TEST_FIT.3mf",
+    "vertex_count_old": 2309,
+    "vertex_count_new": 2309,
+    "triangle_count_old": 4618,
+    "triangle_count_new": 4618,
+    "triangle_indices_identical": true,
+    "old_minus_new_vertex_translation_mm": [
+      0.0,
+      10.5,
+      32.25
+    ],
+    "max_vertex_difference_after_translation_mm": 4.1529999919021066e-06,
+    "same_mesh_up_to_translation": true
+  },
+  "ui_slice_estimate_reported_by_parent": {
+    "time": "9h 50m",
+    "material_g": 419.08
+  },
+  "slice_estimate_note": "Saved project contains no G-code; these estimates are UI observations supplied by parent agent."
+}

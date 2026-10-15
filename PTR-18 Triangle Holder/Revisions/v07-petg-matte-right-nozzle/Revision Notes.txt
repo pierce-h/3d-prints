@@ -1,0 +1,21 @@
+PTR-18 PLUS — v07 PETG MATTE / RIGHT EXTRUDER
+October 14, 2026
+
+Print-settings revision saved from Bambu Studio. Uses the v06 essential-storage
+geometry with black Bambu PETG Matte on the RIGHT extruder. Project filament
+slot 4 is assigned to the object; walls, infill, supports and interfaces follow
+that filament. The left nozzle is unused for this plate.
+
+Project: PTR18_Hanger_v07_PETG_Matte_Right_TEST_FIT.3mf
+Studio slice estimate: approximately 9 h 50 min / 419.08 g.
+The send dialog showed the right nozzle mapped to AMS A1. No print was sent.
+
+Saved settings retain 0.20 mm layers, 6 walls, 30% gyroid, 6 top/bottom layers,
+automatic tree supports and a 6 mm outer brim. The saved-file audit confirms
+same geometry as v06 apart from recentering and tiny numeric rounding.
+See Validation/bambu_saved_project_verification.json.
+
+Geometry previews remain in ../v06-essential-storage/.
+Fit geometry remains v04. Those saved fit projects retain PLA settings and
+PLA estimates; select PETG Matte and the right extruder before a PETG fit print.
+Physical fit and loaded performance remain unverified.

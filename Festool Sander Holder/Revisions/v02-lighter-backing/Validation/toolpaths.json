@@ -1,0 +1,71 @@
+{
+  "linear_extrusion_bounds_xy_mm": [
+    36.75,
+    26.641,
+    297.726,
+    272.997
+  ],
+  "feature_bounds": {
+    "Support": [
+      56.987,
+      60.387,
+      263.198,
+      254.348
+    ],
+    "Brim": [
+      65.281,
+      26.641,
+      297.726,
+      272.899
+    ],
+    "Outer wall": [
+      36.831,
+      30.181,
+      294.406,
+      272.997
+    ],
+    "Inner wall": [
+      36.75,
+      30.735,
+      293.852,
+      272.978
+    ],
+    "Bottom surface": [
+      39.244,
+      34.414,
+      290.501,
+      270.97
+    ],
+    "Internal solid infill": [
+      38.527,
+      33.58,
+      291.21,
+      271.994
+    ],
+    "Floating vertical shell": [
+      43.989,
+      33.591,
+      290.996,
+      266.051
+    ],
+    "Bridge": [
+      71.295,
+      69.747,
+      284.945,
+      265.054
+    ],
+    "Top surface": [
+      49.749,
+      41.602,
+      282.968,
+      261.254
+    ],
+    "Gap infill": [
+      64.88,
+      30.524,
+      294.067,
+      244.344
+    ]
+  },
+  "note": "Model/support/brim G0/G1 extrusion centerlines; startup, flush, travel excluded. Bambu also accepted the full slice."
+}

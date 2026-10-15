@@ -1,0 +1,98 @@
+FESTOOL DOUBLE SANDER HOLDER
+Updated: October 12, 2026
+
+LATEST: v02 — LIGHTER BACKING, TEST-FIT PROTOTYPE
+Geometry independently verified and slice-tested on the saved Bambu H2D profile.
+No physical print, tool-fit, wall-fit or load test has been reported.
+
+Full holder:
+Revisions/v02-lighter-backing/Festool_Double_Holder_v02_TEST_FIT.3mf
+
+PRINT THIS SAMPLE FIRST:
+Revisions/v02-lighter-backing/French_Cleat_Fit_Sample_v02.3mf
+The v01 sample is geometrically identical and remains usable.
+
+Preview:
+Revisions/v02-lighter-backing/Preview.png
+
+Before/after comparison:
+Revisions/v02-lighter-backing/Comparison.png
+
+CHANGE FROM v01
+Removed the square lower corners and filled areas behind the cradle openings.
+The 6 mm rear reinforcement now follows the curved rims and center spokes,
+with a 1 mm margin around that rear footprint, within the old overall bounds.
+The full cleat and its continuous upper backing are retained. Tool-facing
+cradle geometry, spacing and the French-cleat mating geometry are unchanged.
+Independent comparison confirms all removed material was in the old backing.
+The revised frame is not claimed to have the same stiffness or load capacity;
+physical load testing remains pending for both revisions.
+
+DESIGN
+One integrated print for Festool RO 150 ROTEX and ETS EC 150/5.
+Two copies of the original cradle; tool-facing rim/cavity preserved.
+Original RO150 engraving remains on both cradles.
+Obsolete screw holes and countersinks are filled.
+Overall installed dimensions: 348 x 81.984 x 43.5 mm.
+Cradle spacing: 184 mm center-to-center; 20 mm between outside edges.
+Added shared rear frame: 6 mm thick, joined by continuous backing at the cleat.
+Rear cleat: 314 mm wide, 17.5 mm projection, 45-degree mating bevel.
+Designed around user-reported nominal 3/4-inch plywood, 45-degree bevel.
+Rear hook clears an ideal 19.05 mm wall rail by 1.55 mm, or an 18 mm rail by 0.5 mm.
+Below the bevel, the rear ribs brace against the FRONT face of the wooden
+wall cleat. It does not require a full-depth spacer down to the wall itself.
+Wall-cleat height was not supplied; the available bracing area depends on it.
+
+PRINT PROJECTS
+Saved machine: Bambu Lab H2D, 0.4 mm nozzle.
+Assigned material: Bambu ABS from the user's original project.
+0.20 mm layers, 6 walls, 40% gyroid infill, 6 top and bottom shell layers.
+The full holder is top-edge-down and rotated 43 degrees to fit the plate.
+Automatic normal support is enabled for the original curved cradle overhangs.
+The cleat itself starts on the bed and its bevel recedes during printing.
+5 mm outer brim. Small sample uses the same mating profile without supports.
+Do not rotate the full holder flat onto its rear without reviewing supports.
+
+SLICER ESTIMATES (saved profile; actual time/use may vary)
+Full v02 holder: approximately 18h 18m, 295 g ABS including support/brim.
+Previous v01: approximately 19h 57m, 353 g ABS using the same print settings.
+Savings: 58.23 g (16.48%) and approximately 1h 39m, including changed supports.
+Cleat sample: approximately 2h 18m, 30 g ABS.
+Both CLI slices completed successfully with empty warning_message fields.
+The 0.20 mm process overrides were verified in desktop Bambu Studio for v01
+and are retained in v02. Both holder revisions passed Bambu CLI slicing.
+The CLI logs emitted Invalid T command messages for H2D-specific commands in
+the supplied machine profile, while both result.json files report Success.
+No G-code was sent to a printer. Slice again in Bambu Studio for your actual setup.
+Bambu Studio displays an ABS/high-temperature-filament advisory recommending
+nozzle-clumping detection via probing. This is a printer/profile choice to
+review before printing; the model edit did not enable or disable that feature.
+The desktop app also reports automatically disabling arc fitting for the
+connected printer's curve-planning feature.
+
+PHYSICAL CHECKS BEFORE THE FULL PRINT
+1. Print the small sample. It should slide down onto the rail, seat on the
+   bevel, and sit with its lower back flat against the rail's front face.
+   Check that its rear tip clears the wall and that it does not rock.
+2. Using the existing holders/tools, check both tools at 184 mm pad-center
+   spacing. Verify clearance for handles, housings, hoses and removal.
+3. If either check fails, record the measured dimensions so a new revision
+   can be made. The 20 mm gap is a design assumption, not a measured tool clearance.
+4. After printing the full holder, remove rim supports and check both tools'
+   seating and the mounted holder under a gradual, attended load before normal use.
+   This prototype has no verified load rating or long-term creep test.
+
+ORIGINAL AND SOURCE
+Original/Festool_RO150_Holder_3MF.3mf — original bytes preserved.
+Original cradle designer: FortuneAU; original designer/license metadata retained.
+Source/build_double_holder.py — parameterized mesh builder.
+Source/finalize_projects.py — Bambu renders and refreshed project thumbnails.
+Source/render_preview.py — annotated front/rear and mating-profile preview.
+Validation records are in the revision's Validation/ directory.
+
+PRINT HISTORY
+No physical print or fit feedback yet.
+
+REVISION HISTORY
+v01 — full rectangular backing; retained as the original double-holder prototype.
+v02 — lighter curved backing with windows; current prototype.

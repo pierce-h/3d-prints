@@ -1,0 +1,310 @@
+{
+  "revision": "v04 round Allen-key through-hole",
+  "scope": "Focused independent verification: straight through-hole, removal of prior key-pocket boss, unchanged surrounding model, and matching quick/full sample geometry. Physical printed fit is untested.",
+  "source_sha256": "142a3c567e14f2b112afb09fbcbd3eae91e8a75d3916fafcc98f29ccaacbb404",
+  "meshes": {
+    "PTR18_Hanger_v04_Round_Key_Hole_TEST_FIT": {
+      "sha256": "0b89585c3867da7cabcec12e62622fc5c8e680f903ba11df10278c77bf2727e4",
+      "watertight": true,
+      "winding_consistent": true,
+      "bodies": 1,
+      "components": 1,
+      "manifold_status": "Error.NoError",
+      "volume_mm3": 375838.06641483825,
+      "triangles": 8112,
+      "bounds": [
+        [
+          -130.0,
+          -57.0,
+          -17.5
+        ],
+        [
+          130.0,
+          78.0,
+          82.0
+        ]
+      ]
+    },
+    "Allen_Key_Hole_Fit": {
+      "sha256": "2a8283925965288d1b9578c0296c77e3f935cb2e543f9083c810ef36dfa7acee",
+      "watertight": true,
+      "winding_consistent": true,
+      "bodies": 1,
+      "components": 1,
+      "manifold_status": "Error.NoError",
+      "volume_mm3": 1260.9789256882907,
+      "triangles": 304,
+      "bounds": [
+        [
+          -9.0,
+          59.0,
+          65.0
+        ],
+        [
+          7.0,
+          65.0,
+          79.0
+        ]
+      ]
+    }
+  },
+  "projects": {
+    "Allen_Key_Hole_Fit_v04.3mf": [
+      {
+        "name": "Allen_Key_Hole_Fit",
+        "rigid_transform": true,
+        "determinant": 1.0,
+        "bounds_print": [
+          [
+            172.0,
+            148.0,
+            0.0
+          ],
+          [
+            178.0,
+            162.0,
+            16.0
+          ]
+        ],
+        "installed_hole_axis_in_print": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "mesh_array_sha256": "516d17d9e9ce359a283689a77ccf99f60357919edf89d1df1862fbafe119e4a9"
+      }
+    ],
+    "Attachment_Pockets_Fit_v04.3mf": [
+      {
+        "name": "Attachment_Pockets_Fit",
+        "rigid_transform": true,
+        "determinant": 1.0,
+        "bounds_print": [
+          [
+            165.5,
+            143.0,
+            0.0
+          ],
+          [
+            184.5,
+            167.0,
+            72.0
+          ]
+        ],
+        "installed_hole_axis_in_print": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "mesh_array_sha256": "70fe39f6cea43bae864cf0bf81beb27429b1de1af6ed49d3e30a8261cdc7d30a"
+      }
+    ],
+    "PTR18_Fit_Check_Plate_v04.3mf": [
+      {
+        "name": "Cleat_Fit",
+        "rigid_transform": true,
+        "determinant": 1.0,
+        "bounds_print": [
+          [
+            86.0,
+            88.25,
+            0.0
+          ],
+          [
+            134.0,
+            111.75,
+            35.0
+          ]
+        ],
+        "installed_hole_axis_in_print": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "mesh_array_sha256": "1faf14c0c13d2ab63d8d961e2697cf27d811cd7caf3de849223412b8e126b752"
+      },
+      {
+        "name": "Cutout_Hook_Fit",
+        "rigid_transform": true,
+        "determinant": 1.0,
+        "bounds_print": [
+          [
+            176.5,
+            91.0,
+            0.0
+          ],
+          [
+            213.5,
+            109.0,
+            80.0
+          ]
+        ],
+        "installed_hole_axis_in_print": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "mesh_array_sha256": "7c3d061bb8ed79392a30e9a190285533cfbb7c86dc027187f752aedacba03d92"
+      },
+      {
+        "name": "Fence_Channel_Fit",
+        "rigid_transform": true,
+        "determinant": 1.0,
+        "bounds_print": [
+          [
+            256.5,
+            90.39999999999999,
+            0.0
+          ],
+          [
+            273.5,
+            109.6,
+            20.0
+          ]
+        ],
+        "installed_hole_axis_in_print": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "mesh_array_sha256": "ca62d51eb00fd308c50d36cc85478926bf5ab91b9a537bae35ae3ede1301d431"
+      },
+      {
+        "name": "Attachment_Pockets_Fit",
+        "rigid_transform": true,
+        "determinant": 1.0,
+        "bounds_print": [
+          [
+            120.5,
+            178.0,
+            0.0
+          ],
+          [
+            139.5,
+            202.0,
+            72.0
+          ]
+        ],
+        "installed_hole_axis_in_print": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "mesh_array_sha256": "70fe39f6cea43bae864cf0bf81beb27429b1de1af6ed49d3e30a8261cdc7d30a"
+      },
+      {
+        "name": "Allen_Key_Hole_Fit",
+        "rigid_transform": true,
+        "determinant": 1.0,
+        "bounds_print": [
+          [
+            232.0,
+            183.0,
+            0.0
+          ],
+          [
+            238.0,
+            197.0,
+            16.0
+          ]
+        ],
+        "installed_hole_axis_in_print": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "mesh_array_sha256": "516d17d9e9ce359a283689a77ccf99f60357919edf89d1df1862fbafe119e4a9"
+      }
+    ],
+    "PTR18_Hanger_v04_Round_Key_Hole_TEST_FIT.3mf": [
+      {
+        "name": "PTR18_Hanger_v04_Round_Key_Hole_TEST_FIT",
+        "rigid_transform": true,
+        "determinant": 1.0,
+        "bounds_print": [
+          [
+            107.5,
+            105.25,
+            0.0
+          ],
+          [
+            242.5,
+            204.75,
+            260.0
+          ]
+        ],
+        "installed_hole_axis_in_print": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "mesh_array_sha256": "53a86e83b266f32c6f784fa8768fd5639c55aeab5c8fdebea587b9649251a432"
+      }
+    ]
+  },
+  "through_hole": {
+    "installed_center_XZ": [
+      -1,
+      72
+    ],
+    "nominal_diameter_mm": 4.2,
+    "shelf_Y_range": [
+      59,
+      65
+    ],
+    "shelf_thickness_mm": 6,
+    "nominal_key_across_flats_mm": 3,
+    "nominal_key_across_corners_mm": 3.4641016151377544,
+    "nominal_diametral_clearance_mm": 0.7358983848622458,
+    "main_clear_path_probe_volume_mm3": 0.0,
+    "sample_clear_path_probe_volume_mm3": 0.0,
+    "nominal_key_corner_envelope_interference_mm3": 0.0,
+    "path_tested_Y_range": [
+      -100,
+      66
+    ],
+    "no_boss_or_closed_floor": true
+  },
+  "sample_matches_main": {
+    "sample_minus_main_mm3": 0.0,
+    "main_minus_sample_mm3": 0.0
+  },
+  "delta_from_v03": {
+    "added_volume_mm3": 1644.9789256882905,
+    "removed_volume_mm3": 12255.999999999998,
+    "added_outside_previous_key_pocket_envelope_mm3": 0.0,
+    "removed_outside_previous_key_pocket_envelope_mm3": 0.0,
+    "allowed_bounds": [
+      [
+        -24.001,
+        26.999,
+        64.999
+      ],
+      [
+        22.001,
+        65.001,
+        79.001
+      ]
+    ],
+    "geometry_elsewhere_unchanged": true
+  },
+  "unchanged_samples": {
+    "Cleat_Fit": {
+      "byte_identical_to_v03": true
+    },
+    "Cutout_Hook_Fit": {
+      "byte_identical_to_v03": true
+    },
+    "Fence_Channel_Fit": {
+      "byte_identical_to_v03": true
+    },
+    "Attachment_Pockets_Fit": {
+      "byte_identical_to_v03": true
+    }
+  },
+  "quick_sample_matches_full_plate": {
+    "identical_mesh": true,
+    "same_print_axis": true
+  },
+  "remaining_limit": "4.2 mm is the CAD diameter; printing can change actual clearance. The existing triangle fit and load limits are unchanged."
+}

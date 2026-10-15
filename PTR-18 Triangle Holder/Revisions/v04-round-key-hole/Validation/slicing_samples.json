@@ -1,0 +1,123 @@
+{
+    "error_string": "Success.",
+    "export_time": 508,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 6,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 16.442270278930664,
+                "Bridge": 26.027935028076172,
+                "Brim": 147.87203979492188,
+                "Custom": 302.578857421875,
+                "Flush": 26.0,
+                "Gap infill": 47.74986267089844,
+                "Inner wall": 3538.521484375,
+                "Internal solid infill": 247.41912841796875,
+                "Outer wall": 1004.1649780273438,
+                "Overhang wall": 31.758777618408203,
+                "Sparse infill": 1609.4410400390625,
+                "Support": 62.03706741333008,
+                "Support interface": 3.215294361114502,
+                "Top surface": 43.47154998779297,
+                "Travel": 934.8917236328125,
+                "Undefined": 928.92578125
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFA00",
+                    "id": 1,
+                    "main_used_g": 77.77662658691406,
+                    "total_used_g": 77.77662658691406
+                }
+            ],
+            "generate_support_material_time": 193,
+            "id": 1,
+            "infill_time": 77,
+            "layer_filament_change": 0,
+            "main_predication": 7686.79833984375,
+            "make_perimeters_time": 116,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 23.5,
+                        "height": 35.0,
+                        "width": 48.0,
+                        "x": 86.0,
+                        "y": 88.25,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "Cleat_Fit",
+                    "triangle_count": 24
+                },
+                {
+                    "bbox": {
+                        "depth": 18.0,
+                        "height": 80.0,
+                        "width": 37.0,
+                        "x": 176.5,
+                        "y": 91.0,
+                        "z": 0.0
+                    },
+                    "id": 9,
+                    "name": "Cutout_Hook_Fit",
+                    "triangle_count": 56
+                },
+                {
+                    "bbox": {
+                        "depth": 19.19999885559082,
+                        "height": 20.0,
+                        "width": 17.0,
+                        "x": 256.5,
+                        "y": 90.4000015258789,
+                        "z": 0.0
+                    },
+                    "id": 13,
+                    "name": "Fence_Channel_Fit",
+                    "triangle_count": 56
+                },
+                {
+                    "bbox": {
+                        "depth": 24.0,
+                        "height": 72.0,
+                        "width": 19.0,
+                        "x": 120.5,
+                        "y": 178.0,
+                        "z": 0.0
+                    },
+                    "id": 17,
+                    "name": "Attachment_Pockets_Fit",
+                    "triangle_count": 1452
+                },
+                {
+                    "bbox": {
+                        "depth": 14.0,
+                        "height": 16.0,
+                        "width": 6.0,
+                        "x": 232.0,
+                        "y": 183.0,
+                        "z": 0.0
+                    },
+                    "id": 21,
+                    "name": "Allen_Key_Hole_Fit",
+                    "triangle_count": 304
+                }
+            ],
+            "sliced_time": 1233,
+            "sliced_time_with_cache": 783,
+            "total_predication": 8035.4111328125,
+            "triangle_count": 1892,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 30.0,
+    "upward_compatible_machine": [
+        "Bambu Lab H2D Pro 0.4 nozzle"
+    ],
+    "wall_loops": 6
+}

@@ -1,0 +1,499 @@
+{
+  "status": "PROTOTYPE \u2014 dimensions not published by TSO remain unverified; print fit samples first.",
+  "parameters_mm": {
+    "width": 260.0,
+    "back_web": 4.0,
+    "back_reinforced": 6.0,
+    "ymin": -55.0,
+    "ymax": 68.0,
+    "cleat_projection": 17.5,
+    "cleat_front_bevel_y": 42.0,
+    "cleat_top_y": 58.0,
+    "cleat_segment_width": 70.0,
+    "peg_y": -35.0,
+    "peg_pitch": 192.0,
+    "shaft_d": 16.0,
+    "head_d": 19.2,
+    "peg_root_z": 10.0,
+    "keeper_start_z": 34.0,
+    "peg_end_z": 38.0,
+    "shelf_bottom_y": 47.0,
+    "shelf_top_y": 51.0,
+    "fence_back_z": 9.0,
+    "fence_front_z": 49.0,
+    "fence_lip_top_y": 68.0,
+    "shelf_front_z": 114.0
+  },
+  "hardware_positions": [
+    {
+      "type": "M6 clearance",
+      "x": -114,
+      "z": 64,
+      "diameter": 6.6
+    },
+    {
+      "type": "M6 clearance",
+      "x": -114,
+      "z": 90,
+      "diameter": 6.6
+    },
+    {
+      "type": "M6 clearance",
+      "x": -90,
+      "z": 64,
+      "diameter": 6.6
+    },
+    {
+      "type": "M6 clearance",
+      "x": -90,
+      "z": 90,
+      "diameter": 6.6
+    },
+    {
+      "type": "M6 clearance",
+      "x": -66,
+      "z": 64,
+      "diameter": 6.6
+    },
+    {
+      "type": "M6 clearance",
+      "x": -66,
+      "z": 90,
+      "diameter": 6.6
+    },
+    {
+      "type": "M6 clearance",
+      "x": -42,
+      "z": 64,
+      "diameter": 6.6
+    },
+    {
+      "type": "M6 clearance",
+      "x": -42,
+      "z": 90,
+      "diameter": 6.6
+    },
+    {
+      "type": "M4 clearance",
+      "x": -17,
+      "z": 61,
+      "diameter": 4.6
+    },
+    {
+      "type": "M4 clearance",
+      "x": -17,
+      "z": 76,
+      "diameter": 4.6
+    },
+    {
+      "type": "M4 clearance",
+      "x": 1,
+      "z": 61,
+      "diameter": 4.6
+    },
+    {
+      "type": "M4 clearance",
+      "x": 1,
+      "z": 76,
+      "diameter": 4.6
+    },
+    {
+      "type": "M4 clearance",
+      "x": 19,
+      "z": 61,
+      "diameter": 4.6
+    },
+    {
+      "type": "M4 clearance",
+      "x": 19,
+      "z": 76,
+      "diameter": 4.6
+    },
+    {
+      "type": "M8 clearance",
+      "x": 54,
+      "z": 90,
+      "diameter": 8.8
+    },
+    {
+      "type": "M8 clearance",
+      "x": 101,
+      "z": 90,
+      "diameter": 8.8
+    }
+  ],
+  "parts": {
+    "PTR18_Hanger_v02_Allen_Key_Slot_TEST_FIT": {
+      "bounds_installed": [
+        [
+          -130.0,
+          -55.0,
+          -17.5
+        ],
+        [
+          130.0,
+          68.0,
+          114.0
+        ]
+      ],
+      "bounds_print": [
+        [
+          113.5,
+          89.25,
+          0.0
+        ],
+        [
+          236.5,
+          220.75,
+          260.0
+        ]
+      ],
+      "transform": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          168.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          106.75
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          130.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 384385.73936252395,
+      "triangles": 8336,
+      "watertight": true,
+      "bodies": 1
+    },
+    "Cleat_Fit": {
+      "bounds_installed": [
+        [
+          -17.5,
+          10.0,
+          -17.5
+        ],
+        [
+          17.5,
+          58.0,
+          6.0
+        ]
+      ],
+      "bounds_print": [
+        [
+          101.0,
+          93.25,
+          0.0
+        ],
+        [
+          149.0,
+          116.75,
+          35.0
+        ]
+      ],
+      "transform": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          91.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          110.75
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          17.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 25239.375,
+      "triangles": 24,
+      "watertight": true,
+      "bodies": 1
+    },
+    "Peg_Fit": {
+      "bounds_installed": [
+        [
+          -16.0,
+          -51.0,
+          0.0
+        ],
+        [
+          16.0,
+          -19.0,
+          38.0
+        ]
+      ],
+      "bounds_print": [
+        [
+          204.0,
+          86.0,
+          0.0
+        ],
+        [
+          236.0,
+          124.0,
+          32.0
+        ]
+      ],
+      "transform": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          255.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          86.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          16.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 13479.374290937281,
+      "triangles": 1164,
+      "watertight": true,
+      "bodies": 1
+    },
+    "Fence_Channel_Fit": {
+      "bounds_installed": [
+        [
+          -10.0,
+          47.0,
+          5.8
+        ],
+        [
+          10.0,
+          68.0,
+          53.0
+        ]
+      ],
+      "bounds_print": [
+        [
+          114.5,
+          156.4,
+          0.0
+        ],
+        [
+          135.5,
+          203.6,
+          20.0
+        ]
+      ],
+      "transform": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          67.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          150.6
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          10.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 6156.0,
+      "triangles": 40,
+      "watertight": true,
+      "bodies": 1
+    },
+    "Hardware_Holes_Fit": {
+      "bounds_installed": [
+        [
+          -10.0,
+          45.0,
+          -32.0
+        ],
+        [
+          10.0,
+          51.0,
+          32.0
+        ]
+      ],
+      "bounds_print": [
+        [
+          217.0,
+          153.0,
+          0.0
+        ],
+        [
+          223.0,
+          217.0,
+          20.0
+        ]
+      ],
+      "transform": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          172.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          185.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          10.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 7010.936738993617,
+      "triangles": 888,
+      "watertight": true,
+      "bodies": 1
+    },
+    "Allen_Key_Slot_Fit": {
+      "bounds_installed": [
+        [
+          -25.0,
+          45.0,
+          90.0
+        ],
+        [
+          23.0,
+          51.0,
+          106.0
+        ]
+      ],
+      "bounds_print": [
+        [
+          272.0,
+          177.0,
+          0.0
+        ],
+        [
+          278.0,
+          193.0,
+          48.0
+        ]
+      ],
+      "transform": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          227.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          87.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          25.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 2770.7897530640935,
+      "triangles": 312,
+      "watertight": true,
+      "bodies": 1
+    }
+  },
+  "known_dimensions": {
+    "tool_hole_diameter": 20,
+    "tool_hole_pitch": 96,
+    "triangle_nominal_leg": 457.2,
+    "standard_pin_threads": "M6",
+    "standard_screw_threads": "M4x0.7"
+  },
+  "design_capacities": {
+    "fence_channel_clear_width_mm": 40,
+    "fence_channel_lip_height_mm": 17,
+    "fence_length": "Open-ended; longer fences overhang",
+    "peg_plate_clearance_mm": 24,
+    "storage": "8 M6, 6 M4, 2 M8 clearance holes; 40 x 8 mm Allen-key slot; 92 x 13 mm tray",
+    "allen_key_slot_length_mm": 40,
+    "allen_key_slot_width_mm": 8,
+    "allen_key_slot_bounds_installed": [
+      [
+        -21,
+        45,
+        94
+      ],
+      [
+        19,
+        51,
+        102
+      ]
+    ]
+  },
+  "unknowns": [
+    "triangle thickness",
+    "fence dimensions",
+    "triangle hole-to-edge offsets",
+    "types and dimensions of extra attachments",
+    "actual wall cleat thickness and height",
+    "physical fit, strength and long-term loaded performance"
+  ]
+}

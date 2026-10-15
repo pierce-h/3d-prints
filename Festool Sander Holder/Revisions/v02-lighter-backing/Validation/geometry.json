@@ -1,0 +1,182 @@
+{
+  "status": "PROTOTYPE \u2014 physical cleat fit, tool clearance and load untested",
+  "source_sha256": "163bf3fb613697a9cee731b9db012b49e7954873676ce591307295cd02e79a0d",
+  "source_designer": "FortuneAU",
+  "models_requested": [
+    "Festool RO 150 ROTEX",
+    "Festool ETS EC 150/5"
+  ],
+  "parameters_mm": {
+    "cradle_gap": 20.0,
+    "cradle_center_spacing": 184.0,
+    "overall_width": 348.0,
+    "backing_thickness": 6.0,
+    "cleat_width": 314.0,
+    "cleat_projection": 17.5,
+    "nominal_wall_plywood_thickness": 19.05,
+    "nominal_wall_clearance": 1.5500000000000007
+  },
+  "cleat_angle_degrees": 45.0,
+  "back_style": "frame",
+  "rear_backing_volume_mm3": 97374.44993117248,
+  "rectangular_backing_volume_mm3": 171468.824100528,
+  "backing_removed_vs_rectangle_mm3": 74094.37416935553,
+  "cleat_profile_yz_mm": [
+    [
+      -9.499999999999996,
+      -33.5
+    ],
+    [
+      8.0,
+      -16.0
+    ],
+    [
+      40.9922218,
+      -16.0
+    ],
+    [
+      40.9922218,
+      -33.5
+    ]
+  ],
+  "installation": "Backing below the bevel rests against the FRONT of the wall cleat. No full-depth lower wall spacer; actual wall-cleat height remains unmeasured.",
+  "print_orientation": "Original top edge on bed, rotated 43 degrees in XY; automatic support for cradle overhangs.",
+  "settings_changes": {
+    "bottom_shell_layers": "6",
+    "brim_type": "outer_only",
+    "different_settings_to_system": [
+      "bottom_shell_layers;brim_type;enable_arc_fitting;enable_support;layer_height;sparse_infill_density;support_bottom_z_distance;support_threshold_angle;support_top_z_distance;support_type;wall_loops",
+      "",
+      "",
+      ""
+    ],
+    "enable_support": "1",
+    "layer_height": "0.2",
+    "sparse_infill_density": "40%",
+    "support_bottom_z_distance": "0.2",
+    "support_threshold_angle": "30",
+    "support_top_z_distance": "0.2",
+    "support_type": "normal(auto)",
+    "wall_loops": "6"
+  },
+  "parts": {
+    "holder": {
+      "file": "Festool_Double_Holder_v02_TEST_FIT.3mf",
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_bodies": 1,
+      "volume_mm3": 394451.7572899536,
+      "triangles": 13228,
+      "bounds_installed_mm": [
+        [
+          -174.0,
+          -40.9922218,
+          -33.5
+        ],
+        [
+          174.0,
+          40.99222180247307,
+          10.0
+        ]
+      ],
+      "bounds_print_mm": [
+        [
+          29.799499520297786,
+          29.884314955467033,
+          0.0
+        ],
+        [
+          295.2005004797022,
+          280.11568504453294,
+          81.98444360247308
+        ]
+      ],
+      "transform": [
+        [
+          0.7313537016191705,
+          0.0,
+          -0.6819983600624985,
+          157.0329826369666
+        ],
+        [
+          0.6819983600624985,
+          0.0,
+          0.7313537016191705,
+          161.4584064895215
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          40.99222180247307
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "coupon": {
+      "file": "French_Cleat_Fit_Sample_v02.3mf",
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_bodies": 1,
+      "volume_mm3": 42783.84400925738,
+      "triangles": 24,
+      "bounds_installed_mm": [
+        [
+          -17.5,
+          -40.9922218,
+          -33.5
+        ],
+        [
+          17.5,
+          40.99222180247307,
+          -10.0
+        ]
+      ],
+      "bounds_print_mm": [
+        [
+          145.0,
+          143.25,
+          0.0
+        ],
+        [
+          180.0,
+          166.75,
+          81.98444360247308
+        ]
+      ],
+      "transform": [
+        [
+          1.0,
+          0.0,
+          -0.0,
+          162.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          176.75
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          40.99222180247307
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  },
+  "original_cradle_material_missing_mm3": 5.765068510846937e-06,
+  "original_holes_filled_per_cradle": 4
+}

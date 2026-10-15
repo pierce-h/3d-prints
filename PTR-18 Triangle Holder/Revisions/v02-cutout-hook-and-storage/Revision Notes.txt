@@ -1,0 +1,35 @@
+PTR-18 PLUS — v02 CUTOUT HOOK AND STORAGE
+October 14, 2026
+
+Changes from v01
+- Replaced two hanging pegs with an 80 mm-wide shelf/hook in the triangle cutout.
+- Set the hook gap to 8 mm and retaining lip to 10 mm, pending physical fit.
+- Sized the open-ended fence channel for the user's 430 x 20 x 10 mm fence:
+  12 mm clear channel, 13 mm lips; upright fence overhangs 85 mm at each end.
+- Replaced through-holes with closed-bottom drop-in pockets: 8 pin positions
+  (four shallow, four deep), 6 screw-head positions and 2 larger spare positions.
+  Bodies/heads point down; threads remain up.
+- Added a closed-bottom Allen-key pocket: 40 x 8 x 35 mm clear envelope,
+  with pointed ends leaving 32 mm at full width. Retained the small-parts tray.
+- Added full-width hook, attachment-pocket and Allen-key fit samples.
+
+Files
+Full hanger: PTR18_Hanger_v02_Cutout_Hook_TEST_FIT.3mf
+Fit checks: PTR18_Fit_Check_Plate_v02.3mf
+STLs use the same saved side print orientation. Installed STLs in Validation
+are inspection copies, not the recommended print pose.
+
+H2D / PLA estimates
+Full hanger: 11 h 45 min 16 sec / 461.70 g.
+Five fit samples: 2 h 49 min 44 sec / 100.07 g.
+Includes preparation/supports. Saved settings: 0.20 mm, 6 walls, 30% gyroid.
+
+Checks and remaining fit work
+Both projects slice successfully without warnings. Mesh and cavity checks pass.
+A toolpath check found no support-extrusion endpoints inside the storage pockets.
+The actual triangle thickness and cutout dimensions remain unmeasured. The
+8 mm hook gap and 77 mm top-bar capacity (allowing 12 mm removal lift) are
+design capacities. The hook sample checks local fit, not overhead shelf clearance.
+Attachment and Allen-key dimensions also require the supplied fit samples.
+No physical print, loaded test or load rating is recorded.
+See ../../Print Notes.txt for the full fit-check procedure.

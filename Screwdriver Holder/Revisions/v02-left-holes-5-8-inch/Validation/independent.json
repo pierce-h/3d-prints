@@ -1,0 +1,940 @@
+{
+  "checks": [
+    {
+      "name": "Revised mesh is watertight",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Revised winding is consistent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Revised is a positive-volume mesh",
+      "passed": true,
+      "detail": 387844.69372131047
+    },
+    {
+      "name": "Manifold accepts revised solid",
+      "passed": true,
+      "detail": "Error.NoError"
+    },
+    {
+      "name": "One connected component remains",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Twenty through-holes remain (Euler -38)",
+      "passed": true,
+      "detail": -38
+    },
+    {
+      "name": "Exterior bounds are preserved",
+      "passed": true,
+      "detail": {
+        "old": [
+          [
+            -100.0,
+            -49.5,
+            -42.5004997
+          ],
+          [
+            100.0,
+            49.5,
+            42.5004997
+          ]
+        ],
+        "new": [
+          [
+            -100.0,
+            -49.5,
+            -42.5004997
+          ],
+          [
+            100.0,
+            49.5,
+            42.5004997
+          ]
+        ]
+      }
+    },
+    {
+      "name": "lower: ten circular openings",
+      "passed": true,
+      "detail": {
+        "before": 10,
+        "after": 10
+      }
+    },
+    {
+      "name": "lower opening 0: diameter 15.88 mm",
+      "passed": true,
+      "detail": [
+        15.875,
+        15.874999999999996
+      ]
+    },
+    {
+      "name": "lower opening 0: original center retained",
+      "passed": true,
+      "detail": {
+        "old": [
+          -80.00240710324098,
+          -28.50250159735801
+        ],
+        "new": [
+          -80.0024123853183,
+          -28.502499986353904
+        ]
+      }
+    },
+    {
+      "name": "lower opening 1: diameter 15.88 mm",
+      "passed": true,
+      "detail": [
+        15.875,
+        15.875000003
+      ]
+    },
+    {
+      "name": "lower opening 1: original center retained",
+      "passed": true,
+      "detail": {
+        "old": [
+          -80.00240710319554,
+          10.501499131129691
+        ],
+        "new": [
+          -80.00241238531821,
+          10.501500766674296
+        ]
+      }
+    },
+    {
+      "name": "lower opening 2: diameter 15.88 mm",
+      "passed": true,
+      "detail": [
+        15.875,
+        15.875000000000004
+      ]
+    },
+    {
+      "name": "lower opening 2: original center retained",
+      "passed": true,
+      "detail": {
+        "old": [
+          -40.00117890668458,
+          -28.502501594196683
+        ],
+        "new": [
+          -40.001181542678445,
+          -28.502499978827682
+        ]
+      }
+    },
+    {
+      "name": "lower opening 3: diameter 15.88 mm",
+      "passed": true,
+      "detail": [
+        15.875,
+        15.874999996
+      ]
+    },
+    {
+      "name": "lower opening 3: original center retained",
+      "passed": true,
+      "detail": {
+        "old": [
+          -40.00117890653832,
+          10.501499134367432
+        ],
+        "new": [
+          -40.001181542678495,
+          10.501500774550259
+        ]
+      }
+    },
+    {
+      "name": "lower opening 4: unselected shape unchanged",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "lower opening 5: unselected shape unchanged",
+      "passed": true,
+      "detail": 1.7125174167631469e-16
+    },
+    {
+      "name": "lower opening 6: unselected shape unchanged",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "lower opening 7: unselected shape unchanged",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "lower opening 8: unselected shape unchanged",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "lower opening 9: unselected shape unchanged",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "upper_through: ten circular openings",
+      "passed": true,
+      "detail": {
+        "before": 10,
+        "after": 10
+      }
+    },
+    {
+      "name": "upper_through opening 0: diameter 15.88 mm",
+      "passed": true,
+      "detail": [
+        15.875,
+        15.875
+      ]
+    },
+    {
+      "name": "upper_through opening 0: original center retained",
+      "passed": true,
+      "detail": {
+        "old": [
+          -80.00020124164847,
+          -28.502406565742596
+        ],
+        "new": [
+          -80.00020127000047,
+          -28.502411833647635
+        ]
+      }
+    },
+    {
+      "name": "upper_through opening 1: diameter 15.88 mm",
+      "passed": true,
+      "detail": [
+        15.875,
+        15.875000003000002
+      ]
+    },
+    {
+      "name": "upper_through opening 1: original center retained",
+      "passed": true,
+      "detail": {
+        "old": [
+          -80.00020125698127,
+          10.50100035152918
+        ],
+        "new": [
+          -80.0002012921661,
+          10.501000346522003
+        ]
+      }
+    },
+    {
+      "name": "upper_through opening 2: diameter 15.88 mm",
+      "passed": true,
+      "detail": [
+        15.875,
+        15.875
+      ]
+    },
+    {
+      "name": "upper_through opening 2: original center retained",
+      "passed": true,
+      "detail": {
+        "old": [
+          -40.00020046320083,
+          -28.502406565606524
+        ],
+        "new": [
+          -40.00020046525917,
+          -28.502411833646107
+        ]
+      }
+    },
+    {
+      "name": "upper_through opening 3: diameter 15.88 mm",
+      "passed": true,
+      "detail": [
+        15.875,
+        15.875000003000002
+      ]
+    },
+    {
+      "name": "upper_through opening 3: original center retained",
+      "passed": true,
+      "detail": {
+        "old": [
+          -40.00020047848131,
+          10.501000351529408
+        ],
+        "new": [
+          -40.00020048683179,
+          10.501000346517419
+        ]
+      }
+    },
+    {
+      "name": "upper_through opening 4: unselected shape unchanged",
+      "passed": true,
+      "detail": 4.08007294616656e-17
+    },
+    {
+      "name": "upper_through opening 5: unselected shape unchanged",
+      "passed": true,
+      "detail": 2.005284429618115e-15
+    },
+    {
+      "name": "upper_through opening 6: unselected shape unchanged",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "upper_through opening 7: unselected shape unchanged",
+      "passed": true,
+      "detail": 1.849188109304123e-15
+    },
+    {
+      "name": "upper_through opening 8: unselected shape unchanged",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "upper_through opening 9: unselected shape unchanged",
+      "passed": true,
+      "detail": 4.911605344659662e-16
+    },
+    {
+      "name": "upper_recess: ten circular openings",
+      "passed": true,
+      "detail": {
+        "before": 10,
+        "after": 10
+      }
+    },
+    {
+      "name": "upper_recess opening 0: diameter 15.88 mm",
+      "passed": true,
+      "detail": [
+        15.875,
+        15.875
+      ]
+    },
+    {
+      "name": "upper_recess opening 0: original center retained",
+      "passed": true,
+      "detail": {
+        "old": [
+          -80.00020124164847,
+          -28.502406565742596
+        ],
+        "new": [
+          -80.00020127000046,
+          -28.502411833647677
+        ]
+      }
+    },
+    {
+      "name": "upper_recess opening 1: diameter 15.88 mm",
+      "passed": true,
+      "detail": [
+        15.875,
+        15.875000003000002
+      ]
+    },
+    {
+      "name": "upper_recess opening 1: original center retained",
+      "passed": true,
+      "detail": {
+        "old": [
+          -80.00020125698127,
+          10.50100035152918
+        ],
+        "new": [
+          -80.00020129216615,
+          10.501000346522025
+        ]
+      }
+    },
+    {
+      "name": "upper_recess opening 2: diameter 15.88 mm",
+      "passed": true,
+      "detail": [
+        15.875,
+        15.875
+      ]
+    },
+    {
+      "name": "upper_recess opening 2: original center retained",
+      "passed": true,
+      "detail": {
+        "old": [
+          -40.00020046320083,
+          -28.502406565606524
+        ],
+        "new": [
+          -40.00020046525918,
+          -28.50241183364613
+        ]
+      }
+    },
+    {
+      "name": "upper_recess opening 3: diameter 15.88 mm",
+      "passed": true,
+      "detail": [
+        15.875,
+        15.875000003000002
+      ]
+    },
+    {
+      "name": "upper_recess opening 3: original center retained",
+      "passed": true,
+      "detail": {
+        "old": [
+          -40.00020047848131,
+          10.501000351529408
+        ],
+        "new": [
+          -40.00020048683177,
+          10.5010003465174
+        ]
+      }
+    },
+    {
+      "name": "upper_recess opening 4: unselected shape unchanged",
+      "passed": true,
+      "detail": 5.706545236350299e-17
+    },
+    {
+      "name": "upper_recess opening 5: unselected shape unchanged",
+      "passed": true,
+      "detail": 1.0731416909548487e-15
+    },
+    {
+      "name": "upper_recess opening 6: unselected shape unchanged",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "upper_recess opening 7: unselected shape unchanged",
+      "passed": true,
+      "detail": 1.6941997582620178e-15
+    },
+    {
+      "name": "upper_recess opening 8: unselected shape unchanged",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "upper_recess opening 9: unselected shape unchanged",
+      "passed": true,
+      "detail": 1.3242717145089935e-15
+    },
+    {
+      "name": "Upper counterbores were filled with material",
+      "passed": true,
+      "detail": 2450.68579335117
+    },
+    {
+      "name": "Material was actually removed",
+      "passed": true,
+      "detail": 5169.693947049359
+    },
+    {
+      "name": "Entire unselected side remains unchanged",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Removed material lies only within the eight requested holes",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Added material lies only in original selected counterbores",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Selected upper bore 0 has no remaining step",
+      "passed": true,
+      "detail": 1.0740001349742768e-13
+    },
+    {
+      "name": "Selected upper bore 1 has no remaining step",
+      "passed": true,
+      "detail": 1.1332556461708491e-13
+    },
+    {
+      "name": "Selected upper bore 2 has no remaining step",
+      "passed": true,
+      "detail": 7.598767806388934e-14
+    },
+    {
+      "name": "Selected upper bore 3 has no remaining step",
+      "passed": true,
+      "detail": 6.156028784605125e-14
+    },
+    {
+      "name": "Print settings preserved: Metadata/project_settings.config",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Print settings preserved: Metadata/filament_settings_1.config",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Print settings preserved: Metadata/filament_settings_2.config",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Print settings preserved: Metadata/filament_sequence.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Preserved component transforms",
+      "passed": true,
+      "detail": {
+        "old": [
+          {
+            "{http://schemas.microsoft.com/3dmanufacturing/production/2015/06}path": "/3D/Objects/object_1.model",
+            "objectid": "1",
+            "{http://schemas.microsoft.com/3dmanufacturing/production/2015/06}UUID": "00010000-b206-40ff-9872-83e8017abed1",
+            "transform": "1 0 0 0 1 0 0 0 1 0 0 0"
+          }
+        ],
+        "new": [
+          {
+            "{http://schemas.microsoft.com/3dmanufacturing/production/2015/06}path": "/3D/Objects/object_1.model",
+            "objectid": "1",
+            "{http://schemas.microsoft.com/3dmanufacturing/production/2015/06}UUID": "00010000-b206-40ff-9872-83e8017abed1",
+            "transform": "1 0 0 0 1 0 0 0 1 0 0 0"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Preserved build orientation and placement",
+      "passed": true,
+      "detail": {
+        "old": [
+          {
+            "objectid": "2",
+            "{http://schemas.microsoft.com/3dmanufacturing/production/2015/06}UUID": "00000002-b1ec-4553-aec9-835e5b724bb4",
+            "transform": "2.22044605e-16 0 -1 0 1 0 1 0 2.22044605e-16 175 160 100",
+            "printable": "1"
+          }
+        ],
+        "new": [
+          {
+            "objectid": "2",
+            "{http://schemas.microsoft.com/3dmanufacturing/production/2015/06}UUID": "00000002-b1ec-4553-aec9-835e5b724bb4",
+            "transform": "2.22044605e-16 0 -1 0 1 0 1 0 2.22044605e-16 175 160 100",
+            "printable": "1"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Preserved model unit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Object setting preserved: ./object/metadata[@key='extruder']",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Object setting preserved: ./object/part/metadata[@key='matrix']",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Object setting preserved: ./assemble/assemble_item",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "sections": {
+    "lower": [
+      {
+        "selected": true,
+        "center": [
+          -80.0024123853183,
+          -28.502499986353904
+        ],
+        "diameter_xy": [
+          15.875,
+          15.874999999999996
+        ],
+        "area_mm2": 197.9127374328608
+      },
+      {
+        "selected": true,
+        "center": [
+          -80.00241238531821,
+          10.501500766674296
+        ],
+        "diameter_xy": [
+          15.875,
+          15.875000003
+        ],
+        "area_mm2": 197.9127374271189
+      },
+      {
+        "selected": true,
+        "center": [
+          -40.001181542678445,
+          -28.502499978827682
+        ],
+        "diameter_xy": [
+          15.875,
+          15.875000000000004
+        ],
+        "area_mm2": 197.9127374097541
+      },
+      {
+        "selected": true,
+        "center": [
+          -40.001181542678495,
+          10.501500774550259
+        ],
+        "diameter_xy": [
+          15.875,
+          15.874999996
+        ],
+        "area_mm2": 197.91273743200375
+      },
+      {
+        "selected": false,
+        "center": [
+          1.682126106881066e-08,
+          -28.50250159763514
+        ],
+        "diameter_xy": [
+          10.0,
+          10.000999500000002
+        ],
+        "area_mm2": 77.26004346111085
+      },
+      {
+        "selected": false,
+        "center": [
+          1.682128177687577e-08,
+          10.501499130987384
+        ],
+        "diameter_xy": [
+          10.0,
+          10.00100135
+        ],
+        "area_mm2": 77.2600380525401
+      },
+      {
+        "selected": false,
+        "center": [
+          40.00117822923451,
+          -28.502501594183588
+        ],
+        "diameter_xy": [
+          10.0,
+          10.000999500000002
+        ],
+        "area_mm2": 77.26298368950775
+      },
+      {
+        "selected": false,
+        "center": [
+          40.0011782290888,
+          10.501499134380301
+        ],
+        "diameter_xy": [
+          10.0,
+          10.00100135
+        ],
+        "area_mm2": 77.26297827809654
+      },
+      {
+        "selected": false,
+        "center": [
+          80.00240710324098,
+          -28.50250159735801
+        ],
+        "diameter_xy": [
+          10.000999499999992,
+          10.000999500000002
+        ],
+        "area_mm2": 77.26701431275177
+      },
+      {
+        "selected": false,
+        "center": [
+          80.00240710319554,
+          10.50149913112969
+        ],
+        "diameter_xy": [
+          10.000999499999992,
+          10.00100135
+        ],
+        "area_mm2": 77.2670089032533
+      }
+    ],
+    "upper_through": [
+      {
+        "selected": true,
+        "center": [
+          -80.00020127000047,
+          -28.502411833647635
+        ],
+        "diameter_xy": [
+          15.875,
+          15.875
+        ],
+        "area_mm2": 197.91273740595446
+      },
+      {
+        "selected": true,
+        "center": [
+          -80.0002012921661,
+          10.501000346522003
+        ],
+        "diameter_xy": [
+          15.875,
+          15.875000003000002
+        ],
+        "area_mm2": 197.912737433953
+      },
+      {
+        "selected": true,
+        "center": [
+          -40.00020046525917,
+          -28.502411833646107
+        ],
+        "diameter_xy": [
+          15.875,
+          15.875
+        ],
+        "area_mm2": 197.91273743525767
+      },
+      {
+        "selected": true,
+        "center": [
+          -40.00020048683179,
+          10.501000346517419
+        ],
+        "diameter_xy": [
+          15.875,
+          15.875000003000002
+        ],
+        "area_mm2": 197.91273742466123
+      },
+      {
+        "selected": false,
+        "center": [
+          -0.00020007349182421739,
+          -28.502406565686144
+        ],
+        "diameter_xy": [
+          10.00200033,
+          10.000999500000002
+        ],
+        "area_mm2": 77.27876716720306
+      },
+      {
+        "selected": false,
+        "center": [
+          -0.00020008880441159047,
+          10.501000351529253
+        ],
+        "diameter_xy": [
+          10.00200033,
+          10.00000195
+        ],
+        "area_mm2": 77.27766726933011
+      },
+      {
+        "selected": false,
+        "center": [
+          39.99980003046816,
+          -28.502406565646744
+        ],
+        "diameter_xy": [
+          10.001998999999998,
+          10.000999500000002
+        ],
+        "area_mm2": 77.27877034785787
+      },
+      {
+        "selected": false,
+        "center": [
+          39.99980001510419,
+          10.50100035152949
+        ],
+        "diameter_xy": [
+          10.001998999999998,
+          10.00000195
+        ],
+        "area_mm2": 77.27767044687846
+      },
+      {
+        "selected": false,
+        "center": [
+          79.99979875835156,
+          -28.502406565742607
+        ],
+        "diameter_xy": [
+          10.001999000000012,
+          10.000999500000002
+        ],
+        "area_mm2": 77.27876152043646
+      },
+      {
+        "selected": false,
+        "center": [
+          79.9997987430187,
+          10.50100035152918
+        ],
+        "diameter_xy": [
+          10.001999000000012,
+          10.00000195
+        ],
+        "area_mm2": 77.27766162707823
+      }
+    ],
+    "upper_recess": [
+      {
+        "selected": true,
+        "center": [
+          -80.00020127000046,
+          -28.502411833647677
+        ],
+        "diameter_xy": [
+          15.875,
+          15.875
+        ],
+        "area_mm2": 197.91273740595454
+      },
+      {
+        "selected": true,
+        "center": [
+          -80.00020129216615,
+          10.501000346522025
+        ],
+        "diameter_xy": [
+          15.875,
+          15.875000003000002
+        ],
+        "area_mm2": 197.9127374339527
+      },
+      {
+        "selected": true,
+        "center": [
+          -40.00020046525918,
+          -28.50241183364613
+        ],
+        "diameter_xy": [
+          15.875,
+          15.875
+        ],
+        "area_mm2": 197.91273743525778
+      },
+      {
+        "selected": true,
+        "center": [
+          -40.00020048683177,
+          10.5010003465174
+        ],
+        "diameter_xy": [
+          15.875,
+          15.875000003000002
+        ],
+        "area_mm2": 197.91273742466117
+      },
+      {
+        "selected": false,
+        "center": [
+          0.500000030088922,
+          -29.002128757623815
+        ],
+        "diameter_xy": [
+          21.0060006,
+          21.001998900000004
+        ],
+        "area_mm2": 340.7990271252733
+      },
+      {
+        "selected": false,
+        "center": [
+          0.5000000300881356,
+          10.001000538838246
+        ],
+        "diameter_xy": [
+          21.0060006,
+          21.0020008
+        ],
+        "area_mm2": 340.7937694240132
+      },
+      {
+        "selected": false,
+        "center": [
+          40.500098320927265,
+          -29.002128758931114
+        ],
+        "diameter_xy": [
+          21.004997300000003,
+          21.001998900000004
+        ],
+        "area_mm2": 340.79577726800574
+      },
+      {
+        "selected": false,
+        "center": [
+          40.500098322359015,
+          10.001000538842352
+        ],
+        "diameter_xy": [
+          21.004997300000003,
+          21.0020008
+        ],
+        "area_mm2": 340.79051956670514
+      },
+      {
+        "selected": false,
+        "center": [
+          80.50009832093122,
+          -29.002128758821968
+        ],
+        "diameter_xy": [
+          21.0049973,
+          21.001998900000004
+        ],
+        "area_mm2": 340.7957635157647
+      },
+      {
+        "selected": false,
+        "center": [
+          80.50009832236306,
+          10.001000538842506
+        ],
+        "diameter_xy": [
+          21.0049973,
+          21.0020008
+        ],
+        "area_mm2": 340.7905058182975
+      }
+    ]
+  },
+  "passed": true
+}

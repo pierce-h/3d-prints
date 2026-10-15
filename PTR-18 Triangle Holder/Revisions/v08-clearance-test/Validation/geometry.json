@@ -1,0 +1,374 @@
+{
+  "revision": "v08 clearance test; full holder unchanged",
+  "status": "UNPRINTED: choose clearance by testing actual hardware body-first, threads up.",
+  "reference_project": "Revisions/v07-petg-matte-right-nozzle/PTR18_Hanger_v07_PETG_Matte_Right_TEST_FIT.3mf",
+  "reference_sha256": "bcf5c227fa3fc35e9295a9bcd9b9b24937ed4c623f7c9e8f06cdb79944519956",
+  "dimensions_mm": {
+    "shelf_length": 72,
+    "shelf_width": 24,
+    "shelf_thickness": 6,
+    "maximum_depth_with_boss": 19,
+    "print_height": 72,
+    "flat_bed_contact": [
+      19,
+      24
+    ],
+    "base_foot_thickness": 2
+  },
+  "hole_axis_installed": [
+    0,
+    1,
+    0
+  ],
+  "hole_axis_print": [
+    1,
+    0,
+    0
+  ],
+  "print_orientation": "Same side transform as v07 full holder; holes horizontal.",
+  "settings_changes_from_v07": {
+    "different_settings_to_system": {
+      "before": [
+        "bottom_shell_layers;brim_type;brim_width;enable_arc_fitting;enable_support;prime_tower_infill_gap;prime_tower_rib_wall;sparse_infill_density;sparse_infill_pattern;support_critical_regions_only;top_shell_layers;wall_loops",
+        "default_filament_colour;enable_pressure_advance;filament_flow_ratio;filament_max_volumetric_speed;pressure_advance",
+        "default_filament_colour;enable_pressure_advance;filament_flow_ratio;filament_max_volumetric_speed;pressure_advance",
+        "default_filament_colour;enable_pressure_advance;filament_flow_ratio;filament_max_volumetric_speed;pressure_advance",
+        "",
+        ""
+      ],
+      "after": [
+        "bottom_shell_layers;brim_type;brim_width;enable_arc_fitting;enable_support;outer_wall_speed;prime_tower_infill_gap;prime_tower_rib_wall;sparse_infill_density;sparse_infill_pattern;support_critical_regions_only;top_shell_layers;wall_loops",
+        "default_filament_colour;enable_pressure_advance;filament_flow_ratio;filament_max_volumetric_speed;pressure_advance",
+        "default_filament_colour;enable_pressure_advance;filament_flow_ratio;filament_max_volumetric_speed;pressure_advance",
+        "default_filament_colour;enable_pressure_advance;filament_flow_ratio;filament_max_volumetric_speed;pressure_advance",
+        "",
+        ""
+      ]
+    },
+    "filament_map": {
+      "before": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "after": [
+        "1",
+        "1",
+        "1",
+        "2"
+      ]
+    },
+    "outer_wall_speed": {
+      "before": [
+        "200",
+        "500",
+        "500",
+        "200",
+        "500",
+        "500",
+        "500"
+      ],
+      "after": [
+        "100",
+        "100",
+        "100",
+        "100",
+        "100",
+        "100",
+        "100"
+      ]
+    }
+  },
+  "filament": {
+    "slot": 4,
+    "material": "Bambu PETG Matte @BBL H2D 0.4 nozzle",
+    "color": "#000000",
+    "plate_mapping": "1 1 1 2",
+    "physical_extruder_map": [
+      "1",
+      "0"
+    ],
+    "nozzle": "right, as mapped by v07"
+  },
+  "parts": {
+    "A_Plus2mm": {
+      "diameter_increase_mm": 2.0,
+      "notch_count": 1,
+      "notch_description": "3 x 2 mm corner cuts through 6 mm shelf at screw-pocket end; one +Z corner",
+      "notch_installed_X_range_mm": [
+        57,
+        60
+      ],
+      "notch_installed_Z_ranges_mm": [
+        [
+          10,
+          12
+        ]
+      ],
+      "pockets": [
+        {
+          "type": "short pin",
+          "x": 0.0,
+          "z": 0.0,
+          "diameter": 11.8,
+          "depth": 8.0,
+          "floor_y_mm": 57.0,
+          "floor_thickness_mm": 3.0,
+          "cavity_obstruction_mm3": 0.0,
+          "missing_floor_probe_mm3": 0.0
+        },
+        {
+          "type": "tall pin",
+          "x": 24.0,
+          "z": 0.0,
+          "diameter": 11.8,
+          "depth": 16.0,
+          "floor_y_mm": 49.0,
+          "floor_thickness_mm": 3.0,
+          "cavity_obstruction_mm3": 0.0,
+          "missing_floor_probe_mm3": 0.0
+        },
+        {
+          "type": "small screw",
+          "x": 48.0,
+          "z": 0.0,
+          "diameter": 8.8,
+          "depth": 2.5,
+          "floor_y_mm": 62.5,
+          "floor_thickness_mm": 3.5,
+          "cavity_obstruction_mm3": 0.0,
+          "missing_floor_probe_mm3": 0.0
+        }
+      ],
+      "section_openings": [
+        {
+          "center_XZ_mm": [
+            0.0,
+            0.0
+          ],
+          "diameter_XZ_mm": [
+            11.8,
+            11.8
+          ]
+        },
+        {
+          "center_XZ_mm": [
+            48.0,
+            0.0
+          ],
+          "diameter_XZ_mm": [
+            8.799999999999997,
+            8.8
+          ]
+        },
+        {
+          "center_XZ_mm": [
+            24.0,
+            0.0
+          ],
+          "diameter_XZ_mm": [
+            11.799999999999997,
+            11.8
+          ]
+        }
+      ],
+      "bounds_installed": [
+        [
+          -12.0,
+          46.0,
+          -12.0
+        ],
+        [
+          60.0,
+          65.0,
+          12.0
+        ]
+      ],
+      "bounds_print": [
+        [
+          145.5,
+          143.0,
+          0.0
+        ],
+        [
+          164.5,
+          167.0,
+          72.0
+        ]
+      ],
+      "transform": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          99.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          155.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          12.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 12656.394596087972,
+      "triangles": 1474,
+      "watertight": true,
+      "bodies": 1
+    },
+    "B_Plus3mm": {
+      "diameter_increase_mm": 3.0,
+      "notch_count": 2,
+      "notch_description": "3 x 2 mm corner cuts through 6 mm shelf at screw-pocket end; both +/-Z corners",
+      "notch_installed_X_range_mm": [
+        57,
+        60
+      ],
+      "notch_installed_Z_ranges_mm": [
+        [
+          10,
+          12
+        ],
+        [
+          -12,
+          -10
+        ]
+      ],
+      "pockets": [
+        {
+          "type": "short pin",
+          "x": 0.0,
+          "z": 0.0,
+          "diameter": 12.8,
+          "depth": 8.0,
+          "floor_y_mm": 57.0,
+          "floor_thickness_mm": 3.0,
+          "cavity_obstruction_mm3": 0.0,
+          "missing_floor_probe_mm3": 0.0
+        },
+        {
+          "type": "tall pin",
+          "x": 24.0,
+          "z": 0.0,
+          "diameter": 12.8,
+          "depth": 16.0,
+          "floor_y_mm": 49.0,
+          "floor_thickness_mm": 3.0,
+          "cavity_obstruction_mm3": 0.0,
+          "missing_floor_probe_mm3": 0.0
+        },
+        {
+          "type": "small screw",
+          "x": 48.0,
+          "z": 0.0,
+          "diameter": 9.8,
+          "depth": 2.5,
+          "floor_y_mm": 62.5,
+          "floor_thickness_mm": 3.5,
+          "cavity_obstruction_mm3": 0.0,
+          "missing_floor_probe_mm3": 0.0
+        }
+      ],
+      "section_openings": [
+        {
+          "center_XZ_mm": [
+            0.0,
+            0.0
+          ],
+          "diameter_XZ_mm": [
+            12.8,
+            12.8
+          ]
+        },
+        {
+          "center_XZ_mm": [
+            48.0,
+            0.0
+          ],
+          "diameter_XZ_mm": [
+            9.799999999999997,
+            9.8
+          ]
+        },
+        {
+          "center_XZ_mm": [
+            24.0,
+            0.0
+          ],
+          "diameter_XZ_mm": [
+            12.799999999999997,
+            12.8
+          ]
+        }
+      ],
+      "bounds_installed": [
+        [
+          -12.0,
+          46.0,
+          -12.0
+        ],
+        [
+          60.0,
+          65.0,
+          12.0
+        ]
+      ],
+      "bounds_print": [
+        [
+          185.5,
+          143.0,
+          0.0
+        ],
+        [
+          204.5,
+          167.0,
+          72.0
+        ]
+      ],
+      "transform": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          139.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          155.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          12.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 12637.572992983536,
+      "triangles": 1480,
+      "watertight": true,
+      "bodies": 1
+    }
+  },
+  "project": "PTR18_Attachment_Clearance_Test_v08_PETG_Right.3mf",
+  "project_sha256": "b4f401d2ad0324785943d5cf108275123162c638842955c2a5fa70e505a30904"
+}

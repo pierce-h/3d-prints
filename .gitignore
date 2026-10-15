@@ -1,0 +1,31 @@
+# macOS metadata
+.DS_Store
+._*
+.Spotlight-V100/
+.Trashes/
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Temporary outputs; deliberate Validation records remain tracked
+.cache/
+*.tmp
+*.temp
+*.swp
+*~
+/result.json
+
+# Printer-ready jobs are recreated by slicing the saved 3MF projects
+*.gcode
+*.gcode.3mf
+
+# Local credentials, if introduced later
+.env
+.env.*
+!.env.example

@@ -1,0 +1,103 @@
+{
+  "status": "PASS",
+  "scope": "Independent read-back of exported 3MF and STL, digital geometry only; no physical fit or load test.",
+  "source": "/Users/pierce/Documents/3D Prints/Caliper Holder/Original/Caliper_Holder_for_French_Cleat_saved_2026-10-14_0948.3mf",
+  "output_3mf": "/Users/pierce/Documents/3D Prints/Caliper Holder/Revisions/v01-32mm-center/Caliper_Holder_v01_32mm_Center.3mf",
+  "original_minimum_gap_mm": 28.92079,
+  "new_front_clearance_sections": [
+    {
+      "x_mm": 7.0001,
+      "left_edge_z_mm": -24.19641016,
+      "right_edge_z_mm": 7.80358984,
+      "clear_width_mm": 32.0
+    },
+    {
+      "x_mm": 8.0,
+      "left_edge_z_mm": -24.19641016,
+      "right_edge_z_mm": 7.80358984,
+      "clear_width_mm": 32.0
+    },
+    {
+      "x_mm": 10.0,
+      "left_edge_z_mm": -24.19641016,
+      "right_edge_z_mm": 7.80358984,
+      "clear_width_mm": 32.0
+    },
+    {
+      "x_mm": 13.999,
+      "left_edge_z_mm": -24.19641016,
+      "right_edge_z_mm": 7.80358984,
+      "clear_width_mm": 32.0
+    },
+    {
+      "x_mm": 14.001,
+      "left_edge_z_mm": -24.19641016,
+      "right_edge_z_mm": 7.80358984,
+      "clear_width_mm": 32.0
+    },
+    {
+      "x_mm": 15.0,
+      "left_edge_z_mm": -24.19641016,
+      "right_edge_z_mm": 7.80358984,
+      "clear_width_mm": 32.0
+    },
+    {
+      "x_mm": 15.9999,
+      "left_edge_z_mm": -24.19641016,
+      "right_edge_z_mm": 7.80358984,
+      "clear_width_mm": 32.0
+    }
+  ],
+  "original_volume_mm3": 44759.160868667794,
+  "output_volume_mm3": 44626.017269159805,
+  "removed_volume_mm3": 133.1435995081624,
+  "added_volume_mm3": 4.0614622776047327e-11,
+  "removed_material_clipped_to_cut_bounds_local_mm": [
+    [
+      7.0,
+      -1.12104797,
+      -24.19641016
+    ],
+    [
+      16.0,
+      16.686242277186583,
+      7.803589840000001
+    ]
+  ],
+  "removed_material_volume_outside_intended_tip_cutter_mm3": -2.1461943333633826e-11,
+  "backplate_and_cleat_symmetric_difference_volume_mm3": 0.0,
+  "output_local_bounds_mm": [
+    [
+      -16.0,
+      -47.5,
+      -40.0
+    ],
+    [
+      16.0,
+      47.5,
+      40.0
+    ]
+  ],
+  "outer_bounds_unchanged": true,
+  "body_count": 1,
+  "watertight": true,
+  "consistent_winding": true,
+  "placement_and_component_transforms_unchanged": true,
+  "project_settings_byte_identical": true,
+  "object_extruder_and_plate_filament_mapping_unchanged": true,
+  "exported_stl_matches_placed_3mf_symmetric_difference_mm3": 0.0,
+  "stl_bounds_mm": [
+    [
+      159.0,
+      112.5,
+      0.0
+    ],
+    [
+      191.0,
+      207.5,
+      80.0
+    ]
+  ],
+  "stl_watertight_single_body": true,
+  "conclusion": "A 32 mm minimum center opening exists across the projecting supports. Only the inner front tips were trimmed. The complete backing, rear French cleat, outside dimensions, original print placement, slicer settings and material assignments were retained."
+}

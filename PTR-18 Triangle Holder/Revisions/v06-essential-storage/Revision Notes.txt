@@ -1,0 +1,25 @@
+PTR-18 PLUS — v06 ESSENTIAL STORAGE
+October 14, 2026
+
+Reduced storage to the user's measured attachments only:
+- Two tall-pin pockets: 9.8 mm diameter x 16 mm deep.
+- Two short-pin pockets: 9.8 mm diameter x 8 mm deep.
+- Six screw-head pockets: 6.8 mm diameter x 2.5 mm deep.
+- One 4.2 mm Allen-key through-hole.
+
+The four pin pockets are grouped left and the six screw-head pockets right.
+All six spare pockets and their underside bosses are removed. The tray remains
+absent. French cleat, cutout hook and detached-fence channel are unchanged.
+
+Full hanger: PTR18_Hanger_v06_Essential_Storage_TEST_FIT.3mf
+Bambu H2D / PLA estimate: 9 h 59 min 2 sec; 417.48 g including preparation/supports.
+
+Reuse the existing v04 fit projects; their geometry is unchanged. Previously
+printed v04 samples do not need reprinting because of this revision:
+../v04-round-key-hole/PTR18_Fit_Check_Plate_v04.3mf
+../v04-round-key-hole/Attachment_Pockets_Fit_v04.3mf
+../v04-round-key-hole/Allen_Key_Hole_Fit_v04.3mf
+
+The main model is a single watertight solid and slices without warnings.
+Saved side orientation and print settings remain unchanged. Physical fit and
+loaded strength remain unverified. See ../../Print Notes.txt for fit checks.

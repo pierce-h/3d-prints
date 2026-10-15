@@ -1,0 +1,68 @@
+{
+    "error_string": "Success.",
+    "export_time": 0,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 20,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 75.48345184326172,
+                "Bridge": 163.080078125,
+                "Custom": 293.27655029296875,
+                "Flush": 26.0,
+                "Gap infill": 0.34419360756874084,
+                "Inner wall": 5047.04443359375,
+                "Internal solid infill": 447.9608154296875,
+                "Outer wall": 3634.8759765625,
+                "Overhang wall": 140.48167419433594,
+                "Sparse infill": 1671.5447998046875,
+                "Top surface": 101.7530746459961,
+                "Travel": 2110.64697265625,
+                "Undefined": 2109.077880859375
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFA00",
+                    "id": 2,
+                    "main_used_g": 179.7745361328125,
+                    "total_used_g": 179.7745361328125
+                }
+            ],
+            "generate_support_material_time": 22,
+            "id": 1,
+            "infill_time": 57,
+            "layer_filament_change": 0,
+            "main_predication": 13369.4287109375,
+            "make_perimeters_time": 68,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 99.0,
+                        "height": 200.0,
+                        "width": 85.00100708007813,
+                        "x": 132.49949645996094,
+                        "y": 110.5,
+                        "z": -1.4210854715202004e-14
+                    },
+                    "id": 5,
+                    "name": "Screwdriver_Holder_FC_left_4_5-8in.stl",
+                    "triangle_count": 11200
+                }
+            ],
+            "sliced_time": 917,
+            "sliced_time_with_cache": 743,
+            "total_predication": 13713.13671875,
+            "triangle_count": 11200,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 5.0,
+    "upward_compatible_machine": [
+        "Bambu Lab H2D Pro 0.4 nozzle"
+    ],
+    "wall_loops": 3
+}

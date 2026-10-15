@@ -1,0 +1,481 @@
+{
+  "result": "PASS",
+  "source_gcode": "/tmp/bench-weld-slice/plate_1.gcode",
+  "scope": "Model, support and brim motions including spiral lift arcs; machine startup and Custom feature moves excluded. Bounds use arc extrema, not only endpoints.",
+  "slicer_result": {
+    "error_string": "Success.",
+    "export_time": 7697,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 32,
+    "return_code": 0,
+    "sliced_plates": [
+      {
+        "feature_type_times": {
+          "Bottom surface": 525.94873046875,
+          "Bridge": 2508.311767578125,
+          "Custom": 302.6473083496094,
+          "Flush": 26.0,
+          "Gap infill": 662.5554809570312,
+          "Inner wall": 12796.3251953125,
+          "Internal solid infill": 6680.42822265625,
+          "Outer wall": 8378.3388671875,
+          "Overhang wall": 1082.7493896484375,
+          "Sparse infill": 27875.78515625,
+          "Support": 22701.76953125,
+          "Support interface": 561.0032348632812,
+          "Top surface": 1154.71337890625,
+          "Travel": 12636.5546875,
+          "Undefined": 12634.986328125
+        },
+        "filament_change_times": 0,
+        "filaments": [
+          {
+            "filament_id": "GFA00",
+            "id": 1,
+            "main_used_g": 685.4766845703125,
+            "total_used_g": 685.4766845703125
+          }
+        ],
+        "generate_support_material_time": 47043,
+        "id": 1,
+        "infill_time": 1342,
+        "layer_filament_change": 0,
+        "main_predication": 96638.453125,
+        "make_perimeters_time": 241,
+        "obj_cached_cnt": 0,
+        "objects": [
+          {
+            "bbox": {
+              "depth": 116.0,
+              "height": 201.0,
+              "width": 222.0,
+              "x": 64.0,
+              "y": 97.0,
+              "z": 0.0
+            },
+            "id": 5,
+            "name": "Bench_Cookie_Organizer_v01_Welded.stl",
+            "triangle_count": 33860
+          }
+        ],
+        "sliced_time": 60578,
+        "sliced_time_with_cache": 11571,
+        "total_predication": 96991.53125,
+        "triangle_count": 33860,
+        "warning_message": ""
+      }
+    ],
+    "sparse_infill_density": 12.0,
+    "upward_compatible_machine": [
+      "Bambu Lab H2D Pro 0.4 nozzle"
+    ],
+    "wall_loops": 3
+  },
+  "slicer_error_clear": true,
+  "slicer_warnings_clear": true,
+  "automatic_filament_map": "2",
+  "shared_nozzle_printable_xy_mm": [
+    [
+      25,
+      0
+    ],
+    [
+      325,
+      320
+    ]
+  ],
+  "all_feature_motion_bounds_mm": [
+    [
+      36.99211791861332,
+      69.6443155709059,
+      0.2
+    ],
+    [
+      312.13,
+      232.463,
+      201.4
+    ]
+  ],
+  "shared_area_margin_mm": {
+    "left": 11.992117918613317,
+    "right": 12.870000000000005,
+    "front": 69.6443155709059,
+    "back": 87.537
+  },
+  "spiral_lift_arc_count": 60463,
+  "spiral_lift_bounds_mm": [
+    [
+      36.99211791861332,
+      69.6443155709059,
+      0.2
+    ],
+    [
+      304.028434187133,
+      219.38610845860177,
+      201.4
+    ]
+  ],
+  "feature_bounds": {
+    "Support": {
+      "motion_count": 3117077,
+      "extrusion_count": 2851175,
+      "motion_bounds_mm": [
+        [
+          36.99211791861332,
+          69.6443155709059,
+          0.2
+        ],
+        [
+          312.13,
+          232.463,
+          177.2
+        ]
+      ],
+      "extrusion_bounds_mm": [
+        [
+          37.161,
+          69.968,
+          0.2
+        ],
+        [
+          312.13,
+          232.463,
+          176.8
+        ]
+      ]
+    },
+    "Inner wall": {
+      "motion_count": 208496,
+      "extrusion_count": 202584,
+      "motion_bounds_mm": [
+        [
+          63.68770258358937,
+          96.34932378999177,
+          0.2
+        ],
+        [
+          287.1033947593118,
+          212.398,
+          200.8
+        ]
+      ],
+      "extrusion_bounds_mm": [
+        [
+          64.602,
+          97.602,
+          0.2
+        ],
+        [
+          285.398,
+          212.398,
+          200.8
+        ]
+      ]
+    },
+    "Outer wall": {
+      "motion_count": 160657,
+      "extrusion_count": 151255,
+      "motion_bounds_mm": [
+        [
+          62.42976337550993,
+          95.47915613162576,
+          0.2
+        ],
+        [
+          287.3808976949605,
+          212.79,
+          201.4
+        ]
+      ],
+      "extrusion_bounds_mm": [
+        [
+          64.21,
+          97.21,
+          0.2
+        ],
+        [
+          285.79,
+          212.79,
+          201.0
+        ]
+      ]
+    },
+    "Bottom surface": {
+      "motion_count": 960,
+      "extrusion_count": 957,
+      "motion_bounds_mm": [
+        [
+          50.598,
+          99.403,
+          0.2
+        ],
+        [
+          283.597,
+          192.84955004007236,
+          0.6
+        ]
+      ],
+      "extrusion_bounds_mm": [
+        [
+          66.403,
+          99.403,
+          0.2
+        ],
+        [
+          283.597,
+          192.803,
+          0.2
+        ]
+      ]
+    },
+    "Internal solid infill": {
+      "motion_count": 75653,
+      "extrusion_count": 69592,
+      "motion_bounds_mm": [
+        [
+          50.512,
+          72.351,
+          0.4
+        ],
+        [
+          299.445,
+          213.28648057937642,
+          201.2
+        ]
+      ],
+      "extrusion_bounds_mm": [
+        [
+          65.173,
+          98.173,
+          0.4
+        ],
+        [
+          284.827,
+          211.727,
+          200.8
+        ]
+      ]
+    },
+    "Sparse infill": {
+      "motion_count": 2720552,
+      "extrusion_count": 2707861,
+      "motion_bounds_mm": [
+        [
+          50.209,
+          72.368,
+          0.8
+        ],
+        [
+          299.85,
+          214.06623498142304,
+          200.4
+        ]
+      ],
+      "extrusion_bounds_mm": [
+        [
+          65.357,
+          98.357,
+          0.8
+        ],
+        [
+          284.643,
+          211.643,
+          200.0
+        ]
+      ]
+    },
+    "Floating vertical shell": {
+      "motion_count": 293386,
+      "extrusion_count": 266655,
+      "motion_bounds_mm": [
+        [
+          50.424,
+          95.427,
+          2.0
+        ],
+        [
+          299.224,
+          212.0224103663104,
+          200.2
+        ]
+      ],
+      "extrusion_bounds_mm": [
+        [
+          65.37,
+          98.372,
+          2.0
+        ],
+        [
+          284.63,
+          211.627,
+          200.0
+        ]
+      ]
+    },
+    "Bridge": {
+      "motion_count": 14625,
+      "extrusion_count": 14342,
+      "motion_bounds_mm": [
+        [
+          63.07209860711724,
+          72.365,
+          2.2
+        ],
+        [
+          286.5413315078482,
+          213.16795768209087,
+          200.2
+        ]
+      ],
+      "extrusion_bounds_mm": [
+        [
+          65.176,
+          98.176,
+          2.2
+        ],
+        [
+          284.658,
+          211.621,
+          200.2
+        ]
+      ]
+    },
+    "Gap infill": {
+      "motion_count": 28152,
+      "extrusion_count": 15267,
+      "motion_bounds_mm": [
+        [
+          50.243,
+          75.012,
+          3.0
+        ],
+        [
+          299.69,
+          208.957,
+          178.6
+        ]
+      ],
+      "extrusion_bounds_mm": [
+        [
+          65.098,
+          98.309,
+          3.0
+        ],
+        [
+          285.16,
+          194.194,
+          178.2
+        ]
+      ]
+    },
+    "Top surface": {
+      "motion_count": 83708,
+      "extrusion_count": 21152,
+      "motion_bounds_mm": [
+        [
+          62.37188127119824,
+          97.86066849215179,
+          3.0
+        ],
+        [
+          297.917,
+          213.151,
+          201.4
+        ]
+      ],
+      "extrusion_bounds_mm": [
+        [
+          64.843,
+          98.117,
+          3.0
+        ],
+        [
+          285.226,
+          211.883,
+          201.0
+        ]
+      ]
+    },
+    "Overhang wall": {
+      "motion_count": 7937,
+      "extrusion_count": 7879,
+      "motion_bounds_mm": [
+        [
+          64.40937474956336,
+          97.41,
+          6.6
+        ],
+        [
+          285.59,
+          212.09,
+          190.4
+        ]
+      ],
+      "extrusion_bounds_mm": [
+        [
+          64.41,
+          97.41,
+          6.6
+        ],
+        [
+          285.59,
+          212.09,
+          190.4
+        ]
+      ]
+    },
+    "Support interface": {
+      "motion_count": 15755,
+      "extrusion_count": 12601,
+      "motion_bounds_mm": [
+        [
+          61.59685826626476,
+          94.66628598265656,
+          125.4
+        ],
+        [
+          288.51556771287096,
+          214.96000000000004,
+          175.2
+        ]
+      ],
+      "extrusion_bounds_mm": [
+        [
+          63.487,
+          96.978,
+          125.4
+        ],
+        [
+          286.658,
+          212.94,
+          174.8
+        ]
+      ]
+    }
+  },
+  "out_of_bounds_motions": [],
+  "header": {
+    "1": "; HEADER_BLOCK_START",
+    "2": "; BambuStudio 02.08.02.61",
+    "3": "; model printing time: 1d 2h 51m 4s; total estimated time: 1d 2h 56m 31s",
+    "4": "; total layer number: 1005",
+    "5": "; total filament length [mm] : 226181.04",
+    "6": "; total filament volume [cm^3] : 544029.15",
+    "7": "; total filament weight [g] : 685.48",
+    "8": "; filament_density: 1.26",
+    "9": "; filament_diameter: 1.75",
+    "10": "; max_z_height: 201.00",
+    "11": "; filament: 1",
+    "12": "; support_material_on_wipe_tower: 0",
+    "end_line": 13,
+    "13": "; HEADER_BLOCK_END",
+    "14": "",
+    "15": "; CONFIG_BLOCK_START",
+    "16": "; accel_to_decel_enable = 0",
+    "17": "; accel_to_decel_factor = 50%",
+    "18": "; activate_air_filtration = 0",
+    "19": "; additional_cooling_fan_speed = 75"
+  },
+  "gcode_sha256": "ce73ba90124c2f8df953d983ac53a90b7831dcfaacb175c89006c885f8109274"
+}

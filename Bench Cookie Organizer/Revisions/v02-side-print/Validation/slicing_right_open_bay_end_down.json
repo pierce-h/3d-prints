@@ -1,0 +1,70 @@
+{
+    "error_string": "Success.",
+    "export_time": 5928,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 32,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 245.70156860351563,
+                "Bridge": 2200.249755859375,
+                "Custom": 302.65118408203125,
+                "Flush": 26.0,
+                "Gap infill": 603.1731567382813,
+                "Inner wall": 15596.3173828125,
+                "Internal solid infill": 3627.762939453125,
+                "Outer wall": 8739.7919921875,
+                "Overhang wall": 820.3243408203125,
+                "Sparse infill": 28229.2421875,
+                "Support": 15345.9873046875,
+                "Support interface": 408.6663818359375,
+                "Top surface": 557.6985473632813,
+                "Travel": 8600.0107421875,
+                "Undefined": 8598.4423828125
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFA00",
+                    "id": 1,
+                    "main_used_g": 665.2221069335938,
+                    "total_used_g": 665.22216796875
+                }
+            ],
+            "generate_support_material_time": 13579,
+            "id": 1,
+            "infill_time": 1011,
+            "layer_filament_change": 0,
+            "main_predication": 83830.4609375,
+            "make_perimeters_time": 491,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 116.0,
+                        "height": 222.0,
+                        "width": 201.0,
+                        "x": 74.5,
+                        "y": 97.0,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "Bench_Cookie_Organizer_v01_Welded.stl",
+                    "triangle_count": 33860
+                }
+            ],
+            "sliced_time": 25673,
+            "sliced_time_with_cache": 10390,
+            "total_predication": 84183.546875,
+            "triangle_count": 33860,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 12.0,
+    "upward_compatible_machine": [
+        "Bambu Lab H2D Pro 0.4 nozzle"
+    ],
+    "wall_loops": 3
+}

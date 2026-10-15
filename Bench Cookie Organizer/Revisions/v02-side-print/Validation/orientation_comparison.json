@@ -1,0 +1,69 @@
+{
+  "status": "Geometry unchanged; all three orientations slice successfully. Physical print untested.",
+  "selected": "left_hole_bank_end_down",
+  "transformation": [
+    [
+      0.0,
+      0.0,
+      1.0,
+      200.5
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      115.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "print_bounds_mm": [
+    [
+      74.5,
+      97.0,
+      0.0
+    ],
+    [
+      275.5,
+      213.0,
+      222.0
+    ]
+  ],
+  "installed_dimensions_width_depth_height_mm": [
+    222,
+    116,
+    201
+  ],
+  "geometry_identical_to_v01": true,
+  "process_settings_identical_to_v01": true,
+  "watertight": true,
+  "consistent_winding": true,
+  "connected_bodies": 1,
+  "comparison": {
+    "upright": {
+      "seconds": 96991.53125,
+      "total_filament_g": 685.4766845703125,
+      "support_and_interface_seconds": 23262.77276611328
+    },
+    "left_hole_bank_end_down": {
+      "seconds": 79039.0,
+      "total_filament_g": 643.8272094726562,
+      "support_and_interface_seconds": 11769.204513549805
+    },
+    "right_open_bay_end_down": {
+      "seconds": 84183.546875,
+      "total_filament_g": 665.22216796875,
+      "support_and_interface_seconds": 15754.653686523438
+    }
+  }
+}

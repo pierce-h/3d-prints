@@ -1,0 +1,28 @@
+PTR-18 PLUS — v04 ROUND ALLEN-KEY HOLE
+October 14, 2026
+
+Replaced the closed Allen-key slot with a simple 4.2 mm round through-hole
+through the 6 mm shelf. The standard 3 mm key's long leg hangs below; its bend
+rests above. The hole has no bottom, enclosing cup or chamfer, as requested.
+
+Attachment pockets, cutout hook, measured-fence channel and tray are unchanged.
+
+Files and Bambu H2D / PLA estimates
+Tiny key sample: Allen_Key_Hole_Fit_v04.3mf
+12 min 6 sec; 1.72 g including preparation/supports.
+
+Attachment check: Attachment_Pockets_Fit_v04.3mf
+41 min 59 sec; 15.35 g including preparation/supports.
+
+Complete five-piece check: PTR18_Fit_Check_Plate_v04.3mf
+2 h 13 min 55 sec; 77.78 g including preparation/supports.
+
+Full hanger: PTR18_Hanger_v04_Round_Key_Hole_TEST_FIT.3mf
+11 h 18 min 47 sec; 449.73 g including preparation/supports.
+
+The 16 x 6 x 14 mm key sample matches the hole and shelf thickness. Both
+standalone samples also appear on the full fit-check plate. Keep the saved
+side orientation and 0.20 mm / 6 wall / 30% gyroid settings for comparable fit.
+
+All four projects slice successfully without warnings. Physical fit and loaded
+strength remain unverified. See ../../Print Notes.txt for the fit-check procedure.

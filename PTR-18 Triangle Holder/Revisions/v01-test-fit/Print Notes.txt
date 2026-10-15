@@ -1,0 +1,85 @@
+PTR-18 PLUS TRIANGLE HOLDER
+Updated: October 14, 2026
+
+LATEST: v01 — original French-cleat hanger, detached-fence cradle and hardware shelf.
+Status: FIRST-FIT PROTOTYPE. Geometry and slicing verified. Physical fit and
+loaded performance have not been tested.
+
+PRINT THE SMALL FIT CHECKS FIRST
+Revisions/v01-test-fit/PTR18_Fit_Check_Plate_v01.3mf
+Four separate pieces: cleat profile, hanging peg, fence channel and hardware holes.
+Bambu H2D / PLA estimate: 1 h 35 min 50 sec; 56.92 g including preparation/supports.
+
+FULL HANGER
+Revisions/v01-test-fit/PTR18_Hanger_v01_TEST_FIT.3mf
+Bambu H2D / PLA estimate: 10 h 48 min 4 sec; 448.05 g including preparation/supports.
+Mounted size: 260 mm wide x 123 mm tall x 131.5 mm overall depth.
+Saved print pose: one side down, 123 x 131.5 mm footprint, 260 mm tall.
+Mounted_Preview.png shows two views; Print_Preview.png shows its print pose.
+The light blue preview is for visibility.
+
+STORAGE
+- Two 16 mm hanging shafts with 19.2 mm retaining heads, 192 mm apart.
+  Based on TSO's published 20 mm holes and 96 mm spacing. There is 24 mm
+  clear space between each root face and retaining shoulder.
+- Open-ended fence cradle: 40 mm clear front-to-back, 17 mm retaining lips.
+  A longer fence may overhang the ends. This is a chosen storage capacity;
+  TSO does not publish the detached fence's cross-section or length.
+- Eight 6.6 mm clearance holes for M6 pins, six 4.6 mm holes for M4 screws,
+  two 8.8 mm holes for possible M8 extras, and a 3.8 mm hex-key hole.
+  Hardware drops into the holes; the printed holes are not threaded.
+- Small loose-parts tray with approximately 92 x 13 mm clear floor area.
+  Extra attachment types and head diameters are unknown, so simultaneous
+  capacity depends on actual size. M8 positions are spare capacity, not a
+  claim that the standard PTR kit contains M8 hardware.
+
+FRENCH CLEAT
+Designed around the user's nominal 3/4-inch plywood wall rail and assumed
+45-degree bevel. Two integrated 70 mm-wide hooks project 17.5 mm behind the back.
+The back bears against the FRONT of the wooden rail below its bevel; it does
+not use full-depth wall spacers. Actual wood thickness, bevel, rail height and
+clearance to fasteners must be checked with the cleat sample.
+
+HOW TO CHECK THE SAMPLES
+1. Cleat sample: confirm it settles on the rail with bevel contact and its flat
+   back supported by the front of the rail. It should not rock or bottom out
+   against the wall before the bevel seats.
+2. Peg sample: pass its head through a large triangle hole. The triangle should
+   settle around the smaller shaft behind the head and lift off intentionally.
+   Hold the tool securely for this test; the sample is not a mounted hanger.
+3. Fence channel: check the detached fence sits securely in the 40 mm channel
+   and can be removed without catching. This sample is a short cross-section.
+4. Hardware sample: test pins, screws, key and extras. Its four holes are 4.6,
+   6.6, 8.8 and 3.8 mm; the largest hole makes the sequence easy to identify.
+   Its 6 mm thickness and hole print orientation match the main shelf.
+
+FULL-ASSEMBLY FIT CHECK
+The single-peg sample cannot verify pair spacing or clearance below the shelf.
+Intended tool position is a straight leg across the top, triangle point down,
+using the first and third large holes along that leg from the right-angle corner
+(one hole skipped). Check the actual tool against the 192 mm peg spacing.
+Near the backing, braces permit about 66.8 mm from peg-hole centre to the top
+edge while allowing 2 mm to lift the tool. Actual hole-to-edge offsets are not
+published. Check the triangle hangs freely and lifts off without striking the
+shelf or braces before relying on the full hanger.
+
+PRINT SETTINGS
+Bambu Lab H2D, 0.4 mm nozzle; Bambu PLA Basic in filament slot 1.
+0.20 mm layers, 6 walls, 30% gyroid, 6 top and 6 bottom layers.
+Automatic tree supports, critical regions only, 30-degree threshold; supports
+may start on the model. 6 mm outer brim with 0.1 mm gap.
+Side orientation keeps the pegs' gravity-bending plane within the layers.
+It does not establish a load rating. Remove support remnants from the peg
+heads, shelf and cleat contact surfaces before checking fit.
+Estimates depend on actual printer and filament. No print was sent to a printer.
+
+VALIDATION
+Main hanger and each sample are single watertight, consistently oriented solids.
+Main hardware holes and sample holes were independently checked for clear
+through-passages. Both projects slice with return code 0 and no slice warnings
+in Bambu Studio 02.08.02.61. Reports are under Revisions/v01-test-fit/Validation.
+These checks establish digital printability, not physical fit or strength.
+
+PRINT HISTORY
+Not printed or physically fit-tested yet. Record filament, fit corrections and
+loaded observations here; use a new revision for geometry or setting changes.

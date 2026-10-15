@@ -1,0 +1,87 @@
+{
+  "status": "Geometry checked; physical print and fit untested.",
+  "original_designer": "dave3ddiy",
+  "original_license": "BY-NC-SA",
+  "source_sha256": "584856aa87c8d6b3cf9442189c0db1d4e69bfd3da90292b2176a75de7e8a3499",
+  "feature": "Recessed circular maker emblem filled flush",
+  "recess_depth_mm": 0.5,
+  "original_front_plane_z_mm": 6.27499962,
+  "local_bounds_mm": [
+    [
+      -50.0000038,
+      -63.5,
+      -17.7749996
+    ],
+    [
+      50.0000038,
+      63.5,
+      17.7749996
+    ]
+  ],
+  "print_bounds_mm": [
+    [
+      157.2250004,
+      96.5,
+      -7.105427357601002e-15
+    ],
+    [
+      192.77499960000003,
+      223.5,
+      100.0000076
+    ]
+  ],
+  "print_transform": [
+    [
+      2.22044605e-16,
+      2.4492936e-16,
+      -1.0,
+      175.0
+    ],
+    [
+      -2.46519033e-32,
+      1.0,
+      2.4492936e-16,
+      160.0
+    ],
+    [
+      1.0,
+      -2.46519033e-32,
+      2.22044605e-16,
+      50.0000038
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "source_volume_mm3": 101883.8804491213,
+  "final_volume_mm3": 104067.01829659208,
+  "added_volume_mm3": 2183.1378474707926,
+  "removed_volume_mm3": 5.051514762044462e-15,
+  "added_bounds_mm": [
+    [
+      -41.8832359,
+      -52.3476105,
+      5.77499962
+    ],
+    [
+      41.155323,
+      30.6641407,
+      6.27499962
+    ]
+  ],
+  "triangle_count": 140,
+  "watertight": true,
+  "consistent_winding": true,
+  "connected_bodies": 1,
+  "preserved": [
+    "tool slot",
+    "French cleat",
+    "external dimensions",
+    "original placement",
+    "printer and filament settings",
+    "source attribution and license"
+  ]
+}

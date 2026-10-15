@@ -1,0 +1,84 @@
+{
+    "error_string": "Success.",
+    "export_time": 385,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 11,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 26.974071502685547,
+                "Bridge": 21.140823364257813,
+                "Brim": 47.808799743652344,
+                "Custom": 301.443115234375,
+                "Flush": 26.0,
+                "Gap infill": 126.70528411865234,
+                "Inner wall": 2847.43896484375,
+                "Internal solid infill": 489.0254821777344,
+                "Outer wall": 985.5343627929688,
+                "Overhang wall": 69.87515258789063,
+                "Sparse infill": 151.31729125976563,
+                "Support": 155.51275634765625,
+                "Support interface": 5.382558822631836,
+                "Top surface": 62.226226806640625,
+                "Travel": 821.500732421875,
+                "Undefined": 815.134765625
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFG03",
+                    "id": 4,
+                    "main_used_g": 32.888729095458984,
+                    "total_used_g": 32.888729095458984
+                }
+            ],
+            "generate_support_material_time": 61,
+            "id": 1,
+            "infill_time": 23,
+            "layer_filament_change": 0,
+            "main_predication": 5784.91943359375,
+            "make_perimeters_time": 34,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 24.0,
+                        "height": 72.0,
+                        "width": 19.0,
+                        "x": 145.5,
+                        "y": 143.0,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "A_Plus2mm",
+                    "triangle_count": 1474
+                },
+                {
+                    "bbox": {
+                        "depth": 24.0,
+                        "height": 72.0,
+                        "width": 19.0,
+                        "x": 185.5,
+                        "y": 143.0,
+                        "z": 0.0
+                    },
+                    "id": 9,
+                    "name": "B_Plus3mm",
+                    "triangle_count": 1480
+                }
+            ],
+            "sliced_time": 525,
+            "sliced_time_with_cache": 380,
+            "total_predication": 6131.99658203125,
+            "triangle_count": 2954,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 30.0,
+    "upward_compatible_machine": [
+        "Bambu Lab H2D Pro 0.4 nozzle"
+    ],
+    "wall_loops": 6
+}

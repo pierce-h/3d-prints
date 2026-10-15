@@ -1,0 +1,135 @@
+{
+  "method": "Support extrusion endpoints transformed into installed coordinates; 0.2 mm interior margin. Covers support and support-interface G0/G1/G2/G3 endpoints.",
+  "total_support_endpoints": 515667,
+  "pockets": [
+    {
+      "type": "pin body pocket",
+      "x": -112,
+      "z": 40,
+      "diameter": 12.0,
+      "depth": 6,
+      "support_points_inside": 0
+    },
+    {
+      "type": "pin body pocket",
+      "x": -112,
+      "z": 64,
+      "diameter": 12.0,
+      "depth": 13,
+      "support_points_inside": 0
+    },
+    {
+      "type": "pin body pocket",
+      "x": -88,
+      "z": 40,
+      "diameter": 12.0,
+      "depth": 6,
+      "support_points_inside": 0
+    },
+    {
+      "type": "pin body pocket",
+      "x": -88,
+      "z": 64,
+      "diameter": 12.0,
+      "depth": 13,
+      "support_points_inside": 0
+    },
+    {
+      "type": "pin body pocket",
+      "x": -64,
+      "z": 40,
+      "diameter": 12.0,
+      "depth": 6,
+      "support_points_inside": 0
+    },
+    {
+      "type": "pin body pocket",
+      "x": -64,
+      "z": 64,
+      "diameter": 12.0,
+      "depth": 13,
+      "support_points_inside": 0
+    },
+    {
+      "type": "pin body pocket",
+      "x": -40,
+      "z": 40,
+      "diameter": 12.0,
+      "depth": 6,
+      "support_points_inside": 0
+    },
+    {
+      "type": "pin body pocket",
+      "x": -40,
+      "z": 64,
+      "diameter": 12.0,
+      "depth": 13,
+      "support_points_inside": 0
+    },
+    {
+      "type": "screw head pocket",
+      "x": -17,
+      "z": 37,
+      "diameter": 8.5,
+      "depth": 4,
+      "support_points_inside": 0
+    },
+    {
+      "type": "screw head pocket",
+      "x": -17,
+      "z": 52,
+      "diameter": 8.5,
+      "depth": 4,
+      "support_points_inside": 0
+    },
+    {
+      "type": "screw head pocket",
+      "x": 1,
+      "z": 37,
+      "diameter": 8.5,
+      "depth": 4,
+      "support_points_inside": 0
+    },
+    {
+      "type": "screw head pocket",
+      "x": 1,
+      "z": 52,
+      "diameter": 8.5,
+      "depth": 4,
+      "support_points_inside": 0
+    },
+    {
+      "type": "screw head pocket",
+      "x": 19,
+      "z": 37,
+      "diameter": 8.5,
+      "depth": 4,
+      "support_points_inside": 0
+    },
+    {
+      "type": "screw head pocket",
+      "x": 19,
+      "z": 52,
+      "diameter": 8.5,
+      "depth": 4,
+      "support_points_inside": 0
+    },
+    {
+      "type": "extra attachment pocket",
+      "x": 54,
+      "z": 64,
+      "diameter": 16.0,
+      "depth": 13,
+      "support_points_inside": 0
+    },
+    {
+      "type": "extra attachment pocket",
+      "x": 101,
+      "z": 64,
+      "diameter": 16.0,
+      "depth": 13,
+      "support_points_inside": 0
+    }
+  ],
+  "key_pocket_support_points_inside": 0
+}

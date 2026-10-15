@@ -1,0 +1,76 @@
+PTR-18 ATTACHMENT CLEARANCE TEST — v08
+October 15, 2026
+
+Project: PTR18_Attachment_Clearance_Test_v08_PETG_Right.3mf
+This is a pair of small fit samples. The full holder remains v07.
+
+WHY THIS TEST
+The user finished the v07 PETG Matte print. The shape is right, it feels strong,
+and the surface is better than expected, with visible lines still present.
+All attachment pockets are reported about 2–3 mm too narrow. This is an
+estimate, not a measured opening or attachment diameter. Loaded strength has
+not been established by this feedback.
+
+The actual v07 file has four 9.8 mm pin pockets and six 6.8 mm screw pockets,
+with no scale error. These were based on the earlier 9 mm and 6 mm body
+measurements and provide 0.8 mm nominal diametral clearance. Holes print
+horizontally in the saved side pose; sagging roofs or support remnants are
+possible contributors, but the cause of the physical shortfall is unconfirmed.
+
+TWO SAMPLES
+A — ONE corner notch at the small-screw end:
+  Short pin: 11.8 mm diameter x 8 mm deep
+  Tall pin:  11.8 mm diameter x 16 mm deep
+  Screw:      8.8 mm diameter x 2.5 mm deep
+  All diameters are 2 mm larger than v07.
+
+B — TWO corner notches at the small-screw end:
+  Short pin: 12.8 mm diameter x 8 mm deep
+  Tall pin:  12.8 mm diameter x 16 mm deep
+  Screw:      9.8 mm diameter x 2.5 mm deep
+  All diameters are 3 mm larger than v07.
+
+Each shelf bank is 72 x 24 mm, with the original 6 mm shelf thickness and
+3 mm deep-pocket walls/floors. The shallow screw floor is 3.5 mm. An end foot
+provides flat bed contact. Printed size of each bank is 19 x 24 x 72 mm tall.
+The pocket axes are horizontal during printing, as on the full holder.
+
+PRINT AND TEST
+Saved setup: Bambu H2D / 0.4 mm, black Bambu PETG Matte (project filament 4),
+RIGHT nozzle. Original 0.20 mm layers, 6 walls, 30% gyroid, tree supports and
+6 mm brim retained. Outer-wall speed is limited to 100 mm/s, down from the
+v07 standard-nozzle limit of 200 mm/s; actual speed may be lower.
+
+Bambu slice estimate for BOTH samples: 1 h 42 min 12 sec / 32.89 g,
+including preparation and supports. Slicing succeeded with no plate warning;
+the exported slice uses only PETG filament 4 and right extruder 2.
+No print was sent. Confirm the actual PETG spool mapping when sending.
+
+Let the parts cool, remove supports from the openings, and turn the samples
+so their pockets face up. Insert attachment bodies first, with threads up.
+Try the short pins, tall pins and screw heads separately in both banks.
+Choose the smallest opening for each type that allows easy insertion and
+removal. Report A or B for each type; neither or both too loose is also useful.
+Depths are unchanged. The fit result will determine the full-holder revision.
+
+The smaller samples cannot reproduce every surface effect of the 260 mm-tall
+holder, so their finish alone will not establish the cause of the earlier bands.
+
+FINISHING THE EXISTING PRINT
+Light wet-sanding is a practical way to reduce ridges on broad faces. Start
+on a hidden patch to assess the effect on matte-black appearance. Preserve
+cleat mating surfaces and pocket depths. A change to 0.16 mm layers may make
+ordinary layer texture finer but is not a confirmed fix for the irregular bands.
+PETG sanding reference: https://help.prusa3d.com/article/petg_2059
+
+FILES AND VALIDATION
+Preview.png shows the actual CAD with the pocket mouths facing up for use;
+Print_Preview.png shows the saved side print orientation. Blue is for preview
+visibility only; the project filament remains black.
+Validation/geometry.json records dimensions, section/floor checks and the
+reference project hash. Both banks are individually single, watertight solids.
+Validation/slicing.json, slicing.log and slice_info.config preserve the slice.
+Source scripts: ../../Source/build_clearance_test_v08.py and
+../../Source/finalize_clearance_test_v08.py.
+
+Physical fit and performance of v08 remain untested.

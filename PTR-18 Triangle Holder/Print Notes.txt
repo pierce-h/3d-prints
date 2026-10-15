@@ -1,0 +1,184 @@
+PTR-18 PLUS TRIANGLE HOLDER
+Updated: October 15, 2026
+
+LATEST PRINT SETUP: v07 — black Bambu PETG Matte on the RIGHT extruder.
+Geometry remains v06: ten measured attachment pockets and one Allen-key hole.
+Status: FIRST PRINT COMPLETE. The user reports the shape is right and the
+PETG feels strong, but all attachment pockets are about 2–3 mm too narrow.
+That size shortfall is an estimate; printed openings have not been measured.
+Loaded performance and specific cleat, fence and Allen-key fit remain unconfirmed.
+
+The v08 attachment clearance test is the next fit check; the full holder
+remains v07 until a pocket size is physically confirmed. The v04 attachment
+sample is a reference baseline. Other v04 fit geometry is unchanged. Those
+saved projects still use PLA, and their estimates below are PLA estimates.
+
+QUICK ALLEN-KEY FIT CHECK
+Revisions/v04-round-key-hole/Allen_Key_Hole_Fit_v04.3mf
+A 16 x 6 x 14 mm sample with the same 4.2 mm through-hole as the shelf.
+Bambu H2D / PLA estimate: 12 min 6 sec; 1.72 g including preparation/supports.
+
+NEXT ATTACHMENT CLEARANCE TEST — v08
+Revisions/v08-clearance-test/PTR18_Attachment_Clearance_Test_v08_PETG_Right.3mf
+Two small samples compare diameter increases from the printed v07 pockets:
+- A, one corner notch: +2 mm; 11.8 mm pin pockets and 8.8 mm screw pocket.
+- B, two corner notches: +3 mm; 12.8 mm pin pockets and 9.8 mm screw pocket.
+Each sample has three closed-bottom pockets: short pin 8 mm deep, tall pin
+16 mm deep, and screw head 2.5 mm deep. The holes print horizontally, matching
+the full holder's saved orientation. Bambu PETG Matte, RIGHT nozzle, 0.20 mm
+layers, with the outer-wall speed limited to 100 mm/s. Physical fit is pending.
+Bambu slice verified: about 1 h 42 min / 32.89 g for both samples, including
+preparation and supports. Slice uses only filament 4, right nozzle, with no
+plate warnings. Preview: Revisions/v08-clearance-test/Preview.png.
+Choose the smallest pockets that let the actual pieces drop in and lift out
+freely before revising or reprinting the full holder.
+
+REFERENCE ATTACHMENT FIT SAMPLE — v04 BASELINE
+Revisions/v04-round-key-hole/Attachment_Pockets_Fit_v04.3mf
+One small piece checks the three measured attachment types, bodies/heads down
+and threads up. It retains the pocket diameters now reported too small.
+Bambu H2D / PLA estimate: 41 min 59 sec; 15.35 g including preparation/supports.
+
+COMPLETE FIT-CHECK PLATE
+Revisions/v04-round-key-hole/PTR18_Fit_Check_Plate_v04.3mf
+Five separate pieces: Cleat_Fit, Cutout_Hook_Fit, Fence_Channel_Fit,
+Attachment_Pockets_Fit and Allen_Key_Hole_Fit.
+Its attachment sample is the original baseline; use v08 for new pocket sizing.
+Bambu H2D / PLA estimate: 2 h 13 min 55 sec; 77.78 g including preparation/supports.
+
+FULL HANGER
+Revisions/v07-petg-matte-right-nozzle/PTR18_Hanger_v07_PETG_Matte_Right_TEST_FIT.3mf
+Bambu H2D / PETG Matte estimate shown in Studio: approximately 9 h 50 min; 419.08 g.
+Right nozzle uses project filament 4 (black PETG Matte); left nozzle is unused.
+The setup send dialog showed the right nozzle mapped to AMS A1. The user
+subsequently printed this revision; see the October 15 feedback below.
+Mounted size: 260 mm wide x 135 mm tall x 99.5 mm overall depth.
+Saved print pose: one side down, 135 x 99.5 mm footprint, 260 mm tall.
+Geometry previews remain in Revisions/v06-essential-storage/: Mounted_Preview.png
+shows the storage and cutout hook; Print_Preview.png shows its print pose.
+Light blue previews are for visibility; the v07 print material is black.
+
+TRIANGLE SUPPORT
+An 80 mm-wide shelf hooks into the triangle's cutout. It has an 8 mm clear
+plate gap, an 8 mm-thick bearing floor and a 10 mm retaining lip.
+The user described the plate as roughly the same thickness as the other TSO
+tool. Its exact thickness and usable cutout dimensions remain unknown; 8 mm
+is a design clearance, not a measured plate thickness.
+
+The full model allows up to 77 mm from the cutout's upper bearing edge to the
+triangle's outer top edge, while allowing 12 mm upward movement for removal.
+This assumes the actual cutout admits the hook and the triangle can lift clear
+of its 10 mm lip. The hook sample checks local fit across the full 80 mm width;
+it does not reproduce the storage shelf overhead. Check that clearance on the
+full assembly before relying on it.
+
+STORAGE
+- Detached fence: user measured 430 x 20 x 10 mm. It stores on its 10 mm edge
+  in a 12 mm-wide open-ended channel, with 13 mm retaining lips. Its 20 mm
+  height leaves 7 mm exposed above the lips. Center it so it overhangs the
+  260 mm holder by 85 mm at each end.
+- Two tall-pin pockets: 9.8 mm diameter x 16 mm deep for measured 9 x 25 mm
+  bodies. 9 mm of body remains above the shelf, plus the thread.
+- Two short-pin pockets: 9.8 mm diameter x 8 mm deep for measured 9 x 12 mm
+  bodies. 4 mm of body remains above the shelf, plus the thread.
+- Six screw-head pockets: 6.8 mm diameter x 2.5 mm deep for measured 6 x 4 mm
+  heads. 1.5 mm of head remains above the shelf, plus the thread.
+  All these user measurements exclude the threads. The dedicated pockets
+  have 0.8 mm total diameter clearance (0.4 mm per side).
+- Allen key: one straight 4.2 mm through-hole through the 6 mm shelf, intended
+  for the standard 3 mm key. Its long leg hangs below the shelf and its bend
+  rests above. There is no bottom, enclosing cup or chamfer.
+
+The standard pin bodies and screw heads use the user's original measurements.
+The first print's attachment pockets are reported about 2–3 mm too narrow;
+actual opening measurements and a corrected clearance remain unconfirmed.
+Allen-key fit is also unconfirmed. The attachment pockets have closed bottoms
+and are not threaded. The Allen-key hole is open through the shelf, as requested.
+Thread lengths are not needed for body-first attachment storage.
+
+FRENCH CLEAT
+Designed around the user's nominal 3/4-inch plywood wall rail and assumed
+45-degree bevel. Two integrated 70 mm-wide hooks project 17.5 mm behind the back.
+The back bears against the FRONT of the wooden rail below its bevel. Actual
+wood thickness, bevel, rail height and fastener clearance need the cleat test.
+
+HOW TO CHECK THE SAMPLES
+1. Cleat_Fit: confirm the bevel seats and the flat back rests against the rail.
+   It should not rock or hit the wall before its bevel seats.
+2. Cutout_Hook_Fit: hold the triangle securely and test the 80 mm-wide hook in
+   the intended cutout. The plate must settle into the 8 mm gap and lift over
+   the retaining lip without binding. The sample is not a mounted hanger.
+3. Fence_Channel_Fit: place the fence upright, 20 mm tall and 10 mm across the
+   12 mm channel. Check easy removal. This is a short cross-section sample.
+4. v08 clearance test: compare both notched samples with bodies/heads down
+   and threads up. Check all three types. Confirm each drops in freely and
+   stays easy to grasp. Record which sample works for each type; do not assume
+   all three need the same diameter increase. The v04 Attachment_Pockets_Fit
+   retains the original 9.8 x 8, 9.8 x 16 and 6.8 x 2.5 mm baseline pockets.
+5. Allen_Key_Hole_Fit: insert the standard 3 mm key long leg first. Confirm
+   the leg slides freely through and the bend rests on the top. This sample
+   is also available as the standalone quick key-fit project.
+
+PRINT SETTINGS
+Full hanger: Bambu Lab H2D, RIGHT 0.4 mm nozzle; black Bambu PETG Matte,
+project filament slot 4. Walls, infill, supports and support interfaces follow
+the object's filament. The left nozzle is unused for this plate.
+0.20 mm layers, 6 walls, 30% gyroid, 6 top and 6 bottom layers.
+Automatic tree supports, critical regions only, 30-degree threshold; supports
+may start on the model. 6 mm outer brim with 0.1 mm gap.
+Keep the saved side orientation. Remove support remnants from the cutout hook,
+fence channel and cleat mating surfaces before checking fit. Inspect pocket
+openings for strings or rough edges. Estimates depend on printer and filament.
+
+SURFACE FINISH
+The first print has visible lines but looks better than the user expected.
+For smoothing this finished PETG part, try light wet sanding on a hidden patch
+first; it can change the matte surface appearance. Avoid altering the pocket
+openings or mating surfaces while evaluating finish. Smaller layer height is
+not a confirmed fix for the observed bands. The v08 sample limits outer-wall
+speed to 100 mm/s as a finish trial; its result has not yet been evaluated.
+
+VALIDATION
+The saved v07 project was checked against v06: same mesh apart from recentering
+and tiny numeric rounding. Its saved object/material mapping uses black Bambu
+PETG Matte on the right extruder, and the Studio slice completed successfully.
+The saved-project check is under Revisions/v07-petg-matte-right-nozzle/Validation.
+The v06 main hanger is a single watertight solid and slices with return code 0
+and no slice warnings. Its records are under Revisions/v06-essential-storage/Validation.
+The unchanged v04 fit projects retain their prior successful validation and
+slicing records under Revisions/v04-round-key-hole/Validation.
+These checks establish digital printability, not physical fit or a load rating.
+
+REVISION HISTORY
+v01-test-fit: pegs through the triangle holes, 40 mm fence channel and hardware
+through-holes. Preserved with its original Print Notes.txt.
+v02-cutout-hook-and-storage: replaces the pegs with a cutout hook; uses the
+measured fence dimensions; adds closed drop-in pockets and Allen-key storage.
+v03-measured-attachments: sizes ten dedicated pockets from user measurements;
+retains six spare pockets and adds a standalone attachment fit-check project.
+v04-round-key-hole: replaces the closed Allen-key pocket with a 4.2 mm
+through-hole and adds a tiny standalone key-hole sample.
+v05-no-top-tray: removes only the three raised walls of the short loose-parts
+tray. The flat shelf and shared fence-channel wall remain. Reuses v04 fit pieces.
+v06-essential-storage: removes all six spare pockets and their underside
+bosses. Regroups the ten measured attachment pockets; reuses v04 fit pieces.
+v07-petg-matte-right-nozzle: print-settings revision only; black Bambu PETG Matte
+on the right extruder. Uses v06 geometry and existing v04 fit geometry.
+v08-clearance-test: two attachment samples compare +2 mm and +3 mm pocket
+diameters in the full holder's print orientation. Full-holder geometry remains
+v07 pending a physical fit result.
+
+PRINT HISTORY
+October 15, 2026 — First v07 black Bambu PETG Matte print completed.
+- User reports the shape is right. Visible lines remain, but the finished
+  print looks better than expected. PETG feels strong to the user; this is a
+  subjective observation, not a load test or validated load rating.
+- All attachment pockets are estimated about 2–3 mm too narrow. The user
+  cannot measure the printed large and small openings yet. Do not treat this
+  estimate as a measured shrinkage correction.
+- Spool was loaded straight from the package. Garage humidity was reported
+  at 38% with a dehumidifier running. Moisture has not been established as the
+  cause of the surface texture.
+- Specific cleat, cutout-hook, fence and Allen-key fit have not been reported.
+- Next step: print the v08 clearance samples and record fit before changing
+  the full holder. Use a new revision for geometry or setting changes.

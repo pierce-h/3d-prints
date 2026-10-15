@@ -1,0 +1,45 @@
+CALIPER HOLDER FOR FRENCH CLEAT
+Updated: October 14, 2026
+
+LATEST: v01 — 32 mm center opening for an approximately 30 mm digital-caliper body.
+Status: GEOMETRY VERIFIED AND SLICE-TESTED; revised physical fit untested.
+
+OPEN IN BAMBU STUDIO
+Revisions/v01-32mm-center/Caliper_Holder_v01_32mm_Center.3mf
+Bambu H2D / PLA estimate: 2 h 19 min 34 sec; 54.73 g including preparation/supports.
+Matching STL, Preview.png and Print_Preview.png are in the same revision folder.
+
+CHANGE
+The original physical print was too tight for the user's caliper body. Its
+center opening measured 28.92079 mm in the model. The revised opening is 32 mm,
+providing approximately 1 mm clearance per side for a 30 mm body.
+Only the inner front support tips were trimmed, about 1.5396 mm per side.
+Backplate, French cleat, outside dimensions and original print placement remain
+unchanged. Overall mounted size: 80 mm wide x 95 mm high x 32 mm deep.
+
+SAVED PRINT SETTINGS
+Original Bambu H2D 0.4 mm profile; black Bambu PLA Basic, project filament slot 1.
+0.20 mm layers, 4 walls, 20% gyroid; automatic tree supports and automatic brim.
+The original printer, material and process settings were retained.
+
+FIT CHECK AFTER PRINTING
+Remove support remnants and test the caliper body between the front supports.
+It should drop into position without forcing and remain supported by the holder.
+Confirm easy removal and proper seating on the existing French cleat.
+The revised fit has not been physically tested. No print was sent to a printer.
+
+SOURCE AND VALIDATION
+Original designer: 3D-Therapy. License recorded in the source project: CC0.
+Unmodified source archived at:
+Original/Caliper_Holder_for_French_Cleat_saved_2026-10-14_0948.3mf
+The original file at the library root is also retained.
+
+Independent checks confirmed a 32 mm center opening, one watertight solid,
+unchanged rear/outer geometry and matching STL/3MF placement. Project settings
+and material assignments match the original. The revised project slices
+successfully with no warnings. Records are under the revision's Validation/.
+
+PRINT HISTORY
+Original print: center opening too tight for the user's caliper body.
+v01: digital checks complete; physical print and fit feedback pending.
+Record revised fit feedback here before marking the model tested successfully.

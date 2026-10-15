@@ -1,0 +1,131 @@
+3D PRINT MODEL LIBRARY
+Updated: October 15, 2026
+
+SCREWDRIVER HOLDER
+Latest revision: v02 — eight left-side holes, 5/8 inch (15.875 mm) straight through.
+Status: READY TO PRINT — geometry verified and slice-tested; physical fit unconfirmed.
+
+Open in Bambu Studio:
+Screwdriver Holder/Revisions/v02-left-holes-5-8-inch/Screwdriver_Holder_v02_5-8in_Holes.3mf
+
+Preview:
+Screwdriver Holder/Revisions/v02-left-holes-5-8-inch/Preview.png
+
+Print history and revision details:
+Screwdriver Holder/Print Notes.txt
+
+
+FESTOOL SANDER HOLDER
+Latest revision: v02 — lighter double holder with integrated French cleat.
+Status: TEST-FIT PROTOTYPE — geometry verified and slice-tested; physical checks pending.
+
+Print the small cleat-fit sample first:
+Festool Sander Holder/Revisions/v02-lighter-backing/French_Cleat_Fit_Sample_v02.3mf
+
+Full holder in Bambu Studio:
+Festool Sander Holder/Revisions/v02-lighter-backing/Festool_Double_Holder_v02_TEST_FIT.3mf
+
+Preview:
+Festool Sander Holder/Revisions/v02-lighter-backing/Preview.png
+
+Print details and fit checks:
+Festool Sander Holder/Print Notes.txt
+
+
+BENCH COOKIE ORGANIZER
+Latest revision: v02 — welded organizer, left/hole-bank end down for fewer supports.
+Status: GEOMETRY VERIFIED AND SLICE-TESTED; physical print and fit unconfirmed.
+
+Open in Bambu Studio:
+Bench Cookie Organizer/Revisions/v02-side-print/Bench_Cookie_Organizer_v02_Side_Print.3mf
+
+Optional original rear spacers (separate print):
+Bench Cookie Organizer/Revisions/v01-welded/Rear_Spacers_4x_v01.3mf
+
+Preview:
+Bench Cookie Organizer/Revisions/v02-side-print/Preview.png
+
+Print details and fit checks:
+Bench Cookie Organizer/Print Notes.txt
+
+
+TSO TOOL HOLDER
+Latest revision: v01 — plain front; recessed maker emblem filled flush.
+Status: GEOMETRY VERIFIED AND SLICE-TESTED; physical print and fit unconfirmed.
+
+Open in Bambu Studio:
+TSO Tool Holder/Revisions/v01-plain-front/TSO_Tool_Holder_v01_Plain_Front.3mf
+
+Preview:
+TSO Tool Holder/Revisions/v01-plain-front/Preview.png
+
+Print details and fit checks:
+TSO Tool Holder/Print Notes.txt
+
+
+PTR-18 PLUS TRIANGLE HOLDER
+Latest print setup: v07 — black Bambu PETG Matte, RIGHT extruder; v06 geometry.
+Status: FIRST PRINT COMPLETE — shape reported right; attachment pockets
+estimated 2–3 mm too narrow. Actual opening measurements and corrected fit pending.
+Visible lines look better than expected; subjective strength is encouraging,
+but loaded performance and specific cleat/fence/Allen-key fit remain unconfirmed.
+
+Next attachment clearance test (v08; physical fit pending):
+PTR-18 Triangle Holder/Revisions/v08-clearance-test/PTR18_Attachment_Clearance_Test_v08_PETG_Right.3mf
+A / one corner notch: 11.8 mm pin pockets, 8.8 mm screw pocket (+2 mm).
+B / two corner notches: 12.8 mm pin pockets, 9.8 mm screw pocket (+3 mm).
+Each checks short-pin, tall-pin and screw-head depths in the full holder's
+horizontal-hole print orientation; PETG Matte / right nozzle, 0.20 mm layers,
+100 mm/s outer-wall speed limit. Full holder remains v07 until fit is confirmed.
+Slice verified: about 1 h 42 min / 33 g for both samples. Physical fit untested.
+Preview: PTR-18 Triangle Holder/Revisions/v08-clearance-test/Preview.png
+
+Other fit geometry is unchanged; existing v04 sample projects below use PLA.
+Their estimates are PLA-based. The v04 attachment sample is a reference
+baseline; use v08 for new pocket sizing.
+
+Tiny Allen-key fit check (about 12 minutes / 2 g):
+PTR-18 Triangle Holder/Revisions/v04-round-key-hole/Allen_Key_Hole_Fit_v04.3mf
+
+Reference attachment fit sample, original diameters (about 42 minutes / 15 g):
+PTR-18 Triangle Holder/Revisions/v04-round-key-hole/Attachment_Pockets_Fit_v04.3mf
+
+Complete five-piece fit-check plate:
+PTR-18 Triangle Holder/Revisions/v04-round-key-hole/PTR18_Fit_Check_Plate_v04.3mf
+
+Full hanger in Bambu Studio:
+PTR-18 Triangle Holder/Revisions/v07-petg-matte-right-nozzle/PTR18_Hanger_v07_PETG_Matte_Right_TEST_FIT.3mf
+
+Preview:
+PTR-18 Triangle Holder/Revisions/v06-essential-storage/Mounted_Preview.png
+
+Print details and fit checks:
+PTR-18 Triangle Holder/Print Notes.txt
+
+
+CALIPER HOLDER
+Latest revision: v01 — center opening widened to 32 mm for the user's caliper.
+Status: GEOMETRY VERIFIED AND SLICE-TESTED; revised physical fit untested.
+
+Open in Bambu Studio:
+Caliper Holder/Revisions/v01-32mm-center/Caliper_Holder_v01_32mm_Center.3mf
+
+Preview:
+Caliper Holder/Revisions/v01-32mm-center/Preview.png
+
+Print details and fit feedback:
+Caliper Holder/Print Notes.txt
+
+
+HOW THIS LIBRARY IS ORGANIZED
+Each model has its own folder:
+  Original/     Unmodified starting files.
+  Source/       Editable CAD files or modeling scripts and their dependencies.
+  Revisions/    Numbered versions with Bambu projects, STL exports, previews,
+                and validation records.
+  Print Notes.txt  Revision status and actual print/fit feedback.
+
+Use a new numbered revision for meaningful geometry or saved print-setting changes.
+Keep earlier revisions and original files. Update this index when the latest
+revision changes. Mark a revision TESTED SUCCESSFULLY only after print/fit feedback.
+Keep the entire library in your normal backup routine.

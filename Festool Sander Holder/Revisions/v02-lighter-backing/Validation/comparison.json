@@ -1,0 +1,11 @@
+{
+  "v01_filament_g": 353.3609619140625,
+  "v02_filament_g": 295.1277160644531,
+  "filament_saved_g": 58.233245849609375,
+  "filament_saved_percent": 16.479818691395717,
+  "v01_total_seconds": 71840.6875,
+  "v02_total_seconds": 65907.6171875,
+  "time_saved_seconds": 5933.0703125,
+  "same_print_settings": true,
+  "includes_support_and_brim": true
+}

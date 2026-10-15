@@ -1,0 +1,79 @@
+BENCH COOKIE ORGANIZER
+Updated: October 13, 2026
+
+LATEST: v02 — same welded organizer, left/hole-bank end down for printing.
+Status: GEOMETRY VERIFIED AND SLICE-TESTED; physical print and fit unconfirmed.
+
+Open in Bambu Studio:
+Revisions/v02-side-print/Bench_Cookie_Organizer_v02_Side_Print.3mf
+
+ORIENTATION COMPARISON
+Identical geometry and print settings were sliced in three orientations:
+  Upright (v01):       26 h 56 min 32 sec; 685.48 g total; about 136.14 g support.
+  Left end down (v02): 21 h 57 min 19 sec; 643.83 g total; about 83.38 g support.
+  Right end down:      23 h 23 min 04 sec; 665.22 g total; about 105.36 g support.
+Support figures include interfaces and are calculated from G-code extrusion.
+Left means the broad exterior end beside the accessory hole bank when looking
+at the installed organizer from the front. It has the larger flat bed contact.
+This saves about five hours and 39% of support material versus upright.
+Total filament falls by about 42 g (6%); model shell/infill use changes with orientation.
+The current print stands 222 mm high, with a 201 x 116 mm model footprint.
+Keep automatic tree supports and the brim enabled. Some tall supports remain,
+especially below the opposite end wall; inspect recesses and accessory openings
+for complete removal. The exterior left end will receive the bed texture.
+All three slices succeeded without warnings. This is an orientation change only;
+the mesh and print settings are unchanged. v01 remains available as the upright option.
+
+One connected, watertight solid, arranged like the reference photo.
+Overall dimensions: 222 mm wide x 116 mm deep x 201 mm tall.
+No scaling. Original cookie slots, accessory openings and French cleat retained.
+The original locating joint is seated 1 mm, then its remaining internal
+assembly clearance is filled. Added material: approximately 207 mm3.
+No functional source geometry removed, within numerical tolerance.
+Original models by alejepa; originals and source attribution/license preserved.
+
+PRINT SETTINGS
+Bambu Lab H2D, 0.4 mm nozzle, Bambu PLA Basic.
+0.20 mm layers, 3 walls, 12% gyroid, 5 top / 3 bottom layers.
+Automatic tree supports, build-plate-only, critical regions only, automatic brim.
+Support gap: 0.20 mm top/bottom and 0.35 mm XY; 2 interface layers.
+Settings retained from the supplied top-holder project; the lower holder's
+old per-object 3% infill override is replaced by the unified 12% setting.
+Side print, left/hole-bank end on the plate, X centre 175 mm.
+Leave this placement intact: generated supports spread outside the model.
+
+Bambu Studio 02.08.02.61 estimate including preparation/support:
+  Main welded holder, v02 side print: 21 h 57 min 19 sec; 643.83 g PLA.
+  Four optional rear spacers: 25 min 18 sec; 8.65 g PLA total.
+Actual time/material depend on filament, printer and selected settings.
+
+OPTIONAL SPACERS
+Revisions/v01-welded/Rear_Spacers_4x_v01.3mf
+These are the four original, unchanged distance blocks. They remain separate
+because their attachment locations depend on the wall rail arrangement.
+Do not assume they should be installed directly over a wooden rail.
+
+VALIDATION
+- Independent 3MF and ASCII STL reload: one watertight, consistently oriented body.
+- Both source holders retained; added material confined to the joint clearance.
+- Main project contains one object/part, no old support-enforcer modifier.
+- Four original spacer geometries retained in separate project.
+- Both projects sliced successfully with no slice warnings.
+- Desktop Bambu Studio reopened the v01 project and completed a fresh slice
+  (Slice ok; 685.47 g; 1d2h57m) after a support-generation crash during reload.
+  Exact crash cause is unconfirmed. Sync printer/AMS information before sending
+  because the restarted app initially showed AMS as not installed.
+- First trial placement let one tree support cross the right nozzle's X=25 mm
+  limit. Moving the entire holder 12.5 mm right resolved the error; final slice
+  passed the printer-area check. Geometry was unchanged by this placement move.
+- CLI logs include unsupported startup T1001/T65535/T65279 parser messages;
+  final slice return code is 0. No G-code has been sent to a printer.
+
+PHYSICAL CHECKS STILL PENDING
+Original cleat dimensions are unchanged; verify fit to your actual wall rail.
+Check lower rear support/contact and for rocking before loading accessories.
+Remove supports without levering against the cookie dividers or storage lips.
+Record filament, print result and fit feedback below after the first print.
+
+PRINT HISTORY
+Not printed or load-tested yet.

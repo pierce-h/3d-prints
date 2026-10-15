@@ -1,0 +1,106 @@
+{
+    "error_string": "Success.",
+    "export_time": 293,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 9,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 27.69999122619629,
+                "Bridge": 25.512243270874023,
+                "Custom": 310.078369140625,
+                "Flush": 26.0,
+                "Gap infill": 1.6357576847076416,
+                "Inner wall": 332.73016357421875,
+                "Internal solid infill": 70.1641616821289,
+                "Outer wall": 260.9383544921875,
+                "Sparse infill": 264.4988098144531,
+                "Top surface": 19.034263610839844,
+                "Travel": 188.43267822265625,
+                "Undefined": 179.40672302246094
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFA00",
+                    "id": 1,
+                    "main_used_g": 8.64635944366455,
+                    "total_used_g": 8.64635944366455
+                }
+            ],
+            "generate_support_material_time": 5,
+            "id": 1,
+            "infill_time": 52,
+            "layer_filament_change": 0,
+            "main_predication": 1164.634033203125,
+            "make_perimeters_time": 33,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 20.0,
+                        "height": 18.899999618530273,
+                        "width": 10.0,
+                        "x": 120.0,
+                        "y": 145.0,
+                        "z": 7.34862837248329e-10
+                    },
+                    "id": 5,
+                    "name": "Original rear spacer 1",
+                    "triangle_count": 1262
+                },
+                {
+                    "bbox": {
+                        "depth": 20.0,
+                        "height": 18.899999618530273,
+                        "width": 10.0,
+                        "x": 145.0,
+                        "y": 145.0,
+                        "z": 7.34862837248329e-10
+                    },
+                    "id": 9,
+                    "name": "Original rear spacer 2",
+                    "triangle_count": 1262
+                },
+                {
+                    "bbox": {
+                        "depth": 20.0,
+                        "height": 18.899999618530273,
+                        "width": 10.0,
+                        "x": 170.0,
+                        "y": 145.0,
+                        "z": 7.34862837248329e-10
+                    },
+                    "id": 13,
+                    "name": "Original rear spacer 3",
+                    "triangle_count": 1262
+                },
+                {
+                    "bbox": {
+                        "depth": 20.0,
+                        "height": 18.899999618530273,
+                        "width": 10.0,
+                        "x": 195.0,
+                        "y": 145.0,
+                        "z": 7.34862837248329e-10
+                    },
+                    "id": 17,
+                    "name": "Original rear spacer 4",
+                    "triangle_count": 1262
+                }
+            ],
+            "sliced_time": 264,
+            "sliced_time_with_cache": 159,
+            "total_predication": 1517.6864013671875,
+            "triangle_count": 5048,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 12.0,
+    "upward_compatible_machine": [
+        "Bambu Lab H2D Pro 0.4 nozzle"
+    ],
+    "wall_loops": 3
+}

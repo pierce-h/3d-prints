@@ -1,0 +1,72 @@
+{
+    "error_string": "Success.",
+    "export_time": 0,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 24,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 156.1067352294922,
+                "Bridge": 329.3560791015625,
+                "Brim": 146.84141540527344,
+                "Custom": 1020.0093383789063,
+                "Flush": 26.0,
+                "Gap infill": 437.1246337890625,
+                "Inner wall": 12716.205078125,
+                "Internal solid infill": 2635.5712890625,
+                "Outer wall": 6986.9892578125,
+                "Overhang wall": 179.0684051513672,
+                "Sparse infill": 30427.197265625,
+                "Support": 5355.25439453125,
+                "Support interface": 638.8048095703125,
+                "Support transition": 165.43153381347656,
+                "Top surface": 220.27732849121094,
+                "Travel": 4224.244140625,
+                "Undefined": 4218.3779296875
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFB00",
+                    "id": 1,
+                    "main_used_g": 295.1277160644531,
+                    "total_used_g": 295.1277160644531
+                }
+            ],
+            "generate_support_material_time": 910,
+            "id": 1,
+            "infill_time": 769,
+            "layer_filament_change": 0,
+            "main_predication": 64841.47265625,
+            "make_perimeters_time": 163,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 269.1493225097656,
+                        "height": 81.98444366455078,
+                        "width": 284.1780090332031,
+                        "x": 22.957454681396484,
+                        "y": 18.290342330932617,
+                        "z": -3.2275387695790414e-08
+                    },
+                    "id": 5,
+                    "name": "Festool_Double_Holder_v02_TEST_FIT.stl",
+                    "triangle_count": 13228
+                }
+            ],
+            "sliced_time": 6838,
+            "sliced_time_with_cache": 4915,
+            "total_predication": 65907.6171875,
+            "triangle_count": 13228,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 40.0,
+    "upward_compatible_machine": [
+        "Bambu Lab H2D Pro 0.4 nozzle"
+    ],
+    "wall_loops": 6
+}

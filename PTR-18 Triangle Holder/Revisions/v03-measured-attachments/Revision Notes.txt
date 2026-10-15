@@ -1,0 +1,33 @@
+PTR-18 PLUS — v03 MEASURED ATTACHMENTS
+October 14, 2026
+
+Changes from v02
+User measurements exclude the threads:
+- Two 9 mm diameter x 25 mm tall bodies: 9.8 x 16 mm pockets, 9 mm exposed.
+- Two 9 mm diameter x 12 mm tall bodies: 9.8 x 8 mm pockets, 4 mm exposed.
+- Six 6 mm diameter x 4 mm tall heads: 6.8 x 2.5 mm pockets, 1.5 mm exposed.
+Pocket dimensions are diameter x depth. The 0.8 mm diameter clearance is
+0.4 mm per side. All parts drop in body/head first with threads pointing up.
+
+The cutout hook, measured-fence channel, Allen-key slot, tray, four 12 mm spare
+pockets and two 16 mm spare pockets are unchanged from v02.
+
+Files and Bambu H2D / PLA estimates
+Quick check: Attachment_Pockets_Fit_v03.3mf
+41 min 59 sec; 15.35 g including preparation/supports.
+
+Complete five-piece check: PTR18_Fit_Check_Plate_v03.3mf
+2 h 33 min 59 sec; 94.18 g including preparation/supports.
+
+Full hanger: PTR18_Hanger_v03_Measured_Attachments_TEST_FIT.3mf
+11 h 45 min 17 sec; 464.08 g including preparation/supports.
+
+The quick-check piece tests the three measured pocket types only. It is also
+included on the full fit-check plate. Keep the saved side orientation and
+0.20 mm / 6 wall / 30% gyroid settings for comparable fit.
+
+All three projects slice successfully without warnings. Physical printed fit
+and loaded strength are unverified. The 8 mm hook gap and 77 mm top-bar
+capacity with 12 mm removal lift remain design assumptions. The hook sample
+does not reproduce the overhead shelf. Extra attachments and Allen keys still
+need fit checks. See ../../Print Notes.txt for the complete procedure.

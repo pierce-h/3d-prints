@@ -1,0 +1,23 @@
+* text=auto
+*.py text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.xml text eol=lf
+*.config text eol=lf
+*.html text eol=lf
+
+# Model archives and meshes are reviewed through CAD previews and measurements.
+*.3mf binary
+*.stl binary
+*.step binary
+*.stp binary
+*.f3d binary
+*.FCStd binary
+
+# Reference media and previews
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.heic binary
+*.HEIC binary
+*.pdf binary

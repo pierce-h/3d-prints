@@ -1,0 +1,19 @@
+PTR-18 PLUS — v05 NO TOP TRAY
+October 14, 2026
+
+Removed only the three raised walls of the short rectangular loose-parts tray
+beside the two large attachment pockets, leaving the flat shelf. The shared
+fence-channel wall, all attachment pockets, cutout hook, French cleat and round
+Allen-key through-hole are unchanged.
+
+Full hanger: PTR18_Hanger_v05_No_Top_Tray_TEST_FIT.3mf
+Bambu H2D / PLA estimate: 10 h 55 min 34 sec; 440.12 g including preparation/supports.
+
+Use the existing v04 fit projects; their geometry is unchanged:
+../v04-round-key-hole/PTR18_Fit_Check_Plate_v04.3mf
+../v04-round-key-hole/Attachment_Pockets_Fit_v04.3mf
+../v04-round-key-hole/Allen_Key_Hole_Fit_v04.3mf
+
+The main model is a single watertight solid and slices without warnings.
+Saved side orientation and print settings remain unchanged. Physical fit and
+loaded strength remain unverified. See ../../Print Notes.txt for fit checks.

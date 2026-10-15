@@ -1,0 +1,138 @@
+{
+  "original_volume": 101883.8804491213,
+  "final_volume": 104067.01829659208,
+  "bounds_original": [
+    [
+      -50.0000038,
+      -63.5,
+      -17.7749996
+    ],
+    [
+      50.0000038,
+      63.5,
+      17.7749996
+    ]
+  ],
+  "bounds_final": [
+    [
+      -50.0000038,
+      -63.5,
+      -17.7749996
+    ],
+    [
+      50.0000038,
+      63.5,
+      17.7749996
+    ]
+  ],
+  "source_final_outer_bounds_equal": true,
+  "added_material_volume": 2183.137847470789,
+  "removed_material_volume": 5.051514762044462e-15,
+  "significant_added_material_bounds": [
+    [
+      -41.8832359,
+      -52.3476105,
+      5.77499962
+    ],
+    [
+      41.155323,
+      30.6641407,
+      6.27499962
+    ]
+  ],
+  "added_components": [
+    {
+      "volume": 2078.836991497769,
+      "bounds": [
+        -41.8832359,
+        -52.3476105,
+        5.77499962,
+        41.155323,
+        30.6641407,
+        6.27499962
+      ]
+    },
+    {
+      "volume": 70.61534091114663,
+      "bounds": [
+        -25.6327324,
+        -29.7636967,
+        5.77499962,
+        -16.7398033,
+        -11.4028149,
+        6.27499962
+      ]
+    },
+    {
+      "volume": 33.685515061873424,
+      "bounds": [
+        17.946949,
+        -7.99190044,
+        5.77499962,
+        24.0972328,
+        4.68585539,
+        6.27499962
+      ]
+    }
+  ],
+  "final_3mf_watertight": true,
+  "final_3mf_body_count": 1,
+  "final_3mf_faces": 140,
+  "final_stl_watertight": true,
+  "final_stl_body_count": 1,
+  "stl_minus_3mf_volume": -2.546585164964199e-11,
+  "3mf_minus_stl_volume": 1.4665602066088468e-11,
+  "flat_plane_area": 12000.000912000001,
+  "project_settings_json_equal": true,
+  "project_settings_diff": {},
+  "original_build_item": {
+    "objectid": "2",
+    "{http://schemas.microsoft.com/3dmanufacturing/production/2015/06}UUID": "00000002-b1ec-4553-aec9-835e5b724bb4",
+    "transform": "2.22044605e-16 -2.46519033e-32 1 2.4492936e-16 1 -2.46519033e-32 -1 2.4492936e-16 2.22044605e-16 175 160 50.0000038",
+    "printable": "1"
+  },
+  "final_build_item": {
+    "objectid": "2",
+    "{http://schemas.microsoft.com/3dmanufacturing/production/2015/06}UUID": "00000002-b1ec-4553-aec9-835e5b724bb4",
+    "transform": "2.22044605e-16 -2.46519033e-32 1 2.4492936e-16 1 -2.46519033e-32 -1 2.4492936e-16 2.22044605e-16 175 160 50.0000038",
+    "printable": "1"
+  },
+  "original_component": {
+    "{http://schemas.microsoft.com/3dmanufacturing/production/2015/06}path": "/3D/Objects/object_1.model",
+    "objectid": "1",
+    "{http://schemas.microsoft.com/3dmanufacturing/production/2015/06}UUID": "00010000-b206-40ff-9872-83e8017abed1",
+    "transform": "1 0 0 0 1 0 0 0 1 4.37499971e-15 0 0"
+  },
+  "final_component": {
+    "{http://schemas.microsoft.com/3dmanufacturing/production/2015/06}path": "/3D/Objects/object_1.model",
+    "objectid": "1",
+    "{http://schemas.microsoft.com/3dmanufacturing/production/2015/06}UUID": "00010000-b206-40ff-9872-83e8017abed1",
+    "transform": "1 0 0 0 1 0 0 0 1 4.37499971e-15 0 0"
+  },
+  "stl_comparison_note": "STL stores geometry transformed to print placement; compared against 3MF after component and build transforms.",
+  "stl_world_bounds": [
+    [
+      157.2250004,
+      96.5,
+      -7.105427357601002e-15
+    ],
+    [
+      192.77499960000003,
+      223.5,
+      100.0000076
+    ]
+  ],
+  "3mf_world_bounds": [
+    [
+      157.2250004,
+      96.5,
+      0.0
+    ],
+    [
+      192.77499960000003,
+      223.5,
+      100.00000760000002
+    ]
+  ],
+  "max_sorted_vertex_error_world": 0.0
+}

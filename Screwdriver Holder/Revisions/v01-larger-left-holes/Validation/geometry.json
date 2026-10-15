@@ -1,0 +1,191 @@
+{
+  "source": "Screwdriver_Holder_FC.3mf",
+  "output": "Screwdriver_Holder_FC_left_4_plus_6p35mm.3mf",
+  "source_sha256": "f6fd5258814e9cce6ac37cb2e2a9213b0aa47a0c4e71e201c17ab98369ca6e6b",
+  "confirmed_positions": [
+    "1B",
+    "1F",
+    "2B",
+    "2F"
+  ],
+  "requested_diameter_increase_mm": 6.35,
+  "changes": [
+    {
+      "feature": "lower through-hole",
+      "center_mm": [
+        -80.00241238529314,
+        -28.502499986369017
+      ],
+      "original_measured_diameter_mm": 10.00082621269863,
+      "final_nominal_diameter_mm": 16.35,
+      "cutter_z_mm": [
+        -12.61,
+        -7.39
+      ]
+    },
+    {
+      "feature": "upper through-hole",
+      "center_mm": [
+        -80.00020127010981,
+        -28.502411833693117
+      ],
+      "original_measured_diameter_mm": 10.001586509756212,
+      "final_nominal_diameter_mm": 16.35,
+      "cutter_z_mm": [
+        32.39,
+        42.61
+      ]
+    },
+    {
+      "feature": "upper recess",
+      "center_mm": [
+        -79.50009996202556,
+        -29.002129744974006
+      ],
+      "original_measured_diameter_mm": 21.003221355654993,
+      "final_nominal_diameter_mm": 27.35,
+      "cutter_z_mm": [
+        38.2124977,
+        42.61
+      ]
+    },
+    {
+      "feature": "lower through-hole",
+      "center_mm": [
+        -80.00241238526783,
+        10.501500766866645
+      ],
+      "original_measured_diameter_mm": 10.000825862592464,
+      "final_nominal_diameter_mm": 16.35,
+      "cutter_z_mm": [
+        -12.61,
+        -7.39
+      ]
+    },
+    {
+      "feature": "upper through-hole",
+      "center_mm": [
+        -80.0002012919798,
+        10.50100034654702
+      ],
+      "original_measured_diameter_mm": 10.001515312813497,
+      "final_nominal_diameter_mm": 16.35,
+      "cutter_z_mm": [
+        32.39,
+        42.61
+      ]
+    },
+    {
+      "feature": "upper recess",
+      "center_mm": [
+        -79.50009996279567,
+        10.001000539970802
+      ],
+      "original_measured_diameter_mm": 21.00305938619989,
+      "final_nominal_diameter_mm": 27.35,
+      "cutter_z_mm": [
+        38.2124977,
+        42.61
+      ]
+    },
+    {
+      "feature": "lower through-hole",
+      "center_mm": [
+        -40.00118154271392,
+        -28.502499979029434
+      ],
+      "original_measured_diameter_mm": 10.000564647377194,
+      "final_nominal_diameter_mm": 16.35,
+      "cutter_z_mm": [
+        -12.61,
+        -7.39
+      ]
+    },
+    {
+      "feature": "upper through-hole",
+      "center_mm": [
+        -40.0002004651271,
+        -28.502411833624965
+      ],
+      "original_measured_diameter_mm": 10.001586465836132,
+      "final_nominal_diameter_mm": 16.35,
+      "cutter_z_mm": [
+        32.39,
+        42.61
+      ]
+    },
+    {
+      "feature": "upper recess",
+      "center_mm": [
+        -39.50009960455171,
+        -29.00212974500349
+      ],
+      "original_measured_diameter_mm": 21.003222258257352,
+      "final_nominal_diameter_mm": 27.35,
+      "cutter_z_mm": [
+        38.2124977,
+        42.61
+      ]
+    },
+    {
+      "feature": "lower through-hole",
+      "center_mm": [
+        -40.00118154274418,
+        10.501500774267013
+      ],
+      "original_measured_diameter_mm": 10.000564297261871,
+      "final_nominal_diameter_mm": 16.35,
+      "cutter_z_mm": [
+        -12.61,
+        -7.39
+      ]
+    },
+    {
+      "feature": "upper through-hole",
+      "center_mm": [
+        -40.00020048706928,
+        10.501000346529723
+      ],
+      "original_measured_diameter_mm": 10.001515268890058,
+      "final_nominal_diameter_mm": 16.35,
+      "cutter_z_mm": [
+        32.39,
+        42.61
+      ]
+    },
+    {
+      "feature": "upper recess",
+      "center_mm": [
+        -39.50009960531505,
+        10.001000539953024
+      ],
+      "original_measured_diameter_mm": 21.00306028880854,
+      "final_nominal_diameter_mm": 27.35,
+      "cutter_z_mm": [
+        38.2124977,
+        42.61
+      ]
+    }
+  ],
+  "source_volume_mm3": 390563.70161129435,
+  "final_volume_mm3": 380648.46422850416,
+  "final_vertices": 7698,
+  "final_triangles": 15472,
+  "watertight": true,
+  "winding_consistent": true,
+  "connected_bodies": 1,
+  "bounds_mm": [
+    [
+      -100.0,
+      -49.5,
+      -42.5004997
+    ],
+    [
+      100.0,
+      49.5,
+      42.5004997
+    ]
+  ],
+  "project_settings_identical": true,
+  "placement_identical": true
+}

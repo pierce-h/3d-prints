@@ -1,0 +1,146 @@
+{
+  "validator": "Independent read of shipped 3MF XML meshes and actual build/component transforms; no generator imported. Trimesh topology, manifold solid intersections, and slice footprints.",
+  "parts": {
+    "holder": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_bodies": 1,
+      "positive_volume_mm3": 468546.1314525243,
+      "nondegenerate_min_face_area_mm2": 9.960329859504125e-09,
+      "installed_bounds_mm": [
+        [
+          -174.0,
+          -40.9922218,
+          -33.5
+        ],
+        [
+          174.0,
+          40.9922218,
+          10.0
+        ]
+      ],
+      "actual_3mf_print_bounds_mm": [
+        [
+          29.79949948666311,
+          29.88431496069998,
+          0.0
+        ],
+        [
+          295.20050044000004,
+          280.115685061529,
+          81.9844436
+        ]
+      ],
+      "rotation_determinant": 1.0000000000231113,
+      "brim_5mm_plus_0_1mm_gap_bounds": [
+        [
+          24.699499486663107,
+          24.78431496069998
+        ],
+        [
+          300.30050044000006,
+          285.21568506152903
+        ]
+      ],
+      "inside_left_nozzle_325x310_conservative_area": true,
+      "wrapping_exclusion_intersection_area_mm2": 0.0,
+      "bed_min_z_mm": 0.0,
+      "below_320mm_height": true,
+      "nondegenerate_faces": true
+    },
+    "coupon": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_bodies": 1,
+      "positive_volume_mm3": 42783.8440085,
+      "nondegenerate_min_face_area_mm2": 98.9766654,
+      "installed_bounds_mm": [
+        [
+          -17.5,
+          -40.9922218,
+          -33.5
+        ],
+        [
+          17.5,
+          40.9922218,
+          -10.0
+        ]
+      ],
+      "actual_3mf_print_bounds_mm": [
+        [
+          145.0,
+          143.25,
+          0.0
+        ],
+        [
+          180.0,
+          166.75,
+          81.9844436
+        ]
+      ],
+      "rotation_determinant": 1.0,
+      "brim_5mm_plus_0_1mm_gap_bounds": [
+        [
+          139.9,
+          138.15
+        ],
+        [
+          185.1,
+          171.85
+        ]
+      ],
+      "inside_left_nozzle_325x310_conservative_area": true,
+      "wrapping_exclusion_intersection_area_mm2": 0.0,
+      "bed_min_z_mm": 0.0,
+      "below_320mm_height": true,
+      "nondegenerate_faces": true
+    }
+  },
+  "blocking_issues": [],
+  "limitations": [
+    "Geometric checks do not establish load capacity or actual tool-body clearance.",
+    "Wall cleat height and actual finished plywood thickness remain unmeasured; print fit sample first.",
+    "Bed bounds include model and 5 mm brim plus 0.1 mm gap; support toolpath bounds require slicer verification."
+  ],
+  "cradle_preservation": {
+    "original_volume_removed_mm3": 6.170517999710742e-06,
+    "tool_facing_solid_symmetric_difference_above_z_minus5_999_mm3": 5.618114097628921e-07,
+    "added_material_outside_rear_structure_and_old_hole_fill_regions_mm3": 2.7181303850159957e-06,
+    "pass": true
+  },
+  "coupon_mating_geometry": {
+    "symmetric_difference_with_holder_in_rear_cleat_region_mm3": 0.0,
+    "pass": true,
+    "note": "Coupon front face is Z\u221210; full backing deliberately extends to Z\u22129.99 to union original meshes. This 0.01 mm difference is opposite the mating surfaces."
+  },
+  "ideal_wall_fit": {
+    "wall_front_z_mm": -16,
+    "bevel_line": "y = z + 24",
+    "rail_solid_below_bevel": true,
+    "wall_rail_intersection_volumes_mm3_by_thickness": {
+      "19.05": 0.0,
+      "18.0": 0.0
+    },
+    "rear_wall_clearance_mm_by_thickness": {
+      "19.05": 1.55,
+      "18.0": 0.5
+    },
+    "pass": true,
+    "backing_contact_available_below_bevel_mm": 48.9922218,
+    "note": "This contact height is available on printed backing; actual overlap depends on unmeasured wall-rail height."
+  },
+  "coupon_printability": {
+    "sampled_layers": 411,
+    "max_new_unsupported_slice_area_mm2": 0.0,
+    "cleat_and_backing_start_on_bed": true,
+    "support_disabled_in_3mf": true,
+    "pass": true
+  },
+  "holder_support": {
+    "support_enabled": true,
+    "support_type": "normal(auto)",
+    "cleat_top_matches_backing_top_mm": 40.9922218,
+    "note": "Cleat starts on bed; original rim still has overhangs. Slicer supports and support toolpath reach must be checked separately."
+  },
+  "status": "PASS for prototype geometry; physical fit and load untested"
+}

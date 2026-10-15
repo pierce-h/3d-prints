@@ -1,0 +1,67 @@
+{
+    "error_string": "Success.",
+    "export_time": 219,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 11,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Custom": 297.6348876953125,
+                "Flush": 26.0,
+                "Gap infill": 699.6615600585938,
+                "Inner wall": 2936.951416015625,
+                "Internal solid infill": 91.85670471191406,
+                "Outer wall": 2408.302978515625,
+                "Overhang wall": 6.082398414611816,
+                "Support": 95.71896362304688,
+                "Support interface": 1.2147926092147827,
+                "Top surface": 36.59391784667969,
+                "Travel": 1780.11767578125,
+                "Undefined": 1774.15576171875
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFA00",
+                    "id": 1,
+                    "main_used_g": 54.72633743286133,
+                    "total_used_g": 54.72633361816406
+                }
+            ],
+            "generate_support_material_time": 177,
+            "id": 1,
+            "infill_time": 36,
+            "layer_filament_change": 0,
+            "main_predication": 8030.5068359375,
+            "make_perimeters_time": 159,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 95.0,
+                        "height": 80.0,
+                        "width": 32.0,
+                        "x": 159.0,
+                        "y": 112.5,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "Caliper_Holder_v01_32mm_Center.stl",
+                    "triangle_count": 1050
+                }
+            ],
+            "sliced_time": 1222,
+            "sliced_time_with_cache": 797,
+            "total_predication": 8374.1796875,
+            "triangle_count": 1050,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 20.0,
+    "upward_compatible_machine": [
+        "Bambu Lab H2D Pro 0.4 nozzle"
+    ],
+    "wall_loops": 4
+}

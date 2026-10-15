@@ -1,0 +1,101 @@
+PTR-18 PLUS TRIANGLE HOLDER
+Updated: October 14, 2026
+
+LATEST: v02 — cutout hook, measured fence cradle, drop-in attachment pockets
+and a closed-bottom Allen-key slot.
+Status: FIRST-FIT PROTOTYPE. Geometry and slicing verified. Physical fit and
+loaded performance have not been tested.
+
+PRINT THE FIT CHECKS FIRST
+Revisions/v02-cutout-hook-and-storage/PTR18_Fit_Check_Plate_v02.3mf
+Five separate pieces: Cleat_Fit, Cutout_Hook_Fit, Fence_Channel_Fit,
+Attachment_Pockets_Fit and Allen_Key_Pocket_Fit.
+Bambu H2D / PLA estimate: 2 h 49 min 44 sec; 100.07 g including preparation/supports.
+
+FULL HANGER
+Revisions/v02-cutout-hook-and-storage/PTR18_Hanger_v02_Cutout_Hook_TEST_FIT.3mf
+Bambu H2D / PLA estimate: 11 h 45 min 16 sec; 461.70 g including preparation/supports.
+Mounted size: 260 mm wide x 135 mm tall x 99.5 mm overall depth.
+Saved print pose: one side down, 135 x 99.5 mm footprint, 260 mm tall.
+Mounted_Preview.png shows the storage and cutout hook; Print_Preview.png shows
+its print pose. Light blue previews are for visibility.
+
+TRIANGLE SUPPORT
+An 80 mm-wide shelf hooks into the triangle's cutout. It has an 8 mm clear
+plate gap, an 8 mm-thick bearing floor and a 10 mm retaining lip.
+The user described the plate as roughly the same thickness as the other TSO
+tool. Its exact thickness and usable cutout dimensions remain unknown; 8 mm
+is a design clearance, not a measured plate thickness.
+
+The full model allows up to 77 mm from the cutout's upper bearing edge to the
+triangle's outer top edge, while allowing 12 mm upward movement for removal.
+This assumes the actual cutout admits the hook and the triangle can lift clear
+of its 10 mm lip. The hook sample checks local fit across the full 80 mm width;
+it does not reproduce the storage shelf overhead. Check that clearance on the
+full assembly before relying on it.
+
+STORAGE
+- Detached fence: user measured 430 x 20 x 10 mm. It stores on its 10 mm edge
+  in a 12 mm-wide open-ended channel, with 13 mm retaining lips. Its 20 mm
+  height leaves 7 mm exposed above the lips. Center it so it overhangs the
+  260 mm holder by 85 mm at each end.
+- Eight pin-body pockets, 12 mm diameter: four 6 mm deep nearer the fence,
+  four 13 mm deep in the front row. Pins drop in body first, threads up.
+- Six screw-head pockets, 8.5 mm diameter x 4 mm deep, for screws stored
+  head down with threads up.
+- Two extra-attachment pockets, 16 mm diameter x 13 mm deep.
+- Allen-key pocket: closed bottom, 35 mm deep, with a 40 x 8 mm opening
+  envelope. The 45-degree pointed ends leave 32 mm of full-width opening.
+  Keys drop in long end first; check that their bends stay accessible.
+- A shallow loose-parts tray with approximately 92 x 13 mm clear floor area.
+
+Attachment-body, screw-head, extra and Allen-key dimensions are not confirmed.
+These are pocket capacities, not a guarantee that every attachment fits.
+The closed bottoms support the bodies/heads; none of the pockets is threaded.
+
+FRENCH CLEAT
+Designed around the user's nominal 3/4-inch plywood wall rail and assumed
+45-degree bevel. Two integrated 70 mm-wide hooks project 17.5 mm behind the back.
+The back bears against the FRONT of the wooden rail below its bevel. Actual
+wood thickness, bevel, rail height and fastener clearance need the cleat test.
+
+HOW TO CHECK THE SAMPLES
+1. Cleat_Fit: confirm the bevel seats and the flat back rests against the rail.
+   It should not rock or hit the wall before its bevel seats.
+2. Cutout_Hook_Fit: hold the triangle securely and test the 80 mm-wide hook in
+   the intended cutout. The plate must settle into the 8 mm gap and lift over
+   the retaining lip without binding. The sample is not a mounted hanger.
+3. Fence_Channel_Fit: place the fence upright, 20 mm tall and 10 mm across the
+   12 mm channel. Check easy removal. This is a short cross-section sample.
+4. Attachment_Pockets_Fit: test the four pocket types with bodies/heads down,
+   threads up. The pockets are 12 x 6, 12 x 13, 8.5 x 4 and 16 x 13 mm
+   (diameter x depth). Confirm short parts stay easy to grasp.
+5. Allen_Key_Pocket_Fit: test the actual keys together and separately. Confirm
+   they drop freely, remain accessible and can be removed without snagging.
+
+PRINT SETTINGS
+Bambu Lab H2D, 0.4 mm nozzle; Bambu PLA Basic in filament slot 1.
+0.20 mm layers, 6 walls, 30% gyroid, 6 top and 6 bottom layers.
+Automatic tree supports, critical regions only, 30-degree threshold; supports
+may start on the model. 6 mm outer brim with 0.1 mm gap.
+Keep the saved side orientation. Remove support remnants from the cutout hook,
+fence channel and cleat mating surfaces before checking fit. Inspect pocket
+openings for strings or rough edges. Estimates depend on printer and filament.
+
+VALIDATION
+The main hanger and five samples are single watertight solids. Independent
+checks confirmed the hook, channel, pocket clearances and closed floors.
+Both projects slice with return code 0 and no slice warnings. A toolpath check
+found no support-extrusion endpoints inside the storage pockets. Validation
+reports are under Revisions/v02-cutout-hook-and-storage/Validation.
+These checks establish digital printability, not physical fit or a load rating.
+
+REVISION HISTORY
+v01-test-fit: pegs through the triangle holes, 40 mm fence channel and hardware
+through-holes. Preserved with its original Print Notes.txt.
+v02-cutout-hook-and-storage: replaces the pegs with a cutout hook; uses the
+measured fence dimensions; adds closed drop-in pockets and Allen-key storage.
+
+PRINT HISTORY
+No physical print or fit feedback recorded. Record filament, fit corrections
+and loaded observations here. Use a new revision for geometry or setting changes.

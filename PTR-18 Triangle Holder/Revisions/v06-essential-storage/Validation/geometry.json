@@ -1,0 +1,236 @@
+{
+  "status": "FIRST-FIT PROTOTYPE; physical fit and loaded strength unverified.",
+  "parameters_mm": {
+    "width": 260.0,
+    "hook_width": 80.0,
+    "hook_plate_gap": 8.0,
+    "hook_bearing_y": -40.0,
+    "hook_lip_height": 10.0,
+    "hook_floor_thickness": 8.0,
+    "fence_clear_width": 12.0,
+    "fence_lip_height": 13.0,
+    "shelf_top_y": 65.0,
+    "shelf_front_z": 82.0,
+    "key_hole_diameter": 4.2,
+    "key_hole_through": true,
+    "key_hole_shelf_thickness": 6.0
+  },
+  "hardware_pockets": [
+    {
+      "type": "measured short pin pocket",
+      "x": -98,
+      "z": 40,
+      "diameter": 9.8,
+      "depth": 8,
+      "body_diameter": 9,
+      "body_height": 12
+    },
+    {
+      "type": "measured tall pin pocket",
+      "x": -98,
+      "z": 64,
+      "diameter": 9.8,
+      "depth": 16,
+      "body_diameter": 9,
+      "body_height": 25
+    },
+    {
+      "type": "measured short pin pocket",
+      "x": -66,
+      "z": 40,
+      "diameter": 9.8,
+      "depth": 8,
+      "body_diameter": 9,
+      "body_height": 12
+    },
+    {
+      "type": "measured tall pin pocket",
+      "x": -66,
+      "z": 64,
+      "diameter": 9.8,
+      "depth": 16,
+      "body_diameter": 9,
+      "body_height": 25
+    },
+    {
+      "type": "measured screw head pocket",
+      "x": 22,
+      "z": 40,
+      "diameter": 6.8,
+      "depth": 2.5,
+      "body_diameter": 6,
+      "body_height": 4
+    },
+    {
+      "type": "measured screw head pocket",
+      "x": 22,
+      "z": 64,
+      "diameter": 6.8,
+      "depth": 2.5,
+      "body_diameter": 6,
+      "body_height": 4
+    },
+    {
+      "type": "measured screw head pocket",
+      "x": 58,
+      "z": 40,
+      "diameter": 6.8,
+      "depth": 2.5,
+      "body_diameter": 6,
+      "body_height": 4
+    },
+    {
+      "type": "measured screw head pocket",
+      "x": 58,
+      "z": 64,
+      "diameter": 6.8,
+      "depth": 2.5,
+      "body_diameter": 6,
+      "body_height": 4
+    },
+    {
+      "type": "measured screw head pocket",
+      "x": 94,
+      "z": 40,
+      "diameter": 6.8,
+      "depth": 2.5,
+      "body_diameter": 6,
+      "body_height": 4
+    },
+    {
+      "type": "measured screw head pocket",
+      "x": 94,
+      "z": 64,
+      "diameter": 6.8,
+      "depth": 2.5,
+      "body_diameter": 6,
+      "body_height": 4
+    }
+  ],
+  "parts": {
+    "PTR18_Hanger_v06_Essential_Storage_TEST_FIT": {
+      "bounds_installed": [
+        [
+          -130.0,
+          -57.0,
+          -17.5
+        ],
+        [
+          130.0,
+          78.0,
+          82.0
+        ]
+      ],
+      "bounds_print": [
+        [
+          107.5,
+          105.25,
+          0.0
+        ],
+        [
+          242.5,
+          204.75,
+          260.0
+        ]
+      ],
+      "transform": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          164.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          122.75
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          130.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 367058.4819468982,
+      "triangles": 4618,
+      "watertight": true,
+      "bodies": 1
+    }
+  },
+  "user_measurements": {
+    "attachment_bodies_excluding_threads": [
+      {
+        "count": 2,
+        "diameter_mm": 9,
+        "height_mm": 25
+      },
+      {
+        "count": 2,
+        "diameter_mm": 9,
+        "height_mm": 12
+      },
+      {
+        "count": 6,
+        "diameter_mm": 6,
+        "height_mm": 4
+      }
+    ],
+    "fence_mm": [
+      430,
+      20,
+      10
+    ],
+    "triangle_thickness": "Roughly the same as the prior TSO tool; not measured numerically."
+  },
+  "design_capacities": {
+    "hook_plate_gap_mm": 8,
+    "hook_width_mm": 80,
+    "hook_lip_height_mm": 10,
+    "outer_top_edge_to_cutout_bearing_edge_max_mm": 77,
+    "assumed_removal_lift_mm": 12,
+    "fence_clear_width_mm": 12,
+    "fence_lip_height_mm": 13,
+    "key_hole_diameter_mm": 4.2,
+    "key_hole_depth_mm": 6,
+    "key_hole_through": true,
+    "key_hole_position_installed_mm": [
+      -1,
+      65,
+      72
+    ],
+    "intended_key_size_across_flats_mm": 3,
+    "storage": "2 measured tall-pin pockets,2 measured short-pin pockets,6 measured screw-head pockets; one round Allen-key through-hole",
+    "measured_pocket_diametral_clearance_mm": 0.8,
+    "exposed_body_height_mm": {
+      "tall_pin": 9,
+      "short_pin": 4,
+      "screw_head": 1.5
+    }
+  },
+  "unknowns": [
+    "triangle exact thickness and cutout dimensions",
+    "printed clearances for attachments and Allen key",
+    "actual wall cleat thickness, height and bevel",
+    "physical fit and loaded performance"
+  ],
+  "revision": "v06 \u2014 only the measured attachments and Allen key",
+  "change": {
+    "removed_feature": "Four spare pin pockets and two larger spare pockets, including their underside bosses",
+    "layout": "Four measured pin pockets grouped left; six measured screw-head pockets grouped right",
+    "attachment_pocket_count": 10,
+    "allen_key_hole_count": 1,
+    "total_top_openings": 11,
+    "removed_volume_mm3": 14498.493674749858,
+    "added_volume_mm3": 9810.909206809813,
+    "unchanged_fit_projects": "../v04-round-key-hole/",
+    "same_printer_and_process_settings_as": "v05"
+  }
+}

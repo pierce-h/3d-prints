@@ -1,0 +1,591 @@
+{
+  "revision": "v03 measured attachment pockets",
+  "scope": "Focused independent exported-mesh audit of measured pockets, floors, nominal body fit, model connectivity, unchanged non-hardware geometry and matching quick/full sample projects. Physical fit and load remain untested.",
+  "source_sha256": "345ba1aa4fc9d7946cb48c56aeadeed0bc781088d4e991bb7a262517d79cbd53",
+  "files": {
+    "Allen_Key_Pocket_Fit": {
+      "sha256": "31cd35814010e879591b204a57f88684c58dd34370bfe804ae66087a30cecba3",
+      "watertight": true,
+      "winding_consistent": true,
+      "bodies": 1,
+      "components": 1,
+      "manifold_status": "Error.NoError",
+      "volume_mm3": 14392.0,
+      "triangles": 36,
+      "bounds": [
+        [
+          -24.0,
+          27.0,
+          65.0
+        ],
+        [
+          22.0,
+          65.0,
+          79.0
+        ]
+      ]
+    },
+    "Attachment_Pockets_Fit": {
+      "sha256": "d6875f7bb36d53120fccb0a4c79f163903815d894c7cd979e2dd9c2882ec9899",
+      "watertight": true,
+      "winding_consistent": true,
+      "bodies": 1,
+      "components": 1,
+      "manifold_status": "Error.NoError",
+      "volume_mm3": 11994.033316375668,
+      "triangles": 1452,
+      "bounds": [
+        [
+          -12.0,
+          46.0,
+          -12.0
+        ],
+        [
+          60.0,
+          65.0,
+          12.0
+        ]
+      ]
+    },
+    "Cleat_Fit": {
+      "sha256": "07197e74a354c49228919f80983d21021717b56367ab226dfcfef73efa7164dc",
+      "watertight": true,
+      "winding_consistent": true,
+      "bodies": 1,
+      "components": 1,
+      "manifold_status": "Error.NoError",
+      "volume_mm3": 25239.375,
+      "triangles": 24,
+      "bounds": [
+        [
+          -17.5,
+          10.0,
+          -17.5
+        ],
+        [
+          17.5,
+          58.0,
+          6.0
+        ]
+      ]
+    },
+    "Cutout_Hook_Fit": {
+      "sha256": "83f50c7131acb7d11e9d23634ce96344b0e2acd02271bdb4936a95e81462c811",
+      "watertight": true,
+      "winding_consistent": true,
+      "bodies": 1,
+      "components": 1,
+      "manifold_status": "Error.NoError",
+      "volume_mm3": 28640.0,
+      "triangles": 56,
+      "bounds": [
+        [
+          -40.0,
+          -57.0,
+          0.0
+        ],
+        [
+          40.0,
+          -20.0,
+          18.0
+        ]
+      ]
+    },
+    "Fence_Channel_Fit": {
+      "sha256": "a745efe8f9f89a6fd47315215d02b62ce492072e73b19d7b329e0c04f3e5b4cc",
+      "watertight": true,
+      "winding_consistent": true,
+      "bodies": 1,
+      "components": 1,
+      "manifold_status": "Error.NoError",
+      "volume_mm3": 3356.0,
+      "triangles": 56,
+      "bounds": [
+        [
+          -10.0,
+          61.0,
+          5.8
+        ],
+        [
+          10.0,
+          78.0,
+          25.0
+        ]
+      ]
+    },
+    "PTR18_Hanger_v03_Measured_Attachments_TEST_FIT": {
+      "sha256": "4529a202b32916ffd8a312dcf0a30e2360ef2fcc26ab7d04548388f248fb17f8",
+      "watertight": true,
+      "winding_consistent": true,
+      "bodies": 1,
+      "components": 1,
+      "manifold_status": "Error.NoError",
+      "volume_mm3": 386449.08748915,
+      "triangles": 7872,
+      "bounds": [
+        [
+          -130.0,
+          -57.0,
+          -17.5
+        ],
+        [
+          130.0,
+          78.0,
+          82.0
+        ]
+      ]
+    }
+  },
+  "projects": {
+    "Attachment_Pockets_Fit_v03.3mf": [
+      {
+        "name": "Attachment_Pockets_Fit",
+        "rigid_transform": true,
+        "determinant": 1.0,
+        "bounds_print": [
+          [
+            165.5,
+            143.0,
+            0.0
+          ],
+          [
+            184.5,
+            167.0,
+            72.0
+          ]
+        ],
+        "pocket_axis_print": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "mesh_array_sha256": "70fe39f6cea43bae864cf0bf81beb27429b1de1af6ed49d3e30a8261cdc7d30a"
+      }
+    ],
+    "PTR18_Fit_Check_Plate_v03.3mf": [
+      {
+        "name": "Cleat_Fit",
+        "rigid_transform": true,
+        "determinant": 1.0,
+        "bounds_print": [
+          [
+            86.0,
+            88.25,
+            0.0
+          ],
+          [
+            134.0,
+            111.75,
+            35.0
+          ]
+        ],
+        "pocket_axis_print": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "mesh_array_sha256": "1faf14c0c13d2ab63d8d961e2697cf27d811cd7caf3de849223412b8e126b752"
+      },
+      {
+        "name": "Cutout_Hook_Fit",
+        "rigid_transform": true,
+        "determinant": 1.0,
+        "bounds_print": [
+          [
+            176.5,
+            91.0,
+            0.0
+          ],
+          [
+            213.5,
+            109.0,
+            80.0
+          ]
+        ],
+        "pocket_axis_print": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "mesh_array_sha256": "7c3d061bb8ed79392a30e9a190285533cfbb7c86dc027187f752aedacba03d92"
+      },
+      {
+        "name": "Fence_Channel_Fit",
+        "rigid_transform": true,
+        "determinant": 1.0,
+        "bounds_print": [
+          [
+            256.5,
+            90.39999999999999,
+            0.0
+          ],
+          [
+            273.5,
+            109.6,
+            20.0
+          ]
+        ],
+        "pocket_axis_print": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "mesh_array_sha256": "ca62d51eb00fd308c50d36cc85478926bf5ab91b9a537bae35ae3ede1301d431"
+      },
+      {
+        "name": "Attachment_Pockets_Fit",
+        "rigid_transform": true,
+        "determinant": 1.0,
+        "bounds_print": [
+          [
+            120.5,
+            178.0,
+            0.0
+          ],
+          [
+            139.5,
+            202.0,
+            72.0
+          ]
+        ],
+        "pocket_axis_print": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "mesh_array_sha256": "70fe39f6cea43bae864cf0bf81beb27429b1de1af6ed49d3e30a8261cdc7d30a"
+      },
+      {
+        "name": "Allen_Key_Pocket_Fit",
+        "rigid_transform": true,
+        "determinant": 1.0,
+        "bounds_print": [
+          [
+            216.0,
+            183.0,
+            0.0
+          ],
+          [
+            254.0,
+            197.0,
+            46.0
+          ]
+        ],
+        "pocket_axis_print": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "mesh_array_sha256": "ffd0037b3dbff636e69f4d172cf9d05f2f3c6c045b2840e14cbf2eb98657e933"
+      }
+    ],
+    "PTR18_Hanger_v03_Measured_Attachments_TEST_FIT.3mf": [
+      {
+        "name": "PTR18_Hanger_v03_Measured_Attachments_TEST_FIT",
+        "rigid_transform": true,
+        "determinant": 1.0,
+        "bounds_print": [
+          [
+            107.5,
+            105.25,
+            0.0
+          ],
+          [
+            242.5,
+            204.75,
+            260.0
+          ]
+        ],
+        "pocket_axis_print": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "mesh_array_sha256": "39289c824dfa0a0c16c154744b6a05f9bd10d4e6ce84aa2ce37c645c5a124976"
+      }
+    ]
+  },
+  "pockets": [
+    {
+      "type": "measured short pin pocket",
+      "x": -112,
+      "z": 40,
+      "diameter": 9.8,
+      "depth": 8,
+      "body_diameter": 9,
+      "body_height": 12,
+      "floor_thickness_mm": 3,
+      "cavity_obstruction_mm3": 0.0,
+      "floor_missing_mm3": 0.0,
+      "nominal_diametral_clearance_mm": 0.8000000000000007,
+      "body_exposed_above_shelf_mm": 4,
+      "nominal_body_interference_mm3": 0.0
+    },
+    {
+      "type": "measured tall pin pocket",
+      "x": -112,
+      "z": 64,
+      "diameter": 9.8,
+      "depth": 16,
+      "body_diameter": 9,
+      "body_height": 25,
+      "floor_thickness_mm": 3,
+      "cavity_obstruction_mm3": 0.0,
+      "floor_missing_mm3": 0.0,
+      "nominal_diametral_clearance_mm": 0.8000000000000007,
+      "body_exposed_above_shelf_mm": 9,
+      "nominal_body_interference_mm3": 0.0
+    },
+    {
+      "type": "measured short pin pocket",
+      "x": -88,
+      "z": 40,
+      "diameter": 9.8,
+      "depth": 8,
+      "body_diameter": 9,
+      "body_height": 12,
+      "floor_thickness_mm": 3,
+      "cavity_obstruction_mm3": 0.0,
+      "floor_missing_mm3": 0.0,
+      "nominal_diametral_clearance_mm": 0.8000000000000007,
+      "body_exposed_above_shelf_mm": 4,
+      "nominal_body_interference_mm3": 0.0
+    },
+    {
+      "type": "measured tall pin pocket",
+      "x": -88,
+      "z": 64,
+      "diameter": 9.8,
+      "depth": 16,
+      "body_diameter": 9,
+      "body_height": 25,
+      "floor_thickness_mm": 3,
+      "cavity_obstruction_mm3": 0.0,
+      "floor_missing_mm3": 0.0,
+      "nominal_diametral_clearance_mm": 0.8000000000000007,
+      "body_exposed_above_shelf_mm": 9,
+      "nominal_body_interference_mm3": 0.0
+    },
+    {
+      "type": "spare pin pocket",
+      "x": -64,
+      "z": 40,
+      "diameter": 12.0,
+      "depth": 6,
+      "floor_thickness_mm": 3,
+      "cavity_obstruction_mm3": 0.0,
+      "floor_missing_mm3": 0.0
+    },
+    {
+      "type": "spare pin pocket",
+      "x": -64,
+      "z": 64,
+      "diameter": 12.0,
+      "depth": 13,
+      "floor_thickness_mm": 3,
+      "cavity_obstruction_mm3": 0.0,
+      "floor_missing_mm3": 0.0
+    },
+    {
+      "type": "spare pin pocket",
+      "x": -40,
+      "z": 40,
+      "diameter": 12.0,
+      "depth": 6,
+      "floor_thickness_mm": 3,
+      "cavity_obstruction_mm3": 0.0,
+      "floor_missing_mm3": 0.0
+    },
+    {
+      "type": "spare pin pocket",
+      "x": -40,
+      "z": 64,
+      "diameter": 12.0,
+      "depth": 13,
+      "floor_thickness_mm": 3,
+      "cavity_obstruction_mm3": 0.0,
+      "floor_missing_mm3": 0.0
+    },
+    {
+      "type": "measured screw head pocket",
+      "x": -17,
+      "z": 37,
+      "diameter": 6.8,
+      "depth": 2.5,
+      "body_diameter": 6,
+      "body_height": 4,
+      "floor_thickness_mm": 3.5,
+      "cavity_obstruction_mm3": 0.0,
+      "floor_missing_mm3": 0.0,
+      "nominal_diametral_clearance_mm": 0.7999999999999998,
+      "body_exposed_above_shelf_mm": 1.5,
+      "nominal_body_interference_mm3": 0.0
+    },
+    {
+      "type": "measured screw head pocket",
+      "x": -17,
+      "z": 52,
+      "diameter": 6.8,
+      "depth": 2.5,
+      "body_diameter": 6,
+      "body_height": 4,
+      "floor_thickness_mm": 3.5,
+      "cavity_obstruction_mm3": 0.0,
+      "floor_missing_mm3": 0.0,
+      "nominal_diametral_clearance_mm": 0.7999999999999998,
+      "body_exposed_above_shelf_mm": 1.5,
+      "nominal_body_interference_mm3": 0.0
+    },
+    {
+      "type": "measured screw head pocket",
+      "x": 1,
+      "z": 37,
+      "diameter": 6.8,
+      "depth": 2.5,
+      "body_diameter": 6,
+      "body_height": 4,
+      "floor_thickness_mm": 3.5,
+      "cavity_obstruction_mm3": 0.0,
+      "floor_missing_mm3": 0.0,
+      "nominal_diametral_clearance_mm": 0.7999999999999998,
+      "body_exposed_above_shelf_mm": 1.5,
+      "nominal_body_interference_mm3": 0.0
+    },
+    {
+      "type": "measured screw head pocket",
+      "x": 1,
+      "z": 52,
+      "diameter": 6.8,
+      "depth": 2.5,
+      "body_diameter": 6,
+      "body_height": 4,
+      "floor_thickness_mm": 3.5,
+      "cavity_obstruction_mm3": 0.0,
+      "floor_missing_mm3": 0.0,
+      "nominal_diametral_clearance_mm": 0.7999999999999998,
+      "body_exposed_above_shelf_mm": 1.5,
+      "nominal_body_interference_mm3": 0.0
+    },
+    {
+      "type": "measured screw head pocket",
+      "x": 19,
+      "z": 37,
+      "diameter": 6.8,
+      "depth": 2.5,
+      "body_diameter": 6,
+      "body_height": 4,
+      "floor_thickness_mm": 3.5,
+      "cavity_obstruction_mm3": 0.0,
+      "floor_missing_mm3": 0.0,
+      "nominal_diametral_clearance_mm": 0.7999999999999998,
+      "body_exposed_above_shelf_mm": 1.5,
+      "nominal_body_interference_mm3": 0.0
+    },
+    {
+      "type": "measured screw head pocket",
+      "x": 19,
+      "z": 52,
+      "diameter": 6.8,
+      "depth": 2.5,
+      "body_diameter": 6,
+      "body_height": 4,
+      "floor_thickness_mm": 3.5,
+      "cavity_obstruction_mm3": 0.0,
+      "floor_missing_mm3": 0.0,
+      "nominal_diametral_clearance_mm": 0.7999999999999998,
+      "body_exposed_above_shelf_mm": 1.5,
+      "nominal_body_interference_mm3": 0.0
+    },
+    {
+      "type": "extra attachment pocket",
+      "x": 54,
+      "z": 64,
+      "diameter": 16.0,
+      "depth": 13,
+      "floor_thickness_mm": 3,
+      "cavity_obstruction_mm3": 0.0,
+      "floor_missing_mm3": 0.0
+    },
+    {
+      "type": "extra attachment pocket",
+      "x": 101,
+      "z": 64,
+      "diameter": 16.0,
+      "depth": 13,
+      "floor_thickness_mm": 3,
+      "cavity_obstruction_mm3": 0.0,
+      "floor_missing_mm3": 0.0
+    }
+  ],
+  "sample_pockets": [
+    {
+      "x": 0,
+      "diameter_mm": 9.8,
+      "depth_mm": 8,
+      "floor_thickness_mm": 3,
+      "cavity_obstruction_mm3": 0.0,
+      "floor_missing_mm3": 0.0
+    },
+    {
+      "x": 24,
+      "diameter_mm": 9.8,
+      "depth_mm": 16,
+      "floor_thickness_mm": 3,
+      "cavity_obstruction_mm3": 0.0,
+      "floor_missing_mm3": 0.0
+    },
+    {
+      "x": 48,
+      "diameter_mm": 6.8,
+      "depth_mm": 2.5,
+      "floor_thickness_mm": 3.5,
+      "cavity_obstruction_mm3": 0.0,
+      "floor_missing_mm3": 0.0
+    }
+  ],
+  "delta_from_v02": {
+    "previous_main_sha256": "7f7c2125e5fe427037ce8c8ce2345f6fe53b9349de889a9cd60630855726005c",
+    "added_volume_mm3": 4203.828260934029,
+    "removed_volume_mm3": 2269.870219201168,
+    "added_outside_changed_pocket_envelopes_mm3": 0.0,
+    "removed_outside_changed_pocket_envelopes_mm3": 0.0,
+    "envelopes": "Four changed pin cups: diameter18.02, Y45.99..65.01. Six changed screw recesses: diameter8.52,Y58.99..65.01. Each centered on its original pocket axis.",
+    "geometry_outside_hardware_unchanged": true
+  },
+  "unchanged_samples": {
+    "Cleat_Fit": {
+      "byte_identical_to_v02": true
+    },
+    "Cutout_Hook_Fit": {
+      "byte_identical_to_v02": true
+    },
+    "Fence_Channel_Fit": {
+      "byte_identical_to_v02": true
+    },
+    "Allen_Key_Pocket_Fit": {
+      "byte_identical_to_v02": true
+    }
+  },
+  "quick_sample_matches_full_plate": {
+    "same_mesh": true,
+    "same_pocket_print_axis": true
+  },
+  "findings": [
+    {
+      "severity": "pass",
+      "issue": "Measured9 mm bodies receive9.8 mm nominal pockets; measured6 mm heads receive6.8 mm nominal pockets. Body exposure is4 mm short,9 mm tall and1.5 mm small head, plus threads."
+    },
+    {
+      "severity": "pass",
+      "issue": "All intended cavity openings and floors are intact; deeper tall cups do not intersect the triangle plane or shelf webs."
+    },
+    {
+      "severity": "physical_fit_required",
+      "issue": "The0.8 mm nominal diametral clearance is CAD clearance. The standalone three-pocket coupon is intended to verify fit after printing."
+    },
+    {
+      "severity": "unchanged_limits",
+      "issue": "Triangle exact thickness/cutout geometry, extra attachment/key sizes, wall-cleat fit and loaded strength remain unverified as documented for v02. The unchanged hook/cleat/fence/key samples retain their prior checks."
+    }
+  ]
+}

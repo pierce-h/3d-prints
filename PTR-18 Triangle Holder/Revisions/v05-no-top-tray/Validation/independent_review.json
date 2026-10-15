@@ -1,0 +1,47 @@
+{
+  "revision": "v05 no top tray",
+  "scope": "Focused independent exported-STL comparison proving only the three raised tray walls were removed. No model edits.",
+  "source_sha256": "033a89e0cfac2829a415f86833d7a000a9d1361be8d6d1663ea3d48cf0d3c324",
+  "main_sha256": "8396f77901f4d463887cd0f18e6eef41e2eb77f7e7235eabf7572d2e6c35b317",
+  "previous_main_sha256": "0b89585c3867da7cabcec12e62622fc5c8e680f903ba11df10278c77bf2727e4",
+  "main_mesh": {
+    "watertight": true,
+    "winding_consistent": true,
+    "bodies": 1,
+    "components": 1,
+    "manifold_status": "Error.NoError",
+    "triangles": 8086,
+    "volume_mm3": 371746.06641483825,
+    "bounds": [
+      [
+        -130.0,
+        -57.0,
+        -17.5
+      ],
+      [
+        130.0,
+        78.0,
+        82.0
+      ]
+    ]
+  },
+  "delta": {
+    "added_volume_mm3": 0.0,
+    "removed_volume_mm3": 4092.0000000000014,
+    "expected_three_wall_volume_mm3": 4091.9999999999995,
+    "removed_beyond_expected_walls_mm3": 0.0,
+    "expected_walls_remaining_mm3": 0.0,
+    "upstanding_tray_material_remaining_mm3": 0.0
+  },
+  "preserved_surfaces": {
+    "shelf_patch_missing_mm3": 0.0,
+    "shared_fence_wall_missing_mm3": 0.0,
+    "comment": "Changes exactly match the three wall volumes above Y65, so all attachment pockets, through-hole, hook, cleats and other fence geometry are unchanged."
+  },
+  "project": {
+    "settings_equal_v04": true,
+    "placement_transform_equal_v04": true,
+    "fit_samples": "v04 fit samples remain applicable because functional geometry is unchanged."
+  },
+  "remaining_limit": "Existing physical-fit and loaded-strength limitations remain; no new geometric concern."
+}

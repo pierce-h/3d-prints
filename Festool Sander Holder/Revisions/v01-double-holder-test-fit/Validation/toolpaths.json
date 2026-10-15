@@ -1,0 +1,88 @@
+{
+  "linear_extrusion_path_bounds_xy_mm": [
+    36.706,
+    26.641,
+    297.726,
+    272.997
+  ],
+  "bounds_by_feature": {
+    "Support": [
+      56.987,
+      60.387,
+      262.209,
+      254.348
+    ],
+    "Brim": [
+      65.281,
+      26.641,
+      297.726,
+      272.899
+    ],
+    "Outer wall": [
+      36.787,
+      30.181,
+      294.904,
+      272.997
+    ],
+    "Inner wall": [
+      36.706,
+      30.735,
+      294.35,
+      272.978
+    ],
+    "Bottom surface": [
+      39.244,
+      34.414,
+      290.501,
+      270.97
+    ],
+    "Internal solid infill": [
+      38.527,
+      33.58,
+      291.494,
+      271.994
+    ],
+    "Floating vertical shell": [
+      40.297,
+      33.591,
+      291.494,
+      269.113
+    ],
+    "Bridge": [
+      56.784,
+      42.227,
+      284.945,
+      265.054
+    ],
+    "Top surface": [
+      54.083,
+      41.938,
+      282.3,
+      256.771
+    ],
+    "Gap infill": [
+      64.88,
+      30.524,
+      294.067,
+      244.344
+    ]
+  },
+  "segment_counts": {
+    "Support": 24,
+    "Brim": 19,
+    "Outer wall": 2316,
+    "Inner wall": 12551,
+    "Bottom surface": 71,
+    "Internal solid infill": 240,
+    "Floating vertical shell": 586,
+    "Bridge": 197,
+    "Top surface": 38,
+    "Gap infill": 18
+  },
+  "desktop_slice_verified": {
+    "time": "19h57m",
+    "material_g": 353.36,
+    "layer_height_mm": 0.2
+  },
+  "note": "G0/G1 extrusion centerlines only; excludes machine startup/flush/travel. Slicer additionally accepted full plate geometry. All model/support/brim centerlines within overlapping nozzle area."
+}

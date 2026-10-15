@@ -1,0 +1,84 @@
+{
+  "status": "Digital geometry checked; physical fit untested.",
+  "designer": "3D-Therapy",
+  "license": "CC0",
+  "source_sha256": "913264e68374e2d8b2b285bcdc140767abef55c4110dcc0152c6fa76df38d816",
+  "user_caliper_body_width_approx_mm": 30,
+  "original_gap_mm": 28.92078968,
+  "new_gap_mm": 32.0,
+  "nominal_clearance_per_side_mm": 1,
+  "original_inner_edges_z_mm": [
+    -22.656805,
+    6.26398468
+  ],
+  "new_inner_edges_z_mm": [
+    -24.19641016,
+    7.803589840000001
+  ],
+  "opening_center_z_mm": -8.19641016,
+  "trim_per_side_mm": 1.5396051600000007,
+  "removed_volume_mm3": 133.14359950807412,
+  "original_volume_mm3": 44759.160868667794,
+  "final_volume_mm3": 44626.01726915972,
+  "bounds_local_mm": [
+    [
+      -16.0,
+      -47.5,
+      -40.0
+    ],
+    [
+      16.0,
+      47.5,
+      40.0
+    ]
+  ],
+  "bounds_print_mm": [
+    [
+      159.0,
+      112.5,
+      0.0
+    ],
+    [
+      191.0,
+      207.5,
+      80.0
+    ]
+  ],
+  "print_transform": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      175.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      160.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      40.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "watertight": true,
+  "bodies": 1,
+  "triangles": 1050,
+  "preserved": [
+    "backplate",
+    "French cleat",
+    "outer dimensions",
+    "original print placement",
+    "printer and filament settings",
+    "source attribution and license"
+  ]
+}

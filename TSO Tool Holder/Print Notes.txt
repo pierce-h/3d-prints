@@ -1,0 +1,39 @@
+TSO TOOL HOLDER
+Updated: October 13, 2026
+
+LATEST: v01 — plain front, recessed maker emblem filled flush.
+Status: GEOMETRY VERIFIED AND SLICE-TESTED; physical print and fit unconfirmed.
+
+Open in Bambu Studio:
+Revisions/v01-plain-front/TSO_Tool_Holder_v01_Plain_Front.3mf
+
+The circular maker emblem was recessed 0.5 mm into the front panel.
+Its recess is now filled to the original surrounding face, leaving a plain front.
+Added material volume: 2,183.14 mm3. No original material removed beyond
+negligible numerical tolerance. One watertight, consistently oriented solid.
+The tool slot, French cleat and external dimensions are unchanged.
+Model dimensions in source axes: 100 x 127 x 35.55 mm.
+Original print orientation retained: 35.55 x 127 mm footprint, 100 mm tall.
+
+Original designer: dave3ddiy. Source license: BY-NC-SA.
+Original file and attribution retained under Original and Source.
+
+PRINT SETTINGS — RETAINED FROM ORIGINAL
+Bambu Lab H2D, 0.4 mm nozzle, Bambu PLA Basic in filament slot 1.
+0.20 mm layers, 2 walls, 15% grid infill; supports disabled; automatic brim.
+Other original filament presets and settings are unchanged.
+No print has been sent to a printer.
+
+SLICING ESTIMATE
+Bambu Studio 02.08.02.61: 1 h 27 min 58 sec; 60.15 g PLA.
+Slice return code 0, no slice warnings. Estimate includes preparation.
+Actual time/material depend on printer and filament configuration.
+
+VALIDATION
+The modified 3MF and STL retain a single watertight body.
+The filled region is limited to the 0.5 mm-deep decorative recess.
+Geometry/placement reports and successful slicing result are in Validation.
+Preview shows the plain front; its light color is for visibility.
+
+PRINT HISTORY
+Not printed or physically fit-tested yet.

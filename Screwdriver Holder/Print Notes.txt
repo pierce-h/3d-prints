@@ -1,0 +1,47 @@
+SCREWDRIVER HOLDER — REVISION AND PRINT NOTES
+Updated: October 12, 2026
+
+LATEST: v02 — READY TO PRINT
+Project: Revisions/v02-left-holes-5-8-inch/Screwdriver_Holder_v02_5-8in_Holes.3mf
+Preview: Revisions/v02-left-holes-5-8-inch/Preview.png
+
+The two leftmost columns in the mounted orientation contain four positions:
+front and back rows in columns 1 and 2. Both shelves were edited, eight holes total.
+These eight holes are straight 5/8-inch (15.875 mm) bores. The four wider upper
+recesses at those positions were removed. All other holes retain their original
+geometry, including the approximately 21 mm upper recesses at the other positions.
+
+Validation: dimensions verified; one watertight solid; exterior dimensions and
+saved project settings preserved. Bambu Studio successfully sliced the model.
+Physical print and fit: not yet reported.
+
+
+REVISION HISTORY
+v02 — October 12, 2026 — CURRENT / READY TO PRINT
+  Eight selected left-side holes made straight 5/8-inch openings.
+  Bambu project, STL, preview, and validation records are in:
+  Revisions/v02-left-holes-5-8-inch/
+
+v01 — October 12, 2026 — SUPERSEDED
+  Earlier enlargement: eight selected through-holes to 16.35 mm;
+  four selected upper recesses to 27.35 mm. Retained for history.
+  Files: Revisions/v01-larger-left-holes/
+
+Original — unmodified starting Bambu project
+  File: Original/Screwdriver_Holder_FC.3mf
+
+
+PRINT LOG
+No physical print or fit result has been reported for these revisions.
+
+For each print, record:
+  Date:
+  Revision:
+  Printer and nozzle:
+  Filament/material:
+  Saved print settings or revised project filename:
+  Fit and print result:
+  Change needed:
+
+After a successful physical print and fit check, mark that revision TESTED
+SUCCESSFULLY and preserve the Bambu project containing the settings used.

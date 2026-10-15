@@ -1,0 +1,43 @@
+3D PRINT LIBRARY — VERSION HISTORY
+Started October 15, 2026
+
+This directory is a local Git repository. Library.txt remains the index of
+models and current print revisions. The existing project folders remain in use.
+
+WHAT IS SAVED
+Original models, editable sources, Bambu Studio projects, STL exports, previews,
+reference material, print notes, and deliberate validation records are tracked.
+Earlier revisions are retained because some modeling scripts depend on them.
+Session Backups preserve unsaved Bambu work and are also tracked.
+Computer metadata, Python caches, local environments, temporary files, and
+printer-ready G-code jobs are excluded. No Git LFS dependency is required for
+the current library size.
+
+WORKFLOW
+1. Check the current changes before starting work. Preserve existing user work.
+2. Make the model or print-setting change and save the Bambu project.
+3. Check geometry and slicing as appropriate. Update the preview and print notes.
+4. Save a local Git commit describing the completed change, including related
+   source, project, preview and validation files together.
+5. Record actual print and fit feedback in a later commit. A successful slice
+   alone does not establish physical fit or loaded strength.
+
+Keep numbered revision folders while test sizes or physical outcomes are still
+being compared. Git adds a record of exactly what changed and when; it does not
+replace the model library's revision labels or print-history notes.
+
+USEFUL COMMANDS
+git status --short                 Show changed or untracked files.
+git log --oneline                  Show saved checkpoints.
+git diff                          Review text changes before saving a checkpoint.
+git add <paths>                    Select the files belonging to one change.
+git commit -m "Describe change"    Save that local checkpoint.
+
+Bambu Studio continues to open and save the same 3MF files. Its user interface
+does not display Git history; use the repository's Git tools for that history.
+
+REMOTE BACKUP
+No remote service is configured and nothing has been uploaded. Git history is
+stored in this directory's hidden .git folder; retain an independent backup of
+the library and its history. Review references and project metadata before any
+future publication or sharing.

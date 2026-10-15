@@ -1,0 +1,71 @@
+{
+    "error_string": "Success.",
+    "export_time": 1546,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 10,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 4.720250129699707,
+                "Bridge": 350.0957946777344,
+                "Brim": 124.9226303100586,
+                "Custom": 298.14556884765625,
+                "Flush": 26.0,
+                "Gap infill": 71.7190933227539,
+                "Inner wall": 17356.779296875,
+                "Internal solid infill": 961.0826416015625,
+                "Outer wall": 4455.4912109375,
+                "Overhang wall": 183.2237091064453,
+                "Sparse infill": 8348.9345703125,
+                "Support": 3257.4755859375,
+                "Support interface": 54.58382797241211,
+                "Top surface": 156.41824340820313,
+                "Travel": 3191.80029296875,
+                "Undefined": 3190.231201171875
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFA00",
+                    "id": 1,
+                    "main_used_g": 448.05340576171875,
+                    "total_used_g": 448.05340576171875
+                }
+            ],
+            "generate_support_material_time": 1927,
+            "id": 1,
+            "infill_time": 198,
+            "layer_filament_change": 0,
+            "main_predication": 38535.45703125,
+            "make_perimeters_time": 162,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 131.5,
+                        "height": 260.0,
+                        "width": 123.0,
+                        "x": 113.5,
+                        "y": 89.25,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "PTR18_Hanger_v01_TEST_FIT",
+                    "triangle_count": 8328
+                }
+            ],
+            "sliced_time": 4630,
+            "sliced_time_with_cache": 2286,
+            "total_predication": 38884.03515625,
+            "triangle_count": 8328,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 30.0,
+    "upward_compatible_machine": [
+        "Bambu Lab H2D Pro 0.4 nozzle"
+    ],
+    "wall_loops": 6
+}

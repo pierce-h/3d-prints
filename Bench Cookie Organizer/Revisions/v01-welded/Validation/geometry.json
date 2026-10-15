@@ -1,0 +1,124 @@
+{
+  "status": "Geometry checked; physical print, fit and load untested.",
+  "original_designer": "alejepa",
+  "original_license": "Standard Digital File License",
+  "source_sha256": {
+    "Bench_Cookie_Plus_8_French_Cleat_Holder.3mf": "2c754bdf3c9894881aa958fe7b92ea30fb0ee2da09fab301a970958f2429eae8",
+    "Bench_Cookie_Accesory_Extension_French_Cleat_Holder.3mf": "1d2282de19afd2bee60b311aa4bab47ea46f12a3488a5bfb882855b60cabdd55"
+  },
+  "source_translations_mm": {
+    "cookie": [
+      40,
+      111,
+      37.5
+    ],
+    "accessory": [
+      49,
+      111,
+      -62.5
+    ]
+  },
+  "accessory_joint_insertion_mm": 1.0,
+  "seam": {
+    "slice_z_mm": -0.05,
+    "extrusion_mm": 1.35,
+    "top_z_mm": 1.3
+  },
+  "installed_axes": "X front/depth; Y width; Z up",
+  "installed_bounds_mm": [
+    [
+      -18.0,
+      0.0,
+      -126.0
+    ],
+    [
+      98.0,
+      222.0,
+      75.0
+    ]
+  ],
+  "dimensions_width_depth_height_mm": [
+    222,
+    116,
+    201
+  ],
+  "print_transform": [
+    [
+      0.0,
+      1.0,
+      0.0,
+      64.0
+    ],
+    [
+      -1.0,
+      0.0,
+      0.0,
+      195.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      126.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "print_bounds_mm": [
+    [
+      64.0,
+      97.0,
+      0.0
+    ],
+    [
+      286.0,
+      213.0,
+      201.0
+    ]
+  ],
+  "volume_mm3": 1517859.3916122753,
+  "added_volume_mm3": 206.979549657282,
+  "removed_volume_mm3": 5.8760348612907214e-08,
+  "numerical_cleanup_difference_mm3": 2.031777600774657e-07,
+  "added_bounds_mm": [
+    0.8636364597796009,
+    0.863638591739243,
+    0.0,
+    70.95053432344699,
+    221.13636693106537,
+    1.200000799999998
+  ],
+  "triangle_count": 33860,
+  "watertight": true,
+  "consistent_winding": true,
+  "connected_bodies": 1,
+  "manifold_components": 1,
+  "settings": {
+    "printer_model": "Bambu Lab H2D",
+    "filament_type": [
+      "PLA"
+    ],
+    "filament_settings_id": [
+      "Bambu PLA Basic @BBL H2D"
+    ],
+    "layer_height": "0.2",
+    "wall_loops": "3",
+    "sparse_infill_density": "12%",
+    "sparse_infill_pattern": "gyroid",
+    "enable_support": "1",
+    "support_type": "tree(auto)",
+    "support_on_build_plate_only": "1",
+    "brim_type": "auto_brim"
+  },
+  "preserved_features": [
+    "cookie slots",
+    "accessory holes and shaped storage bays",
+    "original French cleat"
+  ],
+  "separate_parts": "Four optional original rear spacers in Rear_Spacers_4x_v01.3mf",
+  "excluded": "Original support-enforcer modifier and stale per-object print overrides; not model geometry."
+}

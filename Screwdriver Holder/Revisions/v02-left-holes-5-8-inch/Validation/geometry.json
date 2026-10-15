@@ -1,0 +1,191 @@
+{
+  "source": "Screwdriver_Holder_FC.3mf",
+  "output": "Screwdriver_Holder_FC_left_4_5-8in.3mf",
+  "source_sha256": "f6fd5258814e9cce6ac37cb2e2a9213b0aa47a0c4e71e201c17ab98369ca6e6b",
+  "diameter_inches": 0.625,
+  "diameter_mm": 15.875,
+  "scope": "eight selected holes only",
+  "selected_positions": [
+    "1B",
+    "1F",
+    "2B",
+    "2F"
+  ],
+  "changes": [
+    {
+      "feature": "fill original upper recess",
+      "center_mm": [
+        -79.50009996202556,
+        -29.002129744974006
+      ],
+      "original_diameter_mm": 21.003221355654993,
+      "z_mm": [
+        38.2124977,
+        42.5004997
+      ]
+    },
+    {
+      "feature": "lower straight bore",
+      "center_mm": [
+        -80.00241238529314,
+        -28.502499986369017
+      ],
+      "diameter_mm": 15.875,
+      "original_through_diameter_mm": 10.00082621269863,
+      "z_mm": [
+        -12.61,
+        -7.39
+      ]
+    },
+    {
+      "feature": "upper straight bore",
+      "center_mm": [
+        -80.00020127010981,
+        -28.502411833693117
+      ],
+      "diameter_mm": 15.875,
+      "original_through_diameter_mm": 10.001586509756212,
+      "z_mm": [
+        32.39,
+        42.6004997
+      ]
+    },
+    {
+      "feature": "fill original upper recess",
+      "center_mm": [
+        -79.50009996279567,
+        10.001000539970802
+      ],
+      "original_diameter_mm": 21.00305938619989,
+      "z_mm": [
+        38.2124977,
+        42.5004997
+      ]
+    },
+    {
+      "feature": "lower straight bore",
+      "center_mm": [
+        -80.00241238526783,
+        10.501500766866645
+      ],
+      "diameter_mm": 15.875,
+      "original_through_diameter_mm": 10.000825862592464,
+      "z_mm": [
+        -12.61,
+        -7.39
+      ]
+    },
+    {
+      "feature": "upper straight bore",
+      "center_mm": [
+        -80.0002012919798,
+        10.50100034654702
+      ],
+      "diameter_mm": 15.875,
+      "original_through_diameter_mm": 10.001515312813497,
+      "z_mm": [
+        32.39,
+        42.6004997
+      ]
+    },
+    {
+      "feature": "fill original upper recess",
+      "center_mm": [
+        -39.50009960455171,
+        -29.00212974500349
+      ],
+      "original_diameter_mm": 21.003222258257352,
+      "z_mm": [
+        38.2124977,
+        42.5004997
+      ]
+    },
+    {
+      "feature": "lower straight bore",
+      "center_mm": [
+        -40.00118154271392,
+        -28.502499979029434
+      ],
+      "diameter_mm": 15.875,
+      "original_through_diameter_mm": 10.000564647377194,
+      "z_mm": [
+        -12.61,
+        -7.39
+      ]
+    },
+    {
+      "feature": "upper straight bore",
+      "center_mm": [
+        -40.0002004651271,
+        -28.502411833624965
+      ],
+      "diameter_mm": 15.875,
+      "original_through_diameter_mm": 10.001586465836132,
+      "z_mm": [
+        32.39,
+        42.6004997
+      ]
+    },
+    {
+      "feature": "fill original upper recess",
+      "center_mm": [
+        -39.50009960531505,
+        10.001000539953024
+      ],
+      "original_diameter_mm": 21.00306028880854,
+      "z_mm": [
+        38.2124977,
+        42.5004997
+      ]
+    },
+    {
+      "feature": "lower straight bore",
+      "center_mm": [
+        -40.00118154274418,
+        10.501500774267013
+      ],
+      "diameter_mm": 15.875,
+      "original_through_diameter_mm": 10.000564297261871,
+      "z_mm": [
+        -12.61,
+        -7.39
+      ]
+    },
+    {
+      "feature": "upper straight bore",
+      "center_mm": [
+        -40.00020048706928,
+        10.501000346529723
+      ],
+      "diameter_mm": 15.875,
+      "original_through_diameter_mm": 10.001515268890058,
+      "z_mm": [
+        32.39,
+        42.6004997
+      ]
+    }
+  ],
+  "source_volume_mm3": 390563.70161129435,
+  "final_volume_mm3": 387844.6937214358,
+  "added_volume_mm3": 2450.685967754877,
+  "removed_volume_mm3": 5169.6938576134835,
+  "final_vertices": 5562,
+  "final_triangles": 11200,
+  "watertight": true,
+  "winding_consistent": true,
+  "connected_bodies": 1,
+  "bounds_mm": [
+    [
+      -100.0,
+      -49.5,
+      -42.5004997
+    ],
+    [
+      100.0,
+      49.5,
+      42.5004997
+    ]
+  ],
+  "project_settings_identical": true,
+  "placement_identical": true
+}

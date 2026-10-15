@@ -1,0 +1,110 @@
+{
+    "error_string": "Success.",
+    "export_time": 450,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 6,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 13.360572814941406,
+                "Bridge": 19.639768600463867,
+                "Brim": 167.3088836669922,
+                "Custom": 304.72265625,
+                "Flush": 26.0,
+                "Gap infill": 21.770444869995117,
+                "Inner wall": 2272.37939453125,
+                "Internal solid infill": 211.23500061035156,
+                "Outer wall": 639.1077270507813,
+                "Overhang wall": 17.687339782714844,
+                "Sparse infill": 1432.63134765625,
+                "Support": 40.076927185058594,
+                "Support interface": 1.0148385763168335,
+                "Top surface": 49.384544372558594,
+                "Travel": 541.5497436523438,
+                "Undefined": 533.3338012695313
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFA00",
+                    "id": 1,
+                    "main_used_g": 56.918731689453125,
+                    "total_used_g": 56.918731689453125
+                }
+            ],
+            "generate_support_material_time": 38,
+            "id": 1,
+            "infill_time": 33,
+            "layer_filament_change": 0,
+            "main_predication": 5401.14453125,
+            "make_perimeters_time": 47,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 23.5,
+                        "height": 35.0,
+                        "width": 48.0,
+                        "x": 101.0,
+                        "y": 93.25,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "Cleat_Fit",
+                    "triangle_count": 24
+                },
+                {
+                    "bbox": {
+                        "depth": 38.0,
+                        "height": 32.0,
+                        "width": 32.0,
+                        "x": 204.0,
+                        "y": 86.0,
+                        "z": 0.0
+                    },
+                    "id": 9,
+                    "name": "Peg_Fit",
+                    "triangle_count": 1164
+                },
+                {
+                    "bbox": {
+                        "depth": 47.19999313354492,
+                        "height": 20.0,
+                        "width": 21.0,
+                        "x": 114.5,
+                        "y": 156.40000915527344,
+                        "z": 0.0
+                    },
+                    "id": 13,
+                    "name": "Fence_Channel_Fit",
+                    "triangle_count": 40
+                },
+                {
+                    "bbox": {
+                        "depth": 84.0,
+                        "height": 20.0,
+                        "width": 6.0,
+                        "x": 217.0,
+                        "y": 143.0,
+                        "z": 0.0
+                    },
+                    "id": 17,
+                    "name": "Hardware_Holes_Fit",
+                    "triangle_count": 1180
+                }
+            ],
+            "sliced_time": 565,
+            "sliced_time_with_cache": 413,
+            "total_predication": 5749.6513671875,
+            "triangle_count": 2408,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 30.0,
+    "upward_compatible_machine": [
+        "Bambu Lab H2D Pro 0.4 nozzle"
+    ],
+    "wall_loops": 6
+}

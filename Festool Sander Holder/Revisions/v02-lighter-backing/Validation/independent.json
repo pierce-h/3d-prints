@@ -1,0 +1,139 @@
+{
+  "validator": "Independent read of final 3MF XML meshes and actual build/component transforms; no model generator imported. Trimesh topology and manifold Boolean intersections.",
+  "parts": {
+    "holder": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_bodies": 1,
+      "positive_volume_mm3": 394451.7572833723,
+      "nondegenerate_min_face_area_mm2": 9.960329859504125e-09,
+      "installed_bounds_mm": [
+        [
+          -174.0,
+          -40.9922218,
+          -33.5
+        ],
+        [
+          174.0,
+          40.9922218,
+          10.0
+        ]
+      ],
+      "actual_3mf_print_bounds_mm": [
+        [
+          29.79949948666311,
+          29.88431496069998,
+          0.0
+        ],
+        [
+          295.20050044000004,
+          280.115685061529,
+          81.9844436
+        ]
+      ],
+      "rotation_determinant": 1.0000000000231113,
+      "brim_5mm_plus_0_1mm_gap_bounds": [
+        [
+          24.699499486663107,
+          24.78431496069998
+        ],
+        [
+          300.30050044000006,
+          285.21568506152903
+        ]
+      ],
+      "inside_left_nozzle_325x310_conservative_area": true,
+      "wrapping_exclusion_intersection_area_mm2": 0.0,
+      "bed_min_z_mm": 0.0,
+      "below_320mm_height": true
+    },
+    "coupon": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_bodies": 1,
+      "positive_volume_mm3": 42783.8440085,
+      "nondegenerate_min_face_area_mm2": 98.9766654,
+      "installed_bounds_mm": [
+        [
+          -17.5,
+          -40.9922218,
+          -33.5
+        ],
+        [
+          17.5,
+          40.9922218,
+          -10.0
+        ]
+      ],
+      "actual_3mf_print_bounds_mm": [
+        [
+          145.0,
+          143.25,
+          0.0
+        ],
+        [
+          180.0,
+          166.75,
+          81.9844436
+        ]
+      ],
+      "rotation_determinant": 1.0,
+      "brim_5mm_plus_0_1mm_gap_bounds": [
+        [
+          139.9,
+          138.15
+        ],
+        [
+          185.1,
+          171.85
+        ]
+      ],
+      "inside_left_nozzle_325x310_conservative_area": true,
+      "wrapping_exclusion_intersection_area_mm2": 0.0,
+      "bed_min_z_mm": 0.0,
+      "below_320mm_height": true
+    }
+  },
+  "blocking_issues": [],
+  "revision_difference": {
+    "v01_volume_mm3": 468546.1314525243,
+    "v02_volume_mm3": 394451.7572833723,
+    "volume_reduction_mm3": 74094.374169152,
+    "solid_volume_reduction_percent": 15.813677500538637,
+    "removed_mm3": 74094.37416915194,
+    "added_mm3": 0.0,
+    "removed_outside_original_backing_slab_mm3": 0.0,
+    "added_outside_original_backing_slab_mm3": 0.0,
+    "pass": true
+  },
+  "unchanged_v01_interfaces": {
+    "entire_cleat_symmetric_difference_mm3": 0.0,
+    "front_cradles_symmetric_difference_mm3": 0.0,
+    "pass": true
+  },
+  "original_cradle_preservation": {
+    "original_volume_removed_mm3": 6.170518428867452e-06,
+    "tool_facing_solid_symmetric_difference_above_z_minus5_999_mm3": 5.618114097628921e-07,
+    "added_material_outside_rear_structure_and_old_hole_fill_regions_mm3": 2.7181313587187425e-06,
+    "pass": true
+  },
+  "coupon": {
+    "whole_geometry_difference_from_v01_mm3": 0.0,
+    "mating_difference_from_v02_holder_mm3": 0.0,
+    "pass": true,
+    "note": "v01 fit sample remains applicable; full backing extends to Z\u22129.99 whereas sample front ends at Z\u221210, away from mating surfaces."
+  },
+  "print_settings": {
+    "support_enabled": "1",
+    "support_type": "normal(auto)",
+    "sample_support_disabled": true,
+    "wall_loops": "6",
+    "infill_percent": "40%",
+    "layer_height": "0.2"
+  },
+  "limitations": [
+    "These geometry checks do not establish loaded strength, physical tool-body clearance or actual wooden-cleat fit.",
+    "Support extrusion paths and resulting filament savings require slicer verification; this file checks model plus brim bounds only."
+  ],
+  "status": "PASS for prototype geometry; cleat and front interfaces preserved; physical fit and load untested"
+}
