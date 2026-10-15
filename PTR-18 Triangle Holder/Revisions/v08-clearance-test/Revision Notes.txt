@@ -18,13 +18,13 @@ horizontally in the saved side pose; sagging roofs or support remnants are
 possible contributors, but the cause of the physical shortfall is unconfirmed.
 
 TWO SAMPLES
-A — ONE corner notch at the small-screw end:
+A — raised label 2; ONE corner notch at the small-screw end:
   Short pin: 11.8 mm diameter x 8 mm deep
   Tall pin:  11.8 mm diameter x 16 mm deep
   Screw:      8.8 mm diameter x 2.5 mm deep
   All diameters are 2 mm larger than v07.
 
-B — TWO corner notches at the small-screw end:
+B — raised label 3; TWO corner notches at the small-screw end:
   Short pin: 12.8 mm diameter x 8 mm deep
   Tall pin:  12.8 mm diameter x 16 mm deep
   Screw:      9.8 mm diameter x 2.5 mm deep
@@ -32,7 +32,8 @@ B — TWO corner notches at the small-screw end:
 
 Each shelf bank is 72 x 24 mm, with the original 6 mm shelf thickness and
 3 mm deep-pocket walls/floors. The shallow screw floor is 3.5 mm. An end foot
-provides flat bed contact. Printed size of each bank is 19 x 24 x 72 mm tall.
+provides flat bed contact. The base of each bank is 19 x 24 x 72 mm tall;
+the small raised label projects about 0.6 mm from its face.
 The pocket axes are horizontal during printing, as on the full holder.
 
 PRINT AND TEST
@@ -41,10 +42,16 @@ RIGHT nozzle. Original 0.20 mm layers, 6 walls, 30% gyroid, tree supports and
 6 mm brim retained. Outer-wall speed is limited to 100 mm/s, down from the
 v07 standard-nozzle limit of 200 mm/s; actual speed may be lower.
 
-Bambu slice estimate for BOTH samples: 1 h 42 min 12 sec / 32.89 g,
-including preparation and supports. Slicing succeeded with no plate warning;
-the exported slice uses only PETG filament 4 and right extruder 2.
-No print was sent. Confirm the actual PETG spool mapping when sending.
+Current LABELED slice: 1 h 41 min 51 sec / 32.94 g for both samples, including
+preparation and supports. Success, no plate warnings, filament 4/right extruder 2.
+
+PRE-LABEL Bambu slice estimate for BOTH samples: 1 h 42 min 12 sec / 32.89 g,
+including preparation and supports. That slice succeeded with no plate warning
+and used only PETG filament 4 and right extruder 2. This estimate predates the
+labels; use the separate labeled slicing records for the saved labeled project.
+A print was observed underway that began before the labels were added. No
+completed-print or fit result has been reported. Confirm the actual PETG spool
+mapping when sending a future print.
 
 Let the parts cool, remove supports from the openings, and turn the samples
 so their pockets face up. Insert attachment bodies first, with threads up.
@@ -63,14 +70,29 @@ cleat mating surfaces and pocket depths. A change to 0.16 mm layers may make
 ordinary layer texture finer but is not a confirmed fix for the irregular bands.
 PETG sanding reference: https://help.prusa3d.com/article/petg_2059
 
+LABEL UPDATE — OCTOBER 15, 2026
+The same v08 project now contains a small raised 2 on A and 3 on B, created
+with Bambu Studio’s text feature and retained as editable text. This label-only
+update is recorded as a separate Git change within v08. Helvetica bold, size 6,
+0.6 mm thickness and 0.3 mm embedded depth; both labels use black PETG filament 4.
+The labels sit between pockets. The base meshes, pocket dimensions, placement
+and project settings are unchanged. Each label overlaps its sample and forms
+a single connected solid when united. Validation/labels.json records this
+digital audit. Physical label quality and fit remain untested.
+
 FILES AND VALIDATION
-Preview.png shows the actual CAD with the pocket mouths facing up for use;
-Print_Preview.png shows the saved side print orientation. Blue is for preview
-visibility only; the project filament remains black.
+Labeled_Preview.png shows the current labeled CAD in its print orientation.
+The pre-label Preview.png shows the actual CAD with the pocket mouths facing up for use;
+Print_Preview.png also predates the labels and shows the saved side print orientation.
+Blue is for preview visibility only; the project filament remains black.
 Validation/geometry.json records dimensions, section/floor checks and the
-reference project hash. Both banks are individually single, watertight solids.
-Validation/slicing.json, slicing.log and slice_info.config preserve the slice.
+pre-label project hash. Both base banks are individually single, watertight solids.
+Validation/slicing.json, slicing.log and slice_info.config preserve the original
+PRE-LABEL slice. The STL exports and geometry.json also describe the unlabeled
+base. Fresh labeled slice records are labeled_slicing.json, labeled_slicing.log
+and labeled_slice_info.config in Validation; do not substitute the old estimate.
 Source scripts: ../../Source/build_clearance_test_v08.py and
-../../Source/finalize_clearance_test_v08.py.
+../../Source/finalize_clearance_test_v08.py recreate the UNLABELED base. Preserve
+the native labeled 3MF when rebuilding; the scripts do not recreate Bambu text.
 
 Physical fit and performance of v08 remain untested.

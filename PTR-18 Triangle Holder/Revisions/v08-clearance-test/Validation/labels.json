@@ -1,0 +1,162 @@
+{
+  "date": "2026-10-15",
+  "project": "PTR18_Attachment_Clearance_Test_v08_PETG_Right.3mf",
+  "sha256": "79e214a15bcb32ee31abe2b0381d3d1b0564f5f4a75beccf53c433cf50f7233a",
+  "comparison_baseline_git_commit": "15c306d",
+  "baseline_project": "PTR-18 Triangle Holder/Revisions/v08-clearance-test/PTR18_Attachment_Clearance_Test_v08_PETG_Right.3mf",
+  "scope": "Digital geometry, native editable text, placement and settings audit; no physical print or fit result.",
+  "native_editable_text": [
+    {
+      "sample": "B_Plus3mm",
+      "object_id": "6",
+      "part_id": "5",
+      "object_filament": "4",
+      "text_filament": "4",
+      "text_info": {
+        "text": "3",
+        "font_name": "Helvetica",
+        "font_version": "2.5",
+        "style_name": "Recommend",
+        "boldness": "394.25",
+        "skew": "0",
+        "font_index": "-1",
+        "font_size": "6",
+        "thickness": "0.60000002384185791",
+        "embeded_depth": "0.30000001192092896",
+        "rotate_angle": "0",
+        "text_gap": "0",
+        "bold": "1",
+        "italic": "0",
+        "surface_type": "0",
+        "hit_mesh": "0",
+        "hit_position": "0 0 0",
+        "hit_normal": "0 0 0"
+      }
+    },
+    {
+      "sample": "A_Plus2mm",
+      "object_id": "3",
+      "part_id": "2",
+      "object_filament": "4",
+      "text_filament": "4",
+      "text_info": {
+        "text": "2",
+        "font_name": "Helvetica",
+        "font_version": "2.5",
+        "style_name": "Recommend",
+        "boldness": "394.25",
+        "skew": "0",
+        "font_index": "-1",
+        "font_size": "6",
+        "thickness": "0.60000002384185791",
+        "embeded_depth": "0.30000001192092896",
+        "rotate_angle": "0",
+        "text_gap": "0",
+        "bold": "1",
+        "italic": "0",
+        "surface_type": "0",
+        "hit_mesh": "0",
+        "hit_position": "0 0 0",
+        "hit_normal": "0 0 0"
+      }
+    }
+  ],
+  "base_geometry_unchanged": true,
+  "base_topology_identical": true,
+  "base_print_bounds_and_placement_unchanged": true,
+  "maximum_base_vertex_difference_mm": 1.894900002241684e-06,
+  "base_vertex_difference_explanation": "Float serialization only; mesh faces are identical and base bounds unchanged.",
+  "all_project_settings_identical_to_baseline": true,
+  "filament": {
+    "slot": 4,
+    "type": "PETG",
+    "preset": "Bambu PETG Matte @BBL H2D 0.4 nozzle",
+    "colour": "#000000",
+    "filament_map": [
+      "1",
+      "1",
+      "1",
+      "2"
+    ],
+    "physical_extruder_map": [
+      "1",
+      "0"
+    ],
+    "intended_nozzle": "right"
+  },
+  "samples": [
+    {
+      "name": "A_Plus2mm",
+      "label": "2",
+      "base_print_bounds_mm": [
+        [
+          145.5,
+          143.0,
+          0.0
+        ],
+        [
+          164.5,
+          167.0,
+          72.0
+        ]
+      ],
+      "label_print_bounds_mm": [
+        [
+          164.185000002,
+          153.826677799,
+          45.70246839
+        ],
+        [
+          165.085000038,
+          157.132009749,
+          50.29775643
+        ]
+      ],
+      "base_and_text_watertight": true,
+      "intersection_volume_mm3": 2.9304575278310145,
+      "union_connected_components": 1,
+      "pockets_unchanged": true
+    },
+    {
+      "name": "B_Plus3mm",
+      "label": "3",
+      "base_print_bounds_mm": [
+        [
+          185.5,
+          143.0,
+          0.0
+        ],
+        [
+          204.5,
+          167.0,
+          72.0
+        ]
+      ],
+      "label_print_bounds_mm": [
+        [
+          204.185003812,
+          154.072434838,
+          46.0666385
+        ],
+        [
+          205.085003848,
+          157.405376138,
+          50.76783184
+        ]
+      ],
+      "base_and_text_watertight": true,
+      "intersection_volume_mm3": 2.9512351075798793,
+      "union_connected_components": 1,
+      "pockets_unchanged": true
+    }
+  ],
+  "method": "Parsed 3MF meshes and component/build transforms; compared baseline mesh topology and coordinates; checked watertightness and Manifold Boolean intersection/union. Compared all project settings.",
+  "label_location": "Solid shelf area between tall-pin and screw pockets, clear of pocket openings.",
+  "slicing_records": "Fresh labeled slice records are maintained separately as labeled_slicing.json, labeled_slicing.log and labeled_slice_info.config. Earlier slicing.json, slicing.log and slice_info.config describe the pre-label project.",
+  "limitations": [
+    "Digital checks do not establish physical fit, label quality, strength or print outcome.",
+    "The print observed underway began before labels were added; no result has been reported.",
+    "Source scripts and STL exports recreate the unlabeled base; preserve the native labeled 3MF when rebuilding.",
+    "Preview.png and Print_Preview.png predate the labels."
+  ]
+}

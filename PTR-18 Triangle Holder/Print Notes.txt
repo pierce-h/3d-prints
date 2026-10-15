@@ -21,15 +21,27 @@ Bambu H2D / PLA estimate: 12 min 6 sec; 1.72 g including preparation/supports.
 NEXT ATTACHMENT CLEARANCE TEST — v08
 Revisions/v08-clearance-test/PTR18_Attachment_Clearance_Test_v08_PETG_Right.3mf
 Two small samples compare diameter increases from the printed v07 pockets:
-- A, one corner notch: +2 mm; 11.8 mm pin pockets and 8.8 mm screw pocket.
-- B, two corner notches: +3 mm; 12.8 mm pin pockets and 9.8 mm screw pocket.
+- A, raised 2 and one corner notch: +2 mm; 11.8 mm pins and 8.8 mm screw pocket.
+- B, raised 3 and two corner notches: +3 mm; 12.8 mm pins and 9.8 mm screw pocket.
 Each sample has three closed-bottom pockets: short pin 8 mm deep, tall pin
 16 mm deep, and screw head 2.5 mm deep. The holes print horizontally, matching
 the full holder's saved orientation. Bambu PETG Matte, RIGHT nozzle, 0.20 mm
 layers, with the outer-wall speed limited to 100 mm/s. Physical fit is pending.
-Bambu slice verified: about 1 h 42 min / 32.89 g for both samples, including
-preparation and supports. Slice uses only filament 4, right nozzle, with no
-plate warnings. Preview: Revisions/v08-clearance-test/Preview.png.
+Current labeled slice: 1 h 41 min 51 sec / 32.94 g, no plate warnings, only
+filament 4/right extruder 2. Labeled preview: Revisions/v08-clearance-test/Labeled_Preview.png.
+The earlier PRE-LABEL Bambu slice was about 1 h 42 min / 32.89 g for both
+samples, including preparation and supports, using only filament 4/right nozzle
+with no plate warnings. It is not the labeled-project estimate. Fresh labeled
+slicing records are in Revisions/v08-clearance-test/Validation/ as
+labeled_slicing.json, labeled_slicing.log and labeled_slice_info.config.
+The same v08 3MF now includes editable Bambu Studio text labels 2 and 3. This
+label-only update is tracked as a separate Git change; pocket geometry and
+print settings are unchanged. Each label overlaps and joins its sample.
+The STL exports and Preview.png/Print_Preview.png remain pre-label. Source
+scripts recreate the unlabeled base, so preserve the native labeled 3MF when
+rebuilding. Pre-label preview: Revisions/v08-clearance-test/Preview.png.
+A print was observed underway that began before the labels were added; no
+completed-print or physical fit result has been reported.
 Choose the smallest pockets that let the actual pieces drop in and lift out
 freely before revising or reprinting the full holder.
 
@@ -147,6 +159,10 @@ The v06 main hanger is a single watertight solid and slices with return code 0
 and no slice warnings. Its records are under Revisions/v06-essential-storage/Validation.
 The unchanged v04 fit projects retain their prior successful validation and
 slicing records under Revisions/v04-round-key-hole/Validation.
+The v08 label audit is recorded in Revisions/v08-clearance-test/Validation/labels.json.
+It confirms native editable text, unchanged base geometry/settings, positive
+label overlap and one connected union per bank. Fresh labeled slice results
+are separate from the pre-label slice records.
 These checks establish digital printability, not physical fit or a load rating.
 
 REVISION HISTORY
@@ -166,7 +182,8 @@ v07-petg-matte-right-nozzle: print-settings revision only; black Bambu PETG Matt
 on the right extruder. Uses v06 geometry and existing v04 fit geometry.
 v08-clearance-test: two attachment samples compare +2 mm and +3 mm pocket
 diameters in the full holder's print orientation. Full-holder geometry remains
-v07 pending a physical fit result.
+v07 pending a physical fit result. Later on October 15, editable Bambu text
+labels 2 and 3 were added in the same v08 project as a separate Git change.
 
 PRINT HISTORY
 October 15, 2026 — First v07 black Bambu PETG Matte print completed.
@@ -182,3 +199,8 @@ October 15, 2026 — First v07 black Bambu PETG Matte print completed.
 - Specific cleat, cutout-hook, fence and Allen-key fit have not been reported.
 - Next step: print the v08 clearance samples and record fit before changing
   the full holder. Use a new revision for geometry or setting changes.
+
+October 15, 2026 — v08 clearance-test print observed underway.
+- This print began before the editable 2 and 3 labels were added to the saved
+  project. It therefore does not test those labels. No completion, finish or
+  fit result has been reported.
