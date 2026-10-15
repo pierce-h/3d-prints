@@ -1,0 +1,41 @@
+{
+  "revision": "v11 PLA Basic left external feed",
+  "status": "Prepared for an authorized print; complete PLA holder and deeper-pocket fit remain untested.",
+  "device_confirmation": "Bambu Studio device UI showed black Bambu PLA Basic on the left external feed, 2026-10-15.",
+  "geometry_reference": "Revisions/v10-pla-right-nozzle/PTR18_Hanger_v10_PLA_Basic_Right_TEST_FIT.3mf",
+  "reference_sha256": "c0e96c16a68d4229c8d591794ead74a508c499e0fbf8fd55e8a246b0265f958c",
+  "geometry_and_placement_unchanged": true,
+  "process_and_filament_calibration_unchanged": true,
+  "stl_identical_to_v10": true,
+  "changed_project_setting_keys": [
+    "filament_map",
+    "filament_map_mode"
+  ],
+  "active_filament_slot": 1,
+  "profile": "Bambu PLA Basic @BBL H2D",
+  "filament_type": "PLA",
+  "color": "#161616",
+  "extruder": "left / 1",
+  "feed": "external",
+  "nozzle_temperature_C_standard": "220",
+  "bed_temperature_C_textured": "55",
+  "part_fan_min_max_percent": [
+    "60",
+    "80"
+  ],
+  "overhang_fan_percent": "100",
+  "existing_PLA_flow_ratio_standard": "1.029",
+  "existing_PLA_pressure_advance": "0.04",
+  "project_sha256": "264cd6566c44aeb767c7e24203170eeefaff51060665d66c81d3399a3ee648ae",
+  "slicing": {
+    "return_code": 0,
+    "plate_warnings": "",
+    "active_filament_ids": [
+      1
+    ],
+    "extruder_id": "1",
+    "gcode_filament_type_verified": "PLA",
+    "total_seconds": 39203.01953125,
+    "total_used_g": 420.7735595703125
+  }
+}

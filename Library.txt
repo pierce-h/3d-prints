@@ -64,12 +64,13 @@ TSO Tool Holder/Print Notes.txt
 
 
 PTR-18 PLUS TRIANGLE HOLDER
-Latest print setup: v10 — PLA Basic on the RIGHT nozzle; identical v09 geometry.
-Status: GEOMETRY VERIFIED AND SLICE-TESTED; full PLA print and new pocket depth untested.
-The existing Bambu PLA Basic profile is an assumption until the actual spool is
-identified. Verify the profile and spool mapping before printing. PLA use is
-intended for a cool garage/location out of direct sun; garage heat is unconfirmed.
-Full PLA fit, finish and loaded performance have not been tested.
+Latest print setup: v11 — black PLA Basic on the LEFT external feed; v09 geometry.
+Status: PRINT START CONFIRMED on October 15, 2026 after explicit user authorization.
+The device showed the active v11 job at 0%, layer 0/1300, with Pause/Stop active;
+initial ETA was 18:39 local. This confirms the initial sequence, not a first
+layer or completed print. UI-confirmed external black Bambu PLA Basic feeds LEFT;
+the right AMS contained PETG, so v11 uses PLA slot 1 / left extruder 1.
+Full PLA fit, finish, new pocket depth and loaded performance remain untested.
 The user accepted the v08 one-notch / +2 mm sample as slightly loose but suitable.
 Four pin pockets are now 11.8 mm diameter, still 8 or 16 mm deep. The six screw
 pockets are 8.8 mm diameter x 6 mm deep, up from 2.5 mm. The measured 4 mm
@@ -79,6 +80,11 @@ The cleat, cutout hook, fence channel and Allen-key hole are unchanged.
 Loaded performance and specific cleat/fence/Allen-key fit remain unconfirmed.
 
 Latest full hanger in Bambu Studio:
+PTR-18 Triangle Holder/Revisions/v11-pla-left-external/PTR18_Hanger_v11_PLA_Basic_Left_TEST_FIT.3mf
+Black Bambu PLA Basic, external feed, LEFT nozzle / extruder 1, project slot 1.
+Slice: success, no plate warnings; 10 h 53 min 23 sec / 420.77 g.
+
+Preserved right-nozzle PLA alternative:
 PTR-18 Triangle Holder/Revisions/v10-pla-right-nozzle/PTR18_Hanger_v10_PLA_Basic_Right_TEST_FIT.3mf
 Bambu PLA Basic profile, RIGHT nozzle, project filament 1. Geometry, placement
 and process match v09; PLA temperatures/cooling come from the existing profile.
@@ -94,7 +100,7 @@ using only filament 4 / right extruder 2.
 
 Previews (same geometry):
 PTR-18 Triangle Holder/Revisions/v09-enlarged-deeper-pockets/Mounted_Preview.png
-PTR-18 Triangle Holder/Revisions/v10-pla-right-nozzle/Print_Preview.png
+PTR-18 Triangle Holder/Revisions/v11-pla-left-external/Print_Preview.png
 
 Preserved attachment clearance comparison (v08):
 PTR-18 Triangle Holder/Revisions/v08-clearance-test/PTR18_Attachment_Clearance_Test_v08_PETG_Right.3mf

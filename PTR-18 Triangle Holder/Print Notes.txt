@@ -1,14 +1,14 @@
 PTR-18 PLUS TRIANGLE HOLDER
 Updated: October 15, 2026
 
-LATEST PRINT SETUP: v10 — PLA Basic on the RIGHT nozzle; v09 geometry unchanged.
-The user requested a full PLA trial because the remaining PETG is insufficient.
-Status: GEOMETRY VERIFIED AND SLICE-TESTED; full PLA print and new pocket depth untested.
-The existing Bambu PLA Basic profile is assumed; actual PLA type and garage heat
-were not yet confirmed when this setup was prepared. Verify the material profile
-and actual spool mapping before printing. Intended use is in a cool location out
-of direct sun; fit, finish and loaded performance of the PLA holder remain untested.
-The separate v09 PETG project is preserved as an alternative.
+LATEST PRINT SETUP: v11 — black PLA Basic on the LEFT external feed.
+PRINT START CONFIRMED October 15, 2026, after explicit user authorization.
+Bambu Studio confirmed the external spool as black Bambu PLA Basic feeding LEFT;
+the right AMS contained PETG. v11 maps PLA slot 1 to left extruder 1, preserving
+v09 geometry and v10 process settings. The device showed the active v11 job at
+0%, layer 0/1300, with Pause/Stop active and initial ETA 18:39 local. This confirms
+only the initial sequence; no first-layer, completion, finish or fit result yet.
+The v10 right-nozzle PLA and v09 PETG projects remain separate alternatives.
 The v08 one-notch / +2 mm sample was accepted as slightly loose but suitable.
 v09 applies its 11.8 mm pin and 8.8 mm screw diameters to the ten-pocket holder.
 The six screw pockets are now 6 mm deep, so the measured 4 mm heads sit 2 mm
@@ -66,7 +66,12 @@ Attachment_Pockets_Fit and Allen_Key_Hole_Fit.
 Its attachment sample is the original baseline; v09 uses the accepted v08 diameters.
 Bambu H2D / PLA estimate: 2 h 13 min 55 sec; 77.78 g including preparation/supports.
 
-FULL HANGER — v10 PLA TRIAL
+FULL HANGER — v11 PLA LEFT EXTERNAL FEED
+Revisions/v11-pla-left-external/PTR18_Hanger_v11_PLA_Basic_Left_TEST_FIT.3mf
+Bambu H2D / PLA Basic: 10 h 53 min 23 sec / 420.77 g, no plate warnings;
+only project filament 1 / left extruder 1. Print start is confirmed as above.
+
+PRESERVED FULL HANGER — v10 RIGHT-NOZZLE PLA
 Revisions/v10-pla-right-nozzle/PTR18_Hanger_v10_PLA_Basic_Right_TEST_FIT.3mf
 Bambu H2D / PLA Basic slice result and estimate: success, no plate warnings; 10 h 53 min 23 sec / 420.77 g,
 using only filament 1 / right extruder 2.
@@ -151,16 +156,17 @@ HOW TO CHECK THE SAMPLES
    is also available as the standalone quick key-fit project.
 
 PRINT SETTINGS
-Latest v10: Bambu Lab H2D, RIGHT 0.4 mm nozzle; existing Bambu PLA Basic profile,
+Latest v11: Bambu Lab H2D, LEFT 0.4 mm nozzle; Bambu PLA Basic external feed,
 project filament slot 1. Active profile: 220 C nozzle, 55 C textured-plate bed,
 60–80% part cooling and 100% overhang fan. Existing PLA flow ratio 1.029 and
 pressure advance 0.04 are preserved; no new calibration was performed. These
-are saved profile values, not a confirmed match to the user's actual PLA spool.
+are saved profile values; the device UI identified the external spool as black
+Bambu PLA Basic. v10 retains the separate right-nozzle mapping.
 Preserved v09: black Bambu PETG Matte, project filament slot 4, RIGHT nozzle;
 its settings remain unchanged from the v08 PETG test.
-Both use the same geometry, placement and process, including the 100 mm/s
+All three use the same geometry, placement and process, including the 100 mm/s
 outer-wall speed limit. Walls, infill, supports and interfaces follow the selected
-object filament. The left nozzle is unused for these plates.
+object filament. v11 uses only the left nozzle; v09/v10 use only the right.
 0.20 mm layers, 6 walls, 30% gyroid, 6 top and 6 bottom layers.
 Automatic tree supports, critical regions only, 30-degree threshold; supports
 may start on the model. 6 mm outer brim with 0.1 mm gap.
@@ -188,6 +194,11 @@ Material/finishing reference: https://help.prusa3d.com/article/petg_2059
 Moisture reference: https://help.prusa3d.com/article/drying-filament_332086
 
 VALIDATION
+v11 preserves v10 geometry, placement, process and existing calibration.
+Its completed slice uses only PLA slot 1 / left extruder 1 with no plate warnings.
+Project and plate use Manual filament grouping to retain the intended nozzle.
+Records are in Revisions/v11-pla-left-external/Validation/.
+
 v10 preserves v09 mesh geometry, placement and STL exactly. Its settings audit
 records selection of existing PLA profile 1 and right-extruder mapping.
 v10 slicing result: success, no plate warnings; 10 h 53 min 23 sec / 420.77 g,
@@ -245,6 +256,9 @@ v10-pla-right-nozzle: material-selection revision only. Preserves v09 geometry,
 placement and process; selects the existing PLA Basic profile on the right nozzle.
 Actual PLA spool type is unconfirmed; the separate PETG project remains available.
 
+v11-pla-left-external: maps PLA to the UI-confirmed left external feed; geometry
+and process unchanged. Actual print start confirmed after user authorization.
+
 PRINT HISTORY
 October 15, 2026 — First v07 black Bambu PETG Matte print completed.
 - User reports the shape is right. Visible lines remain, but the finished
@@ -283,3 +297,16 @@ October 15, 2026 — v10 PLA setup prepared.
 - Actual PLA spool type and garage heat have not yet been confirmed. Use a cool
   location out of direct sun and evaluate the finished holder before loaded use.
 - No v10 physical print, finish, new-depth retrieval or load result is recorded.
+
+October 15, 2026 — v11 print start confirmed.
+- User explicitly authorized starting the full PLA print while away.
+- Device UI identified black Bambu PLA Basic on the left external feed; right
+  AMS slots contained PETG. v11 was sliced and sent with PLA 1 / left extruder 1.
+- Camera showed an empty bed before starting. The active job then read
+  PTR18_Hanger_v11_PLA_Basic_Left_TEST_FIT, 0%, layer 0/1300, with Pause/Stop
+  active. Initial ETA was 18:39 local; slice estimate 10 h 53 min 23 sec / 420.77 g.
+- This records acceptance and initial sequence only. First layer, completion,
+  surface finish, fit, thread retrieval and loaded behavior are not yet verified.
+- Validation/print_start.json records the UI confirmation at 07:46 CDT. Later
+  status showed heatbed foreign-object detection during startup; ETA 18:40.
+  First-layer extrusion was not verified.

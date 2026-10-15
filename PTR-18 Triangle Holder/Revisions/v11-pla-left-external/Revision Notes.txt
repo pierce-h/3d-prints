@@ -1,0 +1,55 @@
+PTR-18 PLUS — v11 PLA BASIC / LEFT EXTERNAL FEED
+October 15, 2026
+
+Project: PTR18_Hanger_v11_PLA_Basic_Left_TEST_FIT.3mf
+The user explicitly requested starting the full PLA print while away from
+the computer. Bambu Studio's device UI showed the available external spool
+as black Bambu PLA Basic feeding the LEFT nozzle. This project maps the
+active PLA filament slot 1 to left extruder 1, matching that feed. The v10
+right-nozzle project is preserved separately.
+Both project and plate use Manual filament grouping, so offline slicing cannot
+automatically move the PLA back to the default right nozzle.
+
+UNCHANGED FROM v10
+Geometry, object placement, process settings and existing filament calibration
+are identical. The STL is copied without changes. Print_Preview.png is the
+same actual-CAD view; its blue display color is for visibility.
+The four pin pockets are 11.8 mm diameter with two 8 mm and two 16 mm depths.
+The six small screw pockets are 8.8 mm diameter and 6 mm deep. The measured
+4 mm screw heads sit 2 mm below the shelf for retrieval by their threads.
+Cleats, cutout hook, fence channel and Allen-key hole remain unchanged.
+
+PLA SETUP
+Bambu PLA Basic @BBL H2D, black, left 0.4 mm standard nozzle, external feed.
+Saved temperatures: 220 C nozzle and 55 C Textured PEI bed.
+Saved process: 0.20 mm layers, 6 walls, 30% gyroid, 6 top/bottom layers,
+100 mm/s outer-wall limit, automatic tree supports and 6 mm outer brim.
+Original PLA flow ratio 1.029 and pressure advance 0.04 remain in the file.
+No new filament calibration is claimed by this revision.
+
+CHECKS AND STATUS
+Source/prepare_pla_v11.py reproducibly copies v10 and verifies unchanged
+geometry, placement, process and filament calibration. Its --slice option
+uses a separate temporary CLI profile and validates that only PLA filament 1
+and left extruder 1 are used. Validation/settings.json and slicing.json hold
+the completed slice results; slice_info.config records the nozzle and material.
+The successful slice has no plate warnings and uses only PLA filament 1 on
+left extruder 1: 10 h 53 min 23 sec / 420.77 g.
+Generated G-code stays outside the library. Final project/STL/preview hashes
+are in Validation/archive_hashes.json.
+
+The one-notch diameter sample was accepted in PETG. The new 6 mm screw depth,
+thread retrieval, full PLA holder fit, finish and loaded behavior still require
+physical evaluation. Preparation and slicing do not establish a load rating.
+PRINT START — OCTOBER 15, 2026
+After explicit user authorization, the print was sent through Bambu Studio.
+The device UI confirmed active job PTR18_Hanger_v11_PLA_Basic_Left_TEST_FIT,
+0%, layer 0/1300, with Pause/Stop active. Initial ETA was 18:39 local. The camera
+showed an empty bed before starting. UI external-filament settings identified
+black Bambu PLA Basic on the LEFT feed; right AMS slots contained PETG.
+This confirms job acceptance and the initial sequence only. First layer,
+completion, surface finish, fit and loaded performance are not yet verified.
+
+Validation/print_start.json records UI evidence at 07:46 CDT. A subsequent device
+status showed heatbed foreign-object detection during startup (bed target 55 C,
+left preparation nozzle 140 C; ETA updated to 18:40). Extrusion was not verified.

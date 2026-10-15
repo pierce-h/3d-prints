@@ -1,0 +1,29 @@
+{
+  "observed_at_utc": "2026-10-15T12:46:56Z",
+  "local_timezone": "America/Chicago",
+  "printer": "PW 3D (Bambu Lab H2D)",
+  "job": "PTR18_Hanger_v11_PLA_Basic_Left_TEST_FIT",
+  "authorization": "User explicitly requested loading and starting the PLA build while away from computer.",
+  "pre_send_observation": "Live camera showed empty build plate. Device external spool configured as black Bambu PLA Basic; external feed connects to left nozzle. Right AMS slots all PETG.",
+  "send_dialog": {
+    "material": "PLA",
+    "source": "Ext",
+    "nozzle": "Left",
+    "right_nozzle_used": false,
+    "auto_bed_leveling": "Auto",
+    "flow_dynamics_calibration": "Auto",
+    "nozzle_offset_calibration": "Off",
+    "timelapse": "Off (no storage)"
+  },
+  "device_confirmation": {
+    "job_accepted": true,
+    "progress_percent": 0,
+    "layer": 0,
+    "total_layers": 1300,
+    "pause_and_stop_controls_active": true,
+    "estimated_finish_local": "18:39",
+    "estimated_duration": "10h53min23s",
+    "estimated_filament_g": 420.77
+  },
+  "scope": "Print job accepted and startup sequence begun. First layer, completed print and fit not yet observed."
+}
