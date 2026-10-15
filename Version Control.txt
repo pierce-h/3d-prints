@@ -37,7 +37,9 @@ Bambu Studio continues to open and save the same 3MF files. Its user interface
 does not display Git history; use the repository's Git tools for that history.
 
 REMOTE BACKUP
-No remote service is configured and nothing has been uploaded. Git history is
-stored in this directory's hidden .git folder; retain an independent backup of
-the library and its history. Review references and project metadata before any
-future publication or sharing.
+GitHub remote "origin" is configured:
+https://github.com/pierce-h/3d-prints.git
+The connection was verified on October 15, 2026; the repository had no branches
+or tags. Nothing has been pushed yet. Local commits are uploaded only by a push.
+Git history is stored in this directory's hidden .git folder; retain an
+independent backup of the library and its history.
