@@ -39,7 +39,8 @@ does not display Git history; use the repository's Git tools for that history.
 REMOTE BACKUP
 GitHub remote "origin" is configured:
 https://github.com/pierce-h/3d-prints.git
-The connection was verified on October 15, 2026; the repository had no branches
-or tags. Nothing has been pushed yet. Local commits are uploaded only by a push.
+The connection was verified on October 15, 2026; the repository was initially
+empty. Local commits are uploaded only by a push; saving or committing alone
+does not update GitHub. Use git push to upload committed changes on main.
 Git history is stored in this directory's hidden .git folder; retain an
 independent backup of the library and its history.
