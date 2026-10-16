@@ -1,0 +1,10 @@
+{
+  "project": "Pliers_Tray_v02_8_Bay_Section_PLA_Left_TEST_FIT.3mf",
+  "return_code": 0,
+  "warnings": "",
+  "seconds": 47944.0703125,
+  "grams": 445.712158203125,
+  "material": "Bambu PLA Basic",
+  "extruder": "left / 1",
+  "support_toolpaths": true
+}

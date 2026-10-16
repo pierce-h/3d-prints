@@ -1,40 +1,47 @@
-PLIERS HOLDER — v01 SOURCE
+PLIERS HOLDER — CURRENT v02 UPRIGHT DIVIDER TRAY
 
-Original geometry created here: two independent eight-slot sections and a
-handheld three-slot gauge. Installed axes: X along wall, Y up, Z toward user;
-units millimetres. Design parameters are in build_holder.py. Slot dimensions
-are provisional capacities for unmeasured mixed-size tools.
+Original CAD inspired by the user's red-rack photo: tools rest on a closed
+floor between tall fins. v01's hanging comb is superseded and preserved.
+Installed axes: X along wall, Y up, Z toward user; units millimetres.
 
-FILES AND DEPENDENCIES
-build_holder.py constructs the geometry, saves print-pose 3MF/STLs, and records
-geometry checks. It reads existing Bambu settings from:
+CURRENT FILES AND DEPENDENCIES
+build_tray_v02.py holds dimensions and creates the full two-tray plate, single
+tray and shallow fit tray. It imports geometry/export/settings helpers from
+build_holder.py, so retain that v01 source. Its settings dependency is:
 ../../Caliper Holder/Revisions/v01-32mm-center/Caliper_Holder_v01_32mm_Center.3mf
-That file is a settings dependency only; no caliper mesh is reused.
-render_previews.py rasterizes actual STL triangles into the four previews.
-validate_and_finalize.py slices in isolated Bambu CLI profiles, verifies PLA on
-the left extruder with no support toolpaths/warnings, archives slice evidence,
-and embeds previews plus final archive hashes.
+Only settings are reused; no caliper mesh is copied.
+render_tray_v02.py uses the preview helpers in render_previews.py to render
+actual meshes. Keep both scripts. validate_tray_v02.py uses isolated Bambu CLI
+profiles, archives slice evidence, and embeds previews plus archive hashes.
 
-Python environment used: /tmp/screwdriver-holder-venv/bin/python
+Python: /tmp/screwdriver-holder-venv/bin/python
 Packages: numpy, trimesh, manifold3d, Pillow; see requirements.txt.
 Bambu CLI: /Applications/BambuStudio.app/Contents/MacOS/BambuStudio
 Render fonts: macOS /System/Library/Fonts/Supplemental/Arial*.ttf
-Output: ../Revisions/v01-16-slot/
-Temporary slice output: /tmp/pliers-v01/{full,section,sample}/
+Current output: ../Revisions/v02-upright-divider-tray/
+Temporary slices: /tmp/pliers-v02/{full,section,sample}/
 
-REBUILD
-Preserve published files as a new numbered revision before changing dimensions
-or settings. Run these with the Python environment above:
-1. build_holder.py
-2. render_previews.py
-3. validate_and_finalize.py --slice all
-4. validate_and_finalize.py --finalize
-Inspect all previews and slice results before publishing the revision. The
-finalize step adds thumbnails and hashes after the successful slices. Keep
-geometry/independent-review reports and per-project slice records together.
-No step sends a print job or changes the current Bambu Studio GUI project.
+REBUILD v02
+Preserve published files as a new revision before changing design/settings.
+Run with the Python environment above:
+1. build_tray_v02.py
+2. render_tray_v02.py
+3. validate_tray_v02.py --slice all
+4. validate_tray_v02.py --finalize
+Inspect the actual-CAD previews, geometry and support placement before publishing.
+The full/single trays print upright, floor-down, with tree supports at rear
+cleats; the shallow sample has no cleat. Verify saved PLA/left-nozzle mapping.
+The finalize step embeds previews and hashes after successful slices. No step
+sends a print or changes the current Bambu Studio GUI project.
 
-The full plate holds two independent sections; the section and gauge projects
-are separate alternatives. Preserve their shelf-on-bed print poses. The gauge
-has no wall cleat and checks slot fit only. Geometry and slicing checks do not
-establish physical tool fit, cleat fit or a load rating.
+PRESERVED v01 HANGING COMB
+Output: ../Revisions/v01-16-slot/. This is the earlier open-slot design that
+held tools by their heads, superseded after the user clarified the tray concept.
+Its source/notes/validation remain intact. Rebuild only for historical work:
+build_holder.py, render_previews.py, validate_and_finalize.py --slice all,
+then validate_and_finalize.py --finalize. Temporary output: /tmp/pliers-v01/.
+That revision prints shelf-on-bed without supports and has a handheld slot gauge.
+
+Each current project uses provisional capacities, not measured tool dimensions.
+The shallow fit tray cannot establish tall-tool stability, cleat fit or load
+capacity. Geometry and slicing success do not establish those physical results.

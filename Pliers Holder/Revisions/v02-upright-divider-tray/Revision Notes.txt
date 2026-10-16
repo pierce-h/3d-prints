@@ -1,0 +1,55 @@
+PLIERS HOLDER — v02 UPRIGHT DIVIDER TRAY
+October 16, 2026
+
+The user's red-rack reference clarified that tools should rest upright in a
+closed-bottom tray with tall dividers. v02 replaces the v01 hanging-comb
+concept. This is original CAD inspired by the photo, not an exact measured
+product copy or a downloaded third-party mesh. v01 remains archived unchanged.
+Status: PROTOTYPE; geometry and slicing verified, physical fit/load untested.
+
+PROJECTS
+Pliers_Tray_v02_16_Bays_PLA_Left_TEST_FIT.3mf
+  Two independent eight-bay trays: 26 h 34 min 12 sec / 891.39 g
+Pliers_Tray_v02_8_Bay_Section_PLA_Left_TEST_FIT.3mf
+  One tray: 13 h 19 min 4 sec / 445.71 g
+Pliers_Tray_v02_3_Bay_Fit_Sample_PLA_Left.3mf
+  Three shallow bays: 2 h 49 min 25 sec / 96.89 g
+Matching print-pose STL files are included. No Bambu Studio UI project was
+opened and no print has been sent for this revision.
+
+DESIGN
+Each tray: 266 mm wide x 130 mm tall x 122.5 mm deep including French cleats;
+floor footprint depth 105 mm. A 6 mm gap between trays gives 538 mm total width
+(21.18 inches). Bay widths: 24/24/28/28/32/32/36/36 mm. Actual tool widths are
+unknown; capacities are provisional. Tools rest on the solid floor, choosing
+whichever end/orientation seats stably. There is no head-width catch requirement.
+Tall rear fins taper down toward an 18 mm front lip, 14.8 mm above the floor.
+Floor/back: 3.2 mm. Internal fins: 2.8 mm. Outer walls: 3.2 mm.
+Two 60 mm cleat segments per tray project 17.5 mm with 45-degree bevels, for
+nominal 19.05 mm plywood. Local attachment pads are 6 mm thick with 45-degree
+lower ramps. Actual rail dimensions and mating fit remain unconfirmed.
+
+The 102 x 105 x 35 mm fit tray has 24/30/36 mm bays and no cleat. It checks
+width and seating by hand/on a bench. It cannot test full-height lateral
+stability, wall mounting or load capacity.
+
+PRINT AND VALIDATION
+Black Bambu PLA Basic / H2D standard 0.4 mm / LEFT extruder 1, project filament 1,
+Manual grouping. 0.20 mm layers, 4 walls, 25% gyroid, 5 top/bottom layers, 4 mm
+outer brim. The floor sits on the bed; automatic tree supports serve rear cleats.
+All three final slices succeeded with no plate warnings using only PLA on the
+left extruder. Full and single trays generate supports; the shallow sample does
+not. The final G-code audit confirms all supports stay behind the trays,
+with none inside the tool bays, and print paths fit the left-nozzle area.
+Supports account for about 18 g of the full set (2% of its material).
+See Validation/support_review.json in the v02 revision for the audit.
+Geometry and independent review confirm closed floors and connected watertight
+pieces. The full project intentionally has two separate trays. Per-project
+slice evidence is stored under Validation/full, section and sample.
+Four previews render actual CAD. Installed STLs in Validation are inspection
+files; use the main 3MFs to retain print pose and settings.
+Sources: ../../Source/build_tray_v02.py, render_tray_v02.py and
+validate_tray_v02.py. See ../../Source/README.txt for dependencies and rebuilding.
+
+No physical print, fit or load result is recorded. Digital checks do not
+establish a load rating.

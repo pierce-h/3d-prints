@@ -151,25 +151,27 @@ Caliper Holder/Print Notes.txt
 
 
 PLIERS HOLDER
-Latest revision: v01 — 16 slots in two independently mounted eight-slot sections.
-Status: PROTOTYPE — geometry and slicing verified; tool/cleat fit and load untested.
-Original geometry created here for mixed-size pliers. Each section has
-12/14/16/18/20/22/24/26 mm slots on 34 mm centers. Widths are provisional
-capacities; bulky tools may need an empty neighboring slot. Each section is
-286 x 58 x 108.5 mm including cleats; two with a 6 mm gap span 578 mm (22.76 in).
+Latest revision: v02 — closed-floor upright divider trays, following the user's
+red-rack reference. Supersedes v01's open-slot hanging comb; v01 remains archived.
+Status: PROTOTYPE — geometry/slicing verified; tool seating, stability, cleat
+fit and loaded use untested.
+Two independently mounted eight-bay trays; each 266 x 130 x 122.5 mm including
+cleats. A 6 mm gap gives 538 mm (21.18 in) overall width. Each tray has clear
+bays 24/24/28/28/32/32/36/36 mm wide. Tools rest on the floor between fins;
+widths are provisional for unmeasured mixed-size tools.
 
-Full set in Bambu Studio (16 h 8 min / 470 g):
-Pliers Holder/Revisions/v01-16-slot/Pliers_Rack_v01_16_Slots_PLA_Left_TEST_FIT.3mf
-Single section (8 h 6 min / 235 g):
-Pliers Holder/Revisions/v01-16-slot/Pliers_Rack_v01_8_Slot_Section_PLA_Left_TEST_FIT.3mf
-Handheld 12/20/26 mm slot-fit gauge first (1 h 29 min / 40 g):
-Pliers Holder/Revisions/v01-16-slot/Pliers_Rack_v01_3_Slot_Fit_Sample_PLA_Left.3mf
-The gauge has no French cleat and does not test mounting or load capacity.
-All three use black PLA Basic / LEFT nozzle, Manual grouping. Slices passed
-without plate warnings or supports. No print has been sent.
+Full set in Bambu Studio (26 h 34 min 12 sec / 891.39 g):
+Pliers Holder/Revisions/v02-upright-divider-tray/Pliers_Tray_v02_16_Bays_PLA_Left_TEST_FIT.3mf
+Single eight-bay tray (13 h 19 min 4 sec / 445.71 g):
+Pliers Holder/Revisions/v02-upright-divider-tray/Pliers_Tray_v02_8_Bay_Section_PLA_Left_TEST_FIT.3mf
+Shallow 24/30/36 mm fit tray first (2 h 49 min 25 sec / 96.89 g):
+Pliers Holder/Revisions/v02-upright-divider-tray/Pliers_Tray_v02_3_Bay_Fit_Sample_PLA_Left.3mf
+The fit tray has no cleat and cannot test tall-tool lateral stability or loads.
+Black PLA Basic / LEFT nozzle, Manual grouping. Trays print floor-down with
+rear-cleat tree supports. No Bambu Studio UI project opened or print sent.
 
 Preview:
-Pliers Holder/Revisions/v01-16-slot/Mounted_Preview.png
+Pliers Holder/Revisions/v02-upright-divider-tray/Mounted_Preview.png
 Print details and fit checks:
 Pliers Holder/Print Notes.txt
 

@@ -1,0 +1,82 @@
+{
+    "error_string": "Success.",
+    "export_time": 1392,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 4,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 1632.705322265625,
+                "Bridge": 2596.91650390625,
+                "Brim": 301.9576721191406,
+                "Custom": 295.303466796875,
+                "Flush": 26.0,
+                "Gap infill": 2045.7445068359375,
+                "Inner wall": 39981.08203125,
+                "Internal solid infill": 9369.794921875,
+                "Outer wall": 19322.10546875,
+                "Sparse infill": 10680.4970703125,
+                "Support": 3028.955810546875,
+                "Top surface": 1918.5037841796875,
+                "Travel": 4494.5400390625,
+                "Undefined": 4491.07373046875
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFA00",
+                    "id": 1,
+                    "main_used_g": 891.3939819335938,
+                    "total_used_g": 891.3939819335938
+                }
+            ],
+            "generate_support_material_time": 1033,
+            "id": 1,
+            "infill_time": 1474,
+            "layer_filament_change": 0,
+            "main_predication": 95307.875,
+            "make_perimeters_time": 111,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 122.5,
+                        "height": 130.0,
+                        "width": 266.0,
+                        "x": 42.0,
+                        "y": 27.75,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "8-bay upright tray 1",
+                    "triangle_count": 540
+                },
+                {
+                    "bbox": {
+                        "depth": 122.5,
+                        "height": 130.0,
+                        "width": 266.0,
+                        "x": 42.0,
+                        "y": 164.75,
+                        "z": 0.0
+                    },
+                    "id": 9,
+                    "name": "8-bay upright tray 2",
+                    "triangle_count": 540
+                }
+            ],
+            "sliced_time": 5429,
+            "sliced_time_with_cache": 2582,
+            "total_predication": 95651.7109375,
+            "triangle_count": 1080,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 25.0,
+    "upward_compatible_machine": [
+        "Bambu Lab H2D Pro 0.4 nozzle"
+    ],
+    "wall_loops": 4
+}
