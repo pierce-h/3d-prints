@@ -1,0 +1,186 @@
+{
+  "review_method": "Independent checks of exported STL and 3MF meshes; source geometry was not reused to generate checks.",
+  "result": "PASS for compact closed-floor tray geometry and printer placement; rear cleats require supports.",
+  "concept": "Closed-bottom upright divider tray; not an open-slot hanging comb.",
+  "mesh": {
+    "watertight": true,
+    "consistent_winding": true,
+    "components_per_module": 1,
+    "bounds_installed_mm": [
+      [
+        0.0,
+        0.0,
+        -17.5
+      ],
+      [
+        180.0,
+        177.8000030517578,
+        63.5
+      ]
+    ],
+    "degenerate_faces_after_export_cleanup": 0
+  },
+  "tray": {
+    "closed_floor_verified": true,
+    "floor_thickness_mm": 3.2,
+    "bays_per_module": 8,
+    "full_project_bays": 16,
+    "clear_bay_widths_mm": [
+      16.0,
+      16.0,
+      18.0,
+      18.0,
+      20.0,
+      20.0,
+      22.0,
+      24.0
+    ],
+    "wall_widths_mm": [
+      3.2,
+      2.8,
+      2.8,
+      2.8,
+      2.8,
+      2.8,
+      2.8,
+      2.8,
+      3.2
+    ],
+    "clear_depth_below_mounting_pads_mm": 56.3,
+    "maximum_clear_bay_width_mm": 24,
+    "front_lip_total_height_mm": 18,
+    "front_lip_height_above_floor_mm": 14.8,
+    "front_lip_thickness_mm": 4,
+    "divider_height_by_depth_mm": {
+      "8": 177.8000030517578,
+      "12": 176.80000304803252,
+      "16": 148.10000227428995,
+      "24": 61.0,
+      "40": 46.12676056536671,
+      "59": 28.46478873245644,
+      "62": 25.5
+    }
+  },
+  "cleat": {
+    "angle_degrees": 45,
+    "segments_per_module": 2,
+    "segment_width_mm": 60,
+    "projection_mm": 17.5
+  },
+  "print": {
+    "upright_floor_down": true,
+    "left_nozzle_manual": true,
+    "objects": 2,
+    "bounds_mm": [
+      [
+        [
+          85.0,
+          64.5,
+          0.0
+        ],
+        [
+          265.0,
+          145.5,
+          177.8
+        ]
+      ],
+      [
+        [
+          85.0,
+          174.5,
+          0.0
+        ],
+        [
+          265.0,
+          255.5,
+          177.8
+        ]
+      ]
+    ],
+    "fits_model_plus_4mm_brim": true,
+    "tree_supports_enabled": true,
+    "rear_cleat_growth_layers": 88,
+    "internal_growing_layers": [
+      [
+        137.1,
+        11.919986932277597
+      ],
+      [
+        137.3,
+        23.83997386455519
+      ],
+      [
+        137.5,
+        23.83997386455519
+      ],
+      [
+        137.7,
+        23.839973864555184
+      ],
+      [
+        137.9,
+        23.839972976445964
+      ],
+      [
+        138.1,
+        23.839973864555194
+      ],
+      [
+        138.3,
+        23.83997386455519
+      ],
+      [
+        138.5,
+        23.83997386455519
+      ],
+      [
+        138.7,
+        23.83997386455519
+      ],
+      [
+        138.9,
+        23.839973864555198
+      ],
+      [
+        139.1,
+        23.839973864555184
+      ],
+      [
+        139.3,
+        23.83997386455519
+      ],
+      [
+        139.5,
+        23.83997386455519
+      ],
+      [
+        139.7,
+        23.839972976445978
+      ],
+      [
+        139.9,
+        11.920351057054859
+      ]
+    ],
+    "internal_overhangs_beyond_45deg": [],
+    "support_placement_requires_slicer_check": false,
+    "internal_support_required_by_geometry": false,
+    "support_placement_audited_in": "support_review.json"
+  },
+  "sample": {
+    "bays_mm": [
+      16,
+      20,
+      24
+    ],
+    "closed_floor": true,
+    "height_mm": 35,
+    "cleat_present": false,
+    "use": "Handheld or benchtop fit sample; not a wall mount"
+  },
+  "limitations": [
+    "Actual tool fit and stable seating untested.",
+    "Actual wooden cleat rail height and mating fit unconfirmed.",
+    "No load rating or long-term creep test."
+  ]
+}

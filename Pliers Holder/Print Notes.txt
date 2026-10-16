@@ -1,34 +1,37 @@
 PLIERS HOLDER
 Updated: October 16, 2026
 
-Latest revision: v02 — upright divider tray with a closed floor, based on the
-user's red-rack reference. This supersedes the v01 hanging-comb concept.
+Latest revision: v03 — upright divider trays with clear slots from 16 to 24 mm,
+following the user's maximum-width correction and reference proportions.
 Status: PROTOTYPE — geometry and slicing verified; tool seating, cleat fit and loaded use
 untested. Original CAD inspired by the reference, not an exact measured copy
 or a downloaded mesh. No print has been sent or project opened in Bambu Studio.
 
 BAMBU STUDIO PROJECTS
 Full 16-bay set, two independent eight-bay trays on one H2D plate:
-Revisions/v02-upright-divider-tray/Pliers_Tray_v02_16_Bays_PLA_Left_TEST_FIT.3mf
-Estimate: 26 h 34 min 12 sec / 891.39 g
+Revisions/v03-24mm-max-slots/Pliers_Tray_v03_16_Bays_PLA_Left_TEST_FIT.3mf
+Estimate: 22 h 22 min 5 sec / 721.36 g
 
 Single eight-bay tray:
-Revisions/v02-upright-divider-tray/Pliers_Tray_v02_8_Bay_Section_PLA_Left_TEST_FIT.3mf
-Estimate: 13 h 19 min 4 sec / 445.71 g
+Revisions/v03-24mm-max-slots/Pliers_Tray_v03_8_Bay_Section_PLA_Left_TEST_FIT.3mf
+Estimate: 11 h 12 min 28 sec / 360.70 g
 
 Three-bay fit tray, recommended before the full print:
-Revisions/v02-upright-divider-tray/Pliers_Tray_v02_3_Bay_Fit_Sample_PLA_Left.3mf
-Estimate: 2 h 49 min 25 sec / 96.89 g
-This 102 mm-wide x 105 mm-deep x 35 mm-tall sample has 24/30/36 mm bays and no
+Revisions/v03-24mm-max-slots/Pliers_Tray_v03_3_Bay_Fit_Sample_PLA_Left.3mf
+Estimate: 1 h 39 min 10 sec / 54.41 g
+This 72 mm-wide x 63.5 mm-deep x 35 mm-tall sample has 16/20/24 mm bays and no
 cleat. It checks width and seating by hand or on a bench. Its shallow dividers
 do not test lateral stability of tall tools, full-height storage or mounting.
 
 SIZE AND USE
-Each tray is 266 mm wide x 130 mm tall x 122.5 mm deep including rear cleats.
-The floor footprint is 105 mm deep. Two separately mounted trays with a 6 mm
-gap span 538 mm (21.18 inches); they do not connect mechanically.
-Each tray's clear bay widths are 24/24/28/28/32/32/36/36 mm. Actual tools were
-not measured, so these are provisional capacities for the user's mixed sizes.
+Each tray is 180 mm wide x 177.8 mm (7 inches) tall x 81 mm deep including cleats.
+The tray/floor depth is 63.5 mm (2.5 inches). Two separately mounted trays with
+a 6 mm gap span 366 mm (14.41 inches); they do not connect mechanically.
+Each tray's clear bay widths are 16/16/18/18/20/20/22/24 mm, capped at the user's
+requested 24 mm maximum. Actual tool fit remains untested.
+The reference dimensions, 304.8 x 177.8 x 63.5 mm, establish proportions. Our
+16-bay pair is wider: its overall width follows the chosen bay widths plus walls.
+The reference divider thickness is unknown.
 
 Tools rest on the solid floor between tall divider fins. Choose the end and
 orientation that seat each tool stably; the head does not need to catch on a
@@ -40,7 +43,8 @@ STRUCTURE AND CLEAT
 Floor and back are 3.2 mm thick; internal fins are 2.8 mm and outer walls 3.2 mm.
 Each tray has two 60 mm-wide French cleat segments projecting 17.5 mm, with a
 45-degree mating profile for nominal 3/4-inch (19.05 mm) plywood. Local 6 mm
-reinforcement pads cover the attachments, with 45-degree lower ramps.
+reinforcement pads cover the attachments, with 45-degree lower ramps. Cleats
+and pads sit 47.8 mm higher than v02 to follow the taller tray.
 Actual rail height, cleat seating and loaded behavior remain untested. These
 features and digital checks do not establish a load rating.
 
@@ -51,17 +55,17 @@ filament 1 / extruder 1, Manual grouping. 0.20 mm layers, 4 walls, 25% gyroid,
 Automatic tree supports are enabled for the full trays' rear cleats.
 All three final slices succeeded with no plate warnings using only PLA on the
 left extruder. Full and single trays generate supports; the shallow sample does
-not. The final G-code audit confirms all supports stay behind the trays,
-with none inside the tool bays, and print paths fit the left-nozzle area.
-Supports account for about 18 g of the full set (2% of its material).
-See Validation/support_review.json in the v02 revision for the audit.
+not. Independent geometry review passed. The G-code audit confirms supports
+stay behind the trays, outside all bays, and all printed features fit the
+left-nozzle area. Full-set supports total 34.5 g; see support_review.json
+in the revision Validation folder.
 Confirm the actual PLA spool and mapping before a print.
 
 The individual tray and sample meshes are single watertight connected solids;
 the full plate intentionally contains two separate trays. Validation contains
 geometry, independent review and per-project slice records. Installed STLs in
 Validation are for inspection; main STL/3MF files use the print pose.
-Previews under Revisions/v02-upright-divider-tray/ are Mounted_Preview.png,
+Previews under Revisions/v03-24mm-max-slots/ are Mounted_Preview.png,
 Section_Preview.png, Print_Preview.png and Fit_Sample_Preview.png. They render
 the actual CAD, with display colors chosen for visibility.
 
@@ -70,5 +74,8 @@ October 16, 2026 — v01 was a hanging comb with open slots that supported tools
 by their heads. The user clarified the desired upright tray using a red-rack
 reference. v01 files and its notes remain archived under Revisions/v01-16-slot/;
 they are not the current design. No physical v01 print or fit result is recorded.
-October 16, 2026 — v02 replaces the comb with a closed-floor divider tray.
-Physical fit, tall-tool stability, cleat fit and loaded use remain untested.
+October 16, 2026 — v02 introduced the closed-floor divider tray with 24–36 mm
+bays. It remains archived under Revisions/v02-upright-divider-tray/.
+October 16, 2026 — v03 caps bay width at 24 mm and reduces the other widths,
+using the reference's 7-inch height and 2.5-inch tray depth. Physical fit,
+tall-tool stability, cleat fit and loaded use remain untested.

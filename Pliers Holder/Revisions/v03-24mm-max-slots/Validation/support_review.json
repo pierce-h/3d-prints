@@ -1,0 +1,144 @@
+{
+  "result": "PASS: support extrusion stays behind the trays and outside tool bays; all print-feature extrusion envelopes fit the left nozzle area.",
+  "method": "Parsed all positive G-code extrusion moves, accounting for relative/absolute E and line width; startup/end Custom motions excluded. No extruding arcs were present.",
+  "scope": "Final cleaned v03 slices; physical print not performed.",
+  "projects": {
+    "full": {
+      "gcode_sha256": "fc916b6c73347ad6b2472b150a7cccd3803a631327f6f8a7261cef9df244fc0d",
+      "slice_success": true,
+      "warnings": "",
+      "header_material_g": 721.3636474609375,
+      "total_time_seconds": 80524.6015625,
+      "support_g": 34.51228429540345,
+      "support_percent_of_extruded_features": 4.784512997895056,
+      "support_moves": 581040,
+      "support_by_object": {
+        "6102": {
+          "moves": 290520,
+          "extrusion_envelope_bounds_mm": [
+            [
+              98.85100000000001,
+              242.062,
+              0.2
+            ],
+            [
+              251.05,
+              274.086,
+              150.2
+            ]
+          ],
+          "support_g": 17.256142147701723,
+          "back_plane_print_y": 238
+        },
+        "6101": {
+          "moves": 290520,
+          "extrusion_envelope_bounds_mm": [
+            [
+              98.85100000000001,
+              132.062,
+              0.2
+            ],
+            [
+              251.05,
+              164.086,
+              150.2
+            ]
+          ],
+          "support_g": 17.256142147701723,
+          "back_plane_print_y": 128
+        }
+      },
+      "support_in_tool_bay_moves": 0,
+      "support_forward_of_own_back_plane_moves": 0,
+      "all_extrusion_envelope_bounds_mm": [
+        [
+          81.222,
+          60.722,
+          0.2
+        ],
+        [
+          268.778,
+          274.086,
+          177.8
+        ]
+      ],
+      "outside_conservative_left_print_area_moves": 0,
+      "within_left_bed_and_below_y310_exclusion": true,
+      "unsupported_arc_moves": 0
+    },
+    "section": {
+      "gcode_sha256": "30428e50f3e4d0399c504e2f91325ab4746e52fa58ee7ded88575aadbfab2a0f",
+      "slice_success": true,
+      "warnings": "",
+      "header_material_g": 360.69696044921875,
+      "total_time_seconds": 40347.87890625,
+      "support_g": 17.256142147701723,
+      "support_percent_of_extruded_features": 4.784512997894094,
+      "support_moves": 290520,
+      "support_by_object": {
+        "6101": {
+          "moves": 290520,
+          "extrusion_envelope_bounds_mm": [
+            [
+              98.85100000000001,
+              187.062,
+              0.2
+            ],
+            [
+              251.05,
+              219.086,
+              150.2
+            ]
+          ],
+          "support_g": 17.256142147701723,
+          "back_plane_print_y": 183
+        }
+      },
+      "support_in_tool_bay_moves": 0,
+      "support_forward_of_own_back_plane_moves": 0,
+      "all_extrusion_envelope_bounds_mm": [
+        [
+          81.222,
+          115.722,
+          0.2
+        ],
+        [
+          268.778,
+          219.086,
+          177.8
+        ]
+      ],
+      "outside_conservative_left_print_area_moves": 0,
+      "within_left_bed_and_below_y310_exclusion": true,
+      "unsupported_arc_moves": 0
+    },
+    "sample": {
+      "gcode_sha256": "cfe355a07cf0b7e2f03be88d68de7dd041dab89021b9f4ad762f1914a3e740eb",
+      "slice_success": true,
+      "warnings": "",
+      "header_material_g": 54.41093826293945,
+      "total_time_seconds": 5949.548828125,
+      "support_g": 0.0,
+      "support_percent_of_extruded_features": 0.0,
+      "support_moves": 0,
+      "support_by_object": {},
+      "support_in_tool_bay_moves": 0,
+      "support_forward_of_own_back_plane_moves": 0,
+      "all_extrusion_envelope_bounds_mm": [
+        [
+          135.222,
+          124.472,
+          0.2
+        ],
+        [
+          214.778,
+          195.528,
+          35.0
+        ]
+      ],
+      "outside_conservative_left_print_area_moves": 0,
+      "within_left_bed_and_below_y310_exclusion": true,
+      "unsupported_arc_moves": 0
+    }
+  }
+}

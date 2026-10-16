@@ -1,0 +1,56 @@
+PLIERS HOLDER — v03 MAXIMUM 24 MM BAYS
+October 16, 2026
+
+The user requested a maximum clear slot width of 24 mm, with smaller slots
+below that size. v03 keeps the upright, closed-floor divider-tray concept and
+uses the reference's 177.8 mm height and 63.5 mm tray depth. v01 and v02 remain
+archived. Original CAD; the reference was not a measured or imported model.
+Status: PROTOTYPE; geometry and slicing verified, physical fit/load untested.
+
+PROJECTS
+Pliers_Tray_v03_16_Bays_PLA_Left_TEST_FIT.3mf
+  Two independent eight-bay trays: 22 h 22 min 5 sec / 721.36 g
+Pliers_Tray_v03_8_Bay_Section_PLA_Left_TEST_FIT.3mf
+  One tray: 11 h 12 min 28 sec / 360.70 g
+Pliers_Tray_v03_3_Bay_Fit_Sample_PLA_Left.3mf
+  Shallow 16/20/24 mm bays: 1 h 39 min 10 sec / 54.41 g
+Matching print-pose STLs are included. This revision has not been loaded in
+the Bambu Studio UI or sent to the printer.
+
+DIMENSIONS AND USE
+Each tray's clear widths: 16/16/18/18/20/20/22/24 mm. Each tray is 180 mm wide,
+177.8 mm (7 inches) tall and 63.5 mm (2.5 inches) deep, or 81 mm including cleats.
+Two trays with a 6 mm gap span 366 mm (14.41 inches). The supplied reference
+width was 304.8 mm; this 16-bay pair is wider because its overall width follows
+the chosen bay widths plus walls. The reference divider thickness is unknown.
+Trays mount independently.
+Tools rest on a solid floor; choose an end/orientation that seats stably. Tall
+rear dividers taper toward the front. Check leaning, removal and adjacent-tool
+clearance using actual tools. No head-width catch is required.
+
+Floor/back remain 3.2 mm thick, inner dividers 2.8 mm, outer walls 3.2 mm and
+front lip 18 mm overall (14.8 mm above the floor). Each tray retains two 60 mm
+French cleat segments with 17.5 mm projection and a 45-degree bevel for nominal
+19.05 mm plywood. Local pads remain 6 mm thick with 45-degree lower ramps.
+The cleats and pads move up 47.8 mm to match the height increase.
+
+The 72 x 63.5 x 35 mm fit tray has 16/20/24 mm bays and no cleat. Use it by hand
+or on a bench to check width and seating. Its shallow walls cannot test the
+lateral stability of tall tools, full-height storage, wall mounting or loads.
+
+PRINT AND CHECKS
+Bambu H2D, standard 0.4 mm, black Bambu PLA Basic on LEFT extruder 1; project
+filament 1, Manual grouping. 0.20 mm layers, 4 walls, 25% gyroid, 5 top/bottom
+layers, 4 mm outer brim. Preserve the upright floor-down pose. Automatic tree
+supports are enabled for rear cleats. Confirm the actual PLA spool/mapping.
+All three final slices succeeded with no plate warnings using only PLA on the
+left extruder. Full and single trays generate supports; the shallow sample does
+not. Independent geometry review passed. The G-code audit confirms supports
+stay behind the trays, outside all bays, and all printed features fit the
+left-nozzle area. Full-set supports total 34.5 g; see support_review.json
+in the revision Validation folder.
+Previews render actual CAD. Each tray/sample is one connected solid; the full
+plate contains two trays. Geometry, review and slice evidence are in Validation.
+Installed STLs there are inspection files; main 3MFs retain print pose/settings.
+Source scripts: build_tray_v03.py, render_tray_v03.py and validate_tray_v03.py
+under ../../Source/. See its README for rebuilding.

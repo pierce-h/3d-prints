@@ -1,0 +1,399 @@
+{
+  "status": "PROTOTYPE \u2014 physical fit and loaded use untested",
+  "parameters_mm": {
+    "bay_widths": [
+      16,
+      16,
+      18,
+      18,
+      20,
+      20,
+      22,
+      24
+    ],
+    "floor_thickness": 3.2,
+    "back_thickness": 3.2,
+    "divider_thickness": 2.8,
+    "outer_wall_thickness": 3.2,
+    "height": 177.8,
+    "depth": 63.5,
+    "front_lip_height": 18.0,
+    "front_lip_thickness": 4.0,
+    "cleat_projection": 17.5,
+    "cleat_segment_width": 60.0,
+    "cleat_pad_thickness": 6.0,
+    "module_gap": 6.0,
+    "sample_height": 35.0,
+    "max_bay_width": 24.0
+  },
+  "module": {
+    "width": 180.0,
+    "bay_widths": [
+      16,
+      16,
+      18,
+      18,
+      20,
+      20,
+      22,
+      24
+    ],
+    "bays": [
+      {
+        "left": 3.2,
+        "right": 19.2,
+        "width": 16,
+        "center": 11.2
+      },
+      {
+        "left": 22.0,
+        "right": 38.0,
+        "width": 16,
+        "center": 30.0
+      },
+      {
+        "left": 40.8,
+        "right": 58.8,
+        "width": 18,
+        "center": 49.8
+      },
+      {
+        "left": 61.599999999999994,
+        "right": 79.6,
+        "width": 18,
+        "center": 70.6
+      },
+      {
+        "left": 82.39999999999999,
+        "right": 102.39999999999999,
+        "width": 20,
+        "center": 92.39999999999999
+      },
+      {
+        "left": 105.19999999999999,
+        "right": 125.19999999999999,
+        "width": 20,
+        "center": 115.19999999999999
+      },
+      {
+        "left": 127.99999999999999,
+        "right": 150.0,
+        "width": 22,
+        "center": 139.0
+      },
+      {
+        "left": 152.8,
+        "right": 176.8,
+        "width": 24,
+        "center": 164.8
+      }
+    ],
+    "divider_intervals": [
+      [
+        0,
+        3.2
+      ],
+      [
+        19.2,
+        22.0
+      ],
+      [
+        38.0,
+        40.8
+      ],
+      [
+        58.8,
+        61.599999999999994
+      ],
+      [
+        79.6,
+        82.39999999999999
+      ],
+      [
+        102.39999999999999,
+        105.19999999999999
+      ],
+      [
+        125.19999999999999,
+        127.99999999999999
+      ],
+      [
+        150.0,
+        152.8
+      ],
+      [
+        176.8,
+        180.0
+      ]
+    ],
+    "height": 177.8,
+    "depth_including_cleat": 81.0,
+    "cleat_centers": [
+      45.0,
+      135.0
+    ]
+  },
+  "fit_sample": {
+    "width": 72.0,
+    "bay_widths": [
+      16,
+      20,
+      24
+    ],
+    "bays": [
+      {
+        "left": 3.2,
+        "right": 19.2,
+        "width": 16,
+        "center": 11.2
+      },
+      {
+        "left": 22.0,
+        "right": 42.0,
+        "width": 20,
+        "center": 32.0
+      },
+      {
+        "left": 44.8,
+        "right": 68.8,
+        "width": 24,
+        "center": 56.8
+      }
+    ],
+    "divider_intervals": [
+      [
+        0,
+        3.2
+      ],
+      [
+        19.2,
+        22.0
+      ],
+      [
+        42.0,
+        44.8
+      ],
+      [
+        68.8,
+        72.0
+      ]
+    ],
+    "height": 35.0,
+    "depth_including_cleat": 63.5,
+    "cleat_centers": []
+  },
+  "projects": {
+    "full": {
+      "stem": "Pliers_Tray_v03_16_Bays_PLA_Left_TEST_FIT",
+      "bays": 16,
+      "objects": [
+        {
+          "name": "8-bay upright tray 1",
+          "bounds": [
+            [
+              85.0,
+              64.5,
+              0.0
+            ],
+            [
+              265.0,
+              145.5,
+              177.8
+            ]
+          ],
+          "transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              85.0
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0,
+              128.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "volume_mm3": 328289.5239980156,
+          "watertight": true,
+          "components": 1,
+          "triangles": 576
+        },
+        {
+          "name": "8-bay upright tray 2",
+          "bounds": [
+            [
+              85.0,
+              174.5,
+              0.0
+            ],
+            [
+              265.0,
+              255.5,
+              177.8
+            ]
+          ],
+          "transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              85.0
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0,
+              238.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "volume_mm3": 328289.5239980156,
+          "watertight": true,
+          "components": 1,
+          "triangles": 576
+        }
+      ]
+    },
+    "section": {
+      "stem": "Pliers_Tray_v03_8_Bay_Section_PLA_Left_TEST_FIT",
+      "bays": 8,
+      "objects": [
+        {
+          "name": "8-bay upright tray",
+          "bounds": [
+            [
+              85.0,
+              119.5,
+              0.0
+            ],
+            [
+              265.0,
+              200.5,
+              177.8
+            ]
+          ],
+          "transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              85.0
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0,
+              183.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "volume_mm3": 328289.5239980156,
+          "watertight": true,
+          "components": 1,
+          "triangles": 576
+        }
+      ]
+    },
+    "sample": {
+      "stem": "Pliers_Tray_v03_3_Bay_Fit_Sample_PLA_Left",
+      "bays": 3,
+      "objects": [
+        {
+          "name": "16 / 20 / 24 mm shallow fit tray",
+          "bounds": [
+            [
+              139.0,
+              128.25,
+              0.0
+            ],
+            [
+              211.0,
+              191.75,
+              35.0
+            ]
+          ],
+          "transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              139.0
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0,
+              191.75
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "volume_mm3": 47771.32727272663,
+          "watertight": true,
+          "components": 1,
+          "triangles": 150
+        }
+      ]
+    }
+  },
+  "reference": "User reference: 304.8 mm wide x 177.8 mm high x 63.5 mm deep. Height and tray depth matched; width follows user max-24 mm mixed bays.",
+  "requested_max_clear_bay_mm": 24,
+  "reference_dimensions_mm": {
+    "width": 304.8,
+    "height": 177.8,
+    "tray_depth": 63.5
+  },
+  "supersedes": "v02: reduce clear bays from 24\u201336 mm to 16\u201324 mm, increase height and reduce tray depth to reference dimensions.",
+  "usage": "Place tools between dividers, supported by the closed floor; choose the end/orientation that sits stably. No minimum tool-head width is required. Tall or bulky tools may need extra adjacent clearance.",
+  "unknowns": [
+    "Actual tool widths, lengths and stable seating",
+    "Actual wooden rail height and mating fit",
+    "Loaded performance"
+  ]
+}
