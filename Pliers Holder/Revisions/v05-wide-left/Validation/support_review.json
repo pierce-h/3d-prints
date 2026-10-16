@@ -1,0 +1,64 @@
+{
+  "result": "PASS",
+  "method": "Parsed every positive print-feature extrusion, including brims/supports and half line-width envelopes. Excluded startup/end Custom motions. Inverted saved diagonal transform to check tool bays. All extruding moves are linear.",
+  "gcode_sha256": "e3029e482d7d7e650133fdf07c18dec6dd8bc350b2af85c7bf1e6e50c7b1faad",
+  "slice_success": true,
+  "warnings": "",
+  "left_nozzle_area_mm": [
+    [
+      0,
+      0
+    ],
+    [
+      325,
+      320
+    ]
+  ],
+  "wrapping_exclusion_mm": [
+    [
+      145,
+      310
+    ],
+    [
+      256,
+      326
+    ]
+  ],
+  "all_extrusion_envelope_bounds_mm": [
+    [
+      11.157,
+      1.8889999999999998,
+      0.2
+    ],
+    [
+      315.611,
+      306.343,
+      177.8
+    ]
+  ],
+  "minimum_bed_edge_margin_mm": 1.8889999999999998,
+  "minimum_wrapping_exclusion_clearance_mm": 5.715000000000012,
+  "support_extrusion_envelope_bounds_mm": [
+    [
+      13.213,
+      72.31700000000001,
+      0.2
+    ],
+    [
+      245.333,
+      304.28499999999997,
+      144.6
+    ]
+  ],
+  "support_wrapping_exclusion_clearance_mm": 5.715000000000012,
+  "support_g": 21.697111902845762,
+  "support_percent": 3.2368263498466097,
+  "support_moves": 321763,
+  "support_in_tool_bay_moves": 0,
+  "support_forward_of_back_plane_moves": 0,
+  "outside_bed_moves": 0,
+  "wrapping_exclusion_collision_moves": 0,
+  "total_filament_g": 670.3508911132812,
+  "total_time_seconds": 72469.234375,
+  "scope": "Digital slicing audit only; physical print, tool fit and loaded performance untested."
+}

@@ -48,3 +48,10 @@ October 16, 2026 — v01 loaded in Bambu Studio for the next print.
 The GUI slice completed with black Bambu PLA Basic assigned to the LEFT nozzle;
 the right nozzle is unused. Displayed estimate: 2 h 20 min / 54.73 g.
 The widened caliper print has not been started; revised physical fit is pending.
+
+October 16, 2026 — Bambu Studio Device view showed the caliper job printing
+at 95–96% while preparing the next holder. This turn did not start or control
+that print; completion and physical fit remain unconfirmed. Before switching
+the GUI project, its unsaved state was preserved separately in
+Working/Caliper_Holder_v01_Bambu_session_2026-10-16.3mf. This working copy is
+a session snapshot, not a new validated geometry revision.

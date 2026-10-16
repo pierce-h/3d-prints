@@ -1,15 +1,16 @@
 PLIERS HOLDER
 Updated: October 16, 2026
 
-Latest revision: v04 — one continuous 16-slot upright tray, placed diagonally
-on the H2D plate. It prints as one piece and requires no section assembly.
+Latest revision: v05 — one continuous 16-slot tray, widest bays on the LEFT
+when viewed from the front. It retains the diagonal H2D placement and needs
+no section assembly.
 Status: PROTOTYPE; geometry and slicing verified, physical fit/load untested.
 Original CAD inspired by the user's red-rack reference. Earlier revisions are
-preserved. This revision has not been opened in the Bambu Studio UI or printed.
+preserved. Loaded in Bambu Studio on October 16, 2026; no print was sent.
 
 BAMBU STUDIO PROJECT
-Revisions/v04-monolithic-diagonal/Pliers_Tray_v04_Monolithic_16_Slots_PLA_Left_TEST_FIT.3mf
-Estimate: 20 h 10 min 6 sec / 670.43 g
+Revisions/v05-wide-left/Pliers_Tray_v05_Wide_Left_16_Slots_PLA_Left_TEST_FIT.3mf
+Estimate: 20 h 7 min 49 sec / 670.35 g
 Matching STL is included; use the 3MF to retain the checked diagonal placement.
 
 EXISTING FIT SAMPLE
@@ -22,8 +23,9 @@ but cannot test tall-tool stability, wall mounting or the full holder's load.
 SIZE AND STORAGE
 One holder: 356.4 mm (14.03 inches) wide x 177.8 mm (7 inches) tall.
 Tray/floor depth: 63.5 mm (2.5 inches), or 81 mm including the cleats.
-Sixteen clear slots from left to right: four 16 mm, four 18 mm, four 20 mm,
-two 22 mm and two 24 mm. The largest opening is 24 mm as requested.
+Sixteen clear slots from LEFT to RIGHT, facing the front: two 24 mm, two 22 mm,
+four 20 mm, four 18 mm and four 16 mm. The largest opening remains 24 mm.
+This reverses v04's slot order; overall dimensions and mounting are unchanged.
 The reference dimensions establish height/depth proportions; overall width
 follows the chosen bays plus walls. Actual tool fit remains untested.
 
@@ -46,14 +48,14 @@ filament 1 / extruder 1, Manual grouping. 0.20 mm layers, 4 walls, 25% gyroid,
 Saved diagonal angle: 45 degrees.
 Automatic tree supports are enabled for rear cleats. Confirm the actual PLA
 spool and nozzle mapping before printing.
-The model is one connected watertight body. The final slice has no plate
-warnings and uses only PLA on the left extruder. The G-code audit confirms
-all supports stay behind the tray, outside its bays; support material is
-21.70 g. All extrusion, including line widths, brim and supports, fits the
-left-nozzle area. Minimum bed-edge margin is 1.89 mm, so preserve the saved
-placement and brim. See Validation/support_review.json.
+The model is one connected watertight body and an exact mirror of v04, with
+unchanged dimensions, settings and print pose. The final CLI slice has no plate
+warnings and uses only PLA on the left extruder. Supports remain behind the
+tray with none in the bays; support material is 21.70 g. Extrusion including
+line widths, brim and supports fits the left-nozzle area. Minimum bed-edge
+margin is 1.89 mm; keep the saved placement and brim. See Validation records.
 Main STL/3MF files use the print pose; Validation/Tray_Installed.stl is for
-inspection. Mounted_Preview.png and Print_Preview.png under the v04 revision
+inspection. Mounted_Preview.png and Print_Preview.png under the v05 revision
 show actual CAD. Their display colors are for visibility.
 
 REVISION HISTORY
@@ -64,5 +66,13 @@ tray depth. Preserved with its original notes and validation.
 v03-24mm-max-slots: two trays with 16–24 mm bays, 177.8 mm height and 63.5 mm
 depth. Its shallow fit sample remains applicable.
 v04-monolithic-diagonal: one continuous holder with all 16 slots; diagonal
-printing replaces the two-section arrangement. No physical print/fit/load
-result is recorded for the pliers holder revisions.
+printing replaces the two-section arrangement. Preserved with narrower slots
+on the left and wider slots on the right.
+v05-wide-left: reverses the slot order, placing the widest openings on the
+left when viewed from the front. Overall size, cleats and print pose remain
+unchanged. No physical print/fit/load result is recorded for these revisions.
+
+October 16, 2026 — v05 loaded in Bambu Studio.
+The project title and Prepare view confirmed the v05 wide-left file, one
+holder in its diagonal pose, H2D, PLA Basic and 0.20 mm layers. The CLI slice
+is validated. The project was not sliced in the GUI and no print was sent.

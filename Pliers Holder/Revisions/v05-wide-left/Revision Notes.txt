@@ -1,0 +1,55 @@
+PLIERS HOLDER — v05 WIDEST SLOTS ON THE LEFT
+October 16, 2026
+
+The user requested the mirrored slot order, widest on the LEFT when looking
+at the holder from the front, and asked to load the result into Bambu Studio.
+v05 preserves v04's one-piece tray, overall dimensions, three French cleats,
+settings and 45-degree print pose. v04 remains archived unchanged.
+Status: PROTOTYPE; geometry and slicing verified, physical fit/load untested.
+
+PROJECT
+Pliers_Tray_v05_Wide_Left_16_Slots_PLA_Left_TEST_FIT.3mf
+Estimate: 20 h 7 min 49 sec / 670.35 g
+Matching print-pose STL is included. Loaded in Bambu Studio on October 16, 2026; no print was sent.
+
+SLOT ORDER AND DIMENSIONS
+Front view, left to right:
+24/24/22/22/20/20/20/20/18/18/18/18/16/16/16/16 mm.
+This is the reverse of v04. One continuous body, 356.4 mm (14.03 in) wide x
+177.8 mm (7 in) tall; tray depth 63.5 mm (2.5 in), 81 mm including cleats.
+Floor/back: 3.2 mm. Internal dividers: 2.8 mm. Outer walls: 3.2 mm. Front lip:
+18 mm overall, 14.8 mm above the floor. Choose a stable end/orientation for each
+tool to rest on the floor; check leaning, removal and neighboring-tool clearance.
+
+Three 60 mm French cleat segments retain centers at 45/178.2/311.4 mm from the
+left, 17.5 mm projection and 45-degree bevels for nominal 19.05 mm plywood.
+Local attachment pads remain 6 mm thick with lower 45-degree ramps.
+
+The existing ../v03-24mm-max-slots/Pliers_Tray_v03_3_Bay_Fit_Sample_PLA_Left.3mf
+still checks 16/20/24 mm widths and seating: 63.5 mm deep, 35 mm tall, no cleat.
+Estimate: 1 h 39 min 10 sec / 54.41 g. The shallow sample cannot test tall-tool
+stability, wall mounting or the full holder's loaded behavior.
+
+PRINT SETUP AND CHECKS
+Bambu H2D / standard 0.4 mm / black Bambu PLA Basic / LEFT extruder 1, project
+filament 1, Manual grouping. 0.20 mm layers, 4 walls, 25% gyroid, 5 top/bottom
+layers, 4 mm outer brim. Floor-down, 45 degrees on the plate, tree supports for
+rear cleats. Preserve the saved placement and verify actual spool mapping.
+The model is one connected watertight body and an exact mirror of v04, with
+unchanged dimensions, settings and print pose. The final CLI slice has no plate
+warnings and uses only PLA on the left extruder. Supports remain behind the
+tray with none in the bays; support material is 21.70 g. Extrusion including
+line widths, brim and supports fits the left-nozzle area. Minimum bed-edge
+margin is 1.89 mm; keep the saved placement and brim. See Validation records.
+
+FILES
+Mounted_Preview.png shows the widest bays on the left in front view;
+Print_Preview.png shows the saved diagonal pose. Both render actual CAD.
+Validation/Tray_Installed.stl is for inspection; the main STL/3MF uses print pose.
+Sources: ../../Source/build_tray_v05.py, render_tray_v05.py and
+validate_tray_v05.py. See ../../Source/README.txt for rebuilding.
+
+BAMBU STUDIO — OCTOBER 16, 2026
+Loaded through File Open. The project title matched v05, and Prepare showed
+one diagonal holder, H2D, PLA Basic and 0.20 mm layers. CLI slicing was checked
+separately. The project was not sliced in the GUI and no print was sent.

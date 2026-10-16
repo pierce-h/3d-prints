@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-16",
+  "project": "Pliers Holder/Revisions/v05-wide-left/Pliers_Tray_v05_Wide_Left_16_Slots_PLA_Left_TEST_FIT.3mf",
+  "window_title": "Pliers_Tray_v05_Wide_Left_16_Slots_PLA_Left_TEST_FIT",
+  "observed_view": "Prepare",
+  "printer": "Bambu Lab H2D",
+  "material": "PLA Basic",
+  "layer_height_mm": 0.2,
+  "observed_model": "One continuous holder in saved diagonal placement",
+  "print_started_by_this_revision": false,
+  "gui_sliced": false,
+  "saved_unsaved_previous_project": "Caliper Holder/Working/Caliper_Holder_v01_Bambu_session_2026-10-16.3mf"
+}

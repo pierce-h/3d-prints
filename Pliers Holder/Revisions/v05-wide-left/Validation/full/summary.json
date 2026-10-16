@@ -1,0 +1,10 @@
+{
+  "project": "Pliers_Tray_v05_Wide_Left_16_Slots_PLA_Left_TEST_FIT.3mf",
+  "return_code": 0,
+  "warnings": "",
+  "seconds": 72469.234375,
+  "grams": 670.3508911132812,
+  "material": "Bambu PLA Basic",
+  "extruder": "left / 1",
+  "support_toolpaths": true
+}

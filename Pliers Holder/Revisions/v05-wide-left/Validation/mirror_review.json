@@ -1,0 +1,56 @@
+{
+  "result": "PASS",
+  "method": "Independent reads of old/new 3MF meshes and new exported STL; measured ordered bay intervals, compared mirrored geometry by Boolean difference, and checked saved transform and settings.",
+  "one_connected_body": true,
+  "watertight_3mf_and_stl": true,
+  "degenerate_faces": 0,
+  "slots": 16,
+  "front_view_left_to_right_clear_bays_mm": [
+    24.0,
+    24.0,
+    22.0,
+    22.0,
+    20.0,
+    20.0,
+    20.0,
+    20.0,
+    18.0,
+    18.0,
+    18.0,
+    18.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0
+  ],
+  "leftmost_clear_bay_mm": 24.0,
+  "rightmost_clear_bay_mm": 16.0,
+  "maximum_clear_bay_mm": 24.0,
+  "outer_bounds_unchanged": true,
+  "mirror_axis": "X=178.2 mm, through tray midpoint; front viewed from positive Z",
+  "difference_from_exact_v04_mirror_mm3": {
+    "removed": 3.720501698377689e-10,
+    "added": 5.250464793150816e-11
+  },
+  "diagonal_transform_unchanged": true,
+  "print_settings_unchanged": true,
+  "posed_bounds_mm": [
+    [
+      13.159047817,
+      5.659047813799994,
+      0.0
+    ],
+    [
+      311.84095219588,
+      304.34095219268,
+      177.8
+    ]
+  ],
+  "support_audit": "support_review.json",
+  "limitations": [
+    "Physical fit and loaded performance untested.",
+    "Keep saved diagonal placement."
+  ],
+  "support_audit_completed": true,
+  "difference_interpretation": "Numerical zero: both volumes below 1e-9 mm3."
+}

@@ -1,0 +1,69 @@
+{
+    "error_string": "Success.",
+    "export_time": 1350,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 4,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 595.0244750976563,
+                "Bridge": 1115.393310546875,
+                "Brim": 171.30545043945313,
+                "Custom": 292.84320068359375,
+                "Flush": 26.0,
+                "Gap infill": 2055.911376953125,
+                "Inner wall": 33216.69921875,
+                "Internal solid infill": 4011.214111328125,
+                "Outer wall": 16290.392578125,
+                "Sparse infill": 6945.99169921875,
+                "Support": 2878.378173828125,
+                "Top surface": 823.486083984375,
+                "Travel": 4046.366943359375,
+                "Undefined": 4045.291015625
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFA00",
+                    "id": 1,
+                    "main_used_g": 670.3508911132813,
+                    "total_used_g": 670.3508911132813
+                }
+            ],
+            "generate_support_material_time": 679,
+            "id": 1,
+            "infill_time": 568,
+            "layer_filament_change": 0,
+            "main_predication": 72125.46875,
+            "make_perimeters_time": 150,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 309.28851318359375,
+                        "height": 177.8000030517578,
+                        "width": 309.28851318359375,
+                        "x": 2.552446126937866,
+                        "y": 5.659047603607178,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "Wide-left monolithic 16-slot pliers tray",
+                    "triangle_count": 1012
+                }
+            ],
+            "sliced_time": 3695,
+            "sliced_time_with_cache": 2253,
+            "total_predication": 72469.234375,
+            "triangle_count": 1012,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 25.0,
+    "upward_compatible_machine": [
+        "Bambu Lab H2D Pro 0.4 nozzle"
+    ],
+    "wall_loops": 4
+}

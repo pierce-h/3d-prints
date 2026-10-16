@@ -151,24 +151,25 @@ Caliper Holder/Print Notes.txt
 
 
 PLIERS HOLDER
-Latest revision: v04 — one continuous 16-slot tray, printed diagonally on H2D.
+Latest revision: v05 — one continuous 16-slot tray, widest openings on the LEFT
+in front view, printed diagonally on H2D.
 No assembly or separate sections. Geometry and slicing verified; physical tool
 seating/stability, cleat fit and loaded use remain untested.
 Overall 356.4 mm (14.03 in) wide x 177.8 mm (7 in) tall x 81 mm deep including
-cleats; tray depth 63.5 mm (2.5 in). Four bays each at 16, 18 and 20 mm, then
-two each at 22 and 24 mm. Tools rest on the closed floor between dividers.
+cleats; tray depth 63.5 mm (2.5 in). Left to right: two 24 mm, two 22 mm,
+four 20 mm, four 18 mm, four 16 mm bays. Tools rest on the closed floor.
 
-Full one-piece holder (20 h 10 min 6 sec / 670.43 g):
-Pliers Holder/Revisions/v04-monolithic-diagonal/Pliers_Tray_v04_Monolithic_16_Slots_PLA_Left_TEST_FIT.3mf
+Full one-piece holder (20 h 7 min 49 sec / 670.35 g):
+Pliers Holder/Revisions/v05-wide-left/Pliers_Tray_v05_Wide_Left_16_Slots_PLA_Left_TEST_FIT.3mf
 Existing shallow 16/20/24 mm fit tray (1 h 39 min 10 sec / 54.41 g):
 Pliers Holder/Revisions/v03-24mm-max-slots/Pliers_Tray_v03_3_Bay_Fit_Sample_PLA_Left.3mf
 The sample has no cleat and cannot test tall-tool lateral stability or loads.
 Black PLA Basic / LEFT nozzle, Manual grouping, floor-down with rear-cleat tree
-supports enabled. Keep the saved diagonal placement. No UI project loaded or
-print sent. Earlier pliers revisions remain archived.
+supports enabled. Keep the saved diagonal placement. Loaded in Bambu Studio on October 16, 2026; no print was sent.
+Earlier pliers revisions remain archived.
 
 Preview:
-Pliers Holder/Revisions/v04-monolithic-diagonal/Mounted_Preview.png
+Pliers Holder/Revisions/v05-wide-left/Mounted_Preview.png
 Print details and fit checks:
 Pliers Holder/Print Notes.txt
 

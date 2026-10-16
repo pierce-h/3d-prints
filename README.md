@@ -14,7 +14,7 @@ Start with the models below. [Library.txt](Library.txt) is the detailed catalog;
 | TSO tool holder | [v01 — plain front](TSO%20Tool%20Holder/Revisions/v01-plain-front/TSO_Tool_Holder_v01_Plain_Front.3mf) | Maker emblem filled flush; geometry and slicing checked. Physical fit pending. | [Print Notes](TSO%20Tool%20Holder/Print%20Notes.txt) |
 | PTR-18+ triangle holder | [v11 — PLA Basic, left external feed](PTR-18%20Triangle%20Holder/Revisions/v11-pla-left-external/PTR18_Hanger_v11_PLA_Basic_Left_TEST_FIT.3mf); [v10 right-nozzle PLA](PTR-18%20Triangle%20Holder/Revisions/v10-pla-right-nozzle/PTR18_Hanger_v10_PLA_Basic_Right_TEST_FIT.3mf); [v09 PETG alternative](PTR-18%20Triangle%20Holder/Revisions/v09-enlarged-deeper-pockets/PTR18_Hanger_v09_Enlarged_Deeper_Pockets_PETG_Right_TEST_FIT.3mf) | Print completed; user reports it “looks great” on October 16. Fit, deeper-pocket retrieval and loaded performance remain unconfirmed. | [Print Notes](PTR-18%20Triangle%20Holder/Print%20Notes.txt) |
 | Caliper holder | [v01 — 32 mm center opening](Caliper%20Holder/Revisions/v01-32mm-center/Caliper_Holder_v01_32mm_Center.3mf) | Widened for an approximately 30 mm caliper body; revised physical fit pending. | [Print Notes](Caliper%20Holder/Print%20Notes.txt) |
-| Pliers holder | [v04 — one-piece 16-slot tray](Pliers%20Holder/Revisions/v04-monolithic-diagonal/Pliers_Tray_v04_Monolithic_16_Slots_PLA_Left_TEST_FIT.3mf) | One continuous holder, diagonally placed on H2D; 16–24 mm bays. Physical fit, stability and loaded use untested. | [Print Notes](Pliers%20Holder/Print%20Notes.txt) |
+| Pliers holder | [v05 — one-piece tray, widest slots left](Pliers%20Holder/Revisions/v05-wide-left/Pliers_Tray_v05_Wide_Left_16_Slots_PLA_Left_TEST_FIT.3mf) | Loaded in Bambu Studio; one diagonal holder with widest bays on the left in front view. No print sent; physical fit/load untested. | [Print Notes](Pliers%20Holder/Print%20Notes.txt) |
 
 Status reflects recorded feedback as of October 16, 2026. A successful geometry check or slice does not establish physical fit or load capacity.
 
@@ -33,7 +33,7 @@ The saved project uses black Bambu PETG Matte on the **right nozzle** and slices
 
 The Festool holder also has a [small French cleat fit sample](Festool%20Sander%20Holder/Revisions/v02-lighter-backing/French_Cleat_Fit_Sample_v02.3mf) to check against the actual wooden rail before printing the full holder.
 
-The [pliers fit tray](Pliers%20Holder/Revisions/v03-24mm-max-slots/Pliers_Tray_v03_3_Bay_Fit_Sample_PLA_Left.3mf) checks 16, 20 and 24 mm bays before the full rack (about **1 hour 39 minutes / 54 g**). Tools rest on its closed floor. The shallow sample has no cleat and cannot test tall-tool lateral stability, mounting or load capacity. The current v04 holder is one continuous 16-slot piece, 356.4 mm (14.03 inches) wide, with a saved diagonal H2D print placement. The v03 sample still matches its openings and tray depth.
+The [pliers fit tray](Pliers%20Holder/Revisions/v03-24mm-max-slots/Pliers_Tray_v03_3_Bay_Fit_Sample_PLA_Left.3mf) checks 16, 20 and 24 mm bays before the full rack (about **1 hour 39 minutes / 54 g**). Tools rest on its closed floor. The shallow sample has no cleat and cannot test tall-tool lateral stability, mounting or load capacity. The current v05 holder has its widest slots on the left in front view and is one continuous 16-slot piece, 356.4 mm (14.03 inches) wide, with a saved diagonal H2D print placement. The v03 sample still matches its openings and tray depth.
 
 ## Opening a print
 
