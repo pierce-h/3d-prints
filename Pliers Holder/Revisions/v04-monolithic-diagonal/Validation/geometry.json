@@ -1,0 +1,329 @@
+{
+  "status": "PROTOTYPE \u2014 physical fit and loaded use untested",
+  "parameters_mm": {
+    "bay_widths": [
+      16,
+      16,
+      16,
+      16,
+      18,
+      18,
+      18,
+      18,
+      20,
+      20,
+      20,
+      20,
+      22,
+      22,
+      24,
+      24
+    ],
+    "floor_thickness": 3.2,
+    "back_thickness": 3.2,
+    "divider_thickness": 2.8,
+    "outer_wall_thickness": 3.2,
+    "height": 177.8,
+    "depth": 63.5,
+    "front_lip_height": 18.0,
+    "front_lip_thickness": 4.0,
+    "cleat_projection": 17.5,
+    "cleat_segment_width": 60.0,
+    "cleat_pad_thickness": 6.0,
+    "print_angle_degrees": 45.0,
+    "sample_height": 35.0,
+    "max_bay_width": 24.0
+  },
+  "module": {
+    "width": 356.4,
+    "bay_widths": [
+      16,
+      16,
+      16,
+      16,
+      18,
+      18,
+      18,
+      18,
+      20,
+      20,
+      20,
+      20,
+      22,
+      22,
+      24,
+      24
+    ],
+    "bays": [
+      {
+        "left": 3.2,
+        "right": 19.2,
+        "width": 16,
+        "center": 11.2
+      },
+      {
+        "left": 22.0,
+        "right": 38.0,
+        "width": 16,
+        "center": 30.0
+      },
+      {
+        "left": 40.8,
+        "right": 56.8,
+        "width": 16,
+        "center": 48.8
+      },
+      {
+        "left": 59.599999999999994,
+        "right": 75.6,
+        "width": 16,
+        "center": 67.6
+      },
+      {
+        "left": 78.39999999999999,
+        "right": 96.39999999999999,
+        "width": 18,
+        "center": 87.39999999999999
+      },
+      {
+        "left": 99.19999999999999,
+        "right": 117.19999999999999,
+        "width": 18,
+        "center": 108.19999999999999
+      },
+      {
+        "left": 119.99999999999999,
+        "right": 138.0,
+        "width": 18,
+        "center": 129.0
+      },
+      {
+        "left": 140.8,
+        "right": 158.8,
+        "width": 18,
+        "center": 149.8
+      },
+      {
+        "left": 161.60000000000002,
+        "right": 181.60000000000002,
+        "width": 20,
+        "center": 171.60000000000002
+      },
+      {
+        "left": 184.40000000000003,
+        "right": 204.40000000000003,
+        "width": 20,
+        "center": 194.40000000000003
+      },
+      {
+        "left": 207.20000000000005,
+        "right": 227.20000000000005,
+        "width": 20,
+        "center": 217.20000000000005
+      },
+      {
+        "left": 230.00000000000006,
+        "right": 250.00000000000006,
+        "width": 20,
+        "center": 240.00000000000006
+      },
+      {
+        "left": 252.80000000000007,
+        "right": 274.80000000000007,
+        "width": 22,
+        "center": 263.80000000000007
+      },
+      {
+        "left": 277.6000000000001,
+        "right": 299.6000000000001,
+        "width": 22,
+        "center": 288.6000000000001
+      },
+      {
+        "left": 302.4000000000001,
+        "right": 326.4000000000001,
+        "width": 24,
+        "center": 314.4000000000001
+      },
+      {
+        "left": 329.2000000000001,
+        "right": 353.2000000000001,
+        "width": 24,
+        "center": 341.2000000000001
+      }
+    ],
+    "divider_intervals": [
+      [
+        0,
+        3.2
+      ],
+      [
+        19.2,
+        22.0
+      ],
+      [
+        38.0,
+        40.8
+      ],
+      [
+        56.8,
+        59.599999999999994
+      ],
+      [
+        75.6,
+        78.39999999999999
+      ],
+      [
+        96.39999999999999,
+        99.19999999999999
+      ],
+      [
+        117.19999999999999,
+        119.99999999999999
+      ],
+      [
+        138.0,
+        140.8
+      ],
+      [
+        158.8,
+        161.60000000000002
+      ],
+      [
+        181.60000000000002,
+        184.40000000000003
+      ],
+      [
+        204.40000000000003,
+        207.20000000000005
+      ],
+      [
+        227.20000000000005,
+        230.00000000000006
+      ],
+      [
+        250.00000000000006,
+        252.80000000000007
+      ],
+      [
+        274.80000000000007,
+        277.6000000000001
+      ],
+      [
+        299.6000000000001,
+        302.4000000000001
+      ],
+      [
+        326.4000000000001,
+        329.2000000000001
+      ],
+      [
+        353.2000000000001,
+        356.4000000000001
+      ]
+    ],
+    "height": 177.8,
+    "depth_including_cleat": 81.0,
+    "cleat_centers": [
+      45.0,
+      178.2,
+      311.4
+    ]
+  },
+  "bed": {
+    "plate_xy": [
+      [
+        0,
+        0
+      ],
+      [
+        350,
+        320
+      ]
+    ],
+    "left_nozzle_xy": [
+      [
+        0,
+        0
+      ],
+      [
+        325,
+        320
+      ]
+    ],
+    "left_nozzle_height": 320,
+    "wrapping_exclusion_xy": [
+      [
+        145,
+        310
+      ],
+      [
+        256,
+        326
+      ]
+    ]
+  },
+  "projects": {
+    "full": {
+      "stem": "Pliers_Tray_v04_Monolithic_16_Slots_PLA_Left_TEST_FIT",
+      "bays": 16,
+      "objects": [
+        {
+          "name": "Monolithic 16-slot pliers tray",
+          "bounds": [
+            [
+              13.15904781340116,
+              5.659047813401166,
+              0.0
+            ],
+            [
+              311.8409521865989,
+              304.3409521865988,
+              177.8
+            ]
+          ],
+          "transform": [
+            [
+              0.7071067811865476,
+              0.0,
+              0.7071067811865475,
+              14.926814766367528
+            ],
+            [
+              0.7071067811865475,
+              0.0,
+              -0.7071067811865476,
+              50.560328418746934
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "volume_mm3": 605065.0719961302,
+          "watertight": true,
+          "components": 1,
+          "triangles": 1010
+        }
+      ]
+    }
+  },
+  "reference": "User reference height 177.8 mm and tray depth 63.5 mm; user maximum clear slot 24 mm.",
+  "requested_max_clear_bay_mm": 24,
+  "supersedes": "v03 two independent trays; v04 is one continuous body with a middle divider and three rear cleats.",
+  "fit_sample": "../v03-24mm-max-slots/Pliers_Tray_v03_3_Bay_Fit_Sample_PLA_Left.3mf",
+  "usage": "Tools rest on the solid floor between upright dividers. Choose stable seating for each tool.",
+  "unknowns": [
+    "Actual tool fit and stable seating",
+    "Actual wooden rail height and mating fit",
+    "Loaded performance"
+  ]
+}

@@ -1,0 +1,48 @@
+PLIERS HOLDER — v04 ONE-PIECE DIAGONAL PRINT
+October 16, 2026
+
+The user requested one continuous 16-slot holder using diagonal H2D placement,
+with no assembly or separate sections. v04 joins the storage into one original
+closed-floor CAD model. Earlier revisions remain archived unchanged.
+Status: PROTOTYPE; actual tool fit, stability, cleat fit and load untested.
+
+PROJECT
+Pliers_Tray_v04_Monolithic_16_Slots_PLA_Left_TEST_FIT.3mf
+Estimate: 20 h 10 min 6 sec / 670.43 g
+Matching print-pose STL included. This revision has not been loaded into the
+Bambu Studio UI or sent to the printer.
+
+DIMENSIONS
+356.4 mm (14.03 in) wide x 177.8 mm (7 in) tall; tray depth 63.5 mm (2.5 in),
+81 mm overall including cleats. Continuous clear bay widths, left to right:
+16/16/16/16/18/18/18/18/20/20/20/20/22/22/24/24 mm.
+Floor/back: 3.2 mm. Internal dividers: 2.8 mm. Outer walls: 3.2 mm.
+Front lip: 18 mm overall, 14.8 mm above the floor. Tools rest on the floor;
+choose an end/orientation that seats stably and check removal/leaning.
+
+Three 60 mm French cleat segments, centers 45/178.2/311.4 mm from the left,
+project 17.5 mm with 45-degree bevels for nominal 19.05 mm plywood. Local
+attachment pads are 6 mm thick with lower 45-degree ramps. Cleat fit is untested.
+
+The existing ../v03-24mm-max-slots/Pliers_Tray_v03_3_Bay_Fit_Sample_PLA_Left.3mf
+remains the fit sample: 16/20/24 mm openings, 63.5 mm depth, 35 mm height, no
+cleat. Its slice is 1 h 39 min 10 sec / 54.41 g. This shallow gauge checks width
+and seating only, not tall-tool stability, wall mounting or full-holder loads.
+
+PRINT SETUP
+Bambu H2D / standard 0.4 mm / black Bambu PLA Basic / LEFT extruder 1, project
+filament 1, Manual grouping. 0.20 mm layers, 4 walls, 25% gyroid, 5 top/bottom
+layers and 4 mm outer brim. Floor-down with saved diagonal angle 45 degrees.
+Tree supports are enabled for rear cleats. Preserve the checked placement.
+The model is one connected watertight body. The final slice has no plate
+warnings and uses only PLA on the left extruder. The G-code audit confirms
+all supports stay behind the tray, outside its bays; support material is
+21.70 g. All extrusion, including line widths, brim and supports, fits the
+left-nozzle area. Minimum bed-edge margin is 1.89 mm, so preserve the saved
+placement and brim. See Validation/support_review.json.
+
+FILES
+Mounted_Preview.png and Print_Preview.png render the actual CAD. Validation/Tray_Installed.stl
+is for inspection; the main STL/3MF uses the print pose.
+Sources: ../../Source/build_tray_v04.py, render_tray_v04.py and
+validate_tray_v04.py. See ../../Source/README.txt for the rebuild process.

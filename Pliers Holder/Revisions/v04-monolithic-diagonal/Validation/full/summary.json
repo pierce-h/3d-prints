@@ -1,0 +1,10 @@
+{
+  "project": "Pliers_Tray_v04_Monolithic_16_Slots_PLA_Left_TEST_FIT.3mf",
+  "return_code": 0,
+  "warnings": "",
+  "seconds": 72605.8984375,
+  "grams": 670.4310302734375,
+  "material": "Bambu PLA Basic",
+  "extruder": "left / 1",
+  "support_toolpaths": true
+}

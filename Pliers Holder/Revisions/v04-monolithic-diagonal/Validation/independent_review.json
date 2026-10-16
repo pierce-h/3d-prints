@@ -1,0 +1,113 @@
+{
+  "result": "PASS",
+  "method": "Independent reading and sectioning of exported STL and actual 3MF mesh; source geometry was not reused to generate checks.",
+  "monolithic": {
+    "objects_in_project": 1,
+    "connected_bodies": 1,
+    "watertight": true,
+    "consistent_winding": true,
+    "degenerate_faces": 0,
+    "faces": 1010,
+    "bounds_installed_mm": [
+      [
+        0.0,
+        0.0,
+        -17.5
+      ],
+      [
+        356.3999938964844,
+        177.8000030517578,
+        63.5
+      ]
+    ]
+  },
+  "tray": {
+    "bays": 16,
+    "clear_bay_widths_mm": [
+      16.0,
+      16.0,
+      16.0,
+      16.0,
+      18.0,
+      18.0,
+      18.0,
+      18.0,
+      20.0,
+      20.0,
+      20.0,
+      20.0,
+      22.0,
+      22.0,
+      24.0,
+      24.0
+    ],
+    "maximum_clear_bay_mm": 24.0,
+    "wall_widths_mm": [
+      3.2,
+      2.8,
+      2.8,
+      2.8,
+      2.8,
+      2.8,
+      2.8,
+      2.8,
+      2.8,
+      2.8,
+      2.8,
+      2.8,
+      2.8,
+      2.8,
+      2.8,
+      2.8,
+      3.2
+    ],
+    "continuous_closed_floor": true,
+    "floor_thickness_mm": 3.2,
+    "width_mm": 356.4,
+    "height_mm": 177.8,
+    "tray_depth_mm": 63.5,
+    "overall_depth_with_cleats_mm": 81,
+    "clear_depth_below_mounting_pads_mm": 56.3,
+    "front_lip_total_height_mm": 18,
+    "front_lip_above_floor_mm": 14.8
+  },
+  "cleats": {
+    "count": 3,
+    "segment_width_mm": 60,
+    "angle_degrees": 45,
+    "projection_mm": 17.5,
+    "centers_x_mm": [
+      45.0,
+      178.2,
+      311.4
+    ]
+  },
+  "placement": {
+    "floor_down": true,
+    "bed_rotation_degrees": 45.0,
+    "actual_model_bounds_mm": [
+      [
+        13.159047817,
+        5.659047813799994,
+        0.0
+      ],
+      [
+        311.84095219588,
+        304.34095219268,
+        177.8
+      ]
+    ],
+    "within_actual_left_nozzle_region": true,
+    "internal_overhangs_beyond45deg": [],
+    "left_nozzle_manual": true,
+    "supports_enabled": true,
+    "actual_support_path_audit": "support_review.json",
+    "minimum_print_bed_margin_including_line_width_mm": 1.8889999999999998,
+    "minimum_wrapping_exclusion_clearance_mm": 5.715000000000012
+  },
+  "limitations": [
+    "Physical tool fit and stable seating untested.",
+    "Wooden cleat mating fit and loaded use untested.",
+    "Saved diagonal pose must be retained; auto-arranging can invalidate verified placement."
+  ]
+}
