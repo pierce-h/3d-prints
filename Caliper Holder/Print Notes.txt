@@ -1,5 +1,5 @@
 CALIPER HOLDER FOR FRENCH CLEAT
-Updated: October 14, 2026
+Updated: October 16, 2026
 
 LATEST: v01 — 32 mm center opening for an approximately 30 mm digital-caliper body.
 Status: GEOMETRY VERIFIED AND SLICE-TESTED; revised physical fit untested.
@@ -43,3 +43,8 @@ PRINT HISTORY
 Original print: center opening too tight for the user's caliper body.
 v01: digital checks complete; physical print and fit feedback pending.
 Record revised fit feedback here before marking the model tested successfully.
+
+October 16, 2026 — v01 loaded in Bambu Studio for the next print.
+The GUI slice completed with black Bambu PLA Basic assigned to the LEFT nozzle;
+the right nozzle is unused. Displayed estimate: 2 h 20 min / 54.73 g.
+The widened caliper print has not been started; revised physical fit is pending.

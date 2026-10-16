@@ -1,13 +1,12 @@
 PTR-18 PLUS TRIANGLE HOLDER
-Updated: October 15, 2026
+Updated: October 16, 2026
 
 LATEST PRINT SETUP: v11 — black PLA Basic on the LEFT external feed.
-PRINT START CONFIRMED October 15, 2026, after explicit user authorization.
-Bambu Studio confirmed the external spool as black Bambu PLA Basic feeding LEFT;
-the right AMS contained PETG. v11 maps PLA slot 1 to left extruder 1, preserving
-v09 geometry and v10 process settings. The device showed the active v11 job at
-0%, layer 0/1300, with Pause/Stop active and initial ETA 18:39 local. This confirms
-only the initial sequence; no first-layer, completion, finish or fit result yet.
+PRINT COMPLETE — October 16, 2026. The user reports the finished print "looks great."
+Printed with the UI-confirmed black Bambu PLA Basic external spool feeding LEFT;
+v11 maps PLA slot 1 to left extruder 1, preserving v09 geometry and v10 process.
+This confirms completion and positive appearance, not physical fit, new pocket
+retrieval or loaded performance. The October 15 startup evidence is retained below.
 The v10 right-nozzle PLA and v09 PETG projects remain separate alternatives.
 The v08 one-notch / +2 mm sample was accepted as slightly loose but suitable.
 v09 applies its 11.8 mm pin and 8.8 mm screw diameters to the ten-pocket holder.
@@ -69,7 +68,8 @@ Bambu H2D / PLA estimate: 2 h 13 min 55 sec; 77.78 g including preparation/suppo
 FULL HANGER — v11 PLA LEFT EXTERNAL FEED
 Revisions/v11-pla-left-external/PTR18_Hanger_v11_PLA_Basic_Left_TEST_FIT.3mf
 Bambu H2D / PLA Basic: 10 h 53 min 23 sec / 420.77 g, no plate warnings;
-only project filament 1 / left extruder 1. Print start is confirmed as above.
+only project filament 1 / left extruder 1. Completion and positive appearance
+were reported on October 16; actual duration and material use were not measured.
 
 PRESERVED FULL HANGER — v10 RIGHT-NOZZLE PLA
 Revisions/v10-pla-right-nozzle/PTR18_Hanger_v10_PLA_Basic_Right_TEST_FIT.3mf
@@ -175,6 +175,10 @@ fence channel and cleat mating surfaces before checking fit. Inspect pocket
 openings for strings or rough edges. Estimates depend on printer and filament.
 
 SURFACE FINISH
+The completed v11 PLA print "looks great," according to October 16 user feedback.
+No detailed comparison or fit result accompanied that appearance report.
+
+Earlier PETG feedback:
 The first full print had visible lines but looked better than expected. The
 v08 test is smoother, with hard rough lines and some waviness concentrated near
 holes. The cause is unconfirmed. Because the pockets print horizontally,
@@ -305,8 +309,13 @@ October 15, 2026 — v11 print start confirmed.
 - Camera showed an empty bed before starting. The active job then read
   PTR18_Hanger_v11_PLA_Basic_Left_TEST_FIT, 0%, layer 0/1300, with Pause/Stop
   active. Initial ETA was 18:39 local; slice estimate 10 h 53 min 23 sec / 420.77 g.
-- This records acceptance and initial sequence only. First layer, completion,
-  surface finish, fit, thread retrieval and loaded behavior are not yet verified.
+- At that time, this recorded acceptance and the initial sequence only; first
+  layer, completion, surface finish, fit and loaded behavior were not yet verified.
 - Validation/print_start.json records the UI confirmation at 07:46 CDT. Later
   status showed heatbed foreign-object detection during startup; ETA 18:40.
   First-layer extrusion was not verified.
+
+October 16, 2026 — v11 PLA print completed.
+- The user reports that the print is done and "looks great."
+- This is positive appearance feedback. Full-holder fit, the new 6 mm pocket
+  depth/thread retrieval, and loaded performance have not been reported.

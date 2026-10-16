@@ -1,5 +1,5 @@
 3D PRINT MODEL LIBRARY
-Updated: October 15, 2026
+Updated: October 16, 2026
 
 SCREWDRIVER HOLDER
 Latest revision: v02 — eight left-side holes, 5/8 inch (15.875 mm) straight through.
@@ -65,12 +65,10 @@ TSO Tool Holder/Print Notes.txt
 
 PTR-18 PLUS TRIANGLE HOLDER
 Latest print setup: v11 — black PLA Basic on the LEFT external feed; v09 geometry.
-Status: PRINT START CONFIRMED on October 15, 2026 after explicit user authorization.
-The device showed the active v11 job at 0%, layer 0/1300, with Pause/Stop active;
-initial ETA was 18:39 local. This confirms the initial sequence, not a first
-layer or completed print. UI-confirmed external black Bambu PLA Basic feeds LEFT;
-the right AMS contained PETG, so v11 uses PLA slot 1 / left extruder 1.
-Full PLA fit, finish, new pocket depth and loaded performance remain untested.
+Status: PRINT COMPLETE — October 16, 2026 user feedback: "looks great."
+Printed with black Bambu PLA Basic on the LEFT external feed, PLA slot 1 / left
+extruder 1. Full-holder fit, new pocket depth/thread retrieval and loaded
+performance remain unconfirmed; the positive report describes appearance.
 The user accepted the v08 one-notch / +2 mm sample as slightly loose but suitable.
 Four pin pockets are now 11.8 mm diameter, still 8 or 16 mm deep. The six screw
 pockets are 8.8 mm diameter x 6 mm deep, up from 2.5 mm. The measured 4 mm

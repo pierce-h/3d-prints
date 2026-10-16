@@ -1,5 +1,5 @@
 PTR-18 PLUS — v11 PLA BASIC / LEFT EXTERNAL FEED
-October 15, 2026
+Created October 15, 2026; feedback updated October 16, 2026
 
 Project: PTR18_Hanger_v11_PLA_Basic_Left_TEST_FIT.3mf
 The user explicitly requested starting the full PLA print while away from
@@ -39,17 +39,25 @@ Generated G-code stays outside the library. Final project/STL/preview hashes
 are in Validation/archive_hashes.json.
 
 The one-notch diameter sample was accepted in PETG. The new 6 mm screw depth,
-thread retrieval, full PLA holder fit, finish and loaded behavior still require
-physical evaluation. Preparation and slicing do not establish a load rating.
+thread retrieval, full PLA holder fit and loaded behavior still require
+physical evaluation. Completion and positive appearance are recorded below.
+Preparation and slicing do not establish a load rating.
+
 PRINT START — OCTOBER 15, 2026
 After explicit user authorization, the print was sent through Bambu Studio.
 The device UI confirmed active job PTR18_Hanger_v11_PLA_Basic_Left_TEST_FIT,
 0%, layer 0/1300, with Pause/Stop active. Initial ETA was 18:39 local. The camera
 showed an empty bed before starting. UI external-filament settings identified
 black Bambu PLA Basic on the LEFT feed; right AMS slots contained PETG.
-This confirms job acceptance and the initial sequence only. First layer,
-completion, surface finish, fit and loaded performance are not yet verified.
+At that time, this confirmed job acceptance and the initial sequence only;
+first layer, completion, surface finish, fit and loaded performance were not
+yet verified.
 
 Validation/print_start.json records UI evidence at 07:46 CDT. A subsequent device
 status showed heatbed foreign-object detection during startup (bed target 55 C,
 left preparation nozzle 140 C; ETA updated to 18:40). Extrusion was not verified.
+
+PRINT COMPLETED — OCTOBER 16, 2026
+The user reports the v11 PLA print is done and "looks great." Completion and
+positive appearance are now recorded. Full-holder fit, the new 6 mm screw-pocket
+depth/thread retrieval and loaded performance remain unconfirmed.
