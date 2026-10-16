@@ -1,0 +1,165 @@
+{
+  "review_method": "Independent reading of exported STL and 3MF meshes; no source-model geometry reused.",
+  "result": "PASS for digital geometry and print orientation; physical fits and loaded use remain untested.",
+  "module_mesh": {
+    "watertight": true,
+    "consistent_winding": true,
+    "components": 1,
+    "bounds_installed_mm": [
+      [
+        0.0,
+        0.0,
+        -17.5
+      ],
+      [
+        286.0,
+        58.0,
+        91.0
+      ]
+    ]
+  },
+  "slots": {
+    "count_per_module": 8,
+    "count_in_full_project": 16,
+    "measured_straight_widths_mm": [
+      12.0,
+      14.0,
+      16.0,
+      18.0,
+      20.0,
+      22.0,
+      24.0,
+      26.0
+    ],
+    "open_fronts_verified": true,
+    "entrance_widths_at_90_999_mm": [
+      13.9996,
+      15.9996,
+      17.9996,
+      19.9996,
+      21.9996,
+      23.9996,
+      25.9996,
+      27.9996
+    ],
+    "centerline_depth_mm": 69
+  },
+  "ribs": {
+    "count": 9,
+    "width_mm": 5,
+    "intrudes_into_straight_slots": false,
+    "intervals_x_mm": [
+      [
+        6.5,
+        11.5
+      ],
+      [
+        38.0,
+        43.0
+      ],
+      [
+        72.0,
+        77.0
+      ],
+      [
+        106.0,
+        111.0
+      ],
+      [
+        140.0,
+        145.0
+      ],
+      [
+        174.0,
+        179.0
+      ],
+      [
+        208.0,
+        213.0
+      ],
+      [
+        242.0,
+        247.0
+      ],
+      [
+        278.0,
+        283.0
+      ]
+    ]
+  },
+  "cleat": {
+    "bevel_degrees": [
+      45.0
+    ],
+    "rear_projection_mm": 17.5,
+    "wall_height_unknown": true
+  },
+  "print_pose": {
+    "shelf_face_down": true,
+    "sampled_layer_centers_mm": [
+      0.1,
+      57.9
+    ],
+    "layer_spacing_mm": 0.2,
+    "growing_cross_section_events": [],
+    "support_free_geometry": true
+  },
+  "full_project": {
+    "objects": 2,
+    "bounds_mm": [
+      [
+        [
+          32.0,
+          40.75,
+          0.0
+        ],
+        [
+          318.0,
+          149.25,
+          58.0
+        ]
+      ],
+      [
+        [
+          32.0,
+          165.75,
+          0.0
+        ],
+        [
+          318.0,
+          274.25,
+          58.0
+        ]
+      ]
+    ],
+    "object_gap_mm": 16.5,
+    "fits_left_extruder_area_with_3mm_brim": true,
+    "support_disabled": true,
+    "filament_left_manual": true
+  },
+  "limitations": [
+    "Actual tool joint widths and neighboring-tool clearance not measured.",
+    "No raised front retention lip; fully seat tools and use an opening narrower than each joint/head.",
+    "Cleat mating fit not physically confirmed; backing relies on front face of wooden rail below bevel.",
+    "No load rating or long-term creep test."
+  ],
+  "final_dimensions_verified_mm": {
+    "shelf_thickness": 6,
+    "rib_width": 5,
+    "lower_back_thickness": 4,
+    "cleat_backing_thickness": 6,
+    "cleat_segment_width": 60
+  },
+  "fit_sample": {
+    "three_slots_mm": [
+      12,
+      20,
+      26
+    ],
+    "height_mm": 10,
+    "has_cleat": false,
+    "purpose": "Handheld tool-slot fit only",
+    "watertight": true,
+    "support_free_geometry": true
+  }
+}

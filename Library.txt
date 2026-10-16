@@ -150,6 +150,30 @@ Print details and fit feedback:
 Caliper Holder/Print Notes.txt
 
 
+PLIERS HOLDER
+Latest revision: v01 — 16 slots in two independently mounted eight-slot sections.
+Status: PROTOTYPE — geometry and slicing verified; tool/cleat fit and load untested.
+Original geometry created here for mixed-size pliers. Each section has
+12/14/16/18/20/22/24/26 mm slots on 34 mm centers. Widths are provisional
+capacities; bulky tools may need an empty neighboring slot. Each section is
+286 x 58 x 108.5 mm including cleats; two with a 6 mm gap span 578 mm (22.76 in).
+
+Full set in Bambu Studio (16 h 8 min / 470 g):
+Pliers Holder/Revisions/v01-16-slot/Pliers_Rack_v01_16_Slots_PLA_Left_TEST_FIT.3mf
+Single section (8 h 6 min / 235 g):
+Pliers Holder/Revisions/v01-16-slot/Pliers_Rack_v01_8_Slot_Section_PLA_Left_TEST_FIT.3mf
+Handheld 12/20/26 mm slot-fit gauge first (1 h 29 min / 40 g):
+Pliers Holder/Revisions/v01-16-slot/Pliers_Rack_v01_3_Slot_Fit_Sample_PLA_Left.3mf
+The gauge has no French cleat and does not test mounting or load capacity.
+All three use black PLA Basic / LEFT nozzle, Manual grouping. Slices passed
+without plate warnings or supports. No print has been sent.
+
+Preview:
+Pliers Holder/Revisions/v01-16-slot/Mounted_Preview.png
+Print details and fit checks:
+Pliers Holder/Print Notes.txt
+
+
 HOW THIS LIBRARY IS ORGANIZED
 Each model has its own folder:
   Original/     Unmodified starting files.

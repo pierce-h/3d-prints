@@ -1,0 +1,22 @@
+[2026-10-16 06:27:33.567609] [0x00000001effae180] [trace]   Initializing StaticPrintConfigs
+[2026-10-16 06:27:34.317419] [0x000000016bbfb000] [error]   ZFiller: encounter idx from clip: 129
+[2026-10-16 06:27:34.317537] [0x000000016bbfb000] [error]   ZFiller: encounter idx from clip: 136
+[2026-10-16 06:27:34.317545] [0x000000016bbfb000] [error]   ZFiller: encounter idx from clip: 143
+[2026-10-16 06:27:34.317609] [0x000000016bbfb000] [error]   ZFiller: encounter idx from clip: 148
+[2026-10-16 06:27:34.317672] [0x000000016bbfb000] [error]   ZFiller: encounter idx from clip: 155
+[2026-10-16 06:27:34.317732] [0x000000016bbfb000] [error]   ZFiller: encounter idx from clip: 97
+[2026-10-16 06:27:34.317791] [0x000000016bbfb000] [error]   ZFiller: encounter idx from clip: 107
+[2026-10-16 06:27:34.317856] [0x000000016bbfb000] [error]   ZFiller: encounter idx from clip: 84
+[2026-10-16 06:27:34.317918] [0x000000016bbfb000] [error]   ZFiller: encounter idx from clip: 169
+[2026-10-16 06:27:35.196103] [0x000000016c007000] [error]   ZFiller: encounter idx from clip: 129
+[2026-10-16 06:27:35.196197] [0x000000016c007000] [error]   ZFiller: encounter idx from clip: 136
+[2026-10-16 06:27:35.196204] [0x000000016c007000] [error]   ZFiller: encounter idx from clip: 143
+[2026-10-16 06:27:35.196260] [0x000000016c007000] [error]   ZFiller: encounter idx from clip: 148
+[2026-10-16 06:27:35.196313] [0x000000016c007000] [error]   ZFiller: encounter idx from clip: 155
+[2026-10-16 06:27:35.196365] [0x000000016c007000] [error]   ZFiller: encounter idx from clip: 97
+[2026-10-16 06:27:35.196415] [0x000000016c007000] [error]   ZFiller: encounter idx from clip: 107
+[2026-10-16 06:27:35.196466] [0x000000016c007000] [error]   ZFiller: encounter idx from clip: 84
+[2026-10-16 06:27:35.196515] [0x000000016c007000] [error]   ZFiller: encounter idx from clip: 169
+[2026-10-16 06:27:35.547311] [0x00000001effae180] [error]   Invalid T command (T1001).
+[2026-10-16 06:27:37.821481] [0x00000001effae180] [error]   Invalid T command (T65535).
+[2026-10-16 06:27:37.821495] [0x00000001effae180] [error]   Invalid T command (T65279).

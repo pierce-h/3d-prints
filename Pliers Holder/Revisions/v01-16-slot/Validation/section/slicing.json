@@ -1,0 +1,68 @@
+{
+    "error_string": "Success.",
+    "export_time": 899,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 4,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 614.8861083984375,
+                "Bridge": 635.2333374023438,
+                "Brim": 281.7236328125,
+                "Custom": 298.81988525390625,
+                "Flush": 26.0,
+                "Gap infill": 14.967598915100098,
+                "Inner wall": 9373.515625,
+                "Internal solid infill": 3244.220703125,
+                "Outer wall": 3829.35693359375,
+                "Sparse infill": 9365.5205078125,
+                "Top surface": 480.8950500488281,
+                "Travel": 1005.8681640625,
+                "Undefined": 998.8021850585938
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFA00",
+                    "id": 1,
+                    "main_used_g": 235.0260467529297,
+                    "total_used_g": 235.0260467529297
+                }
+            ],
+            "generate_support_material_time": 20,
+            "id": 1,
+            "infill_time": 762,
+            "layer_filament_change": 0,
+            "main_predication": 28811.505859375,
+            "make_perimeters_time": 60,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 108.5,
+                        "height": 58.0,
+                        "width": 286.0,
+                        "x": 32.0,
+                        "y": 105.75,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "8-slot section",
+                    "triangle_count": 1956
+                }
+            ],
+            "sliced_time": 2227,
+            "sliced_time_with_cache": 1364,
+            "total_predication": 29155.259765625,
+            "triangle_count": 1956,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 25.0,
+    "upward_compatible_machine": [
+        "Bambu Lab H2D Pro 0.4 nozzle"
+    ],
+    "wall_loops": 4
+}

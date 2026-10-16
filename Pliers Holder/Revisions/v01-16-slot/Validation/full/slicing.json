@@ -1,0 +1,81 @@
+{
+    "error_string": "Success.",
+    "export_time": 1526,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 7,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 1229.772705078125,
+                "Bridge": 1270.45947265625,
+                "Brim": 563.5670776367188,
+                "Custom": 298.84881591796875,
+                "Flush": 26.0,
+                "Gap infill": 29.934612274169922,
+                "Inner wall": 18750.4609375,
+                "Internal solid infill": 6486.78515625,
+                "Outer wall": 7658.3701171875,
+                "Sparse infill": 18716.15234375,
+                "Top surface": 951.8119506835938,
+                "Travel": 2044.025634765625,
+                "Undefined": 2036.959716796875
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFA00",
+                    "id": 1,
+                    "main_used_g": 470.0217590332031,
+                    "total_used_g": 470.0217590332031
+                }
+            ],
+            "generate_support_material_time": 32,
+            "id": 1,
+            "infill_time": 1602,
+            "layer_filament_change": 0,
+            "main_predication": 57712.47265625,
+            "make_perimeters_time": 133,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 108.5,
+                        "height": 58.0,
+                        "width": 286.0,
+                        "x": 32.0,
+                        "y": 40.75,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "8-slot section 1",
+                    "triangle_count": 1956
+                },
+                {
+                    "bbox": {
+                        "depth": 108.5,
+                        "height": 58.0,
+                        "width": 286.0,
+                        "x": 32.0,
+                        "y": 165.75,
+                        "z": 0.0
+                    },
+                    "id": 9,
+                    "name": "8-slot section 2",
+                    "triangle_count": 1956
+                }
+            ],
+            "sliced_time": 4617,
+            "sliced_time_with_cache": 2701,
+            "total_predication": 58056.25390625,
+            "triangle_count": 3912,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 25.0,
+    "upward_compatible_machine": [
+        "Bambu Lab H2D Pro 0.4 nozzle"
+    ],
+    "wall_loops": 4
+}

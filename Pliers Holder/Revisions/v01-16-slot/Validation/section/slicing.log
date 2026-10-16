@@ -1,0 +1,13 @@
+[2026-10-16 06:27:39.880091] [0x00000001effae180] [trace]   Initializing StaticPrintConfigs
+[2026-10-16 06:27:40.540989] [0x000000016c3fb000] [error]   ZFiller: encounter idx from clip: 129
+[2026-10-16 06:27:40.541098] [0x000000016c3fb000] [error]   ZFiller: encounter idx from clip: 136
+[2026-10-16 06:27:40.541106] [0x000000016c3fb000] [error]   ZFiller: encounter idx from clip: 143
+[2026-10-16 06:27:40.541171] [0x000000016c3fb000] [error]   ZFiller: encounter idx from clip: 148
+[2026-10-16 06:27:40.541226] [0x000000016c3fb000] [error]   ZFiller: encounter idx from clip: 155
+[2026-10-16 06:27:40.541278] [0x000000016c3fb000] [error]   ZFiller: encounter idx from clip: 97
+[2026-10-16 06:27:40.541329] [0x000000016c3fb000] [error]   ZFiller: encounter idx from clip: 107
+[2026-10-16 06:27:40.541379] [0x000000016c3fb000] [error]   ZFiller: encounter idx from clip: 84
+[2026-10-16 06:27:40.541427] [0x000000016c3fb000] [error]   ZFiller: encounter idx from clip: 169
+[2026-10-16 06:27:40.780641] [0x00000001effae180] [error]   Invalid T command (T1001).
+[2026-10-16 06:27:41.932435] [0x00000001effae180] [error]   Invalid T command (T65535).
+[2026-10-16 06:27:41.932447] [0x00000001effae180] [error]   Invalid T command (T65279).

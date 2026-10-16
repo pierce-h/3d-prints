@@ -1,0 +1,50 @@
+PLIERS HOLDER — v01 SIXTEEN SLOTS
+October 16, 2026
+
+Original model for mixed-size pliers, including larger tools. No downloaded
+third-party mesh is used. Actual tool dimensions were not provided.
+Status: PROTOTYPE; geometry and slicing verified, physical fit/load untested.
+
+PROJECTS AND CHECKED ESTIMATES
+Pliers_Rack_v01_16_Slots_PLA_Left_TEST_FIT.3mf
+  Two independent eight-slot sections on one plate: 16 h 7 min 36 sec / 470.02 g.
+Pliers_Rack_v01_8_Slot_Section_PLA_Left_TEST_FIT.3mf
+  One section: 8 h 5 min 55 sec / 235.03 g.
+Pliers_Rack_v01_3_Slot_Fit_Sample_PLA_Left.3mf
+  Handheld 12/20/26 mm slot gauge: 1 h 29 min 1 sec / 39.54 g.
+Matching STL files are included. All three slices succeeded with no plate
+warnings and no support toolpaths. No print has been sent.
+
+DESIGN
+Each section: 286 mm wide x 58 mm tall x 108.5 mm deep including cleats.
+Two sections mounted 6 mm apart span 578 mm (22.76 inches). They mount separately.
+Each has slots 12/14/16/18/20/22/24/26 mm wide, on 34 mm centers, maximum depth
+69 mm. Shelf thickness is 6 mm, with 5 mm ribs under all nine shelf fingers.
+The back is 4 mm thick, reinforced to 6 mm across the cleat height. Two 60 mm
+rear cleat segments per section use a 17.5 mm projection and 45-degree bevel,
+for nominal 19.05 mm plywood wall cleats. Actual cleat fit remains untested.
+No fixed lower rear spacer is included because the rail height is unknown.
+
+Jaws point up, handles down; broad flat faces face neighboring tools and handles
+spread front-to-back. The tool head/joint must be wider than its chosen slot.
+Slide tools fully back. There is no front retaining lip. These slot widths are
+capacities, not measured fits; bulky pliers may need an empty adjacent slot.
+The 116 x 91 x 10 mm handheld gauge checks three widths only. It has no French
+cleat and does not test mounting or load capacity.
+
+PRINT SETUP
+Bambu H2D, standard 0.4 mm, black Bambu PLA Basic, LEFT nozzle / extruder 1.
+Project filament 1, Manual filament grouping; confirm actual spool mapping.
+0.20 mm layers, 4 walls, 25% gyroid, 5 top/bottom layers, 3 mm outer brim.
+Shelf/top faces the bed. Supports are disabled and none appear in checked G-code.
+
+FILES AND EVIDENCE
+Mounted_Preview.png, Section_Preview.png, Print_Preview.png and
+Fit_Sample_Preview.png render the actual meshes. Display colors are illustrative.
+Validation/geometry.json and independent_review.json record digital checks;
+full/, section/ and sample/ each retain their slice log, results and summary.
+Each individual piece is one watertight connected solid. The full set consists
+of two separate solids by design. Installed STLs in Validation are for inspection.
+Source scripts are in ../../Source/; see its README for rebuilding.
+
+Physical tool fit, French cleat fit and loaded performance remain untested.

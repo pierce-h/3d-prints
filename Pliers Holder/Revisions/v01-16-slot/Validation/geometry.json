@@ -1,0 +1,351 @@
+{
+  "status": "PROTOTYPE \u2014 physical tool fit, cleat fit and loaded use untested",
+  "parameters_mm": {
+    "slot_widths": [
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26
+    ],
+    "pitch": 34.0,
+    "end_margin": 24.0,
+    "back_thickness": 4.0,
+    "back_reinforced_thickness": 6.0,
+    "back_reinforcement_bottom": 24.0,
+    "height": 58.0,
+    "shelf_thickness": 6.0,
+    "shelf_front": 91.0,
+    "slot_rear": 22.0,
+    "entrance_flare_each_side": 1.0,
+    "flare_length": 5.0,
+    "rib_width": 5.0,
+    "rib_bottom": 14.0,
+    "rib_front": 83.0,
+    "cleat_projection": 17.5,
+    "cleat_segment_width": 60.0,
+    "cleat_angle_degrees": 45.0,
+    "wall_gap_between_modules": 6.0
+  },
+  "module": {
+    "width": 286.0,
+    "slot_widths": [
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26
+    ],
+    "slot_centers_x": [
+      24.0,
+      58.0,
+      92.0,
+      126.0,
+      160.0,
+      194.0,
+      228.0,
+      262.0
+    ],
+    "ribs": [
+      {
+        "center_x": 9.0,
+        "width": 5.0,
+        "finger_width": 18.0
+      },
+      {
+        "center_x": 40.5,
+        "width": 5.0,
+        "finger_width": 21.0
+      },
+      {
+        "center_x": 74.5,
+        "width": 5.0,
+        "finger_width": 19.0
+      },
+      {
+        "center_x": 108.5,
+        "width": 5.0,
+        "finger_width": 17.0
+      },
+      {
+        "center_x": 142.5,
+        "width": 5.0,
+        "finger_width": 15.0
+      },
+      {
+        "center_x": 176.5,
+        "width": 5.0,
+        "finger_width": 13.0
+      },
+      {
+        "center_x": 210.5,
+        "width": 5.0,
+        "finger_width": 11.0
+      },
+      {
+        "center_x": 244.5,
+        "width": 5.0,
+        "finger_width": 9.0
+      },
+      {
+        "center_x": 280.5,
+        "width": 5.0,
+        "finger_width": 11.0
+      }
+    ],
+    "cleat_centers_x": [
+      55.0,
+      231.0
+    ],
+    "cleat_segment_width": 60.0
+  },
+  "fit_sample": {
+    "width": 116.0,
+    "slot_widths": [
+      12,
+      20,
+      26
+    ],
+    "slot_centers_x": [
+      24.0,
+      58.0,
+      92.0
+    ],
+    "ribs": [
+      {
+        "center_x": 9.0,
+        "width": 5.0,
+        "finger_width": 18.0
+      },
+      {
+        "center_x": 39.0,
+        "width": 5.0,
+        "finger_width": 18.0
+      },
+      {
+        "center_x": 73.5,
+        "width": 5.0,
+        "finger_width": 11.0
+      },
+      {
+        "center_x": 110.5,
+        "width": 5.0,
+        "finger_width": 11.0
+      }
+    ],
+    "cleat_centers_x": [
+      58.0
+    ],
+    "cleat_segment_width": 60.0,
+    "purpose": "Handheld slot-fit gauge only; cropped to top 10 mm, no wall cleat."
+  },
+  "projects": {
+    "Pliers_Rack_v01_16_Slots_PLA_Left_TEST_FIT": {
+      "objects": [
+        {
+          "name": "8-slot section 1",
+          "transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              32.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              58.25
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              58.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "bounds": [
+            [
+              32.0,
+              40.75,
+              0.0
+            ],
+            [
+              318.0,
+              149.25,
+              58.0
+            ]
+          ],
+          "volume_mm3": 286939.50938630855,
+          "watertight": true,
+          "components": 1,
+          "triangles": 1956
+        },
+        {
+          "name": "8-slot section 2",
+          "transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              32.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              183.25
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              58.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "bounds": [
+            [
+              32.0,
+              165.75,
+              0.0
+            ],
+            [
+              318.0,
+              274.25,
+              58.0
+            ]
+          ],
+          "volume_mm3": 286939.50938630855,
+          "watertight": true,
+          "components": 1,
+          "triangles": 1956
+        }
+      ],
+      "total_slots": 16
+    },
+    "Pliers_Rack_v01_8_Slot_Section_PLA_Left_TEST_FIT": {
+      "objects": [
+        {
+          "name": "8-slot section",
+          "transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              32.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              123.25
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              58.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "bounds": [
+            [
+              32.0,
+              105.75,
+              0.0
+            ],
+            [
+              318.0,
+              214.25,
+              58.0
+            ]
+          ],
+          "volume_mm3": 286939.50938630855,
+          "watertight": true,
+          "components": 1,
+          "triangles": 1956
+        }
+      ],
+      "total_slots": 8
+    },
+    "Pliers_Rack_v01_3_Slot_Fit_Sample_PLA_Left": {
+      "objects": [
+        {
+          "name": "12 / 20 / 26 mm fit sample",
+          "transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              117.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              114.5
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              58.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "bounds": [
+            [
+              117.0,
+              114.5,
+              0.0
+            ],
+            [
+              233.0,
+              205.5,
+              10.0
+            ]
+          ],
+          "volume_mm3": 48600.59404017233,
+          "watertight": true,
+          "components": 1,
+          "triangles": 740
+        }
+      ],
+      "total_slots": 3
+    }
+  },
+  "usage": "Jaws up, handles down, tool broad faces toward neighboring tools; handles spread front-to-back. Joint/head must be wider than chosen slot. Push fully back. Leave neighboring slots empty for very bulky tools if needed.",
+  "assumptions": [
+    "Actual plier dimensions unavailable; mixed-size design capacities only.",
+    "Wall cleat nominal 19.05 mm plywood, 45 degree bevel; height unknown.",
+    "No fixed rear lower spacer, because unknown rail height could make it interfere."
+  ]
+}

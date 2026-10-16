@@ -14,6 +14,7 @@ Start with the models below. [Library.txt](Library.txt) is the detailed catalog;
 | TSO tool holder | [v01 — plain front](TSO%20Tool%20Holder/Revisions/v01-plain-front/TSO_Tool_Holder_v01_Plain_Front.3mf) | Maker emblem filled flush; geometry and slicing checked. Physical fit pending. | [Print Notes](TSO%20Tool%20Holder/Print%20Notes.txt) |
 | PTR-18+ triangle holder | [v11 — PLA Basic, left external feed](PTR-18%20Triangle%20Holder/Revisions/v11-pla-left-external/PTR18_Hanger_v11_PLA_Basic_Left_TEST_FIT.3mf); [v10 right-nozzle PLA](PTR-18%20Triangle%20Holder/Revisions/v10-pla-right-nozzle/PTR18_Hanger_v10_PLA_Basic_Right_TEST_FIT.3mf); [v09 PETG alternative](PTR-18%20Triangle%20Holder/Revisions/v09-enlarged-deeper-pockets/PTR18_Hanger_v09_Enlarged_Deeper_Pockets_PETG_Right_TEST_FIT.3mf) | Print completed; user reports it “looks great” on October 16. Fit, deeper-pocket retrieval and loaded performance remain unconfirmed. | [Print Notes](PTR-18%20Triangle%20Holder/Print%20Notes.txt) |
 | Caliper holder | [v01 — 32 mm center opening](Caliper%20Holder/Revisions/v01-32mm-center/Caliper_Holder_v01_32mm_Center.3mf) | Widened for an approximately 30 mm caliper body; revised physical fit pending. | [Print Notes](Caliper%20Holder/Print%20Notes.txt) |
+| Pliers holder | [v01 — 16 slots, two sections](Pliers%20Holder/Revisions/v01-16-slot/Pliers_Rack_v01_16_Slots_PLA_Left_TEST_FIT.3mf) | Original prototype; support-free slice checked. Mixed-size tool fit, cleat fit and loaded use untested. | [Print Notes](Pliers%20Holder/Print%20Notes.txt) |
 
 Status reflects recorded feedback as of October 16, 2026. A successful geometry check or slice does not establish physical fit or load capacity.
 
@@ -31,6 +32,8 @@ Both samples include short-pin, tall-pin, and screw-head pockets for storage wit
 The saved project uses black Bambu PETG Matte on the **right nozzle** and slices to approximately **1 hour 42 minutes / 33 g** for both samples. See the [labeled preview](PTR-18%20Triangle%20Holder/Revisions/v08-clearance-test/Labeled_Preview.png) and [revision notes](PTR-18%20Triangle%20Holder/Revisions/v08-clearance-test/Revision%20Notes.txt). The accepted fit result came from the print started before the text labels were added; the corner notch identifies it. The sample is smoother than the first full print, but rough lines and waviness remain near the holes. The cause is unconfirmed.
 
 The Festool holder also has a [small French cleat fit sample](Festool%20Sander%20Holder/Revisions/v02-lighter-backing/French_Cleat_Fit_Sample_v02.3mf) to check against the actual wooden rail before printing the full holder.
+
+The new [pliers slot-fit gauge](Pliers%20Holder/Revisions/v01-16-slot/Pliers_Rack_v01_3_Slot_Fit_Sample_PLA_Left.3mf) checks 12, 20 and 26 mm openings before the full rack (about **1 hour 29 minutes / 40 g**). Hold it by hand to check tool seating; it has no cleat and does not test wall mounting or load capacity. The full rack has two independent eight-slot sections, with 12–26 mm slots for unmeasured mixed-size tools. Bulky heads may require empty neighboring slots.
 
 ## Opening a print
 

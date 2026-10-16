@@ -1,0 +1,77 @@
+PLIERS HOLDER
+Updated: October 16, 2026
+
+Latest revision: v01 — 16 slots in two independent eight-slot sections.
+Status: PROTOTYPE — geometry and slicing verified. Physical tool fit, French
+cleat fit and loaded use are untested. No print has been sent.
+Original geometry created for this project; no downloaded third-party mesh.
+The user has mixed-size pliers, including larger tools; actual widths are unknown.
+
+BAMBU STUDIO PROJECTS
+Full 16-slot set, both sections on one H2D plate:
+Revisions/v01-16-slot/Pliers_Rack_v01_16_Slots_PLA_Left_TEST_FIT.3mf
+Estimate: 16 h 7 min 36 sec / 470.02 g.
+
+Single eight-slot section:
+Revisions/v01-16-slot/Pliers_Rack_v01_8_Slot_Section_PLA_Left_TEST_FIT.3mf
+Estimate: 8 h 5 min 55 sec / 235.03 g.
+
+Handheld three-slot fit gauge, recommended before the full print:
+Revisions/v01-16-slot/Pliers_Rack_v01_3_Slot_Fit_Sample_PLA_Left.3mf
+Estimate: 1 h 29 min 1 sec / 39.54 g. Slots: 12, 20 and 26 mm.
+The gauge is 116 x 91 x 10 mm and has no French cleat. It checks slot fit only;
+it is not a wall-mount, full-section strength test or load test.
+
+SIZE AND STORAGE
+Each section is 286 mm wide x 58 mm tall x 108.5 mm deep, including the cleat.
+A suggested 6 mm gap between the two separately mounted sections gives a total
+width of 578 mm (22.76 inches). They do not join together mechanically.
+Each section has eight slots, left to right: 12, 14, 16, 18, 20, 22, 24 and 26 mm.
+Slot centers are 34 mm apart. Maximum opening depth is 69 mm, with rounded
+closed ends and flared front entries. These widths are design capacities,
+not measured fits for the user's tools. Large heads may require an empty
+neighboring slot; 16 slots does not guarantee clearance for 16 bulky pliers.
+
+Store tools with jaws up and handles down. Turn their broad flat faces toward
+neighboring tools, with the handles spreading front-to-back. The head or joint
+must be wider than the chosen slot to rest on the shelf. Slide tools fully
+rearward. The fronts are open and there is no retaining lip.
+Hold the fit gauge securely while checking a small, medium and large tool.
+Check that each tool slides in, rests securely and can be removed without
+binding. Also check head clearance beside neighboring tools on a full section.
+
+STRUCTURE AND FRENCH CLEAT
+The shelf is 6 mm thick, with a 5 mm-wide rib under each of its nine fingers.
+The 4 mm back is reinforced to 6 mm across the full cleat height. Each section
+has two 60 mm-wide rear cleat segments projecting 17.5 mm, using the existing
+45-degree mating profile for the user's nominal 3/4-inch (19.05 mm) plywood rail.
+Actual rail height and fit have not been measured. There is no fixed lower
+rear spacer, since an unknown rail height could make one interfere. Check that
+the bevel seats and the back rests against the rail without rocking before use.
+These features are not a tested load rating.
+
+PRINT SETUP AND VALIDATION
+Bambu H2D, standard 0.4 mm nozzle, black Bambu PLA Basic on the LEFT nozzle,
+project filament 1 / extruder 1. Manual filament grouping retains this mapping.
+0.20 mm layers, 4 walls, 25% gyroid, 5 top/bottom layers, 3 mm outer brim.
+The saved pose places the shelf top on the bed; supports are disabled. All
+three checked slices succeeded with no plate warnings and no support toolpaths.
+Confirm the actual PLA spool and mapping before sending a job.
+
+Each section and the gauge is a single watertight connected solid. The full
+plate intentionally contains two independent sections. Geometry, independent
+review and per-project slice records are under Revisions/v01-16-slot/Validation/.
+STLs contain geometry only; use the 3MFs to retain the saved setup. Installed
+STLs under Validation are inspection files, not the saved print pose.
+
+PREVIEWS
+Revisions/v01-16-slot/Mounted_Preview.png — two sections with the suggested gap.
+Revisions/v01-16-slot/Section_Preview.png — one section.
+Revisions/v01-16-slot/Print_Preview.png — full plate in its saved print pose.
+Revisions/v01-16-slot/Fit_Sample_Preview.png — handheld gauge.
+These are renders of the actual mesh. Display color is for visibility;
+the saved filament profile is black PLA.
+
+PRINT HISTORY
+October 16, 2026 — v01 prepared and slice-tested. No physical fit, print or load
+result recorded. The caliper holder remains the current Bambu Studio project.
