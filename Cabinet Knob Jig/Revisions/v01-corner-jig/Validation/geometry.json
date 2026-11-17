@@ -1,0 +1,164 @@
+{
+  "status": "PROTOTYPE; verify guide fit and location on scrap before finished doors",
+  "parameters_mm": {
+    "side_offset": 31.75,
+    "end_offset": 63.5,
+    "plate_width": 70.0,
+    "plate_length": 90.0,
+    "plate_thickness": 10.0,
+    "stop_depth": 10.0,
+    "fence_thickness": 4.0,
+    "corner_relief_radius": 1.5,
+    "drill_bit_diameter": 4.7625,
+    "printed_guide_diameter": 5.05,
+    "entry_chamfer": 0.5,
+    "door_thickness_min": 19.05,
+    "door_thickness_max": 20.6375,
+    "nominal_stile_rail_width": 63.5
+  },
+  "placement_basis": "Recommended 1.25 in side / 2.5 in end, following user request for standard placement",
+  "material": "PLA Basic; left extruder",
+  "guide_material": "Printed plastic, no metal bushing",
+  "coordinate_notes": "Drill face Z=0 faces the operator, door seats at Z=10: A bottom-right/top-left; B bottom-left/top-right. Looking at the opposite contact face reverses handedness.",
+  "project": "Cabinet_Knob_Jig_v01_Pair_3-16in_PLA_Left_TEST_FIT.3mf",
+  "parts": [
+    {
+      "name": "A",
+      "guide_center": [
+        31.75,
+        63.5
+      ],
+      "guide_axis": "Z",
+      "side_datum_x": 0,
+      "end_datum_y": 0,
+      "door_contact_z": 10.0,
+      "groove_count": 1,
+      "door_corners": [
+        "bottom-right",
+        "top-left"
+      ],
+      "bounds_installed": [
+        [
+          -4.0,
+          -4.0,
+          0.0
+        ],
+        [
+          70.0,
+          90.0,
+          20.0
+        ]
+      ],
+      "print_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          77.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          117.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_bounds": [
+        [
+          73.0,
+          113.0,
+          0.0
+        ],
+        [
+          147.0,
+          207.0,
+          20.0
+        ]
+      ],
+      "volume_mm3": 75853.73037790133,
+      "watertight": true,
+      "connected_bodies": 1
+    },
+    {
+      "name": "B",
+      "guide_center": [
+        38.25,
+        63.5
+      ],
+      "guide_axis": "Z",
+      "side_datum_x": 70.0,
+      "end_datum_y": 0,
+      "door_contact_z": 10.0,
+      "groove_count": 2,
+      "door_corners": [
+        "bottom-left",
+        "top-right"
+      ],
+      "bounds_installed": [
+        [
+          0.0,
+          -4.0,
+          0.0
+        ],
+        [
+          74.0,
+          90.0,
+          20.0
+        ]
+      ],
+      "print_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          193.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          117.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_bounds": [
+        [
+          193.0,
+          113.0,
+          0.0
+        ],
+        [
+          267.0,
+          207.0,
+          20.0
+        ]
+      ],
+      "volume_mm3": 75844.13037790133,
+      "watertight": true,
+      "connected_bodies": 1
+    }
+  ]
+}

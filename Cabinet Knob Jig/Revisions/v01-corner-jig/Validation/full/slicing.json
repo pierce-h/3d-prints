@@ -1,0 +1,81 @@
+{
+    "error_string": "Success.",
+    "export_time": 719,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 15,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 414.7812194824219,
+                "Bridge": 564.318359375,
+                "Brim": 105.00110626220703,
+                "Custom": 300.61279296875,
+                "Flush": 26.0,
+                "Gap infill": 13.998117446899414,
+                "Inner wall": 2669.292724609375,
+                "Internal solid infill": 2003.103515625,
+                "Outer wall": 744.5021362304688,
+                "Sparse infill": 5463.31396484375,
+                "Top surface": 446.7973937988281,
+                "Travel": 290.86907958984375,
+                "Undefined": 281.903076171875
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFA00",
+                    "id": 1,
+                    "main_used_g": 97.86639404296875,
+                    "total_used_g": 97.86639404296875
+                }
+            ],
+            "generate_support_material_time": 7,
+            "id": 1,
+            "infill_time": 108,
+            "layer_filament_change": 0,
+            "main_predication": 12693.1240234375,
+            "make_perimeters_time": 36,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 94.0,
+                        "height": 20.0,
+                        "width": 74.0,
+                        "x": 73.0,
+                        "y": 113.0,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "Jig A - 1 groove",
+                    "triangle_count": 1084
+                },
+                {
+                    "bbox": {
+                        "depth": 94.0,
+                        "height": 20.0,
+                        "width": 74.0,
+                        "x": 193.0,
+                        "y": 113.0,
+                        "z": 0.0
+                    },
+                    "id": 9,
+                    "name": "Jig B - 2 groove",
+                    "triangle_count": 1100
+                }
+            ],
+            "sliced_time": 1008,
+            "sliced_time_with_cache": 810,
+            "total_predication": 13036.7705078125,
+            "triangle_count": 2184,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 25.0,
+    "upward_compatible_machine": [
+        "Bambu Lab H2D Pro 0.4 nozzle"
+    ],
+    "wall_loops": 6
+}

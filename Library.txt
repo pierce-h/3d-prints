@@ -1,5 +1,5 @@
 3D PRINT MODEL LIBRARY
-Updated: October 16, 2026
+Updated: November 17, 2026
 
 SCREWDRIVER HOLDER
 Latest revision: v02 — eight left-side holes, 5/8 inch (15.875 mm) straight through.
@@ -172,6 +172,24 @@ Preview:
 Pliers Holder/Revisions/v05-wide-left/Mounted_Preview.png
 Print details and fit checks:
 Pliers Holder/Print Notes.txt
+
+
+CABINET KNOB JIG
+Latest revision: v01 — two mirrored single-hole corner jigs on one plate.
+Status: PROTOTYPE; physical door fit, drill fit, wear and hole accuracy untested.
+Guide centers are 1 1/4 in from the side and 2 1/2 in from the top/bottom edge.
+For confirmed 3/4–13/16 in doors and nominal 2 1/2 in stiles/rails. Shallow edge
+stops register on the face/outer edges rather than fitting around door thickness.
+Use a 3/16-inch bit; the nominal printed guide bore is 5.05 mm. Confirm the
+actual screw clears a scrap test hole before drilling doors. Guides are plastic.
+
+Open in Bambu Studio:
+Cabinet Knob Jig/Revisions/v01-corner-jig/Cabinet_Knob_Jig_v01_Pair_3-16in_PLA_Left_TEST_FIT.3mf
+Slice estimate for both jigs: 3 h 37 min 17 sec / 97.87 g.
+PLA Basic / LEFT nozzle. No UI loading or print start is recorded.
+
+Use instructions, A/B corner mapping and checks:
+Cabinet Knob Jig/Print Notes.txt
 
 
 HOW THIS LIBRARY IS ORGANIZED

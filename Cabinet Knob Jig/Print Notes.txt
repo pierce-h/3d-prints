@@ -1,0 +1,64 @@
+CABINET KNOB DRILLING JIG
+Updated: November 17, 2026
+
+Latest revision: v01 — mirrored, single-hole corner jigs printed together.
+Status: PROTOTYPE; door seating, drill fit, wear and hole accuracy untested.
+No Bambu Studio UI loading or print start is recorded for this project.
+
+OPEN IN BAMBU STUDIO
+Revisions/v01-corner-jig/Cabinet_Knob_Jig_v01_Pair_3-16in_PLA_Left_TEST_FIT.3mf
+Slice estimate for both jigs: 3 h 37 min 17 sec / 97.87 g.
+Matching STL contains geometry only; use the 3MF for the saved print setup.
+Preview.png and Placement_Diagram.png in the revision folder show the parts
+and their corner placement.
+
+HOLE POSITION
+The guide center is 31.75 mm (1 1/4 in) from the side edge and 63.5 mm (2 1/2 in)
+from the top/bottom edge. This is the recommended layout chosen after the user
+asked for standard placement. It centers on a nominal 2 1/2-inch stile.
+Use the upper corner of base-cabinet doors and the lower corner of wall-cabinet
+doors, opposite the hinges. Verify the appearance and actual stile center on
+one door before using the fixed offsets throughout the project.
+
+JIG IDENTIFICATION — VIEWED FROM THE EXPOSED DRILL FACE
+A, one engraved groove: top-left or bottom-right corner.
+B, two engraved grooves: top-right or bottom-left corner.
+Rotate the appropriate jig 180 degrees for its diagonally opposite corner.
+Each jig has one drill guide.
+
+DOOR FIT AND DIMENSIONS
+Confirmed door thickness: 12/16–13/16 in (19.05–20.6375 mm).
+Reported stile and rail width: roughly 2 1/2 in (63.5 mm).
+The plate extends 70 x 90 mm inward from the edge datums and is 10 mm thick.
+Including the fences, the overall envelope is 74 x 94 x 20 mm.
+Two edge stops extend 10 mm behind the door-contact face. They register against
+the outer edges, without fitting around the door's full thickness. A small
+corner relief helps both stops seat. Flat outer-edge registration is required.
+
+DRILL GUIDE
+Use a 3/16-inch bit (4.7625 mm). The modeled guide bore is 5.05 mm with a small
+entry chamfer, through the 10 mm plate. That CAD allowance is provisional;
+printed holes are not guaranteed to match it exactly.
+The screw measures roughly 1/8 in; its thread type is unconfirmed. Check on
+scrap that it passes freely through the drilled hole and the hardware covers it.
+
+This version has a printed-plastic guide, not a metal drill bushing. With the
+motor off, the bit must slide through by hand without binding. Clamp the jig
+securely over the solid stile/rail and support the door's exit face with scrap.
+Drill with light pressure and clear chips. Inspect the guide for wear; replace
+it if loose or damaged.
+
+PRINT SETUP AND CHECKS
+Bambu H2D, standard 0.4 mm nozzle, PLA Basic on the LEFT nozzle, filament 1,
+Manual grouping. 0.20 mm layers, 6 walls, 25% gyroid, 5 top/bottom layers,
+3 mm outer brim; supports disabled. Both broad exposed faces lie on the bed,
+with the edge stops rising above the plates. Preserve that pose.
+The final slice succeeded with no warnings or support toolpaths, using only
+PLA on the left nozzle. Independent mesh review is recorded in Validation.
+Check the actual filament and printer mapping before sending a print.
+
+REFERENCES
+Placement guidance: Top Knobs describes 2 1/2–3 inches from the end corner.
+https://blog.topknobs.com/top-knobs-guide-decorative-hardware-placement/
+Kreg's cabinet hardware jig instructions specify a 3/16-inch drill bit.
+https://www.kregtool.com/shop/cabinet-solutions/cabinet-drawer-shelf-jigs/cabinet-hardware-jig/KHI-PULL.html

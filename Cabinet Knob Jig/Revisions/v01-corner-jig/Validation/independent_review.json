@@ -1,0 +1,154 @@
+{
+  "result": "PASS",
+  "method": "Independent sections of exported STL and direct 3MF inspection; no CAD-builder import.",
+  "parts": {
+    "A": {
+      "watertight": true,
+      "connected_bodies": 1,
+      "mesh_sha256": "1d452c6e21faa4fecfceca6671dfbb8c26edcfce7aeb73a918a4c0e31a550310",
+      "bounds_mm": [
+        [
+          -4.0,
+          -4.0,
+          0.0
+        ],
+        [
+          70.0,
+          90.0,
+          20.0
+        ]
+      ],
+      "guide_sections": [
+        {
+          "z_mm": 2,
+          "center_xy_mm": [
+            31.750000953674316,
+            63.5
+          ],
+          "diameter_xy_mm": [
+            5.05000114440918,
+            5.0500030517578125
+          ]
+        },
+        {
+          "z_mm": 5,
+          "center_xy_mm": [
+            31.750000953674316,
+            63.5
+          ],
+          "diameter_xy_mm": [
+            5.05000114440918,
+            5.0500030517578125
+          ]
+        },
+        {
+          "z_mm": 9,
+          "center_xy_mm": [
+            31.750000953674316,
+            63.5
+          ],
+          "diameter_xy_mm": [
+            5.05000114440918,
+            5.0500030517578125
+          ]
+        }
+      ],
+      "side_offset_mm": 31.75,
+      "end_offset_mm": 63.5,
+      "measured_side_datum_x_mm": 0.0,
+      "measured_end_datum_y_mm": 0.0,
+      "door_contact_z_mm": 10,
+      "stop_depth_mm": 10,
+      "front_view_corners": [
+        "bottom-right",
+        "top-left"
+      ],
+      "identification": "one groove"
+    },
+    "B": {
+      "watertight": true,
+      "connected_bodies": 1,
+      "mesh_sha256": "ec176ed7a06a9c3ca04dc30aba07d2e45a86555f8435b9e8735622b0b7d8c868",
+      "bounds_mm": [
+        [
+          0.0,
+          -4.0,
+          0.0
+        ],
+        [
+          74.0,
+          90.0,
+          20.0
+        ]
+      ],
+      "guide_sections": [
+        {
+          "z_mm": 2,
+          "center_xy_mm": [
+            38.25,
+            63.5
+          ],
+          "diameter_xy_mm": [
+            5.0500030517578125,
+            5.0500030517578125
+          ]
+        },
+        {
+          "z_mm": 5,
+          "center_xy_mm": [
+            38.25,
+            63.5
+          ],
+          "diameter_xy_mm": [
+            5.0500030517578125,
+            5.0500030517578125
+          ]
+        },
+        {
+          "z_mm": 9,
+          "center_xy_mm": [
+            38.25,
+            63.5
+          ],
+          "diameter_xy_mm": [
+            5.0500030517578125,
+            5.0500030517578125
+          ]
+        }
+      ],
+      "side_offset_mm": 31.75,
+      "end_offset_mm": 63.5,
+      "measured_side_datum_x_mm": 70.0,
+      "measured_end_datum_y_mm": 0.0,
+      "door_contact_z_mm": 10,
+      "stop_depth_mm": 10,
+      "front_view_corners": [
+        "bottom-left",
+        "top-right"
+      ],
+      "identification": "two grooves"
+    }
+  },
+  "mirror_geometry": "A and B are mirrors except the intentional second identification groove on B.",
+  "handedness_proof": "Exposed drill face Z=0 faces the viewer. A proper 180-degree rotation about Y gives screen X=-model X and screen Y=model Y. A registers at bottom-right; B at bottom-left. In-plane 180-degree rotation gives the opposite upper corners.",
+  "other_checks": {
+    "guide_axis_straight": true,
+    "one_hole_per_jig": true,
+    "printed_plate_thickness_mm": 10,
+    "straight_guide_length_mm": 9.5,
+    "entry_chamfer_depth_mm": 0.5,
+    "support_toolpaths": false,
+    "print_orientation": "Broad exposed face Z=0 on bed; stops rise upward",
+    "small_identification_recesses": "2 mm-wide blind grooves require only short bridging over their roofs",
+    "both_parts_on_one_plate": true,
+    "printer": "H2D",
+    "material": "PLA",
+    "extruder": "left"
+  },
+  "gcode_sha256": "7d68e6a99001f80b7cf9a6f15a27b4af56411c8a4a94c291b8e5861617e45e04",
+  "limits": [
+    "Printed guide fit, accuracy and wear are not physically tested.",
+    "Proposed offsets should be checked on the actual door before drilling.",
+    "Printed hole diameter is 5.05 mm; the intended wood-drilling bit is 3/16 in (4.7625 mm)."
+  ]
+}

@@ -1,0 +1,37 @@
+CABINET KNOB JIG — v01 CORNER JIG
+November 17, 2026
+
+Original CAD for drilling cabinet-knob clearance holes at fixed offsets.
+User measurements: doors 12/16–13/16 in thick; stile/rail roughly 2 1/2 in;
+screw diameter roughly 1/8 in. Recommended placement is 1 1/4 in from the
+side and 2 1/2 in from the end. Physical fit and drilling accuracy are untested.
+
+FILES
+Cabinet_Knob_Jig_v01_Pair_3-16in_PLA_Left_TEST_FIT.3mf
+Matching STL; Preview.png and Placement_Diagram.png accompany the project.
+Slice estimate for both jigs: 3 h 37 min 17 sec / 97.87 g.
+No Bambu Studio UI load or print start is recorded.
+
+DESIGN
+Two mirrored single-hole jigs share one print plate. Looking at the exposed
+drill face, with the stops behind the plate against the door edges:
+A / one groove fits top-left and bottom-right; B / two grooves fits top-right
+and bottom-left. Rotate 180 degrees for the diagonally opposite corner.
+Guide center: 31.75 mm from side, 63.5 mm from end. The 10 mm-thick plate
+extends 70 x 90 mm inward from the edge datums; overall size is 74 x 94 x 20 mm. Edge stops extend 10 mm behind the contact face,
+accommodating the confirmed 19.05–20.6375 mm doors without a fitted channel.
+
+A 5.05 mm nominal bore with a small entry chamfer guides a 3/16-inch (4.7625 mm)
+bit. This is a printed guide, not a metal bushing. Check free bit movement with
+the motor off, then test positioning and actual screw clearance on scrap before
+finished doors. Clamp the jig and back the exit face with scrap. Use light
+pressure, clear chips and replace a worn guide. No screw thread type is assumed.
+
+PRINT AND VALIDATION
+H2D / 0.4 mm / PLA Basic / LEFT nozzle, Manual grouping. 0.20 mm layers,
+6 walls, 25% gyroid, 5 top/bottom layers, 3 mm brim, supports disabled.
+Print broad exposed faces on the bed, with stops rising above the plates.
+The final slice succeeded with no warnings or support toolpaths, using only
+PLA on the left nozzle. Independent mesh review is recorded in Validation.
+Check the actual filament and printer mapping before sending a print.
+See ../../Print Notes.txt for use, references and future physical feedback.
