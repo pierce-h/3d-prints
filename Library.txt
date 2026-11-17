@@ -186,7 +186,9 @@ Manufacturer specifies #8-32 screws and a 3/16-inch bit; printed bore is 5.05 mm
 Open in Bambu Studio:
 Cabinet Knob Jig/Revisions/v02-claybourne-rail-aligned/Cabinet_Knob_Jig_v02_Claybourne_Pair_3-16in_PLA_Left_TEST_FIT.3mf
 Both jigs: 3 h 37 min 12 sec / 97.86 g. PLA Basic / LEFT nozzle; no supports.
-No UI loading or print start is recorded. v01's 63.5 mm end offset is archived.
+November 17, 2026: job accepted by H2D PW3D; startup confirmed at 0%, Layer 0/100,
+using black PLA Basic on the LEFT external feed. Completion/fit feedback pending.
+v01's 63.5 mm end offset is archived.
 
 Use instructions, A/B corner mapping and checks:
 Cabinet Knob Jig/Print Notes.txt

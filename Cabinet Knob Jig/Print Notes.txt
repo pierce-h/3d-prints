@@ -2,8 +2,8 @@ CABINET KNOB DRILLING JIG
 Updated: November 17, 2026
 
 Latest revision: v02 — Claybourne knob mounting-base edge aligned with the rail.
-Status: PROTOTYPE; door seating, drill fit, wear and hole accuracy untested.
-No Bambu Studio UI loading or print start is recorded for this revision.
+Status: PRINT JOB STARTED — November 17, 2026; printer startup confirmed.
+Door seating, drill fit, wear and hole accuracy remain untested.
 
 OPEN IN BAMBU STUDIO
 Revisions/v02-claybourne-rail-aligned/Cabinet_Knob_Jig_v02_Claybourne_Pair_3-16in_PLA_Left_TEST_FIT.3mf
@@ -66,3 +66,14 @@ https://www.amerock.com/set-it-and-forget-it-spikes-help-keep-knobs-in-place
 HISTORY
 v01-corner-jig remains archived with a 63.5 mm end offset. v02 changes only the
 hole's end offset to suit the Claybourne base and nominal rail alignment.
+
+November 17, 2026 — v02 loaded in Bambu Studio and re-sliced after syncing the
+H2D hardware. The job was sent to PW3D with black Bambu PLA Basic mapped to
+the LEFT external feed; the right nozzle is unused. Device UI showed the exact
+v02 project name, active Pause/Stop controls, 0% and Layer 0/100: the printer
+accepted the job and entered its startup sequence. First-layer printing was
+not yet observed. Displayed estimate: 3 h 37 min 12 sec / 97.86 g; expected
+finish 3:35 PM America/Chicago on November 17 (estimate, not completion).
+Bed leveling and flow-dynamics calibration: Auto; nozzle-offset calibration:
+Off; timelapse: Off (no storage). Physical results and completed-print feedback
+are still pending.

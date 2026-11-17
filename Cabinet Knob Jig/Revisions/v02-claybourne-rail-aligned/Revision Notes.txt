@@ -10,7 +10,8 @@ PROJECT
 Cabinet_Knob_Jig_v02_Claybourne_Pair_3-16in_PLA_Left_TEST_FIT.3mf
 Both jigs: 3 h 37 min 12 sec / 97.86 g. Matching pair and individual STLs included.
 Preview.png and Placement_Diagram.png show the actual parts and placement.
-No Bambu Studio UI load or print start is recorded.
+Loaded and re-sliced in Bambu Studio on November 17, 2026; job accepted by
+PW3D and printer startup observed. First-layer printing was not yet observed.
 
 POSITION AND HARDWARE
 Side offset: 31.75 mm (1 1/4 in). End offset: 71.501 mm (2.815 in,
@@ -39,3 +40,11 @@ Independent review passed: exported offsets, guide bore, A/B corner mapping
 and nominal mounting-base alignment verified. See Validation/independent_review.json
 in the current revision. Physical fit and drilling accuracy remain untested.
 See ../../Print Notes.txt for source links and use instructions.
+
+PRINT START RECORD — NOVEMBER 17, 2026
+Black Bambu PLA Basic, LEFT external feed; right nozzle unused. Device UI
+showed this exact v02 project, active Pause/Stop controls, 0%, Layer 0/100,
+and 3 h 37 min 12 sec / 97.86 g. Estimated finish: 3:35 PM America/Chicago
+that day. This records job acceptance/startup, not completion or proven fit.
+Bed leveling and flow-dynamics calibration Auto; nozzle-offset calibration Off;
+timelapse Off because storage was unavailable.
