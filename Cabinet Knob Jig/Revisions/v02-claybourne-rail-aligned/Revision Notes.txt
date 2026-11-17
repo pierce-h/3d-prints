@@ -1,0 +1,41 @@
+CABINET KNOB JIG — v02 CLAYBOURNE RAIL ALIGNMENT
+November 17, 2026
+
+The guide center moves 8.001 mm farther from the door's end so the Claybourne
+mounting-base edge meets the inner edge of a nominal 2 1/2-inch rail.
+Side offset, plate, stops, bore, print pose and settings remain unchanged.
+Earlier v01 files remain archived.
+
+PROJECT
+Cabinet_Knob_Jig_v02_Claybourne_Pair_3-16in_PLA_Left_TEST_FIT.3mf
+Both jigs: 3 h 37 min 12 sec / 97.86 g. Matching pair and individual STLs included.
+Preview.png and Placement_Diagram.png show the actual parts and placement.
+No Bambu Studio UI load or print start is recorded.
+
+POSITION AND HARDWARE
+Side offset: 31.75 mm (1 1/4 in). End offset: 71.501 mm (2.815 in,
+approximately 2 13/16 in) = nominal 63.5 mm rail + 8.001 mm base radius.
+Claybourne published base: 0.63 in (16.002 mm); face: 1.25 in (31.75 mm);
+projection: 1 in (25.4 mm). The larger face overlaps the rail reference line by
+7.874 mm. This revision aligns the mounting base, not the face edge.
+Actual stile/rail widths remain approximate; check the intended location before
+finished doors. Confirmed door thickness is 19.05–20.6375 mm.
+
+A / one groove fits top-left and bottom-right; B / two grooves fits top-right
+and bottom-left, viewed from the exposed drill face. Rotate 180 degrees for
+the opposite corner. Each jig has one guide. Overall dimensions: 74 x 94 x 20 mm.
+The 10 mm-thick plate reaches 70 x 90 mm inward; stops project 10 mm behind it.
+
+The manufacturer specifies #8-32 screws and a 3/16-inch bit (4.7625 mm).
+Printed guide bore: 5.05 mm, with 0.5 mm entry chamfer. Test free bit movement
+with the motor off and check position/screw clearance on scrap. Clamp the jig
+and back the exit face. Printed guides can wear; replace if loose or damaged.
+
+PRINT AND VALIDATION
+H2D / 0.4 mm / PLA Basic / LEFT nozzle, Manual grouping. 0.20 mm layers,
+6 walls, 25% gyroid, 5 top/bottom layers, 3 mm brim; supports disabled.
+Final slice passed with no warnings or support paths, using only PLA left.
+Independent review passed: exported offsets, guide bore, A/B corner mapping
+and nominal mounting-base alignment verified. See Validation/independent_review.json
+in the current revision. Physical fit and drilling accuracy remain untested.
+See ../../Print Notes.txt for source links and use instructions.

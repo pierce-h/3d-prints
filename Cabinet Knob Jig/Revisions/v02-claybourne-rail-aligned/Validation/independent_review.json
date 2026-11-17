@@ -1,0 +1,167 @@
+{
+  "result": "PASS",
+  "method": "Independent sections of exported STL and direct 3MF inspection; no CAD-builder import.",
+  "parts": {
+    "A": {
+      "watertight": true,
+      "connected_bodies": 1,
+      "mesh_sha256": "7e59fe4a68e5d23e9b523b0a8aae74eed3c0a40985b15bbcabb37c6e04f3be34",
+      "bounds_mm": [
+        [
+          -4.0,
+          -4.0,
+          0.0
+        ],
+        [
+          70.0,
+          90.0,
+          20.0
+        ]
+      ],
+      "guide_sections": [
+        {
+          "z_mm": 2,
+          "center_xy_mm": [
+            31.750000953674316,
+            71.5009994506836
+          ],
+          "diameter_xy_mm": [
+            5.05000114440918,
+            5.0500030517578125
+          ]
+        },
+        {
+          "z_mm": 5,
+          "center_xy_mm": [
+            31.750000953674316,
+            71.5009994506836
+          ],
+          "diameter_xy_mm": [
+            5.05000114440918,
+            5.0500030517578125
+          ]
+        },
+        {
+          "z_mm": 9,
+          "center_xy_mm": [
+            31.750000953674316,
+            71.5009994506836
+          ],
+          "diameter_xy_mm": [
+            5.05000114440918,
+            5.0500030517578125
+          ]
+        }
+      ],
+      "side_offset_mm": 31.75,
+      "end_offset_mm": 71.501,
+      "base_edge_from_end_mm": 63.499999450683596,
+      "end_edge_land_beyond_guide_chamfer_mm": 15.474000549316406,
+      "measured_side_datum_x_mm": 0.0,
+      "measured_end_datum_y_mm": 0.0,
+      "door_contact_z_mm": 10,
+      "stop_depth_mm": 10,
+      "front_view_corners": [
+        "bottom-right",
+        "top-left"
+      ],
+      "identification": "one groove"
+    },
+    "B": {
+      "watertight": true,
+      "connected_bodies": 1,
+      "mesh_sha256": "b8e352415b11363277ff23050c4b259e8906b1e78377c3f40f6762c2609d8f8e",
+      "bounds_mm": [
+        [
+          0.0,
+          -4.0,
+          0.0
+        ],
+        [
+          74.0,
+          90.0,
+          20.0
+        ]
+      ],
+      "guide_sections": [
+        {
+          "z_mm": 2,
+          "center_xy_mm": [
+            38.25,
+            71.5009994506836
+          ],
+          "diameter_xy_mm": [
+            5.0500030517578125,
+            5.0500030517578125
+          ]
+        },
+        {
+          "z_mm": 5,
+          "center_xy_mm": [
+            38.25,
+            71.5009994506836
+          ],
+          "diameter_xy_mm": [
+            5.0500030517578125,
+            5.0500030517578125
+          ]
+        },
+        {
+          "z_mm": 9,
+          "center_xy_mm": [
+            38.25,
+            71.5009994506836
+          ],
+          "diameter_xy_mm": [
+            5.0500030517578125,
+            5.0500030517578125
+          ]
+        }
+      ],
+      "side_offset_mm": 31.75,
+      "end_offset_mm": 71.501,
+      "base_edge_from_end_mm": 63.499999450683596,
+      "end_edge_land_beyond_guide_chamfer_mm": 15.474000549316406,
+      "measured_side_datum_x_mm": 70.0,
+      "measured_end_datum_y_mm": 0.0,
+      "door_contact_z_mm": 10,
+      "stop_depth_mm": 10,
+      "front_view_corners": [
+        "bottom-left",
+        "top-right"
+      ],
+      "identification": "two grooves"
+    }
+  },
+  "base_alignment": {
+    "published_base_diameter_in": 0.63,
+    "nominal_base_diameter_mm": 16.002,
+    "nominal_rail_width_mm": 63.5,
+    "hole_end_offset_mm": 71.501,
+    "verified_relationship": "Measured hole center minus nominal base radius equals rail width.",
+    "published_knob_face_diameter_in": 1.25,
+    "source": "https://www.rejuvenation.com/netstorage/images/pdfs/instructions/Claybourne_Cabinet_Hardware-Tear-Sheet.pdf"
+  },
+  "mirror_geometry": "A and B are mirrors except the intentional second identification groove on B.",
+  "handedness_proof": "Exposed drill face Z=0 faces the viewer. A proper 180-degree rotation about Y gives screen X=-model X and screen Y=model Y. A registers at bottom-right; B at bottom-left. In-plane 180-degree rotation gives the opposite upper corners.",
+  "other_checks": {
+    "guide_axis_straight": true,
+    "one_hole_per_jig": true,
+    "printed_plate_thickness_mm": 10,
+    "straight_guide_length_mm": 9.5,
+    "entry_chamfer_depth_mm": 0.5,
+    "support_toolpaths": false,
+    "print_orientation": "Broad exposed face Z=0 on bed; stops rise upward",
+    "small_identification_recesses": "2 mm-wide blind grooves require only short bridging over their roofs",
+    "both_parts_on_one_plate": true,
+    "printer": "H2D",
+    "material": "PLA",
+    "extruder": "left"
+  },
+  "gcode_sha256": "f171f171e216fd59e4cf09c736bdaf6a45e425301fc0d676d135b1b342332899",
+  "limits": [
+    "Printed guide fit, accuracy and wear are not physically tested.",
+    "Alignment uses published nominal 0.63 in base diameter and nominal 2.5 in rail width; verify actual hardware and door before drilling.",
+    "Printed hole diameter is 5.05 mm; the intended wood-drilling bit is 3/16 in (4.7625 mm)."
+  ]
+}

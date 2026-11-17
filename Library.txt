@@ -175,18 +175,18 @@ Pliers Holder/Print Notes.txt
 
 
 CABINET KNOB JIG
-Latest revision: v01 — two mirrored single-hole corner jigs on one plate.
-Status: PROTOTYPE; physical door fit, drill fit, wear and hole accuracy untested.
-Guide centers are 1 1/4 in from the side and 2 1/2 in from the top/bottom edge.
-For confirmed 3/4–13/16 in doors and nominal 2 1/2 in stiles/rails. Shallow edge
-stops register on the face/outer edges rather than fitting around door thickness.
-Use a 3/16-inch bit; the nominal printed guide bore is 5.05 mm. Confirm the
-actual screw clears a scrap test hole before drilling doors. Guides are plastic.
+Latest revision: v02 — Claybourne mounting-base edge aligned with the rail.
+Mirrored single-hole pair on one plate. Prototype; physical fit, guide wear and
+drilling accuracy untested. Door thickness 19.05–20.6375 mm; stile/rail roughly
+63.5 mm. Guide center: 31.75 mm from side, 71.501 mm (2.815 in) from end.
+End offset equals nominal rail width plus the 8.001 mm Claybourne base radius;
+the larger face deliberately overlaps that rail line. Confirm actual placement.
+Manufacturer specifies #8-32 screws and a 3/16-inch bit; printed bore is 5.05 mm.
 
 Open in Bambu Studio:
-Cabinet Knob Jig/Revisions/v01-corner-jig/Cabinet_Knob_Jig_v01_Pair_3-16in_PLA_Left_TEST_FIT.3mf
-Slice estimate for both jigs: 3 h 37 min 17 sec / 97.87 g.
-PLA Basic / LEFT nozzle. No UI loading or print start is recorded.
+Cabinet Knob Jig/Revisions/v02-claybourne-rail-aligned/Cabinet_Knob_Jig_v02_Claybourne_Pair_3-16in_PLA_Left_TEST_FIT.3mf
+Both jigs: 3 h 37 min 12 sec / 97.86 g. PLA Basic / LEFT nozzle; no supports.
+No UI loading or print start is recorded. v01's 63.5 mm end offset is archived.
 
 Use instructions, A/B corner mapping and checks:
 Cabinet Knob Jig/Print Notes.txt

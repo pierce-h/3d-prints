@@ -1,64 +1,68 @@
 CABINET KNOB DRILLING JIG
 Updated: November 17, 2026
 
-Latest revision: v01 — mirrored, single-hole corner jigs printed together.
+Latest revision: v02 — Claybourne knob mounting-base edge aligned with the rail.
 Status: PROTOTYPE; door seating, drill fit, wear and hole accuracy untested.
-No Bambu Studio UI loading or print start is recorded for this project.
+No Bambu Studio UI loading or print start is recorded for this revision.
 
 OPEN IN BAMBU STUDIO
-Revisions/v01-corner-jig/Cabinet_Knob_Jig_v01_Pair_3-16in_PLA_Left_TEST_FIT.3mf
-Slice estimate for both jigs: 3 h 37 min 17 sec / 97.87 g.
-Matching STL contains geometry only; use the 3MF for the saved print setup.
-Preview.png and Placement_Diagram.png in the revision folder show the parts
-and their corner placement.
+Revisions/v02-claybourne-rail-aligned/Cabinet_Knob_Jig_v02_Claybourne_Pair_3-16in_PLA_Left_TEST_FIT.3mf
+Slice estimate for both jigs: 3 h 37 min 12 sec / 97.86 g.
+Use the 3MF for the saved print setup; matching STLs contain geometry only.
+Preview.png and Placement_Diagram.png show the parts and their placement.
 
-HOLE POSITION
-The guide center is 31.75 mm (1 1/4 in) from the side edge and 63.5 mm (2 1/2 in)
-from the top/bottom edge. This is the recommended layout chosen after the user
-asked for standard placement. It centers on a nominal 2 1/2-inch stile.
+CLAYBOURNE PLACEMENT
+Guide center: 31.75 mm (1 1/4 in) from the side and 71.501 mm (2.815 in,
+approximately 2 13/16 in) from the top/bottom edge.
+Rejuvenation's Claybourne specification gives a 0.63-inch mounting base
+(16.002 mm), a 1.25-inch knob face (31.75 mm), and 1-inch projection (25.4 mm).
+The end offset is the nominal 63.5 mm rail width plus the 8.001 mm base radius.
+This places the mounting-base edge on the rail's inner edge. The larger knob
+face deliberately overlaps that line by 7.874 mm; its edge is not the datum.
+The hole moves 8.001 mm farther from the end than v01. Side offset is unchanged.
+
 Use the upper corner of base-cabinet doors and the lower corner of wall-cabinet
-doors, opposite the hinges. Verify the appearance and actual stile center on
-one door before using the fixed offsets throughout the project.
+doors, opposite the hinges. Stile and rail widths remain roughly 2 1/2 inches;
+verify the actual centerline and base alignment on one door before drilling.
 
 JIG IDENTIFICATION — VIEWED FROM THE EXPOSED DRILL FACE
 A, one engraved groove: top-left or bottom-right corner.
 B, two engraved grooves: top-right or bottom-left corner.
-Rotate the appropriate jig 180 degrees for its diagonally opposite corner.
-Each jig has one drill guide.
+Rotate 180 degrees for the diagonally opposite corner. Each jig has one guide.
 
-DOOR FIT AND DIMENSIONS
+DOOR FIT
 Confirmed door thickness: 12/16–13/16 in (19.05–20.6375 mm).
-Reported stile and rail width: roughly 2 1/2 in (63.5 mm).
-The plate extends 70 x 90 mm inward from the edge datums and is 10 mm thick.
-Including the fences, the overall envelope is 74 x 94 x 20 mm.
-Two edge stops extend 10 mm behind the door-contact face. They register against
-the outer edges, without fitting around the door's full thickness. A small
-corner relief helps both stops seat. Flat outer-edge registration is required.
+The plate extends 70 x 90 mm inward from the edge datums and is 10 mm thick;
+overall envelope including fences is 74 x 94 x 20 mm. Edge stops extend 10 mm
+behind the contact face. Flat outer edges register the jig without a fitted
+full-thickness channel. Corner relief helps both stops seat.
 
-DRILL GUIDE
-Use a 3/16-inch bit (4.7625 mm). The modeled guide bore is 5.05 mm with a small
-entry chamfer, through the 10 mm plate. That CAD allowance is provisional;
-printed holes are not guaranteed to match it exactly.
-The screw measures roughly 1/8 in; its thread type is unconfirmed. Check on
-scrap that it passes freely through the drilled hole and the hardware covers it.
-
-This version has a printed-plastic guide, not a metal drill bushing. With the
-motor off, the bit must slide through by hand without binding. Clamp the jig
-securely over the solid stile/rail and support the door's exit face with scrap.
-Drill with light pressure and clear chips. Inspect the guide for wear; replace
-it if loose or damaged.
+DRILL GUIDE AND USE
+Claybourne's installation instructions specify #8-32 screws and a 3/16-inch
+bit (4.7625 mm). The printed guide is nominally 5.05 mm through the 10 mm plate,
+with a 0.5 mm entry chamfer. Check free bit movement with the motor off, then
+check hole position, screw clearance and base alignment on scrap.
+The guide is printed plastic, not a metal bushing. Clamp the jig over the solid
+stile/rail and back the door's exit face with scrap. Use light pressure, clear
+chips and replace a worn or loose guide.
 
 PRINT SETUP AND CHECKS
-Bambu H2D, standard 0.4 mm nozzle, PLA Basic on the LEFT nozzle, filament 1,
-Manual grouping. 0.20 mm layers, 6 walls, 25% gyroid, 5 top/bottom layers,
-3 mm outer brim; supports disabled. Both broad exposed faces lie on the bed,
-with the edge stops rising above the plates. Preserve that pose.
-The final slice succeeded with no warnings or support toolpaths, using only
-PLA on the left nozzle. Independent mesh review is recorded in Validation.
-Check the actual filament and printer mapping before sending a print.
+H2D, standard 0.4 mm nozzle, PLA Basic on LEFT nozzle / filament 1, Manual grouping.
+0.20 mm layers, 6 walls, 25% gyroid, 5 top/bottom layers, 3 mm brim; no supports.
+Print broad exposed faces on the bed with the edge stops pointing up.
+Final slice: no warnings, no support paths, PLA left only.
+Independent review passed: exported offsets, guide bore, A/B corner mapping
+and nominal mounting-base alignment verified. See Validation/independent_review.json
+in the current revision. Physical fit and drilling accuracy remain untested.
 
 REFERENCES
-Placement guidance: Top Knobs describes 2 1/2–3 inches from the end corner.
-https://blog.topknobs.com/top-knobs-guide-decorative-hardware-placement/
-Kreg's cabinet hardware jig instructions specify a 3/16-inch drill bit.
-https://www.kregtool.com/shop/cabinet-solutions/cabinet-drawer-shelf-jigs/cabinet-hardware-jig/KHI-PULL.html
+Official Claybourne dimensions, page 1:
+https://www.rejuvenation.com/netstorage/images/pdfs/instructions/Claybourne_Cabinet_Hardware-Tear-Sheet.pdf
+Official Claybourne drill/screw instructions:
+https://www.rejuvenation.com/netstorage/images/pdfs/instructions/AI-Claybourne_cabinet_-_01DEC21-A.pdf
+Mounting-base alignment precedent, Amerock's door-placement guidance:
+https://www.amerock.com/set-it-and-forget-it-spikes-help-keep-knobs-in-place
+
+HISTORY
+v01-corner-jig remains archived with a 63.5 mm end offset. v02 changes only the
+hole's end offset to suit the Claybourne base and nominal rail alignment.
