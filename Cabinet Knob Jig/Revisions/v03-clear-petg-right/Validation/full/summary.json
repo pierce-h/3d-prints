@@ -1,0 +1,10 @@
+{
+  "return_code": 0,
+  "warnings": "",
+  "seconds": 15920.2353515625,
+  "grams": 94.1159896850586,
+  "material": "Bambu PETG Translucent",
+  "extruder": "right / 2",
+  "support_toolpaths": false,
+  "print_status": "Not yet sent; desktop control unavailable."
+}

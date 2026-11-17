@@ -1,0 +1,63 @@
+{
+  "project": "Cabinet_Knob_Jig_v03_Claybourne_Pair_Clear_PETG_Right_TEST_FIT.3mf",
+  "source_project": "Revisions/v02-claybourne-rail-aligned/Cabinet_Knob_Jig_v02_Claybourne_Pair_3-16in_PLA_Left_TEST_FIT.3mf",
+  "geometry_and_build_xml_byte_identical": true,
+  "geometry_sha256": "c6d004d87a36a374829f1739045489a95af82fc65cf24c2573d590ac643d802a",
+  "unchanged_archive_entries": [
+    "[Content_Types].xml",
+    "_rels/.rels",
+    "3D/3dmodel.model",
+    "Metadata/plate_1.png",
+    "Metadata/plate_no_light_1.png",
+    "Metadata/plate_1_small.png",
+    "Auxiliaries/.thumbnails/thumbnail_3mf.png"
+  ],
+  "filament_preset": "Bambu PETG Translucent @BBL H2D 0.4 nozzle",
+  "installed_preset_directory": "/Users/pierce/Library/Application Support/BambuStudio/system/BBL/filament",
+  "preset_input_sha256": {
+    "Bambu PETG Translucent @BBL H2D 0.4 nozzle.json": "928e3b3de6b1d35578deadbc053f3e219f85904c01b1873c5d3906c74228595a",
+    "Bambu PETG Translucent @base.json": "574cd9a7e48cc13219acd45e92cc58f4d1df4577d949fc130b5eafc88200a0cc",
+    "fdm_filament_pet.json": "3ed1b36367fe6df800103a9deaaa036f9d79c7afda3f3a17514dff23aa96c7d8",
+    "fdm_filament_common.json": "8c7105b7d59a28f600c43a946f067b8b4d707b9711c0bf6b88e9166e48878548",
+    "fdm_filament_template_direct_dual_e3d.json": "308498826d6206f611be063e9ed7e6afe50b48e5410bb9e132f00eda483eab19"
+  },
+  "preset_supported_keys_applied": 128,
+  "preset_value_mismatches": [],
+  "filament_count": 1,
+  "material": "PETG",
+  "color_rgba": "#FFFFFF00",
+  "physical_nozzle": "right / 2",
+  "project_filament_index": 1,
+  "ams_slot": "A3 confirmed in device UI; select/verify at send time",
+  "prime_tower_enabled": false,
+  "nozzle_temperature": [
+    "245",
+    "245",
+    "245"
+  ],
+  "nozzle_temperature_initial_layer": [
+    "250",
+    "250",
+    "250"
+  ],
+  "textured_plate_temp": [
+    "70"
+  ],
+  "filament_max_volumetric_speed": [
+    "6",
+    "6",
+    "6"
+  ],
+  "process_geometry_settings": {
+    "layer_height": "0.2",
+    "wall_loops": "6",
+    "sparse_infill_density": "25%",
+    "sparse_infill_pattern": "gyroid",
+    "top_shell_layers": "5",
+    "bottom_shell_layers": "5",
+    "brim_width": "3",
+    "enable_support": "0"
+  },
+  "slice_status": "Not checked by this material-conversion script.",
+  "print_status": "Not sent by this material-conversion script."
+}

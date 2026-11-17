@@ -1,15 +1,15 @@
 CABINET KNOB DRILLING JIG
 Updated: November 17, 2026
 
-Latest revision: v02 — Claybourne knob mounting-base edge aligned with the rail.
-Status: PRINT JOB STARTED — November 17, 2026; printer startup confirmed.
+Latest revision: v03 — clear PETG / right nozzle; unchanged v02 Claybourne geometry.
+Status: READY / NOT SENT — November 17, 2026. Desktop control was unavailable.
 Door seating, drill fit, wear and hole accuracy remain untested.
 
 OPEN IN BAMBU STUDIO
-Revisions/v02-claybourne-rail-aligned/Cabinet_Knob_Jig_v02_Claybourne_Pair_3-16in_PLA_Left_TEST_FIT.3mf
-Slice estimate for both jigs: 3 h 37 min 12 sec / 97.86 g.
-Use the 3MF for the saved print setup; matching STLs contain geometry only.
-Preview.png and Placement_Diagram.png show the parts and their placement.
+Revisions/v03-clear-petg-right/Cabinet_Knob_Jig_v03_Claybourne_Pair_Clear_PETG_Right_TEST_FIT.3mf
+Slice estimate for both jigs: 4 h 25 min 20 sec / 94.12 g.
+Use the 3MF for the saved print setup. The unchanged STLs, Preview.png and
+Placement_Diagram.png remain in Revisions/v02-claybourne-rail-aligned/.
 
 CLAYBOURNE PLACEMENT
 Guide center: 31.75 mm (1 1/4 in) from the side and 71.501 mm (2.815 in,
@@ -47,13 +47,20 @@ stile/rail and back the door's exit face with scrap. Use light pressure, clear
 chips and replace a worn or loose guide.
 
 PRINT SETUP AND CHECKS
-H2D, standard 0.4 mm nozzle, PLA Basic on LEFT nozzle / filament 1, Manual grouping.
+H2D, standard 0.4 mm nozzle, Bambu PETG Translucent, clear, on RIGHT nozzle.
+One project filament / physical extruder 2, Manual grouping. Device UI confirmed
+AMS A3 contains clear Bambu PETG Translucent on the right; verify A3 at send time.
+Installed preset: 250 C first layer / 245 C following layers; textured bed 70 C;
+flow ratio 0.95, maximum volumetric speed 6 mm3/s.
 0.20 mm layers, 6 walls, 25% gyroid, 5 top/bottom layers, 3 mm brim; no supports.
+Prime tower disabled for this single-material print.
 Print broad exposed faces on the bed with the edge stops pointing up.
-Final slice: no warnings, no support paths, PLA left only.
+v03 slice: no warnings, no support paths, one PETG filament on the right only.
 Independent review passed: exported offsets, guide bore, A/B corner mapping
-and nominal mounting-base alignment verified. See Validation/independent_review.json
-in the current revision. Physical fit and drilling accuracy remain untested.
+and nominal mounting-base alignment verified. See v02's
+Validation/independent_review.json. v03's Validation/profile_geometry.json verifies
+byte-identical model geometry and build transforms; Validation/full records
+the PETG slice. Physical fit and drilling accuracy remain untested.
 
 REFERENCES
 Official Claybourne dimensions, page 1:
@@ -77,3 +84,10 @@ finish 3:35 PM America/Chicago on November 17 (estimate, not completion).
 Bed leveling and flow-dynamics calibration: Auto; nozzle-offset calibration:
 Off; timelapse: Off (no storage). Physical results and completed-print feedback
 are still pending.
+
+November 17, 2026 — v03 prepared at the user's request to try clear PETG.
+Geometry and build transforms are byte-identical to v02. Saved one clear PETG
+Translucent filament, right nozzle, using the exact installed H2D preset.
+CLI slicing passed: 4 h 25 min 20 sec / 94.12 g, no warnings or supports.
+Desktop control was unavailable after AMS sync, so the PETG job was NOT SENT.
+The previous PLA attempt's outcome remains unknown; no failure cause is assumed.

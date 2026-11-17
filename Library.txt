@@ -175,7 +175,7 @@ Pliers Holder/Print Notes.txt
 
 
 CABINET KNOB JIG
-Latest revision: v02 — Claybourne mounting-base edge aligned with the rail.
+Latest revision: v03 — clear PETG / right nozzle, unchanged v02 Claybourne geometry.
 Mirrored single-hole pair on one plate. Prototype; physical fit, guide wear and
 drilling accuracy untested. Door thickness 19.05–20.6375 mm; stile/rail roughly
 63.5 mm. Guide center: 31.75 mm from side, 71.501 mm (2.815 in) from end.
@@ -184,10 +184,12 @@ the larger face deliberately overlaps that rail line. Confirm actual placement.
 Manufacturer specifies #8-32 screws and a 3/16-inch bit; printed bore is 5.05 mm.
 
 Open in Bambu Studio:
-Cabinet Knob Jig/Revisions/v02-claybourne-rail-aligned/Cabinet_Knob_Jig_v02_Claybourne_Pair_3-16in_PLA_Left_TEST_FIT.3mf
-Both jigs: 3 h 37 min 12 sec / 97.86 g. PLA Basic / LEFT nozzle; no supports.
-November 17, 2026: job accepted by H2D PW3D; startup confirmed at 0%, Layer 0/100,
-using black PLA Basic on the LEFT external feed. Completion/fit feedback pending.
+Cabinet Knob Jig/Revisions/v03-clear-petg-right/Cabinet_Knob_Jig_v03_Claybourne_Pair_Clear_PETG_Right_TEST_FIT.3mf
+Both jigs: 4 h 25 min 20 sec / 94.12 g. Clear PETG Translucent / RIGHT nozzle;
+no warnings or supports. AMS A3 confirmed in Device; verify mapping at send time.
+November 17, 2026: v03 READY / NOT SENT because desktop control was unavailable.
+Earlier v02 black PLA / left external-feed job startup was observed; its outcome
+and physical-fit feedback remain unknown.
 v01's 63.5 mm end offset is archived.
 
 Use instructions, A/B corner mapping and checks:

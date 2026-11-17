@@ -1,0 +1,4 @@
+[2026-11-17 13:08:20.892334] [0x00000001fc47e180] [trace]   Initializing StaticPrintConfigs
+[2026-11-17 13:08:21.137073] [0x00000001fc47e180] [error]   Invalid T command (T1001).
+[2026-11-17 13:08:21.784674] [0x00000001fc47e180] [error]   Invalid T command (T65535).
+[2026-11-17 13:08:21.784684] [0x00000001fc47e180] [error]   Invalid T command (T65279).
