@@ -1,0 +1,49 @@
+v01 — TWO INDEPENDENT CABINET SOCKETS
+Created: November 18, 2026
+
+Two identical compact screw-mounted holders for the Shark IP3251 accessories.
+The user originally described male nubs; the design uses drop-in receiving
+sockets because a published measured socket with reported fit is available.
+
+FILES
+Shark_Accessory_Mount_v01_Single_PLA_Left_TEST_FIT.3mf
+  One complete holder; use it to check both accessories first.
+Shark_Accessory_Mount_v01_Pair_PLA_Left_TEST_FIT.3mf
+  Two separate holders arranged together on an H2D plate.
+Matching STL exports contain the same geometry in print orientation.
+Preview.png and Single_Preview.png show the actual mesh. Validation/ keeps inspection-coordinate
+meshes, geometry checks, slicing evidence and archive hashes.
+
+GEOMETRY
+Each holder: 71 mm wide x 51.18 mm high x 51 mm deep.
+Backing: 6.5 mm thick. Two screw holes: 53 mm center spacing, 4.8 mm bore,
+9.5 mm countersink diameter at 90 degrees. Screw holes sit above the receiver.
+The keyed socket and latch features are inherited unchanged ahead of the
+backing overlap. The source bore is nominally 33.6 mm diameter. These are
+source-mesh measurements, not manufacturer dimensions.
+
+PRINT PROFILE
+H2D, black PLA, LEFT nozzle; 0.20 mm layers, 5 walls, 25% gyroid, 5 top/bottom
+layers. Upright socket, 3 mm outer brim, supports disabled. A roughly 2.1 mm
+inherited latch lip is the main small overhang to inspect on the first print.
+Actual filament mapping must be checked before sending a job.
+
+STATUS
+One watertight connected body per holder; source socket preservation checked.
+Both projects slice without plate warnings or support toolpaths, using only
+Bambu PLA Basic / LEFT extruder 1. Estimated single: 1 h 39 min 27 sec / 43.39 g;
+pair: 3 h 13 min 57 sec / 86.76 g. Records are under Validation/single and
+Validation/pair. These are slicer estimates, not actual print results.
+No print has been sent. User's accessory fit and installed use are untested.
+IP1251-to-IP3251 compatibility is inferred from identical Shark part numbers:
+Duster Crevice Tool 576CH1000 and Pet Multi-Tool 579CH1000.
+
+ATTRIBUTION / MODIFICATIONS / LICENSE
+Source: jverlenich, "Shark Powerdetect Vacuum (IP1251) Attachment Holder."
+https://www.printables.com/model/1421739-shark-powerdetect-vacuum-ip1251-attachment-holder
+Pierce project remix, November 18, 2026: removed wand clamp, retained right
+receiver, added rounded screw-mounted backing and countersinks, and prepared
+single/pair print projects. Original files are preserved under ../../Original/.
+Derivative design and modeling source: CC BY-NC-SA 4.0.
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+See ../../Original/Attribution.txt and ../../Print Notes.txt.

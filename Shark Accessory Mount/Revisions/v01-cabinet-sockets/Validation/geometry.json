@@ -1,0 +1,129 @@
+{
+  "installed_bounds_mm": [
+    [
+      -12.0,
+      -17.17871,
+      -6.0
+    ],
+    [
+      59.0,
+      34.0,
+      45.0
+    ]
+  ],
+  "dimensions_mm": [
+    71.0,
+    51.178709999999995,
+    51.0
+  ],
+  "backing_width_mm": 71,
+  "backing_height_mm": 51.178709999999995,
+  "backing_thickness_mm": 6.5,
+  "screw_centers_xy_mm": [
+    [
+      -3.0,
+      27.0
+    ],
+    [
+      50.0,
+      27.0
+    ]
+  ],
+  "screw_spacing_mm": 53.0,
+  "screw_clearance_diameter_mm": 4.8,
+  "countersink_diameter_mm": 9.5,
+  "countersink_angle_degrees": 90,
+  "socket_bore_nominal_diameter_mm": 33.6,
+  "socket_source": "Measured mesh; not a manufacturer specification.",
+  "receiver_geometry_preserved_ahead_of_z_mm": 0.501,
+  "source_units": "meter; multiplied by 1000",
+  "source_url": "https://www.printables.com/model/1421739-shark-powerdetect-vacuum-ip1251-attachment-holder",
+  "source_sha256": "44975ff4484ba9361dc25ec07ef7acc3c90fcd91cbc7ede41d7ce5e459db782b",
+  "source_license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "material": "black PLA / left nozzle",
+  "physical_fit": "IP1251 creator and make report; IP3251 inferred from shared accessory part numbers, not yet tested by user.",
+  "print_status": "Prepared only; no print sent.",
+  "watertight": true,
+  "connected_bodies": 1,
+  "print_transforms": [
+    [
+      [
+        1.0,
+        0.0,
+        0.0,
+        101.5
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0,
+        174.5
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        17.17871
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    [
+      [
+        1.0,
+        0.0,
+        0.0,
+        201.5
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0,
+        174.5
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        17.17871
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  ],
+  "print_bounds": [
+    [
+      [
+        89.5,
+        129.5,
+        0.0
+      ],
+      [
+        160.5,
+        180.5,
+        51.178709999999995
+      ]
+    ],
+    [
+      [
+        189.5,
+        129.5,
+        0.0
+      ],
+      [
+        260.5,
+        180.5,
+        51.178709999999995
+      ]
+    ]
+  ],
+  "volume_mm3": 51290.80150556114
+}

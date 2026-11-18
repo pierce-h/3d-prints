@@ -222,6 +222,33 @@ Print details and feedback:
 Drawer Knob Jig/Print Notes.txt
 
 
+SHARK ACCESSORY MOUNT
+Latest revision: v01 — two independent screw-mounted accessory sockets.
+Status: TEST-FIT PROTOTYPE — geometry and slicing checked; physical fit/use pending.
+No print sent. The receiver comes from a published IP1251 design with a
+reported successful accessory fit. IP3251 compatibility is inferred from
+Shark listing the same Duster Crevice Tool 576CH1000 and Pet Multi-Tool
+579CH1000 for both models. The user's actual accessories remain untested.
+Each mount: 71 x 51.18 x 51 mm; two 4.8 mm screw holes with 9.5 mm
+countersinks, 53 mm apart. The two mounts can be spaced independently.
+
+Print one complete holder to test both accessories:
+Shark Accessory Mount/Revisions/v01-cabinet-sockets/Shark_Accessory_Mount_v01_Single_PLA_Left_TEST_FIT.3mf
+Pair on one plate:
+Shark Accessory Mount/Revisions/v01-cabinet-sockets/Shark_Accessory_Mount_v01_Pair_PLA_Left_TEST_FIT.3mf
+Black PLA / LEFT nozzle; 0.20 mm layers, 5 walls, 25% gyroid, supports off.
+Both receiver and backing start on the bed; a small inherited latch lip
+remains an overhang. Both projects slice with no plate warnings or support
+toolpaths. Estimates: single 1 h 39 min 27 sec / 43.39 g;
+pair 3 h 13 min 57 sec / 86.76 g. Records are in the Validation folder.
+
+Preview:
+Shark Accessory Mount/Revisions/v01-cabinet-sockets/Preview.png
+Print details, source attribution and fit checks:
+Shark Accessory Mount/Print Notes.txt
+Receiver by jverlenich; cabinet remix retains CC BY-NC-SA 4.0.
+
+
 HOW THIS LIBRARY IS ORGANIZED
 Each model has its own folder:
   Original/     Unmodified starting files.

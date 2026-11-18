@@ -1,0 +1,82 @@
+{
+    "error_string": "Success.",
+    "export_time": 947,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 24,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 133.0619659423828,
+                "Bridge": 104.60883331298828,
+                "Brim": 77.23409271240234,
+                "Custom": 299.0619201660156,
+                "Flush": 26.0,
+                "Gap infill": 153.9490966796875,
+                "Inner wall": 4391.8017578125,
+                "Internal solid infill": 644.836181640625,
+                "Outer wall": 1697.3685302734375,
+                "Overhang wall": 22.601343154907227,
+                "Sparse infill": 2878.265625,
+                "Top surface": 196.05599975585938,
+                "Travel": 1021.652099609375,
+                "Undefined": 1014.2461547851563
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFA00",
+                    "id": 1,
+                    "main_used_g": 86.75899505615234,
+                    "total_used_g": 86.75899505615234
+                }
+            ],
+            "generate_support_material_time": 33,
+            "id": 1,
+            "infill_time": 121,
+            "layer_filament_change": 0,
+            "main_predication": 11293.767578125,
+            "make_perimeters_time": 127,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 51.0,
+                        "height": 51.1787109375,
+                        "width": 71.0,
+                        "x": 89.5,
+                        "y": 129.5,
+                        "z": -9.37499976316758e-07
+                    },
+                    "id": 5,
+                    "name": "Shark accessory cabinet socket 1",
+                    "triangle_count": 3350
+                },
+                {
+                    "bbox": {
+                        "depth": 51.0,
+                        "height": 51.1787109375,
+                        "width": 71.0,
+                        "x": 189.5,
+                        "y": 129.5,
+                        "z": -9.37499976316758e-07
+                    },
+                    "id": 9,
+                    "name": "Shark accessory cabinet socket 2",
+                    "triangle_count": 3350
+                }
+            ],
+            "sliced_time": 1424,
+            "sliced_time_with_cache": 1081,
+            "total_predication": 11637.423828125,
+            "triangle_count": 6700,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 25.0,
+    "upward_compatible_machine": [
+        "Bambu Lab H2D Pro 0.4 nozzle"
+    ],
+    "wall_loops": 5
+}

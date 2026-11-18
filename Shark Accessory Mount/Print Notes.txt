@@ -1,0 +1,71 @@
+SHARK POWERDETECT ACCESSORY CABINET MOUNTS
+Updated: November 18, 2026
+
+CURRENT REVISION
+v01 — two independent screw-mounted sockets for the IP3251's Duster Crevice
+Tool and Pet Multi-Tool. The sockets receive the outside of each accessory's
+connector. Their spacing can be chosen independently inside the cabinet.
+Status: TEST-FIT PROTOTYPE — geometry and slicing checked; physical fit/use pending.
+No print has been sent.
+
+Start with one full holder to check both accessories:
+Revisions/v01-cabinet-sockets/Shark_Accessory_Mount_v01_Single_PLA_Left_TEST_FIT.3mf
+
+Two holders on one plate:
+Revisions/v01-cabinet-sockets/Shark_Accessory_Mount_v01_Pair_PLA_Left_TEST_FIT.3mf
+
+Preview:
+Revisions/v01-cabinet-sockets/Preview.png
+
+DESIGN AND FIT BASIS
+Each holder is 71 mm wide x 51.18 mm high x 51 mm deep. The rounded backing is
+6.5 mm thick and has two screw holes above the receiver. Holes are 53 mm apart,
+4.8 mm through, with 9.5 mm diameter, 90-degree countersinks. Choose flat-head
+screws that fit those holes; their length must suit the actual cabinet panel.
+
+The receiver is preserved from jverlenich's published IP1251 attachment
+holder. Its keyed bore is nominally 33.6 mm diameter, with 3.35 mm keyways and
+a 39.2 mm overall keyed span. These are measurements of the source mesh,
+not Shark manufacturing dimensions. The original creator printed in PLA;
+an independent make reports successful accessory fit.
+
+Shark lists the same Duster Crevice Tool 576CH1000 and Pet Multi-Tool
+579CH1000 for IP1251 and IP3251. That supports trying this receiver with the
+user's IP3251, but the actual accessories have not been test-fitted.
+https://www.sharkninja.com/duster-crevice-tool/576CH1000.html
+https://www.sharkninja.com/pet-multi-tool/579CH1000.html
+
+PRINT SETUP
+Saved for Bambu H2D, black PLA / LEFT nozzle, 0.20 mm layers, 5 walls,
+25% gyroid, 5 top and bottom layers, 3 mm outer brim, supports disabled.
+Both the backing and receiver start on the bed; the socket opening faces up.
+A small inherited latch lip projects about 2.1 mm, so the model is not
+entirely free of overhangs. Check its finish on the first holder.
+Confirm actual filament mapping when preparing a future print.
+Both projects slice successfully with no plate warnings or support toolpaths.
+Single holder: 1 h 39 min 27 sec / 43.39 g.
+Pair: 3 h 13 min 57 sec / 86.76 g.
+Slicing records are under the revision's Validation/single and Validation/pair.
+These are slicer estimates, not actual print results.
+
+FIT AND INSTALLATION
+Try both accessories in the single holder before committing to cabinet-hole
+locations. Check that they seat, release, and clear the backing comfortably.
+Position the holders with room for each tool's full body and upward removal,
+then secure the empty holders using the two screw holes. Exact spacing depends
+on the accessories and available cabinet space; the two holders are separate.
+
+SOURCE AND LICENSE
+Receiver: jverlenich, "Shark Powerdetect Vacuum (IP1251) Attachment Holder."
+https://www.printables.com/model/1421739-shark-powerdetect-vacuum-ip1251-attachment-holder
+Remix: Pierce project, November 18, 2026. Removed the wand clamp, retained the
+right-hand receiver, added a rounded cabinet backing and two countersunk
+screw holes, and created single/pair print projects.
+This derivative design and its modeling source are CC BY-NC-SA 4.0:
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+Keep attribution and the modification notice when sharing this remix.
+See Original/Attribution.txt for the preserved originals and unused reference.
+
+PRINT / FIT FEEDBACK
+November 18, 2026: first cabinet-mount revision prepared. Physical fit,
+accessory release and installed use have not yet been tested.

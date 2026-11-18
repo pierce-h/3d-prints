@@ -1,0 +1,58 @@
+SHARK POWERDETECT ACCESSORY MOUNT — REFERENCE FILES
+Downloaded and inspected: 2026-11-18
+
+1. Shark Powerdetect Vacuum (IP1251) Attachment Holder
+Creator: jverlenich
+Original: https://www.printables.com/model/1421739-shark-powerdetect-vacuum-ip1251-attachment-holder
+Files: vacuumattach_l.3mf; vacuumattach_r.3mf
+License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+The original model attaches accessory receivers to the vacuum's wand with a
+split clamp, two M3 x 16 mm screws and nuts (or small zip ties). The author
+designed it for an IP1251, printed it in PLA, and did not claim compatibility
+with every PowerDetect variant. An independent five-star make by Konrad Stang
+reports successful printing and attachment fit; the review does not identify
+the reviewer's exact vacuum variant:
+https://www.printables.com/make/3354408
+
+These 3MF files declare METERS, not millimeters. Multiply their coordinates by
+1000 when importing into a millimeter CAD workflow. The receiver is a female
+socket around the accessory's exterior connector, not a male insertion nub.
+Measured from vacuumattach_r.3mf, the keyed circular bore is approximately
+33.6 mm diameter, 15 mm long, with two 3.35 mm wide keyways and 39.2 mm total
+span across the keyways. These are dimensions of the published printed model,
+not manufacturer specifications or measurements of the user's accessories.
+
+Any derived cabinet-mount geometry must retain attribution to jverlenich,
+identify modifications, and comply with the noncommercial/share-alike license.
+The original source files in this directory have not been modified.
+
+2. SHARK PowerDetect Vacuum Accessories Wall Mount
+Creator: Keremit
+Original: https://www.printables.com/model/1496565-shark-powerdetect-vacuum-accessories-wall-mount
+Files: SHARK IP1251EUT PowerDetect_Halterung.3mf;
+       powerdetect_fusion_files.f3d
+License: Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+
+The author identifies the vacuum as IP1251EUT, reports printing the two-piece
+dovetail assembly in PETG and describes it as sturdy. No independent makes or
+comments were present when inspected. Its 350 mm shelf has three keyed female
+openings: approximately 34.6 mm circular diameter, 3.35 mm keyway width and
+40.1 mm total span across the keyways. The 3MF declares millimeters. This model
+is a dimensional comparison/reference, not the source of the compact receiver.
+The original source files in this directory have not been modified.
+
+IP3251 COMPATIBILITY — INFERENCE, NOT A VERIFIED FIT
+Shark lists Duster Crevice Tool 576CH1000 and Pet Multi-Tool 579CH1000 for both
+IP1251 and IP3251. Shared accessory part numbers support trying an IP1251
+receiver with the user's IP3251 accessories, but the user's exact physical
+accessories have not yet been test-fitted. These published receiver models do
+not establish the dimensions of the accessories' inner opening, so they do
+not provide a verified male-nub design.
+https://www.sharkninja.com/duster-crevice-tool/576CH1000.html
+https://www.sharkninja.com/pet-multi-tool/579CH1000.html
+
+The author's published model dimensions and print reports should not be
+represented as Shark engineering drawings or a guarantee of fit.

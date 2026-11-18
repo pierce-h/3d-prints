@@ -17,6 +17,7 @@ Start with the models below. [Library.txt](Library.txt) is the detailed catalog;
 | Pliers holder | [v05 — one-piece tray, widest slots left](Pliers%20Holder/Revisions/v05-wide-left/Pliers_Tray_v05_Wide_Left_16_Slots_PLA_Left_TEST_FIT.3mf) | Loaded in Bambu Studio; one diagonal holder with widest bays on the left in front view. No print sent; physical fit/load untested. | [Print Notes](Pliers%20Holder/Print%20Notes.txt) |
 | Cabinet knob jig | [v03 — clear PETG, right nozzle](Cabinet%20Knob%20Jig/Revisions/v03-clear-petg-right/Cabinet_Knob_Jig_v03_Claybourne_Pair_Clear_PETG_Right_TEST_FIT.3mf) | Printed and used successfully; user reports it "worked great" on November 18. Exact final print settings, measured accuracy and long-term wear not reported. Earlier PLA outcome remains unknown. | [Print Notes](Cabinet%20Knob%20Jig/Print%20Notes.txt) |
 | Drawer knob jig | [v01 — single top-edge stop](Drawer%20Knob%20Jig/Revisions/v01-single-edge/Drawer_Knob_Jig_v01_Single_Edge_Clear_PETG_Right_TEST_FIT.3mf) | Job accepted; startup confirmed November 18 about 08:02 CST on PW 3D, clear PETG / right nozzle / AMS A3. Approximately 1h34m / 31.81 g. Completion and physical fit/use pending. | [Print Notes](Drawer%20Knob%20Jig/Print%20Notes.txt) |
+| Shark accessory mounts | [v01 — two cabinet sockets](Shark%20Accessory%20Mount/Revisions/v01-cabinet-sockets/Shark_Accessory_Mount_v01_Pair_PLA_Left_TEST_FIT.3mf); [single-holder fit check](Shark%20Accessory%20Mount/Revisions/v01-cabinet-sockets/Shark_Accessory_Mount_v01_Single_PLA_Left_TEST_FIT.3mf) | Two independent screw mounts; black PLA / left nozzle. IP3251 fit inferred from shared accessories with IP1251; physical fit pending. No print sent. | [Print Notes](Shark%20Accessory%20Mount/Print%20Notes.txt) |
 
 Status reflects recorded feedback through November 18, 2026. A successful geometry check or slice does not establish physical fit or load capacity.
 
@@ -36,6 +37,8 @@ The saved project uses black Bambu PETG Matte on the **right nozzle** and slices
 The Festool holder also has a [small French cleat fit sample](Festool%20Sander%20Holder/Revisions/v02-lighter-backing/French_Cleat_Fit_Sample_v02.3mf) to check against the actual wooden rail before printing the full holder.
 
 The [pliers fit tray](Pliers%20Holder/Revisions/v03-24mm-max-slots/Pliers_Tray_v03_3_Bay_Fit_Sample_PLA_Left.3mf) checks 16, 20 and 24 mm bays before the full rack (about **1 hour 39 minutes / 54 g**). Tools rest on its closed floor. The shallow sample has no cleat and cannot test tall-tool lateral stability, mounting or load capacity. The current v05 holder has its widest slots on the left in front view and is one continuous 16-slot piece, 356.4 mm (14.03 inches) wide, with a saved diagonal H2D print placement. The v03 sample still matches its openings and tray depth.
+
+The [single Shark accessory holder](Shark%20Accessory%20Mount/Revisions/v01-cabinet-sockets/Shark_Accessory_Mount_v01_Single_PLA_Left_TEST_FIT.3mf) is a complete cabinet mount. Try both accessories in it before printing the second holder and choosing screw locations. Its socket preserves an existing IP1251 design; IP3251 compatibility is inferred from Shark listing the same two accessory part numbers for both vacuums.
 
 ## Opening a print
 
@@ -85,3 +88,5 @@ The starting files record the following creators and license labels. These are s
 | [Bench Cookie holders](Bench%20Cookie%20Organizer/Original/) | alejepa | Standard Digital File License |
 | [TSO square holder](TSO%20Tool%20Holder/Original/) | dave3ddiy | BY-NC-SA |
 | [Caliper holder](Caliper%20Holder/Original/) | 3D-Therapy | CC0 |
+| [Shark accessory receiver used in v01](Shark%20Accessory%20Mount/Original/Attribution.txt) | jverlenich | CC BY-NC-SA 4.0; applies to the cabinet remix too |
+| [Shark wall-mount comparison reference, unused in v01](Shark%20Accessory%20Mount/Original/Attribution.txt) | Keremit | CC BY 4.0 |
