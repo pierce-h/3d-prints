@@ -1,0 +1,69 @@
+{
+    "error_string": "Success.",
+    "export_time": 864,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 13,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 139.74888610839844,
+                "Bridge": 110.22952270507813,
+                "Brim": 83.9628677368164,
+                "Custom": 326.5843200683594,
+                "Flush": 26.0,
+                "Gap infill": 305.9264831542969,
+                "Inner wall": 7430.50830078125,
+                "Internal solid infill": 867.6534423828125,
+                "Outer wall": 2170.78857421875,
+                "Overhang wall": 17.478336334228516,
+                "Sparse infill": 3368.90625,
+                "Top surface": 223.45907592773438,
+                "Travel": 876.5133666992188,
+                "Undefined": 869.107421875
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFG01",
+                    "id": 1,
+                    "main_used_g": 91.54776000976563,
+                    "total_used_g": 91.54776000976563
+                }
+            ],
+            "generate_support_material_time": 47,
+            "id": 1,
+            "infill_time": 127,
+            "layer_filament_change": 0,
+            "main_predication": 15567.818359375,
+            "make_perimeters_time": 138,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 51.0,
+                        "height": 51.1787109375,
+                        "width": 171.0,
+                        "x": 84.5,
+                        "y": 129.5,
+                        "z": -9.37499976316758e-07
+                    },
+                    "id": 5,
+                    "name": "Shark two-accessory cabinet mount — one piece",
+                    "triangle_count": 5252
+                }
+            ],
+            "sliced_time": 1428,
+            "sliced_time_with_cache": 1088,
+            "total_predication": 15938.9970703125,
+            "triangle_count": 5252,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 25.0,
+    "upward_compatible_machine": [
+        "Bambu Lab H2D Pro 0.4 nozzle"
+    ],
+    "wall_loops": 5
+}

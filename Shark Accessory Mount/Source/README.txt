@@ -1,4 +1,24 @@
-SHARK ACCESSORY MOUNT — v02 ONE-PIECE CABINET MOUNT
+SHARK ACCESSORY MOUNT — v03 CLEAR PETG / RIGHT NOZZLE
+
+LATEST MATERIAL REVISION
+v03 preserves the one-piece v02 geometry and placement, changing only material,
+color, nozzle mapping and descriptive metadata. It resolves the installed
+Bambu PETG Translucent @BBL H2D 0.4 nozzle preset with inherits/includes, then
+overlays supported material keys on v02. The 5-wall process remains unchanged.
+AMS selection happens at send time; the project maps filament 1 to nozzle 2.
+
+REBUILD v03 FROM THE 3D PRINTS LIBRARY ROOT
+1. .venv/bin/python "Shark Accessory Mount/Source/build_mount_v03.py"
+2. .venv/bin/python "Shark Accessory Mount/Source/validate_mount_v03.py" --slice
+3. .venv/bin/python "Shark Accessory Mount/Source/validate_mount_v03.py" --finalize
+Output: ../Revisions/v03-clear-petg-right/
+Material templates default to ~/Library/Application Support/BambuStudio/system/BBL/filament;
+override with --preset-dir if needed. Template hashes are saved in Validation.
+Geometry and build XML sections are compared before/after; Bambu's default
+core XML namespace is preserved. The v02 STL and actual-mesh preview remain
+valid geometry references and are not duplicated for a material change.
+
+GEOMETRY SOURCE (v02)
 
 Builds one shared cabinet backplate with two copies of the measured
 right-hand receiver in ../Original/vacuumattach_r.3mf. The original declares

@@ -1,0 +1,23 @@
+{
+  "review_date": "2026-11-18",
+  "geometry_and_placement_unchanged": true,
+  "geometry_review": "Independent comparison of actual v02 and v03 resource/build XML sections; equal.",
+  "material_review": "All 128 supported preset fields match installed inherited/included PETG Translucent preset, with expected named filament-settings identifier override.",
+  "material_settings": "250 C initial / 245 C normal; 70 C textured bed; 6 mm3/s; fan10-30%; aux0%; flow0.95.",
+  "right_nozzle_mapping": "Project map2, master2 and plate map2; object1 remains project filament1.",
+  "unchanged_process": {
+    "layer_height": "0.2",
+    "wall_loops": "5",
+    "sparse_infill_density": "25%",
+    "sparse_infill_pattern": "gyroid",
+    "top_shell_layers": "5",
+    "bottom_shell_layers": "5",
+    "enable_support": "0",
+    "enable_prime_tower": "0",
+    "brim_width": "3",
+    "brim_type": "outer_only"
+  },
+  "settings_changes_limited_to_material_and_mapping": true,
+  "physical_fit": "Unchanged prototype; socket fit and simultaneous accessory clearance untested.",
+  "print_status": "No job sent by this review."
+}

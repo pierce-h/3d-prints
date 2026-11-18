@@ -1,0 +1,58 @@
+{
+  "project": "Shark_Accessory_Mount_v03_One_Piece_Clear_PETG_Right_TEST_FIT.3mf",
+  "source_project": "Revisions/v02-single-piece/Shark_Accessory_Mount_v02_One_Piece_PLA_Left_TEST_FIT.3mf",
+  "geometry_and_placement_unchanged": true,
+  "geometry_section_sha256": {
+    "{http://schemas.microsoft.com/3dmanufacturing/core/2015/02}resources": "6e4e5e88e97968b7cf95763c89aebcd37a2cb312ddb214c8e86b0aa7a186a574",
+    "{http://schemas.microsoft.com/3dmanufacturing/core/2015/02}build": "34df73e517aeca8d8bd7fc4d3f0a281c1c444c0119c66d363e8df8dddf67ed0d"
+  },
+  "filament_preset": "Bambu PETG Translucent @BBL H2D 0.4 nozzle",
+  "preset_input_sha256": {
+    "Bambu PETG Translucent @BBL H2D 0.4 nozzle.json": "928e3b3de6b1d35578deadbc053f3e219f85904c01b1873c5d3906c74228595a",
+    "Bambu PETG Translucent @base.json": "574cd9a7e48cc13219acd45e92cc58f4d1df4577d949fc130b5eafc88200a0cc",
+    "fdm_filament_pet.json": "3ed1b36367fe6df800103a9deaaa036f9d79c7afda3f3a17514dff23aa96c7d8",
+    "fdm_filament_common.json": "8c7105b7d59a28f600c43a946f067b8b4d707b9711c0bf6b88e9166e48878548",
+    "fdm_filament_template_direct_dual_e3d.json": "308498826d6206f611be063e9ed7e6afe50b48e5410bb9e132f00eda483eab19"
+  },
+  "supported_material_keys_applied": 128,
+  "material": "Bambu PETG Translucent, clear",
+  "physical_nozzle": "right / 2",
+  "project_filament_index": 1,
+  "color_rgba": "#FFFFFF00",
+  "ams_slot": "Clear PETG previously used in A3; verify live slot at send time.",
+  "nozzle_temperature": [
+    "245",
+    "245",
+    "245"
+  ],
+  "nozzle_temperature_initial_layer": [
+    "250",
+    "250",
+    "250"
+  ],
+  "textured_plate_temp": [
+    "70"
+  ],
+  "filament_max_volumetric_speed": [
+    "6",
+    "6",
+    "6"
+  ],
+  "process_settings": {
+    "layer_height": "0.2",
+    "initial_layer_print_height": "0.2",
+    "wall_loops": "5",
+    "sparse_infill_density": "25%",
+    "sparse_infill_pattern": "gyroid",
+    "top_shell_layers": "5",
+    "bottom_shell_layers": "5",
+    "brim_type": "outer_only",
+    "brim_width": "3",
+    "brim_object_gap": "0.1",
+    "enable_support": "0",
+    "enable_prime_tower": "0",
+    "outer_wall_speed": "100"
+  },
+  "physical_fit": "Socket fit and simultaneous accessory clearance untested.",
+  "print_status": "Prepared only; no print sent."
+}

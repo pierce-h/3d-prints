@@ -1,0 +1,35 @@
+v03 — CLEAR PETG / RIGHT NOZZLE
+Created: November 18, 2026
+
+User selected clear PETG for the one-piece Shark accessory cabinet mount.
+Project: Shark_Accessory_Mount_v03_One_Piece_Clear_PETG_Right_TEST_FIT.3mf
+
+MATERIAL AND PRINT SETUP
+Bambu PETG Translucent @BBL H2D 0.4 nozzle, clear #FFFFFF00.
+Project filament 1 maps to physical RIGHT nozzle / extruder 2.
+250 C initial nozzle, 245 C thereafter; textured plate 70 C.
+Maximum volumetric speed 6 mm3/s; material cooling/flow/retraction use the
+resolved system preset, matching the saved drawer-jig material values.
+0.20 mm layers, 5 walls, 25% gyroid, 5 top/bottom layers, 3 mm outer brim.
+Supports and prime tower disabled. Clear PETG was previously in AMS A3;
+verify live filament selection when sending a future print.
+
+UNCHANGED GEOMETRY
+One connected body, 171 x 51.18 x 51 mm, two sockets at 100 mm centers,
+6.5 mm backing and two countersunk screw holes 153 mm apart. v02 geometry
+and plate placement are unchanged; resources/build XML comparison passes.
+Use the archived v02 STL and Preview.png as the geometry reference.
+The embedded v02 preview uses illustrative shading, not a transparency prediction.
+
+VALIDATION / STATUS
+One object slices without warnings or support toolpaths; only PETG on the
+right nozzle is used. Estimate: 4 h 25 min 39 sec / 91.55 g.
+No print sent. Physical socket fit, fixed-spacing accessory clearance and
+installed use remain untested. v01/v02 projects are retained unchanged.
+
+ATTRIBUTION
+Receiver by jverlenich; cabinet remix by Pierce project.
+https://www.printables.com/model/1421739-shark-powerdetect-vacuum-ip1251-attachment-holder
+Derivative design and source: CC BY-NC-SA 4.0.
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+See ../../Original/Attribution.txt for provenance. v03 changes settings only.

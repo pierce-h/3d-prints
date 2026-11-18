@@ -17,7 +17,7 @@ Start with the models below. [Library.txt](Library.txt) is the detailed catalog;
 | Pliers holder | [v05 — one-piece tray, widest slots left](Pliers%20Holder/Revisions/v05-wide-left/Pliers_Tray_v05_Wide_Left_16_Slots_PLA_Left_TEST_FIT.3mf) | Loaded in Bambu Studio; one diagonal holder with widest bays on the left in front view. No print sent; physical fit/load untested. | [Print Notes](Pliers%20Holder/Print%20Notes.txt) |
 | Cabinet knob jig | [v03 — clear PETG, right nozzle](Cabinet%20Knob%20Jig/Revisions/v03-clear-petg-right/Cabinet_Knob_Jig_v03_Claybourne_Pair_Clear_PETG_Right_TEST_FIT.3mf) | Printed and used successfully; user reports it "worked great" on November 18. Exact final print settings, measured accuracy and long-term wear not reported. Earlier PLA outcome remains unknown. | [Print Notes](Cabinet%20Knob%20Jig/Print%20Notes.txt) |
 | Drawer knob jig | [v01 — single top-edge stop](Drawer%20Knob%20Jig/Revisions/v01-single-edge/Drawer_Knob_Jig_v01_Single_Edge_Clear_PETG_Right_TEST_FIT.3mf) | Job accepted; startup confirmed November 18 about 08:02 CST on PW 3D, clear PETG / right nozzle / AMS A3. Approximately 1h34m / 31.81 g. Completion and physical fit/use pending. | [Print Notes](Drawer%20Knob%20Jig/Print%20Notes.txt) |
-| Shark accessory mount | [v02 — one piece with two sockets](Shark%20Accessory%20Mount/Revisions/v02-single-piece/Shark_Accessory_Mount_v02_One_Piece_PLA_Left_TEST_FIT.3mf) | Shared backplate with sockets 100 mm apart; black PLA / left nozzle. Geometry and slicing checked; accessory fit and clearance untested. No print sent. | [Print Notes](Shark%20Accessory%20Mount/Print%20Notes.txt) |
+| Shark accessory mount | [v03 — clear PETG, right nozzle](Shark%20Accessory%20Mount/Revisions/v03-clear-petg-right/Shark_Accessory_Mount_v03_One_Piece_Clear_PETG_Right_TEST_FIT.3mf) | One shared backplate with sockets 100 mm apart; unchanged v02 geometry. Slice: about 4h26m / 92 g. Accessory fit and clearance untested; no print sent. | [Print Notes](Shark%20Accessory%20Mount/Print%20Notes.txt) |
 
 Status reflects recorded feedback through November 18, 2026. A successful geometry check or slice does not establish physical fit or load capacity.
 
@@ -88,5 +88,5 @@ The starting files record the following creators and license labels. These are s
 | [Bench Cookie holders](Bench%20Cookie%20Organizer/Original/) | alejepa | Standard Digital File License |
 | [TSO square holder](TSO%20Tool%20Holder/Original/) | dave3ddiy | BY-NC-SA |
 | [Caliper holder](Caliper%20Holder/Original/) | 3D-Therapy | CC0 |
-| [Shark accessory receiver used in v01/v02](Shark%20Accessory%20Mount/Original/Attribution.txt) | jverlenich | CC BY-NC-SA 4.0; applies to the cabinet remix too |
-| [Shark wall-mount comparison reference, unused in v01/v02](Shark%20Accessory%20Mount/Original/Attribution.txt) | Keremit | CC BY 4.0 |
+| [Shark accessory receiver](Shark%20Accessory%20Mount/Original/Attribution.txt) | jverlenich | CC BY-NC-SA 4.0; applies to the cabinet remix too |
+| [Shark wall-mount comparison reference, unused in current design](Shark%20Accessory%20Mount/Original/Attribution.txt) | Keremit | CC BY 4.0 |

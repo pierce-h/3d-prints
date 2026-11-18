@@ -1,0 +1,12 @@
+{
+  "project": "Shark_Accessory_Mount_v03_One_Piece_Clear_PETG_Right_TEST_FIT.3mf",
+  "return_code": 0,
+  "warnings": "",
+  "seconds": 15938.9970703125,
+  "grams": 91.54776000976562,
+  "material": "Bambu PETG Translucent, clear",
+  "extruder": "right / 2",
+  "objects": 1,
+  "support_toolpaths": false,
+  "print_status": "Prepared and sliced only; no print sent."
+}

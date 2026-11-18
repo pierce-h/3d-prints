@@ -223,7 +223,7 @@ Drawer Knob Jig/Print Notes.txt
 
 
 SHARK ACCESSORY MOUNT
-Latest revision: v02 — one continuous backplate joining two accessory sockets.
+Latest revision: v03 — clear PETG / right nozzle, unchanged one-piece v02 geometry.
 Status: TEST-FIT PROTOTYPE — geometry and slicing checked; physical fit/use pending.
 No print sent. The receiver comes from a published IP1251 design with a
 reported successful accessory fit. IP3251 compatibility is inferred from
@@ -235,21 +235,23 @@ screw holes with 9.5 mm countersinks, 153 mm apart. Socket centers are
 at that fixed spacing has not been measured or physically verified.
 
 Current one-piece project:
-Shark Accessory Mount/Revisions/v02-single-piece/Shark_Accessory_Mount_v02_One_Piece_PLA_Left_TEST_FIT.3mf
+Shark Accessory Mount/Revisions/v03-clear-petg-right/Shark_Accessory_Mount_v03_One_Piece_Clear_PETG_Right_TEST_FIT.3mf
 Optional archived v01 holder for checking each socket fit:
 Shark Accessory Mount/Revisions/v01-cabinet-sockets/Shark_Accessory_Mount_v01_Single_PLA_Left_TEST_FIT.3mf
-The v01 sample cannot check clearance between both tools in the v02 mount.
-Black PLA / LEFT nozzle; 0.20 mm layers, 5 walls, 25% gyroid, supports off.
+The v01 sample retains PLA settings and cannot check clearance between both tools.
+Clear Bambu PETG Translucent / RIGHT nozzle; 0.20 mm layers, 5 walls,
+25% gyroid, supports off. 250 C initial / 245 C thereafter; textured bed 70 C.
+Clear PETG was previously used in AMS A3; verify actual mapping at send time.
 Both receivers and the backing start on the bed; small inherited latch lips
 remain overhangs. One object slices without warnings or support toolpaths:
-3 h 23 min 31 sec / 95.19 g. Records are in the v02 Validation folder.
+4 h 25 min 39 sec / 91.55 g. Records are in the v03 Validation folder.
 
 Preview:
 Shark Accessory Mount/Revisions/v02-single-piece/Preview.png
 Print details, source attribution and fit checks:
 Shark Accessory Mount/Print Notes.txt
 Receiver by jverlenich; cabinet remix retains CC BY-NC-SA 4.0.
-The separate v01 pair and single projects remain archived unchanged.
+The separate v01 holders and v02 one-piece PLA project remain archived unchanged.
 
 
 HOW THIS LIBRARY IS ORGANIZED
