@@ -1,0 +1,21 @@
+{
+  "review_date": "2026-11-18",
+  "review_method": "Independent inspection of original source, final STL, 3MF, screw/driver access and connecting backplate",
+  "watertight": true,
+  "connected_bodies": 1,
+  "dimensions_mm": [
+    171.0,
+    51.1787109375,
+    51.0
+  ],
+  "socket_count": 2,
+  "socket_spacing_mm": 100,
+  "receiver_symmetric_difference_mm3": 0.016268729971222,
+  "receiver_reference_volume_mm3": 56211.72707661777,
+  "receiver_result": "Unchanged within exported STL numerical precision; independently compared with original source cropped at Z=0 and translated 100 mm.",
+  "backing_result": "Continuous full-height central web joins both receivers into one solid.",
+  "screw_access": "Both screw bores clear; both centers admit a 9.5 mm diameter driver extending 60 mm outward.",
+  "print_orientation": "Installed +Y to print +Z, minimum print Z=0; 3MF units, one object and transformation agree with STL.",
+  "saved_profile": "H2D, PLA / left nozzle, supports off",
+  "limitations": "Physical socket fit and simultaneous full-accessory clearance at the fixed 100 mm pitch are untested; inherited small latch lips remain overhangs."
+}

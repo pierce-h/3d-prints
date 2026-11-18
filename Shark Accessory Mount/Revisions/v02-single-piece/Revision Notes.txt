@@ -1,0 +1,52 @@
+v02 — ONE CONTINUOUS CABINET MOUNT WITH TWO SOCKETS
+Created: November 18, 2026
+
+The user requested one piece. This revision replaces the two separate v01
+backplates with one continuous rounded backing, while preserving the two
+receiver shapes and the 100 mm center spacing shown in the earlier preview.
+Only two outer mounting screw holes are needed in the shared backplate.
+
+FILES
+Shark_Accessory_Mount_v02_One_Piece_PLA_Left_TEST_FIT.3mf
+  One object containing both sockets and their joined backplate.
+Shark_Accessory_Mount_v02_One_Piece_PLA_Left_TEST_FIT.stl
+  Same complete geometry in print orientation.
+Preview.png shows actual CAD geometry. Validation/ keeps geometry and slicing
+records. The archived v01 single holder can check each socket fit, but cannot
+check the v02 mount's fixed spacing or simultaneous accessory clearance.
+
+GEOMETRY
+Overall: 171 mm wide x 51.18 mm high x 51 mm deep.
+Backing: 6.5 mm thick. Socket centers: 100 mm apart.
+Two screw holes: 153 mm center spacing, 4.8 mm bore, 9.5 mm countersinks at
+90 degrees. Both screw holes sit above the receivers.
+Original keyed socket and latch features are preserved. Source bore is
+nominally 33.6 mm diameter; this is a mesh measurement, not a Shark drawing.
+
+PRINT PROFILE
+H2D, black PLA, LEFT nozzle; 0.20 mm layers, 5 walls, 25% gyroid, 5 top/bottom
+layers. Upright sockets, 3 mm outer brim, supports disabled. Inherited latch
+lips project roughly 2.1 mm and should be inspected on the first print.
+Actual filament mapping must be checked before sending a job.
+
+STATUS AND FIT LIMITS
+Geometry and slicing checked. One object slices without plate warnings or
+support toolpaths, using only Bambu PLA Basic / LEFT extruder 1.
+Estimate: 3 h 23 min 31 sec / 95.19 g. This is not an actual print result.
+No print sent. The user's socket fit, accessory release and installed use
+remain untested. IP1251-to-IP3251 compatibility is inferred from identical
+Shark accessory part numbers: Duster Crevice Tool 576CH1000 and Pet Multi-Tool
+579CH1000. The 100 mm socket spacing comes from the prior preview arrangement;
+clearance between the complete tool bodies has not been measured or verified.
+Test both accessories together before drilling cabinet mounting holes.
+
+ATTRIBUTION / MODIFICATIONS / LICENSE
+Source: jverlenich, "Shark Powerdetect Vacuum (IP1251) Attachment Holder."
+https://www.printables.com/model/1421739-shark-powerdetect-vacuum-ip1251-attachment-holder
+Pierce project remix, November 18, 2026: removed wand clamp, duplicated right
+receiver, added shared rounded cabinet backing and two countersunk screw
+holes, and prepared the one-piece print project. Original files preserved
+under ../../Original/. v01 outputs remain unchanged in their revision folder.
+Derivative design and modeling source: CC BY-NC-SA 4.0.
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+See ../../Original/Attribution.txt and ../../Print Notes.txt.

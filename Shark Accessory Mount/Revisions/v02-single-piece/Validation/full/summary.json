@@ -1,0 +1,12 @@
+{
+  "project": "Shark_Accessory_Mount_v02_One_Piece_PLA_Left_TEST_FIT.3mf",
+  "return_code": 0,
+  "warnings": "",
+  "seconds": 12210.970703125,
+  "grams": 95.19306945800781,
+  "material": "Bambu PLA Basic",
+  "extruder": "left / 1",
+  "objects": 1,
+  "support_toolpaths": false,
+  "print_status": "Prepared and sliced only; no print sent."
+}

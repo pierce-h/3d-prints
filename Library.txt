@@ -223,30 +223,33 @@ Drawer Knob Jig/Print Notes.txt
 
 
 SHARK ACCESSORY MOUNT
-Latest revision: v01 — two independent screw-mounted accessory sockets.
+Latest revision: v02 — one continuous backplate joining two accessory sockets.
 Status: TEST-FIT PROTOTYPE — geometry and slicing checked; physical fit/use pending.
 No print sent. The receiver comes from a published IP1251 design with a
 reported successful accessory fit. IP3251 compatibility is inferred from
 Shark listing the same Duster Crevice Tool 576CH1000 and Pet Multi-Tool
 579CH1000 for both models. The user's actual accessories remain untested.
-Each mount: 71 x 51.18 x 51 mm; two 4.8 mm screw holes with 9.5 mm
-countersinks, 53 mm apart. The two mounts can be spaced independently.
+Overall: 171 x 51.18 x 51 mm; one 6.5 mm shared backing and two 4.8 mm
+screw holes with 9.5 mm countersinks, 153 mm apart. Socket centers are
+100 mm apart, matching the earlier preview. Full accessory-body clearance
+at that fixed spacing has not been measured or physically verified.
 
-Print one complete holder to test both accessories:
+Current one-piece project:
+Shark Accessory Mount/Revisions/v02-single-piece/Shark_Accessory_Mount_v02_One_Piece_PLA_Left_TEST_FIT.3mf
+Optional archived v01 holder for checking each socket fit:
 Shark Accessory Mount/Revisions/v01-cabinet-sockets/Shark_Accessory_Mount_v01_Single_PLA_Left_TEST_FIT.3mf
-Pair on one plate:
-Shark Accessory Mount/Revisions/v01-cabinet-sockets/Shark_Accessory_Mount_v01_Pair_PLA_Left_TEST_FIT.3mf
+The v01 sample cannot check clearance between both tools in the v02 mount.
 Black PLA / LEFT nozzle; 0.20 mm layers, 5 walls, 25% gyroid, supports off.
-Both receiver and backing start on the bed; a small inherited latch lip
-remains an overhang. Both projects slice with no plate warnings or support
-toolpaths. Estimates: single 1 h 39 min 27 sec / 43.39 g;
-pair 3 h 13 min 57 sec / 86.76 g. Records are in the Validation folder.
+Both receivers and the backing start on the bed; small inherited latch lips
+remain overhangs. One object slices without warnings or support toolpaths:
+3 h 23 min 31 sec / 95.19 g. Records are in the v02 Validation folder.
 
 Preview:
-Shark Accessory Mount/Revisions/v01-cabinet-sockets/Preview.png
+Shark Accessory Mount/Revisions/v02-single-piece/Preview.png
 Print details, source attribution and fit checks:
 Shark Accessory Mount/Print Notes.txt
 Receiver by jverlenich; cabinet remix retains CC BY-NC-SA 4.0.
+The separate v01 pair and single projects remain archived unchanged.
 
 
 HOW THIS LIBRARY IS ORGANIZED
