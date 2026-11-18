@@ -2,7 +2,9 @@ DRAWER KNOB DRILLING JIG
 Updated: November 18, 2026
 
 Latest revision: v01 — single top-edge stop and manual horizontal centering.
-Status: BUILT AND SLICE-CHECKED; new drawer jig not yet printed or used.
+Status: PRINT JOB STARTED — November 18, 2026, about 08:02 CST.
+PW 3D accepted the job and entered startup; first-layer printing was not yet
+observed. Completion and physical fit/use remain pending.
 
 OPEN IN BAMBU STUDIO
 Revisions/v01-single-edge/Drawer_Knob_Jig_v01_Single_Edge_Clear_PETG_Right_TEST_FIT.3mf
@@ -37,8 +39,8 @@ PRINT SETUP
 Saved clear PETG profile is inherited from Cabinet Knob Jig v03: 0.20 mm layers,
 6 walls, 25% gyroid, 5 top/bottom layers, 3 mm brim, 0.4 mm right nozzle.
 Print the broad exposed drill face on the bed, stop pointing up.
-Select the actual clear spool when sending; previous device inspection found
-it in AMS A3, but send-time mapping must be checked. No print was sent for v01.
+November 18 send-time mapping was confirmed: AMS A3, Bambu PETG Translucent,
+Color Clear, on the RIGHT nozzle. Recheck the actual spool mapping for reprints.
 
 Check seating and bit clearance before drilling. The guide is printed plastic;
 replace it if wear makes it loose. Recessed drawer panels do not support the
@@ -48,3 +50,17 @@ SOURCE AND VALIDATION
 Source/README.txt contains rebuild instructions. Validation/geometry.json
 records dimensions and transforms; Validation/full contains the successful
 H2D slice. Independent mesh measurements are recorded separately.
+
+PRINT START RECORD — NOVEMBER 18, 2026
+The user confirmed the build plate was clean and requested clear translucent
+filament. Device Materials Setting identified A3 as Bambu PETG Translucent /
+Color Clear; the send dialog mapped that slot to the RIGHT nozzle on PW 3D.
+At about 08:02 CST the Device page showed the exact v01 project name, active
+Pause/Stop controls, 0% and Layer 0/100. This confirms job acceptance and startup,
+not first-layer printing or completion. Displayed estimate: 1 h 34 min 4 sec /
+31.81 g, finishing about 09:36 CST November 18 (estimate only).
+Bed leveling and flow-dynamics calibration: Auto; nozzle-offset calibration:
+Off; timelapse: Off. Used PETG profile checked in the GUI: 0.95 flow ratio,
+250 C first layer / 245 C following layers, 70 C bed, 6 mm3/s maximum flow.
+AMS sync added unused filaments to the live session; the printed filament
+retained these settings. The saved 3MF and historical validation were unchanged.

@@ -204,13 +204,16 @@ The confirmed top rail is 63.5 mm (2 1/2 in). Guide center is 31.75 mm
 until the engraved centerline and lower V-notch meet a pencil midpoint line.
 Same 5.05 mm printed guide and 10 mm plate thickness as the successful cabinet
 jig. Overall 80 x 59 x 20 mm; 55 mm reach stays on the top rail.
-Status: GEOMETRY VERIFIED AND SLICE-TESTED; new drawer jig not yet printed.
+Status: PRINT JOB STARTED — November 18, 2026, about 08:02 CST on PW 3D.
+Device confirmed the exact v01 job, active Pause/Stop, 0%, Layer 0/100.
+Completion and physical fit/use remain pending; first layer was not yet observed.
 
 Open in Bambu Studio:
 Drawer Knob Jig/Revisions/v01-single-edge/Drawer_Knob_Jig_v01_Single_Edge_Clear_PETG_Right_TEST_FIT.3mf
 Clear Bambu PETG Translucent / RIGHT nozzle. Slice: 1 h 34 min 5 sec / 31.81 g.
-No warnings, supports or prime tower. Actual AMS spool mapping is selected
-at send time. No printer job was sent for this drawer design.
+No warnings, supports or prime tower. Clear Bambu PETG Translucent in AMS A3
+was confirmed and mapped to the RIGHT nozzle at send time. Device estimate:
+1 h 34 min 4 sec / 31.81 g, finish about 09:36 CST November 18 (estimate only).
 
 Preview and placement:
 Drawer Knob Jig/Revisions/v01-single-edge/Preview.png

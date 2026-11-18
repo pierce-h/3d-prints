@@ -18,5 +18,11 @@ Slice passed without warnings: 1 h 34 min 5 sec / 31.81 g.
 STL is the same one-piece geometry in its print pose; 3MF retains the profile.
 Actual-CAD preview uses an illustrative color for readability.
 
-Status: prepared only; no drawer-jig print sent. Physical use remains untested.
+Status: PRINT JOB STARTED — November 18, 2026, about 08:02 CST. PW 3D accepted
+the exact v01 project and entered startup with Pause/Stop active, 0%, Layer 0/100.
+Clear Bambu PETG Translucent was confirmed in AMS A3 and mapped to the RIGHT
+nozzle. Device estimate: 1 h 34 min 4 sec / 31.81 g; estimated finish 09:36 CST.
+Bed leveling and flow-dynamics calibration Auto; nozzle-offset calibration Off;
+timelapse Off. First-layer printing was not yet observed. Completion and physical
+use remain pending. Saved model/project files and validation remain unchanged.
 Cabinet-jig success does not establish this new jig's actual placement/fit.
