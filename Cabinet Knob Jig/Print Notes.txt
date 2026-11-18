@@ -1,9 +1,10 @@
 CABINET KNOB DRILLING JIG
-Updated: November 17, 2026
+Updated: November 18, 2026
 
 Latest revision: v03 — clear PETG / right nozzle; unchanged v02 Claybourne geometry.
-Status: READY / NOT SENT — November 17, 2026. Desktop control was unavailable.
-Door seating, drill fit, wear and hole accuracy remain untested.
+Status: PRINTED AND USED SUCCESSFULLY — user reported November 18, 2026
+that the last cabinet jig worked great. Exact final print settings and measured
+hole accuracy were not reported; long-term guide wear has not been evaluated.
 
 OPEN IN BAMBU STUDIO
 Revisions/v03-clear-petg-right/Cabinet_Knob_Jig_v03_Claybourne_Pair_Clear_PETG_Right_TEST_FIT.3mf
@@ -46,7 +47,7 @@ The guide is printed plastic, not a metal bushing. Clamp the jig over the solid
 stile/rail and back the door's exit face with scrap. Use light pressure, clear
 chips and replace a worn or loose guide.
 
-PRINT SETUP AND CHECKS
+SAVED PRINT SETUP AND CHECKS
 H2D, standard 0.4 mm nozzle, Bambu PETG Translucent, clear, on RIGHT nozzle.
 One project filament / physical extruder 2, Manual grouping. Device UI confirmed
 AMS A3 contains clear Bambu PETG Translucent on the right; verify A3 at send time.
@@ -60,7 +61,8 @@ Independent review passed: exported offsets, guide bore, A/B corner mapping
 and nominal mounting-base alignment verified. See v02's
 Validation/independent_review.json. v03's Validation/profile_geometry.json verifies
 byte-identical model geometry and build transforms; Validation/full records
-the PETG slice. Physical fit and drilling accuracy remain untested.
+the PETG slice. The user subsequently reported successful printing and use;
+this is practical-use feedback, not a dimensional inspection or wear test.
 
 REFERENCES
 Official Claybourne dimensions, page 1:
@@ -82,12 +84,20 @@ accepted the job and entered its startup sequence. First-layer printing was
 not yet observed. Displayed estimate: 3 h 37 min 12 sec / 97.86 g; expected
 finish 3:35 PM America/Chicago on November 17 (estimate, not completion).
 Bed leveling and flow-dynamics calibration: Auto; nozzle-offset calibration:
-Off; timelapse: Off (no storage). Physical results and completed-print feedback
-are still pending.
+Off; timelapse: Off (no storage). This earlier PLA attempt's outcome remains
+unknown; the later successful-use report does not identify its result.
 
 November 17, 2026 — v03 prepared at the user's request to try clear PETG.
 Geometry and build transforms are byte-identical to v02. Saved one clear PETG
 Translucent filament, right nozzle, using the exact installed H2D preset.
 CLI slicing passed: 4 h 25 min 20 sec / 94.12 g, no warnings or supports.
-Desktop control was unavailable after AMS sync, so the PETG job was NOT SENT.
+Desktop control was initially unavailable after AMS sync. After access returned,
+v03 was loaded and sliced in Bambu Studio with the same estimate. Final AMS
+mapping needed user input; the assistant did not observe this print starting.
 The previous PLA attempt's outcome remains unknown; no failure cause is assumed.
+
+November 18, 2026 — user reported that the last cabinet jig printed and was
+used successfully: it "worked great." Recorded against current v03, the clear
+PETG revision requested for that print. The user did not confirm the final
+filament selection, AMS mapping, temperatures or other exact print settings.
+No geometry or print-project files were changed for this feedback update.

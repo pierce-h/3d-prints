@@ -1,0 +1,69 @@
+{
+    "error_string": "Success.",
+    "export_time": 478,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 9,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 153.1231231689453,
+                "Bridge": 205.51210021972656,
+                "Brim": 44.23432540893555,
+                "Custom": 328.1173095703125,
+                "Flush": 26.0,
+                "Gap infill": 1.3155804872512817,
+                "Inner wall": 1472.4736328125,
+                "Internal solid infill": 959.7708740234375,
+                "Outer wall": 319.22088623046875,
+                "Overhang wall": 0.4952911138534546,
+                "Sparse infill": 1877.43798828125,
+                "Top surface": 159.01109313964844,
+                "Travel": 106.91486358642578,
+                "Undefined": 97.94889831542969
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFG01",
+                    "id": 1,
+                    "main_used_g": 31.809463500976563,
+                    "total_used_g": 31.809463500976563
+                }
+            ],
+            "generate_support_material_time": 3,
+            "id": 1,
+            "infill_time": 31,
+            "layer_filament_change": 0,
+            "main_predication": 5273.74462890625,
+            "make_perimeters_time": 13,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 59.0,
+                        "height": 20.0,
+                        "width": 80.0,
+                        "x": 130.0,
+                        "y": 130.5,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "Drawer knob jig - single top stop",
+                    "triangle_count": 846
+                }
+            ],
+            "sliced_time": 313,
+            "sliced_time_with_cache": 259,
+            "total_predication": 5644.89599609375,
+            "triangle_count": 846,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 25.0,
+    "upward_compatible_machine": [
+        "Bambu Lab H2D Pro 0.4 nozzle"
+    ],
+    "wall_loops": 6
+}

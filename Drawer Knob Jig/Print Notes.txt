@@ -1,0 +1,50 @@
+DRAWER KNOB DRILLING JIG
+Updated: November 18, 2026
+
+Latest revision: v01 — single top-edge stop and manual horizontal centering.
+Status: BUILT AND SLICE-CHECKED; new drawer jig not yet printed or used.
+
+OPEN IN BAMBU STUDIO
+Revisions/v01-single-edge/Drawer_Knob_Jig_v01_Single_Edge_Clear_PETG_Right_TEST_FIT.3mf
+One jig, clear Bambu PETG Translucent on the H2D RIGHT nozzle.
+Slice estimate: 1 h 34 min 5 sec / 31.81 g. No supports or prime tower.
+The matching STL contains geometry only. Preview.png renders the actual mesh;
+Placement_Diagram.png shows registration and horizontal alignment.
+
+PLACEMENT AND USE
+The user confirmed a 2 1/2-inch (63.5 mm) drawer top rail. The single drill
+guide is 1 1/4 inches (31.75 mm) below the drawer's top edge, centered on that
+rail. This is a different placement from the Claybourne cabinet-door jig.
+One straight stop bears against the top edge; there is no left/right side stop.
+
+1. Measure the drawer's width and mark its midpoint with a short vertical pencil
+   line on the rail. The jig does not measure or find the drawer midpoint.
+2. Seat the jig flat against the front with its stop fully against the top edge.
+3. Slide it sideways until the V-notch apex and engraved centerline align with
+   the pencil line. Clamp without shifting the jig; use a backer behind the wood.
+4. Drill through the guide with the same 3/16-inch bit used with the cabinet jig.
+
+DIMENSIONS
+Overall: 80 mm wide x 59 mm tall x 20 mm total depth.
+Front plate: 10 mm thick; reaches 55 mm below the top edge, within the rail.
+Top stop: 4 mm thick and extends 10 mm behind the contact face.
+Guide: nominal 5.05 mm bore, 0.5 mm entry chamfer, centered across the jig.
+Alignment: 0.6 mm-wide engraved line and 3 mm-wide/deep open V at the lower edge.
+The 5.05 mm guide and 10 mm plate thickness match the cabinet jig the user
+reported printing and using successfully on November 18, 2026.
+
+PRINT SETUP
+Saved clear PETG profile is inherited from Cabinet Knob Jig v03: 0.20 mm layers,
+6 walls, 25% gyroid, 5 top/bottom layers, 3 mm brim, 0.4 mm right nozzle.
+Print the broad exposed drill face on the bed, stop pointing up.
+Select the actual clear spool when sending; previous device inspection found
+it in AMS A3, but send-time mapping must be checked. No print was sent for v01.
+
+Check seating and bit clearance before drilling. The guide is printed plastic;
+replace it if wear makes it loose. Recessed drawer panels do not support the
+jig, so its 55 mm reach intentionally stays within the confirmed 63.5 mm rail.
+
+SOURCE AND VALIDATION
+Source/README.txt contains rebuild instructions. Validation/geometry.json
+records dimensions and transforms; Validation/full contains the successful
+H2D slice. Independent mesh measurements are recorded separately.

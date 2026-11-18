@@ -1,0 +1,88 @@
+{
+  "status": "New drawer geometry; not yet physically tested. Cabinet-jig guide size was user-tested successfully.",
+  "parameters_mm": {
+    "rail_height": 63.5,
+    "guide_offset": 31.75,
+    "plate_width": 80.0,
+    "plate_length": 55.0,
+    "plate_thickness": 10.0,
+    "fence_thickness": 4.0,
+    "stop_depth": 10.0,
+    "printed_guide_diameter": 5.05,
+    "drill_bit_diameter": 4.7625,
+    "entry_chamfer": 0.5,
+    "centerline_width": 0.6,
+    "centerline_depth": 0.5,
+    "sight_notch_width": 3.0,
+    "sight_notch_depth": 3.0
+  },
+  "guide_center_local": [
+    40.0,
+    31.75
+  ],
+  "top_edge_datum_y": 0.0,
+  "drawer_contact_z": 10.0,
+  "exposed_drill_face_z": 0.0,
+  "bounds_local": [
+    [
+      0.0,
+      -4.0,
+      0.0
+    ],
+    [
+      80.0,
+      55.0,
+      20.0
+    ]
+  ],
+  "print_transform": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      130.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      134.5
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "print_bounds": [
+    [
+      130.0,
+      130.5,
+      0.0
+    ],
+    [
+      210.0,
+      189.5,
+      20.0
+    ]
+  ],
+  "volume_mm3": 50141.12108050004,
+  "watertight": true,
+  "connected_bodies": 1,
+  "user_confirmed": "2.5 inch drawer top rail; knob hole centered 1.25 inch below top edge.",
+  "horizontal_alignment": "User marks drawer midpoint; align engraved line/V-notch apex with pencil centerline.",
+  "side_stops": 0,
+  "top_stops": 1,
+  "material": "Bambu PETG Translucent, clear",
+  "physical_nozzle": "right / 2",
+  "profile_source": "Cabinet Knob Jig/Revisions/v03-clear-petg-right/Cabinet_Knob_Jig_v03_Claybourne_Pair_Clear_PETG_Right_TEST_FIT.3mf",
+  "print_status": "Prepared only; no print sent.",
+  "project": "Drawer_Knob_Jig_v01_Single_Edge_Clear_PETG_Right_TEST_FIT.3mf"
+}

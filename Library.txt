@@ -1,5 +1,5 @@
 3D PRINT MODEL LIBRARY
-Updated: November 17, 2026
+Updated: November 18, 2026
 
 SCREWDRIVER HOLDER
 Latest revision: v02 — eight left-side holes, 5/8 inch (15.875 mm) straight through.
@@ -176,8 +176,8 @@ Pliers Holder/Print Notes.txt
 
 CABINET KNOB JIG
 Latest revision: v03 — clear PETG / right nozzle, unchanged v02 Claybourne geometry.
-Mirrored single-hole pair on one plate. Prototype; physical fit, guide wear and
-drilling accuracy untested. Door thickness 19.05–20.6375 mm; stile/rail roughly
+Mirrored single-hole pair on one plate. User reported successful printing and
+use on November 18, 2026. Door thickness 19.05–20.6375 mm; stile/rail roughly
 63.5 mm. Guide center: 31.75 mm from side, 71.501 mm (2.815 in) from end.
 End offset equals nominal rail width plus the 8.001 mm Claybourne base radius;
 the larger face deliberately overlaps that rail line. Confirm actual placement.
@@ -185,15 +185,38 @@ Manufacturer specifies #8-32 screws and a 3/16-inch bit; printed bore is 5.05 mm
 
 Open in Bambu Studio:
 Cabinet Knob Jig/Revisions/v03-clear-petg-right/Cabinet_Knob_Jig_v03_Claybourne_Pair_Clear_PETG_Right_TEST_FIT.3mf
-Both jigs: 4 h 25 min 20 sec / 94.12 g. Clear PETG Translucent / RIGHT nozzle;
+Saved slice for both jigs: 4 h 25 min 20 sec / 94.12 g. Clear PETG / RIGHT nozzle;
 no warnings or supports. AMS A3 confirmed in Device; verify mapping at send time.
-November 17, 2026: v03 READY / NOT SENT because desktop control was unavailable.
+November 18, 2026: PRINTED AND USED SUCCESSFULLY, per user: "worked great."
+Exact final print settings, measured accuracy and long-term wear not reported.
 Earlier v02 black PLA / left external-feed job startup was observed; its outcome
-and physical-fit feedback remain unknown.
+remains unknown.
 v01's 63.5 mm end offset is archived.
 
 Use instructions, A/B corner mapping and checks:
 Cabinet Knob Jig/Print Notes.txt
+
+
+DRAWER KNOB JIG
+Latest revision: v01 — one top-edge stop; horizontal center marked independently.
+The confirmed top rail is 63.5 mm (2 1/2 in). Guide center is 31.75 mm
+(1 1/4 in) below the drawer top edge. No left/right side stop: slide the jig
+until the engraved centerline and lower V-notch meet a pencil midpoint line.
+Same 5.05 mm printed guide and 10 mm plate thickness as the successful cabinet
+jig. Overall 80 x 59 x 20 mm; 55 mm reach stays on the top rail.
+Status: GEOMETRY VERIFIED AND SLICE-TESTED; new drawer jig not yet printed.
+
+Open in Bambu Studio:
+Drawer Knob Jig/Revisions/v01-single-edge/Drawer_Knob_Jig_v01_Single_Edge_Clear_PETG_Right_TEST_FIT.3mf
+Clear Bambu PETG Translucent / RIGHT nozzle. Slice: 1 h 34 min 5 sec / 31.81 g.
+No warnings, supports or prime tower. Actual AMS spool mapping is selected
+at send time. No printer job was sent for this drawer design.
+
+Preview and placement:
+Drawer Knob Jig/Revisions/v01-single-edge/Preview.png
+Drawer Knob Jig/Revisions/v01-single-edge/Placement_Diagram.png
+Print details and feedback:
+Drawer Knob Jig/Print Notes.txt
 
 
 HOW THIS LIBRARY IS ORGANIZED

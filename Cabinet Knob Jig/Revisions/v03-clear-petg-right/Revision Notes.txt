@@ -1,5 +1,5 @@
 CABINET KNOB JIG — v03 CLEAR PETG / RIGHT NOZZLE
-November 17, 2026
+Created November 17, 2026; feedback updated November 18, 2026
 
 Material-only revision of v02; both jigs and their build transforms are
 byte-identical to v02. The Claybourne placement, bore and door stops are
@@ -7,11 +7,13 @@ unchanged. Original v02 sources, STLs and placement preview remain archived.
 
 PROJECT
 Cabinet_Knob_Jig_v03_Claybourne_Pair_Clear_PETG_Right_TEST_FIT.3mf
-Status: READY / NOT SENT. Desktop control was unavailable after AMS sync;
-the project is prepared and independently sliced, but no PETG job was sent.
+Status: PRINTED AND USED SUCCESSFULLY. On November 18, the user reported
+that the last cabinet jig printed, was used, and "worked great." This feedback
+is recorded against the current requested clear-PETG revision; exact final
+material selection and printer settings were not separately confirmed.
 Slice estimate for both jigs: 4 h 25 min 20 sec / 94.12 g.
 
-PRINT SETUP
+SAVED PRINT SETUP
 Bambu PETG Translucent @BBL H2D 0.4 nozzle, clear, one project filament.
 Manual mapping to RIGHT nozzle / physical extruder 2. Device UI confirmed
 clear Bambu PETG Translucent in AMS A3 on the right; verify A3 at send time.
@@ -27,5 +29,6 @@ records the preset hashes, exact geometry check and saved right-nozzle mapping.
 Validation/full records the successful slice: no warnings or support paths;
 one PETG GFG01 filament, using only physical extruder 2 (right).
 The existing CAD thumbnails show the unchanged shape; they are not a prediction
-of the clear filament's appearance. Physical fit and drilling accuracy remain
-untested. See ../../Print Notes.txt for use instructions and prior print history.
+of the clear filament's appearance. Successful use is user-reported; measured
+hole accuracy and long-term guide wear were not reported. See ../../Print Notes.txt
+for use instructions and prior print history. Model files remain unchanged.

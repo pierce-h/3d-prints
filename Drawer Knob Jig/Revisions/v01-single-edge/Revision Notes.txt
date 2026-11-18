@@ -1,0 +1,22 @@
+DRAWER KNOB JIG v01 — SINGLE TOP-EDGE STOP
+November 18, 2026
+
+New drawer-specific model derived from the successful cabinet jig's guide size.
+The user confirmed a 63.5 mm (2 1/2-inch) top rail and a hole centered 31.75 mm
+(1 1/4 inches) below its top edge. Drawer midpoint is measured independently.
+
+One 80 mm-wide top-edge stop replaces the cabinet jig's two corner stops.
+The jig slides freely sideways. A recessed vertical centerline and open V-notch
+share the guide's X axis, so they can line up with a pencil midpoint mark.
+Body: 80 x 59 x 20 mm, with a 10 mm-thick plate and 10 mm stop extension.
+The plate reaches only 55 mm down the drawer, staying on the confirmed rail.
+The nominal 5.05 mm guide and 0.5 mm entry chamfer match the tested cabinet jig.
+
+Saved 3MF: clear Bambu PETG Translucent, H2D right nozzle, 0.20 mm layers,
+6 walls, 25% gyroid, 5 top/bottom layers, 3 mm brim, no supports or prime tower.
+Slice passed without warnings: 1 h 34 min 5 sec / 31.81 g.
+STL is the same one-piece geometry in its print pose; 3MF retains the profile.
+Actual-CAD preview uses an illustrative color for readability.
+
+Status: prepared only; no drawer-jig print sent. Physical use remains untested.
+Cabinet-jig success does not establish this new jig's actual placement/fit.

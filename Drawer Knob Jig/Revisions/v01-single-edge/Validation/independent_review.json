@@ -1,0 +1,160 @@
+{
+  "result": "PASS",
+  "method": "Independent cross-sections of exported STL and direct 3MF/build-transform inspection; no CAD-builder import.",
+  "mesh": {
+    "watertight": true,
+    "connected_bodies": 1,
+    "bounds_local_mm": [
+      [
+        0.0,
+        -4.0,
+        0.0
+      ],
+      [
+        80.0,
+        55.0,
+        20.0
+      ]
+    ],
+    "sha256": "c5e099cc623f3dfc538e14433860c60a22efd073824f8cceb7dba6462f52339c"
+  },
+  "guide": {
+    "sections": [
+      {
+        "z_mm": 0.75,
+        "center_xy_mm": [
+          40.0,
+          31.750000953674316
+        ],
+        "diameter_xy_mm": [
+          5.0500030517578125,
+          5.05000114440918
+        ]
+      },
+      {
+        "z_mm": 2,
+        "center_xy_mm": [
+          40.0,
+          31.750000953674316
+        ],
+        "diameter_xy_mm": [
+          5.0500030517578125,
+          5.05000114440918
+        ]
+      },
+      {
+        "z_mm": 5,
+        "center_xy_mm": [
+          40.0,
+          31.750000953674316
+        ],
+        "diameter_xy_mm": [
+          5.0500030517578125,
+          5.05000114440918
+        ]
+      },
+      {
+        "z_mm": 9,
+        "center_xy_mm": [
+          40.0,
+          31.750000953674316
+        ],
+        "diameter_xy_mm": [
+          5.0500030517578125,
+          5.05000114440918
+        ]
+      }
+    ],
+    "offset_from_top_edge_mm": 31.75,
+    "straight_diameter_mm": 5.05,
+    "intended_drill_bit_mm": 4.7625,
+    "plate_thickness_mm": 10,
+    "straight_guide_length_mm": 9.5,
+    "entry_chamfer_depth_mm": 0.5
+  },
+  "registration": {
+    "top_edge_datum_y_mm": 0,
+    "top_fences": 1,
+    "side_fences": 0,
+    "fence_bounds_local_mm": [
+      [
+        0,
+        -4,
+        10
+      ],
+      [
+        80,
+        0,
+        20
+      ]
+    ],
+    "drawer_contact_z_mm": 10,
+    "stop_depth_mm": 10
+  },
+  "horizontal_alignment": {
+    "notch_apex_xy_mm": [
+      40,
+      52
+    ],
+    "notch_width_mm": 3,
+    "notch_depth_mm": 3,
+    "groove_x_mm": 40,
+    "groove_width_mm": 0.6,
+    "groove_depth_mm": 0.5,
+    "groove_y_ranges_mm": [
+      [
+        4,
+        27
+      ],
+      [
+        36.5,
+        52
+      ]
+    ],
+    "all_align_with_guide_center": true,
+    "user_action": "Align with a pencil line marking the drawer horizontal midpoint."
+  },
+  "rail_fit": {
+    "user_confirmed_height_mm": 63.5,
+    "contact_footprint_depth_mm": 55,
+    "clearance_before_recessed_panel_mm": 8.5
+  },
+  "print": {
+    "printer": "H2D",
+    "physical_nozzle": "right / 2",
+    "material": "PETG",
+    "profile": "Bambu PETG Translucent @BBL H2D 0.4 nozzle",
+    "supports": false,
+    "slice_warnings": "",
+    "model_bounds_mm": [
+      [
+        130.0,
+        130.5,
+        0.0
+      ],
+      [
+        210.0,
+        189.5,
+        20.0
+      ]
+    ],
+    "model_plus_brim_xy_bounds_mm": [
+      [
+        127.0,
+        127.5
+      ],
+      [
+        213.0,
+        192.5
+      ]
+    ],
+    "project_contains_one_object": true,
+    "small_recesses": "Narrow 0.6 mm engraved-line roofs bridge without support."
+  },
+  "gcode_sha256": "389f79273ca52e636c2a5735fcb3fce80d1caf6a23a6da1a4f21b18942d3141b",
+  "limits": [
+    "Drawer jig has not been physically tested.",
+    "Horizontal placement depends on the user pencil centerline.",
+    "Printed guide fit, rail fit and finished-door placement should be checked before drilling."
+  ]
+}
